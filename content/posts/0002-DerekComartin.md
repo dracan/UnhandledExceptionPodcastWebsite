@@ -15,5 +15,7 @@ TODO: Embed episode here once published
 * [Derek's YouTube channel](https://www.youtube.com/channel/UC3RKA4vunFAfrfxiJhPEplw)
 * [MediatR](https://github.com/jbogard/MediatR)
 * [language-ext functional C# library](https://github.com/louthy/language-ext)
+* [Dan's "Writing More Succinct C#" blog post](https://www.danclarke.com/2020-more-succinct-csharp)
+* [Simon Painter's Functional Programming in C# talk](https://www.youtube.com/watch?v=mwIEYPLXh3A)
 * [LINQPad](https://www.linqpad.net/) (from devtips)
 * [Dan's LINQPad Tips and Tricks blog post series](https://www.danclarke.com/linqpad-tips-and-tricks)
