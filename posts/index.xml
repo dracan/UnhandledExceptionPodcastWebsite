@@ -6,7 +6,18 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 2: Derek Comartin - CQRS, MediatR, and more!</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</guid>
+      <description>In this second episode, I&amp;rsquo;m thrilled to welcome Derek Comartin (also known as CodeOpinion) onto the show to talk about CQRS and MediatR! We ended up recording over two different sessions and covered lots of different topics, including functional programming and remote working.
+TODO: Embed episode here once published
+Links from the show  Derek on Twitter Derek&amp;rsquo;s blog Derek&amp;rsquo;s YouTube channel MediatR language-ext functional C# library LINQPad (from devtips) Dan&amp;rsquo;s LINQPad Tips and Tricks blog post series  </description>
+    </item>
+    
     <item>
       <title>Episode 1: Hello World!</title>
       <link>https://unhandledexceptionpodcast.com/posts/0001-helloworld/</link>
