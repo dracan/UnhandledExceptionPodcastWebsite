@@ -6,7 +6,7 @@ draft: false
 
 In this second episode, I'm thrilled to welcome [Derek Comartin](https://twitter.com/codeopinion) (also known as CodeOpinion) onto the show to talk about CQRS and MediatR! We ended up recording over two different sessions and covered lots of different topics, including functional programming and remote working.
 
-TODO: Embed episode here once published
+{{< buzzsprout-episode 6103414 >}}
 
 # Links from the show
 
