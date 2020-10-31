@@ -15,6 +15,7 @@
     {{ template "_internal/opengraph.html" . }}
 
   </head>
+
   <body>
     <header class="app-header">
       <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>
@@ -29,6 +30,7 @@
         {{- end }}
       </nav>
       {{- end }}
+      {{ partial "listenon.html" . }}
       <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium." }}</p>
       <div class="app-header-social">
         {{ range .Site.Params.social }}

@@ -1,3 +1,43 @@
 .main-title {
-    font-size: 2.5em;
+  font-size: 2.5em;
+}
+
+#listen-on {
+  margin-top: 20px;
+}
+
+.listen-on-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(//assets.buzzsprout.com/assets/public_players/listen_on_small-7fdeb680bd731cedc066deaf7589ea315689842214ed913b16e1aaa34137a085.svg);
+}
+
+.spotify-icon {
+  width: 33px;
+  height: 36px;
+  background-position: 0 -48px;
+}
+
+.rss-feed-icon {
+  width: 33px;
+  height: 36px;
+  background-position: 0 -296px;
+}
+
+.apple-icon {
+  width: 33px;
+  height: 36px;
+  background-position: 0 2px;
+}
+
+.pocketcasts-icon {
+  width: 33px;
+  height: 36px;
+  background-position: 0 -397px;
+}
+
+.stitcher-icon {
+  width: 33px;
+  height: 36px;
+  background-position: 0 -141px;
 }
