@@ -9,6 +9,9 @@
           <span class="posts-list-item-description">
             {{ partial "icon.html" (dict "ctx" $ "name" "calendar") }}
             {{ .PublishDate.Format "Jan 2, 2006" }}
+
+            <div id="buzzsprout-player-{{ .Params.episodeId }}"></div>
+            <script src="https://www.buzzsprout.com/978640/{{ .Params.episodeId }}-hello-world.js?container_id=buzzsprout-player-{{ .Params.episodeId }}&player=small" type="text/javascript" charset="utf-8"></script>
           </span>
         </li>
       {{ end }}

@@ -2,6 +2,7 @@
 title: "Episode 1: Hello World!"
 date: 2020-10-11
 draft: false
+episodeId: 5829550
 ---
 
 In this very first episode, I introduce the podcast and what it's all about! This is a short 6-minute episode talking about the focus of the podcast, who I am, and also a bit about [.NET Oxford](https://www.meetup.com/dotnetoxford/).
