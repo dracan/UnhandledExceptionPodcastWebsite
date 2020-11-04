@@ -2,6 +2,7 @@ baseURL = "https://unhandledexceptionpodcast.com/"
 languageCode = "en-gb"
 title = "The Unhandled Exception Podcast"
 theme = "m10c"
+disqusShortname = "the-unhandled-exception-podcast"
 
 [menu]
   [[menu.main]]
