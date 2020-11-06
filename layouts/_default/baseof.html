@@ -14,7 +14,6 @@
     {{ template "_internal/google_analytics.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/opengraph.html" . }}
-
   </head>
 
   <body>
@@ -38,6 +37,7 @@
           <a target="_blank" href="{{ .url }}" rel="noreferrer noopener">{{ partial "icon.html" (dict "ctx" $ "name" .name ) }}</a>
         {{ end }}
       </div>
+      <a href="https://audionautix.com/">Music by Audionautix.com</a>
     </header>
     <main class="app-container">
       {{ block "main" . }}
