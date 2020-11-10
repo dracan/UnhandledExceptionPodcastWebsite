@@ -6,7 +6,19 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 3: Steve Gordon</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</guid>
+      <description>In this episode, I had a fascinating chat with Steve Gordon. We covered tons of topics - from his experience in being a Pluralsight author, to performance, productivity, organising user-groups, public speaking, audio editing, and much more!
+  Links from the show   Steve&amp;rsquo;s social and content links:
+ Twitter Blog Pluralsight YouTube    User-group links and mentioned events:
+ .NET South East (Steve&amp;rsquo;s user-group) MK.NET meetup with Steve on the 18th Scott Hanselman&amp;rsquo;s talk at .</description>
+    </item>
+    
     <item>
       <title>Episode 2: Derek Comartin - CQRS, MediatR, and more!</title>
       <link>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</link>
