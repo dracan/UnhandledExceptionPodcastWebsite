@@ -18,7 +18,7 @@ disqusShortname = "the-unhandled-exception-podcast"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "/pages/about/"
     weight = 300
 
 [params]
