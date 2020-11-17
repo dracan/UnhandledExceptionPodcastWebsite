@@ -5,4 +5,4 @@ draft: false
 type: page
 ---
 
-about page
+About page coming soon. For more information about me, see the about page on [my blog](https://www.danclarke.com).
