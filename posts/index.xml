@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 4: Pete Gallagher</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0004-petegallagher/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0004-petegallagher/</guid>
+      <description>In this episode, I was joined by Pete Gallagher - Microsoft MVP, Pluralsight author, speaker, user-group organiser, and huge fan of IoT devices and STEM. We had great fun chatted for over an hour about various topics - mostly themed around technologies helping kids get into coding - but with many tangents thrown into the mix!
+  Links from the show  Pete on Twitter Pete&amp;rsquo;s blog Scratch Tinkercad Microbit Kit MakeCode MakeCode Extensions MakeCode Arcade Raspberry Pi Simulator MX Chip Simulator ML For Kids Lobe AI AZ220 IoT Exam IoT Docs and Learn Sense Hat Simulator MicroBit: MCP23s17 I/O Expander Source Code AstroPi .</description>
+    </item>
+    
     <item>
       <title>Episode 3: Steve Gordon</title>
       <link>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</link>
