@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 5: Kubernetes with Shahid Iqbal</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0005-shahidiqbal/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0005-shahidiqbal/</guid>
+      <description>In this episode, I was joined by Shahid Iqbal to chat about Kubernetes. We covered containers in general, Docker, Docker-Compose, Kubernetes, Helm, Istio, and much more! Shahid is a Microsoft MVP and user-group organiser, specialising in Azure and Kubernetes.
+  Links from the show  Shahid on Twitter Shahid&amp;rsquo;s blog Kubernetes Azure AKS Google GKE Amazon EKS Helm Istio Project Tye KataCoda &amp;lsquo;Deploying blog on Kubernetes&amp;rsquo; meme ZoomIt Chris O&amp;rsquo;Dell talk on &amp;lsquo;How to get your submission accepted at NDC London&amp;rsquo;  </description>
+    </item>
+    
     <item>
       <title>Episode 4: Pete Gallagher</title>
       <link>https://unhandledexceptionpodcast.com/posts/0004-petegallagher/</link>
