@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 6: The DDD Conferences</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0006-ddd/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0006-ddd/</guid>
+      <description>In this episode, I was joined by five awesome guests to chat all about the DDD conferences! This was such a fun episode, where we chatted about both organising and speaking at the DDD conferences, plus a few other bits and bats along the way!
+  Guests  Jess White Paul Michaels Pete Gallagher Simon Painter Stuart Lang  Links from the show  Wikipedia page about the DDD conferences DDD Day DDD East Midlands blog DDD South West DDD North DDD East Anglia DDD Scotland Event registration for DDD on the 12th Dec Ian Johnson&amp;rsquo;s sketch notes Musical instrument photo taken at end Dan&amp;rsquo;s DDD-related blog posts:  2017: &amp;ldquo;Fun at DDDSW in Bristol!</description>
+    </item>
+    
     <item>
       <title>Episode 5: Kubernetes with Shahid Iqbal</title>
       <link>https://unhandledexceptionpodcast.com/posts/0005-shahidiqbal/</link>
