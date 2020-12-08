@@ -5,15 +5,16 @@
     <link>https://unhandledexceptionpodcast.com/pages/</link>
     <description>Recent content in Pages on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language><atom:link href="https://unhandledexceptionpodcast.com/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://unhandledexceptionpodcast.com/pages/about/</link>
-      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/pages/about/</guid>
-      <description>About page coming soon. For more information about me, see the about page on my blog.</description>
+      <description>About page coming soon.
+For more information about me, see the about page on my blog.
+The best way to get in touch with me is via Twitter - my DMs are open.</description>
     </item>
     
     <item>

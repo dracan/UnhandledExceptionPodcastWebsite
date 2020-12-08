@@ -60,15 +60,6 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://unhandledexceptionpodcast.com/pages/about/</link>
-      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/pages/about/</guid>
-      <description>About page coming soon. For more information about me, see the about page on my blog.</description>
-    </item>
-    
-    <item>
       <title>Episode 1: Hello World!</title>
       <link>https://unhandledexceptionpodcast.com/posts/0001-helloworld/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
@@ -76,6 +67,17 @@
       <guid>https://unhandledexceptionpodcast.com/posts/0001-helloworld/</guid>
       <description>In this very first episode, I introduce the podcast and what it&amp;rsquo;s all about! This is a short 6-minute episode talking about the focus of the podcast, who I am, and also a bit about .NET Oxford.
   Links from the show  Dan&amp;rsquo;s blog Dan on Twitter .NET Oxford .NET Oxford Slack Azure Oxford  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://unhandledexceptionpodcast.com/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/pages/about/</guid>
+      <description>About page coming soon.
+For more information about me, see the about page on my blog.
+The best way to get in touch with me is via Twitter - my DMs are open.</description>
     </item>
     
     <item>

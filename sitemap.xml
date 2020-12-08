@@ -38,18 +38,12 @@
   </url>
   
   <url>
-    <loc>https://unhandledexceptionpodcast.com/pages/about/</loc>
-    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://unhandledexceptionpodcast.com/pages/</loc>
-    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0001-helloworld/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/pages/about/</loc>
   </url>
   
   <url>
@@ -58,6 +52,10 @@
   
   <url>
     <loc>https://unhandledexceptionpodcast.com/pages/guest-faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/pages/</loc>
   </url>
   
   <url>
