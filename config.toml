@@ -20,6 +20,11 @@ disqusShortname = "the-unhandled-exception-podcast"
     name = "About"
     url = "/pages/about/"
     weight = 300
+  [[menu.main]]
+    identifier = "guest-faq"
+    name = "Guest FAQ"
+    url = "/pages/guest-faq/"
+    weight = 300
 
 [params]
   author = "Dan Clarke"
