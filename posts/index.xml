@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 7: WSL2 with Stuart Leeks</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0006-stuartleeks/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0006-stuartleeks/</guid>
+      <description>In this episode, I was joined by Stuart Leeks to chat all about WSL2, and his new book, WSL 2 Tips, Tricks, and Techniques! We also covered plenty of other topics, such as public speaking, Windows Terminal, standing desks, and much more! Stuart is a Principal Software Development Engineer at Microsoft.
+  Links from the show  Stuart&amp;rsquo;s social links:  Twitter Blog GitHub   THE BOOK! WSL2 homepage Dr Michelle Dickinson:  @NanogirlLabs on Twitter Public Speaking Skills for Quiet People How to Rock the Stage (with Dr James Whittaker)   Stuart&amp;rsquo;s WSL2 .</description>
+    </item>
+    
     <item>
       <title>Episode 6: The DDD Conferences</title>
       <link>https://unhandledexceptionpodcast.com/posts/0006-ddd/</link>
