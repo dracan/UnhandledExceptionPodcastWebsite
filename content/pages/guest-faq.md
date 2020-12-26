@@ -14,7 +14,7 @@ The finished podcast will always be _much_ more seamless than during recording. 
 
 # How do we record?
 
-I normally use a platform called [SquadCast](https://squadcast.fm/). I'll send you an invite, which is just a web URL. Clicking on it will launch a Zoom-like experience in the browser. There's nothing to install. SquadCast will automatically record high-quality wav files _locally_ for each person, and upload it automatically in the background. I can then download those wav files later for editing. I get a wav file per person, so I can edit each person's audio as a separate audio channel - which makes a _huge_ difference to my ability to edit.
+I normally use a combination of a [Zoom](https://zoom.us/) call for video (which isn't recorded, it's just so we can see each other), and a platform called [Zencastr](https://zencastr.com/) for recording the audio. I'll send you a Zoom invite beforehand, and will send you a Zencastr URL within the Zoom chat at the time. Zencastr is just a webapp, and there's nothing to install. It'll automatically record high-quality wav files _locally_ for each person, and upload it in the background. I can then download those wav files later for editing. I get a wav file per person, so I can edit each person's audio as a separate audio channel - which makes a _huge_ difference to my ability to edit.
 
 # What planning is involved before hand?
 
@@ -30,5 +30,6 @@ When it comes down to it - if you're concerned about your audio quality - just a
 
 # Anything else I need to know?
 
+* Please try to use headphones or earphones instead of a speaker - this limits your microphone also picking up your speakers.
 * I normally do "dev-tips" at the end - where both myself and the guest does a dev-tip. This is completely optional - but if you're happy doing one, then time to get your thinking cap on! :) Basically, a short tip - anything you like - doesn't just have to be dev-related - for example, I've done productivity tips on past shows.
 * Have fun!
