@@ -14,7 +14,7 @@ The finished podcast will always be _much_ more seamless than during recording. 
 
 # How do we record?
 
-I normally use a combination of a [Zoom](https://zoom.us/) call for video (which isn't recorded, it's just so we can see each other), and a platform called [Zencastr](https://zencastr.com/) for recording the audio. I'll send you a Zoom invite beforehand, and will send you a Zencastr URL within the Zoom chat at the time. Zencastr is just a webapp, and there's nothing to install. It'll automatically record high-quality wav files _locally_ for each person, and upload it in the background. I can then download those wav files later for editing. I get a wav file per person, so I can edit each person's audio as a separate audio channel - which makes a _huge_ difference to my ability to edit.
+I normally use a combination of a [Zoom](https://zoom.us/) call for video (which isn't recorded, it's just so we can see each other), and a platform called [Zencastr](https://zencastr.com/) for recording the audio. Beforehand, I'll send you both a Zoom invite and a Zencastr URL. Zencastr is just a webapp, and there's nothing to install. It'll automatically record high-quality wav files _locally_ for each person, and upload it in the background. I can then download those wav files later for editing. I get a wav file per person, so I can edit each person's audio as a separate audio channel - which makes a _huge_ difference to my ability to edit. So basically, at the time we plan the recording - join both Zoom and the Zencastr link, and we can take it from there. It might be worth joining the Zencastr link beforehand to ensure that your system passes all the health-checks.
 
 # What planning is involved before hand?
 
