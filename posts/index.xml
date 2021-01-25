@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 10: F# and Functional Programming</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0010-fsharp/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0010-fsharp/</guid>
+      <description>In this group episode I was joined by Scott Wlaschin, Isaac Abraham, and Ian Russell - to talk all about F#! This is .NET&amp;rsquo;s functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.
+  Guests&#39; social links  Ian Russell: Twitter, LinkedIn Isaac Abraham: Twitter, LinkedIn Scott Wlaschin: Twitter, LinkedIn  Links from the show  F# for fun and profit (Scott&amp;rsquo;s website) Ian&amp;rsquo;s &amp;ldquo;Introduction To Functional Programming In F#&amp;rdquo; blog post series Isaac&amp;rsquo;s book: &amp;ldquo;Get Programming with F#&amp;quot; Scott&amp;rsquo;s book: &amp;ldquo;Domain Modeling Made Functional&amp;rdquo; Dan&amp;rsquo;s &amp;ldquo;Writing More Succinct C#&amp;rdquo; blog post C# code-snippet Dan referred to when talking about using LINQ on a single object Nancy Framework Carter API Endpoints Diamond Kata:  Diamond Kata - TDD with only property-based tests Diamond Kata in F#   Book: &amp;ldquo;Stylish F#&amp;rdquo; by Kit Eason (@kitlovesfsharp) Blog post: &amp;ldquo;Ten reasons not to use a statically typed functional programming language&amp;rdquo; (&amp;ldquo;Like most programmers, I’m naturally conservative and I dislike learning new things.</description>
+    </item>
+    
     <item>
       <title>Episode 9: Functional Programming in C# with Simon Painter</title>
       <link>https://unhandledexceptionpodcast.com/posts/0009-simonpainter/</link>
