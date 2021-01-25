@@ -48,6 +48,7 @@ In this group episode I was joined by [Scott Wlaschin](https://twitter.com/Scott
 * [Video: "Domain Modeling Made Functional"](https://www.youtube.com/watch?v=PLFl95c-IiU)
 * [Video: "F# for C# Programmers"](https://www.youtube.com/watch?v=KPa8Yw_Navkd)
 * [Video: "F# Code I love" by Don Syme](https://www.youtube.com/watch?v=MGLxyyTF3OM)
+* [Isaac's "FP on .NET" blog post series](https://www.compositional-it.com/news-blog/tag/fp-on-net-series/)
 
 # F# Community and other links
 
