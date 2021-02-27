@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 12: Kentico Kontent Headless CMS and JAMStack - with Matt Nield</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0012-mattnield/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0012-mattnield/</guid>
+      <description>In this episode, I was joined by good friend Matt Nield, who also co-runs the .NET Oxford user group with me. We chatted about the Kentico Kontent headless CMS, static websites and the JAMStack - plus much more!
+  Links from the show Matt&amp;rsquo;s links  Matt&amp;rsquo;s website Matt on Twitter  Kentico  Kentico main website Kentico Kontent Kentico Xperience (previously Kentico EMS): Kentico Kontent extended 3-month trial offer from Matt  Other links from the show  JAMStack HttpClient Interceptor: https://github.</description>
+    </item>
+    
     <item>
       <title>Episode 11: LINQPad with Joseph Albahari</title>
       <link>https://unhandledexceptionpodcast.com/posts/0011-linqpad/</link>
