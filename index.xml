@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 14: Spectre Console and Cake with Patrik Svensson</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0014-patriksvensson/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0014-patriksvensson/</guid>
+      <description>In this episode, I was joined by Patrik Svensson, creator of both the [Cake Build System][https://cakebuild.net/], and a .NET library called Spectre.Console. We mostly chatted about the Spectre Console library, but also touched on Cake and Cake Frosting.
+  Links from the show Patriks links  Blog Twitter LinkedIn  Links from the show  Spectre.Console Cake MSBuild Binary and Structured Log Viewer MSBuild Binary and Structured Log Viewer - Stuart Lang&amp;rsquo;s lightning talk Oh my Posh Oh my Zsh Post Git Scott Hanselman talk video  </description>
+    </item>
+    
     <item>
       <title>Episode 13: DevOps with Dushyant</title>
       <link>https://unhandledexceptionpodcast.com/posts/0013-devopswithdushyant/</link>
