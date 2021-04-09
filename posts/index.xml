@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 15: C#9 Source Generators with Jason Bock</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</guid>
+      <description>In this episode, I was joined by Jason Bock to chat about the new C#9 source generators! Writing code that writes code! We covered a ton of content, covering Source Generators, the Compiler API, Syntax Trees, Semantic Models, Expression Trees, and much much more!
+  Links from the show Jason&amp;rsquo;s Links  Twitter Blog Github YouTube  Jason&amp;rsquo;s books  Metaprogramming in .NET Applied .NET Attributes CIL Programming: Under the Hood of .</description>
+    </item>
+    
     <item>
       <title>Episode 14: Spectre Console and Cake with Patrik Svensson</title>
       <link>https://unhandledexceptionpodcast.com/posts/0014-patriksvensson/</link>
