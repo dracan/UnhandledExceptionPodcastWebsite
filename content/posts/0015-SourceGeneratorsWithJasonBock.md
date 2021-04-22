@@ -26,7 +26,7 @@ In this episode, I was joined by [Jason Bock](https://twitter.com/jasonbock) to 
 
 ## Other links from the show
 
-* [Listener mention tweet from Nick Kirby](https://twitter.com/NRKirby/status/1378052551434723329)
+* [Listener mention tweet from Nick Kirby](https://twitter.com/NRKirby/status/1378052551434723329) (update: and the app he wrote is also [now available](https://twitter.com/NRKirby/status/1385259405239898114)!)
 * [Guitar photo of us both tweet](https://twitter.com/dracan/status/1380192560036114432) ([and the similar mentioned DDD episode tweet](https://twitter.com/dracan/status/1333893000402001925))
 * [Rocks](https://github.com/JasonBock/Rocks)
 * [PartiallyApplied](https://github.com/JasonBock/PartiallyApplied)
