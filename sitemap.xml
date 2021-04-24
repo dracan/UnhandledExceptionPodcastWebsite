@@ -1,110 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0014-patriksvensson/</loc>
     <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0013-devopswithdushyant/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0012-mattnield/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0011-linqpad/</loc>
     <lastmod>2021-02-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0010-fsharp/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0009-simonpainter/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0008-identitywithchristosmatskas/</loc>
     <lastmod>2020-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0006-stuartleeks/</loc>
     <lastmod>2020-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0006-ddd/</loc>
     <lastmod>2020-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0005-shahidiqbal/</loc>
     <lastmod>2020-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0004-petegallagher/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0001-helloworld/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/pages/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/pages/guest-faq/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/pages/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/</loc>
   </url>
-  
 </urlset>
