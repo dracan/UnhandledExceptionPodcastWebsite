@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 16: Learning and Self Development with James World</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</guid>
+      <description>In this episode, I was joined by James World to chat about learning! We covered an incredible amount in this episode - from certifications, to books and reading, interviews, what it means to be a senior developer, and much much more!
+  Links from the show James&#39; Links  Twitter LinkedIn (please include a note in your connection request so you stand out from the recruiter bots! Maybe a book recommendation?</description>
+    </item>
+    
     <item>
       <title>Episode 15: C#9 Source Generators with Jason Bock</title>
       <link>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</link>
