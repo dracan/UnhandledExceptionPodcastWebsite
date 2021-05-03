@@ -22,6 +22,8 @@ In this episode, I was joined by [James World](https://twitter.com/jamesw0rld) t
 * [Blog post from James about his recent experience doing the Azure Solution Architect Export exam](https://www.linkedin.com/pulse/getting-microsoft-azure-solution-architect-expert-james-world)
 * [Microsoft Certifications](https://docs.microsoft.com/en-us/learn/certifications/)
 * [Microsoft Certification Renewal changes](https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification)
+* [O'Reilly](https://www.oreilly.com/)
+* [Manning](https://www.manning.com/)
 * [CodeTour GitHub project](https://github.com/microsoft/codetour)
 * [Approval Tests website](https://approvaltests.com/)
 * 5 Dysfunctions of a Team book ([Amazon](https://www.amazon.co.uk/Five-Dysfunctions-Team-Leadership-Lencioni/dp/0787960756)) ([Audible](https://www.audible.co.uk/pd/The-Five-Dysfunctions-of-a-Team-Audiobook/B004EXKC5M))
