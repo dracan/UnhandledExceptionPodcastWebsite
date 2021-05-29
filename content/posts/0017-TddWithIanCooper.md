@@ -22,6 +22,7 @@ In this episode, I was joined by [Ian Cooper](https://twitter.com/ICooper) to ch
 * [Ian's Presentations on Github](https://github.com/iancooper/Presentations)
 * [Ian's talk - 'TDD - Where did it all go wrong?'](https://www.youtube.com/watch?v=9PUbJQgq8pk)
 * [Kent Beck's book - TDD By Example](https://www.amazon.co.uk/Test-Driven-Development-Addison-Wesley-Signature/dp/0321146530)
+* [Slides about Given When Then](https://github.com/iancooper/Presentations/blob/master/Kent%20Beck%20Style%20TDD%20-%20Seven%20Years%20After.pdf)
 * [Octopose](https://github.com/HuddleEng/octopose)
 * [Docker](https://www.docker.com/)
 * [ASP.NET WebApplicationFactory Tests](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-5.0)
