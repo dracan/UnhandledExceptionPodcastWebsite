@@ -19,7 +19,7 @@ In this episode, I was joined by [Patrik Svensson](https://twitter.com/firstdraf
 
 ## Links from the show
 
-* [Spectre.Console](https://spectresystems.github.io/spectre.console/)
+* [Spectre.Console](https://github.com/spectreconsole/spectre.console)
 * [Cake](https://cakebuild.net/)
 * [MSBuild Binary and Structured Log Viewer](https://msbuildlog.com/)
 * [MSBuild Binary and Structured Log Viewer - Stuart Lang's lightning talk](https://www.youtube.com/watch?v=vXJ1y_iPEWA)
