@@ -6,7 +6,16 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 19: Blazor with Chris Sainty</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0019-blazor/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0019-blazor/</guid>
+      <description>In this episode, I was thrilled to be joined by Chris Sainty to chat all about Blazor! Blazor is a new .NET technology allowing you to build SPA-like frontend web UIs in C#! Very focused around developer productivity and componentisation - Blazor is certainly going to become my go-to for frontends moving forward - and chatting with Chris in this episode, has shown me even more reasons why Blazor is becoming so immensely popular!</description>
+    </item>
+    
     <item>
       <title>Episode 18: Mutation Testing in .NET with Stefan Pölz</title>
       <link>https://unhandledexceptionpodcast.com/posts/0018-mutationtesting/</link>
