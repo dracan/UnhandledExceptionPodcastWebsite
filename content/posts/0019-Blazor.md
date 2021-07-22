@@ -11,7 +11,7 @@ In this episode, I was thrilled to be joined by [Chris Sainty](https://twitter.c
 
 # Chris's Bio
 
-Chris is a Microsoft MVP, author, and principal software engineer with over 15 years experience with ASP.NET. He works at Deployed, a London based startup, leading the engineering team. Passionate about sharing his knowledge with the community, he regularly writes both for his own blog as well as others—such as Visual Studio magazine, Progress Telerik, and StackOverflow. A passion for blogging led to his current focus, writing Blazor in Action with Manning publications. He also maintains several popular open source projects under the GitHub organisation, Blazored. When not tapping on a keyboard, Chris is a keen speaker, having delivered talks at both user groups and conferences all over the world (virtually)."
+Chris is a Microsoft MVP, author, and principal software engineer with over 15 years experience with ASP.NET. He works at Deployed, a London based startup, leading the engineering team. Passionate about sharing his knowledge with the community, he regularly writes both for his own blog as well as others—such as Visual Studio magazine, Progress Telerik, and StackOverflow. A passion for blogging led to his current focus, writing Blazor in Action with Manning publications. He also maintains several popular open source projects under the GitHub organisation, Blazored. When not tapping on a keyboard, Chris is a keen speaker, having delivered talks at both user groups and conferences all over the world (virtually).
 
 * [Twitter](https://twitter.com/chris_sainty)
 * [LinkedIn](https://www.linkedin.com/in/chris-sainty)
