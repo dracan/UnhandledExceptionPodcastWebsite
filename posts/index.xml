@@ -6,7 +6,18 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 23: Git - with Jesse Liberty and James World</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0023-git/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0023-git/</guid>
+      <description>In this episode, I was joined by Jesse Liberty and James World to chat about a topic I&amp;rsquo;m also personally very passionate about - the Git source control system.
+Jesse is a fellow podcast host, as well as an author of a book about Git.
+James is a Solution Architect who has done many a talk on Git and likes to delve a bit deeper into what goes on under the hood (as you&amp;rsquo;ll see in this episode!</description>
+    </item>
+    
     <item>
       <title>Episode 22: Jetbrains Rider, and Code With Me</title>
       <link>https://unhandledexceptionpodcast.com/posts/0022-rider/</link>
