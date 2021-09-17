@@ -20,16 +20,21 @@ I use a platform called [Zencastr](https://zencastr.com/) for recording the audi
 
 I normally create a shared Google Doc and share with the guest(s). This is basically a brain-dump, where both myself and guest(s) can dump ideas into it. This'll form a rough structure to the show. But given the shows are very _conversational_, we don't need to stick with that structure, and we can go _off-piste_. The doc is just a rough guide.
 
+# Headphones (IMPORTANT)
+
+Please make sure you use headphones or earphones instead of a PC/laptop speaker. A speaker might work with Zoom or Teams - but because Zencaster is recording unfiltered audio, there will be far too much echo where your microphone is also picking up your speakers.
+
 # Do I need a super-duper microphone?
 
-A microphone that isn't your built-in laptop microphone is definitely preferred. This doesn't have to be a super-duper few-hundred-pound microphone though! If you have a headset with a directional mic - that'll be much better than a built-in laptop mic. Or even those Apple earbuds with built-in mic are surprisingly good quality.
-
-Also aim to limit background noise. I can cut this out when myself or another guest is talking - but I can't cut out noises in the background when you're talking (as it'll be part of the same wav recording). Perhaps do a few test recordings beforehand using a tool like [Audacity](https://www.audacityteam.org/) and listen back through headphones. Also listen out for echo from your voice bouncing off the walls.
+A microphone that isn't your built-in laptop microphone is definitely preferred. This doesn't have to be a super-duper few-hundred-pound microphone though! If you have a headset with a directional mic - that'll be much better than a built-in laptop mic. Whatever your setup - it's worth doing a few test recordings using a tool like [Audacity](https://www.audacityteam.org/) and listen back through headphones. When listening back, ask yourself if you'd be happy with the quality if you were a podcast listener.
 
 When it comes down to it - if you're concerned about your audio quality - just ask me, and we can discuss different ideas together beforehand to get the most of of your setup. And we can also do a test recording beforehand if you're still unsure.
 
+# Background noise (IMPORTANT)
+
+Please do aim to limit background noise. I can cut out background noise during editing if it happens when myself or another guest is speaking - but I can't cut out noises in the background when you're talking (as it'll be part of the same wav recording). This includes fans, squeaky chairs, people in other rooms, you accidentally banging the desk whilst talking, etc.
+
 # Anything else I need to know?
 
-* Please try to use headphones or earphones instead of a speaker - this limits your microphone also picking up your speakers.
 * I normally do "dev-tips" at the end - where both myself and the guest does a dev-tip. This is completely optional - but if you're happy doing one, then time to get your thinking cap on! :) Basically, a short tip - anything you like - doesn't just have to be dev-related - for example, I've done productivity tips on past shows.
-* Have fun!
+* Have fun! :)
