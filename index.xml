@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 11 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 24: Dependency Injection in .NET with Steve Collins</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</guid>
+      <description>In this episode, I was joined by Steve Collins to chat all about dependency injection in .NET. We (well, Steve!) demystified terms such as dependency inversion and inversion of control containers, and then delved into the world of dependency injection in .NET, covering scopes, and much more&amp;hellip;
+  Steve&amp;rsquo;s bio Steve Collins is an independent software developer/architect with over 25 years of experience in the industry. He started developing in early &amp;rsquo;80s on ZX Spectrum, self-taught BASIC and Z80 Assembler.</description>
+    </item>
+    
     <item>
       <title>Episode 23: Git - with Jesse Liberty and James World</title>
       <link>https://unhandledexceptionpodcast.com/posts/0023-git/</link>
