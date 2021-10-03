@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</loc>
-    <lastmod>2021-09-18T00:00:00+00:00</lastmod>
+    <loc>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2021-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</loc>
     <lastmod>2021-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0023-git/</loc>

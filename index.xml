@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 18 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 25: NDepend with Patrick Smacchia</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</guid>
+      <description>In this episode, I was joined by Patrick Smacchia, all the way from the beautiful island of Mauritius, to chat all about NDepend! An amazing tool for analysing .NET projects and displaying tons of useful information to help improve code quality. From scanning for code quality issues, to showing plenty of dependency graphs and code visualisations.
+  Links from the show  NDepend NDepend use cases NDepend blog Patrick&amp;rsquo;s WSL2 block post mentioned in his dev tip LINQPad  </description>
+    </item>
+    
     <item>
       <title>Episode 24: Dependency Injection in .NET with Steve Collins</title>
       <link>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</link>
