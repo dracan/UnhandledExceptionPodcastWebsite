@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en-gb">
+  <head>
+    <title>Episode 27: Visual Studio 2022 - with Kendra Havens // The Unhandled Exception Podcast</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Dan Clarke" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://unhandledexceptionpodcast.com/css/main.min.e5dc545291be1bb78f4cf9c4a097a63f89f5210ca3b5b9ce9d733cf7645b1754.css" />
+    <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Episode 27: Visual Studio 2022 - with Kendra Havens"/>
+<meta name="twitter:description" content="Not long to go until the release of both .NET 6 and Visual Studio 2022! But if you can&rsquo;t wait that long - the preview releases of both can be downloaded right now! In this episode, I was joined by Kendra Havens to chat about what&rsquo;s new and coming! Kendra is a Program Manager on the .NET and Visual Studio team, and we also chatted a bit in this episode about what software development is like internally at Microsoft, and learn that Microsoft face the same struggles as most other companies!"/>
+
+    <meta property="og:title" content="Episode 27: Visual Studio 2022 - with Kendra Havens" />
+<meta property="og:description" content="Not long to go until the release of both .NET 6 and Visual Studio 2022! But if you can&rsquo;t wait that long - the preview releases of both can be downloaded right now! In this episode, I was joined by Kendra Havens to chat about what&rsquo;s new and coming! Kendra is a Program Manager on the .NET and Visual Studio team, and we also chatted a bit in this episode about what software development is like internally at Microsoft, and learn that Microsoft face the same struggles as most other companies!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0027-kendrahavens/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-24T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-10-24T00:00:00&#43;00:00" />
+
+
+  </head>
+
+  <body>
+    <header class="app-header">
+      <a href="https://unhandledexceptionpodcast.com/"><img class="app-header-avatar" src="/images/logo.png" alt="Dan Clarke" /></a>
+      <h1>The Unhandled Exception Podcast</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/pages/about/">About</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/pages/guest-faq/">Guest FAQ</a>
+      </nav>
+      <div id="listen-on">
+  <a class="listen-on-icon rss-feed-icon" target="_blank" href="https://feeds.buzzsprout.com/978640.rss"></a>
+  <a class="listen-on-icon apple-icon" target="_blank" href="https://podcasts.apple.com/gb/podcast/the-unhandled-exception-podcast/id1536194837"></a>
+  <a class="listen-on-icon spotify-icon" target="_blank" href="https://open.spotify.com/show/2DgUE1Iyl9cZxzzvUUIPBK"></a>
+  <a class="listen-on-icon google-icon" target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS85Nzg2NDAucnNz"></a>
+  <br/>
+  <a class="listen-on-icon pocketcasts-icon" target="_blank" href="https://play.pocketcasts.com/podcasts/63c68d60-f59a-0138-e82d-0acc26574db2"></a>
+  <a class="listen-on-icon stitcher-icon" target="_blank" href="https://www.stitcher.com/podcast/the-unhandled-exception-podcast"></a>
+  <a class="listen-on-icon podcastaddict-icon" target="_blank" href="https://podcastaddict.com/podcast/3143967"></a>
+  <a class="listen-on-icon podchaser-icon" target="_blank" href="https://www.podchaser.com/podcasts/the-unhandled-exception-podcas-1519582"></a>
+</div>
+      <p>Software Development podcast hosted by Dan Clarke</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/dracan/UnhandledExceptionPodcastWebsite" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/dracan" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+      </div>
+      <a href="https://audionautix.com/">Music by Audionautix.com</a>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Episode 27: Visual Studio 2022 - with Kendra Havens</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Oct 24, 2021
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Not long to go until the release of both .NET 6 and Visual Studio 2022! But if you can&rsquo;t wait that long - the preview releases of both can be downloaded right now! In this episode, I was joined by <a href="https://twitter.com/gotheap">Kendra Havens</a> to chat about what&rsquo;s new and coming! Kendra is a Program Manager on the .NET and Visual Studio team, and we also chatted a bit in this episode about what software development is like internally at Microsoft, and learn that Microsoft face the same struggles as most other companies! We&rsquo;re all human after all!</p>
+<div id="buzzsprout-player-9422343"></div>
+<script src="https://www.buzzsprout.com/978640/9422343-hello-world.js?container_id=buzzsprout-player-9422343&player=small" type="text/javascript" charset="utf-8"></script>
+
+<h1 id="kendras-social-links">Kendra&rsquo;s social links</h1>
+<ul>
+<li><a href="https://twitter.com/gotheap">Twitter</a></li>
+<li><a href="https://www.linkedin.com/in/kendrahavens/">LinkedIn</a></li>
+<li><a href="https://github.com/kendrahavens">Github</a></li>
+</ul>
+<h1 id="links-from-the-show">Links from the show</h1>
+<ul>
+<li><a href="https://visualstudio.microsoft.com/vs/preview/">Visual Studio 2022 Preview</a></li>
+<li><a href="https://www.dotnetconf.net/">.NET Conf 2021</a></li>
+<li><a href="https://devblogs.microsoft.com/dotnet/update-on-dotnet-maui/">Update on .NET Multi-platform App UI (.NET MAUI)</a></li>
+<li><a href="https://visualstudio.microsoft.com/services/intellicode/">IntelliCode</a></li>
+<li><a href="https://docs.microsoft.com/en-us/visualstudio/test/intellitest-manual/?view=vs-2019">IntelliTest</a></li>
+<li><a href="https://www.microsoft.com/en-us/research/project/pex-and-moles-isolation-and-white-box-unit-testing-for-net">Pex</a></li>
+<li><a href="https://playwright.dev/">Playwrite</a></li>
+<li><a href="https://unhandledexceptionpodcast.com/posts/0023-git/">Git podcast episode that was mentioned</a></li>
+<li><a href="https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/">Multi repo support in Visual Studio</a></li>
+<li><a href="https://devblogs.microsoft.com/dotnet/introducing-net-hot-reload/">Hot Reload</a></li>
+<li><a href="https://copilot.github.com/">GitHub Copilot</a></li>
+</ul>
+<h1 id="followup-notes-from-the-show">Followup notes from the show&hellip;</h1>
+<p>Below is some information from Kendra addressing a couple of points mentioned in the show&hellip;</p>
+<h2 id="intellisense-completion-for-unimported-doc">Intellisense completion for unimported doc</h2>
+<p><em>&ldquo;The partial check box for providing intellisense completion for unimported namespaces signifies you may or may not be part of an AB test we are using to roll it out as “on” by default. We have some perf concerns of it slowing down intellisense loading so we want an easy way to flip it off and we’re watching if people experience any delays. Checking it entirely on with the check box will opt you in! We’ve added this in VS 2019 version 16.5. We also have completion for extension methods which is pretty cool!&quot;</em></p>
+<p><a href="https://docs.microsoft.com/en-us/visualstudio/ide/reference/intellisense-completion-unimported-types-extension-methods?view=vs-2019">More information</a></p>
+<h2 id="intellicode-whole-line-completion">IntelliCode whole-line completion</h2>
+<p><em>&ldquo;IntelliCode whole line completions are doing something similar with rolling out “on by default” options in VS 22. They have a slightly different UI, but same idea. So some listeners might need to turn it on by default.&quot;</em></p>
+<p><a href="https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/">More information</a></p>
+
+    </div>
+    <div class="post-footer">
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "the-unhandled-exception-podcast" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
