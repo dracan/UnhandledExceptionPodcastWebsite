@@ -30,6 +30,10 @@ A microphone that isn't your built-in laptop microphone is definitely preferred.
 
 When it comes down to it - if you're concerned about your audio quality - just ask me, and we can discuss different ideas together beforehand to get the most of of your setup. And we can also do a test recording beforehand if you're still unsure.
 
+# A caution about headset microphones
+
+If you are using a headset mic - please be mindful of how close the mic is to your mouth. Air hitting the mic as you talk will make quite harsh popping sounds, which is really difficult to edit out.
+
 # Background noise (IMPORTANT)
 
 Please do aim to limit background noise. I can cut out background noise during editing if it happens when myself or another guest is speaking - but I can't cut out noises in the background when you're talking (as it'll be part of the same wav recording). This includes fans, squeaky chairs, people in other rooms, you accidentally banging the desk whilst talking, etc.
