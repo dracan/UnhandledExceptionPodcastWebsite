@@ -6,7 +6,16 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 03 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 29: Snapshot Testing with Simon Cropp</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</guid>
+      <description>In this episode, I was joined by Simon Cropp to chat about a form of testing called Snapshot testing! Simon is the author of Verify, which is a library that I&amp;rsquo;m quickly discovering is going to save me a HUGE amount of time when writing tests in dotnet! We chatted about snapshot testing in general; the various helper extensions that Verify has, which adds support for lots of different technologies; and also about testing in general.</description>
+    </item>
+    
     <item>
       <title>Episode 28: UX with Jessica Engström</title>
       <link>https://unhandledexceptionpodcast.com/posts/0028-uxwithjessicaengstrom/</link>
