@@ -6,7 +6,16 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 30: Developer Productivity with (me!) Dan Clarke</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</guid>
+      <description>Developer productivity is something I&amp;rsquo;ve been really interested for quite a few years. So I decided, rather than having a guest on for this topic - it&amp;rsquo;s one I wanted to cover myself. So in this first episode of the year - I&amp;rsquo;ve gone solo, and talk about the things I find have made a big difference to my productivity over the years. Also why I think this term &amp;ldquo;10x developer&amp;rdquo; is a big understatement!</description>
+    </item>
+    
     <item>
       <title>Episode 29: Snapshot Testing with Simon Cropp</title>
       <link>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</link>
