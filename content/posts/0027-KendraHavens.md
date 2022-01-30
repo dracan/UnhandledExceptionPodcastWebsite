@@ -23,7 +23,7 @@ Not long to go until the release of both .NET 6 and Visual Studio 2022! But if y
 * [IntelliCode](https://visualstudio.microsoft.com/services/intellicode/)
 * [IntelliTest](https://docs.microsoft.com/en-us/visualstudio/test/intellitest-manual/?view=vs-2019)
 * [Pex](https://www.microsoft.com/en-us/research/project/pex-and-moles-isolation-and-white-box-unit-testing-for-net)
-* [Playwrite](https://playwright.dev/)
+* [Playwright](https://playwright.dev/)
 * [Git podcast episode that was mentioned](https://unhandledexceptionpodcast.com/posts/0023-git/)
 * [Multi repo support in Visual Studio](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/)
 * [Hot Reload](https://devblogs.microsoft.com/dotnet/introducing-net-hot-reload/)
