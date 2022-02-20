@@ -14,5 +14,5 @@ In this episode, I was joined by [Patrick Smacchia](https://www.linkedin.com/in/
 * [NDepend](https://www.ndepend.com/)
 * [NDepend use cases](https://www.ndepend.com/docs/ndepend-use-cases)
 * [NDepend blog](https://blog.ndepend.com/)
-* [Patrick's WSL2 block post mentioned in his dev tip](https://blog.ndepend.com/debugging-a-net-app-on-linux-from-windows-visual-studio-with-wsl)
+* [Patrick's WSL2 blog post mentioned in his dev tip](https://blog.ndepend.com/debugging-a-net-app-on-linux-from-windows-visual-studio-with-wsl)
 * [LINQPad](https://www.linqpad.net/)
