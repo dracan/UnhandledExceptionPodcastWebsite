@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 32: Technical Leadership - with Jess White</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0032-jesswhite/</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0032-jesswhite/</guid>
+      <description>In this episode, I was joined by Jess White to chat about technical leadership and how to support teams and manage people. Jess provides tons of advice and insights into what makes teams both happy and productive.
+  Jess&amp;rsquo;s social links  Twitter Github Blog YouTube LinkedIn  Links from the show  Jess&amp;rsquo;s talk at .NET South West Past podcast episode with Jess - the group DDD episode DDD East Midlands School of Code Makers Academy .</description>
+    </item>
+    
     <item>
       <title>Episode 31: MassTransit and Open Source - with Chris Patterson</title>
       <link>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</link>
