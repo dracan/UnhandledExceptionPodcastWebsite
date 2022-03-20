@@ -3,6 +3,7 @@ languageCode = "en-gb"
 title = "The Unhandled Exception Podcast"
 theme = "m10c"
 disqusShortname = "the-unhandled-exception-podcast"
+googleAnalytics = "G-RN9Q259LF1"
 
 [menu]
   [[menu.main]]
