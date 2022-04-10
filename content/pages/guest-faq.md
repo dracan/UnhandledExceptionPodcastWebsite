@@ -38,7 +38,10 @@ If you are using a headset mic - please be mindful of how close the mic is to yo
 
 Please do aim to limit background noise. I can cut out background noise during editing if it happens when myself or another guest is speaking - but I can't cut out noises in the background when you're talking (as it'll be part of the same wav recording). This includes fans, squeaky chairs, people in other rooms, you accidentally banging the desk whilst talking, etc.
 
+# Dev Picks
+
+I normally do "dev picks" at the end - where both myself and the guest does a dev pick. This is completely optional - but if you're happy doing one, then it's time to get your thinking cap on! :) Basically, this can be anything you think is cool that might be of interest to the listeners. It can be anything you like - examples include: a dev tip; calling out an interesting open-source project; an interesting article or video you've seen; etc.
+
 # Anything else I need to know?
 
-* I normally do "dev-tips" at the end - where both myself and the guest does a dev-tip. This is completely optional - but if you're happy doing one, then time to get your thinking cap on! :) Basically, a short tip - anything you like - doesn't just have to be dev-related - for example, I've done productivity tips on past shows.
-* Have fun! :)
+Have fun! :)
