@@ -102,7 +102,7 @@ MiniHack is an online tech-agnostic monthly meetup, where teams of between 3 and
       
       <guid>https://unhandledexceptionpodcast.com/posts/0026-eventsourcing/</guid>
       <description>In this episode, I was joined by Callum Linington to chat about Event Sourcing! Events over time are how the world works - so shouldn&amp;rsquo;t we be leveraging that in our architectures? As quite often happens, we also went on one or two tangents, and covered a ton of other related including MediatR, CQRS, F#, DDD, Rx, Redux, and more!
-  Callum&amp;rsquo;s social links  Twitter LinkedIn Github  Links from the show  EventStore Apache Kafka Video: Greg Young — A Decade of DDD, CQRS, Event Sourcing MediatR Redux Rx Callum&amp;rsquo;s Liaison library Video: &amp;lsquo;Reaqtor&amp;rsquo; - Enjin&amp;rsquo;s Rx at scale talk at .</description>
+  Callum&amp;rsquo;s social links  Twitter LinkedIn Github  Links from the show  EventStore Apache Kafka Video: Greg Young — A Decade of DDD, CQRS, Event Sourcing MediatR Redux Rx Callum&amp;rsquo;s Liaison library Video: &amp;lsquo;Reaqtor&amp;rsquo; - Endjin&amp;rsquo;s Rx at scale talk at .</description>
     </item>
     
     <item>
