@@ -24,7 +24,7 @@ In this episode, I was joined by [Callum Linington](https://twitter.com/No1Melma
 * [Redux](https://redux.js.org/)
 * [Rx](http://reactivex.io/)
 * [Callum's Liaison library](https://github.com/weareslate/liaison)
-* [Video: 'Reaqtor' - Enjin's Rx at scale talk at .NET Oxford](https://www.dotnetoxford.com/posts/2021-06-reaqtor)
+* [Video: 'Reaqtor' - Endjin's Rx at scale talk at .NET Oxford](https://www.dotnetoxford.com/posts/2021-06-reaqtor)
 * [Book: Implementing Domain Driven Design by Vaughn Vernon](https://www.amazon.co.uk/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577)
 * [Book: Designing Event-Driven Systems (free ebook)](https://www.confluent.io/designing-event-driven-systems/)
 * [Video: Event Sourcing You are doing it wrong by David Schmitz](https://www.youtube.com/watch?v=GzrZworHpIk)
