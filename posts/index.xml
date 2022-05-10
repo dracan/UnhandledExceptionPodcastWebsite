@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 36: Andrew Lock</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</guid>
+      <description>In this episode, I was honoured to be joined by Andrew Lock, who is probably best known for his amazing &amp;lsquo;must-subscribe&amp;rsquo; blog - andrewlock.net. He&amp;rsquo;s also the author of the Manning ebook, ASP.NET Core in Action, Second Edition. We covered a lot in this episode - from the different flavours of ASP.NET, to Kubernetes, Blazor, gRPC, testing, Minimal API, MediatR&amp;hellip; and more!
+  Guests&#39; social links  Blog Twitter LinkedIn Github  Links from the show  Andrew&amp;rsquo;s book - ASP.</description>
+    </item>
+    
     <item>
       <title>Episode 35: MiniHack</title>
       <link>https://unhandledexceptionpodcast.com/posts/0035-minihack/</link>
