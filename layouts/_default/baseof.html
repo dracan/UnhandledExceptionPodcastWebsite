@@ -19,7 +19,8 @@
   <body>
     <header class="app-header">
       <a href="{{ .Site.BaseURL }}"><img class="app-header-avatar" src="{{ .Site.Params.avatar | default "avatar.jpg" | relURL }}" alt="{{ .Site.Params.author | default "John Doe" }}" /></a>
-      <h1>{{ .Site.Title }}</h1>
+      <!-- <h1>{{ .Site.Title }}</h1> -->
+      <br>
       {{- with .Site.Menus.main }}
       <nav class="app-header-menu">
         {{- range $key, $item := . }}
@@ -41,6 +42,7 @@
       <a href="https://audionautix.com/">Music by Audionautix.com</a>
 
       {{ partial "bmac.html" }}
+      {{ partial "tagcloud.html" . }}
     </header>
     <main class="app-container">
       {{ block "main" . }}

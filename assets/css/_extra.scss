@@ -109,3 +109,20 @@
     opacity: 0.85 !important;
     color: #ffffff !important;
 }
+
+.app-header-avatar {
+    border: 0px;
+    border-radius: 0%;
+}
+
+.tags-list-item-custom {
+    list-style: none;
+    padding: 2px 5px;
+    font-size: 1.0em;
+}
+
+.tags-list-custom {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}

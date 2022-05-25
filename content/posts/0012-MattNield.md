@@ -3,6 +3,7 @@ title: "Episode 12: Kentico Kontent Headless CMS and JAMStack - with Matt Nield"
 date: 2021-02-27
 draft: false
 episodeId: 8040535
+tags: ["cms", "linqpad"]
 ---
 
 In this episode, I was joined by good friend [Matt Nield](https://twitter.com/mnield), who also co-runs the [.NET Oxford](https://www.dotnetoxford.com/) user group with me. We chatted about the [Kentico Kontent](https://kontent.ai) headless CMS, static websites and the JAMStack - plus much more!

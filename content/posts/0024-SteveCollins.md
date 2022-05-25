@@ -3,6 +3,7 @@ title: "Episode 24: Dependency Injection in .NET with Steve Collins"
 date: 2021-09-18
 draft: false
 episodeId: 9218106
+tags: ["dependency-injection", "dotnet", "asp.net"]
 ---
 
 In this episode, I was joined by [Steve Collins](https://twitter.com/stevetalkscode) to chat all about dependency injection in .NET. We (well, Steve!) demystified terms such as dependency inversion and inversion of control containers, and then delved into the world of dependency injection in .NET, covering scopes, and much more...

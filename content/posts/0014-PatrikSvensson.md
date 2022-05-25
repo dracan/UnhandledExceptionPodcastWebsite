@@ -3,6 +3,7 @@ title: "Episode 14: Spectre Console and Cake with Patrik Svensson"
 date: 2021-03-24
 draft: false
 episodeId: 8200992
+tags: ["cli", "dotnet"]
 ---
 
 In this episode, I was joined by [Patrik Svensson](https://twitter.com/firstdrafthell), creator of both the [Cake Build System](https://cakebuild.net/), and a .NET library called [Spectre.Console](https://spectresystems.github.io/spectre.console/). We mostly chatted about the Spectre Console library, which adds _AMAZING_ functionality to .NET console apps (grid, charts, images, and much more!). We also touched on Cake and Cake Frosting.

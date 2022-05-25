@@ -3,6 +3,7 @@ title: "Episode 19: Blazor with Chris Sainty"
 date: 2021-07-13
 draft: false
 episodeId: 8855078
+tags: ["blazor", "testing", "dotnet"]
 ---
 
 In this episode, I was thrilled to be joined by [Chris Sainty](https://twitter.com/chris_sainty) to chat all about Blazor! Blazor is a new .NET technology allowing you to build SPA-like frontend web UIs in C#! Very focused on developer productivity and componentisation - Blazor is certainly going to become my go-to for frontends moving forward! And chatting with Chris in this episode, has shown me even more reasons why Blazor is becoming so immensely popular!

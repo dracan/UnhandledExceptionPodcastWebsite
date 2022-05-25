@@ -3,6 +3,7 @@ title: "Episode 5: Kubernetes with Shahid Iqbal"
 date: 2020-11-29
 draft: false
 episodeId: 6602386
+tags: ["k8s", "docker"]
 ---
 
 In this episode, I was joined by [Shahid Iqbal](https://twitter.com/ShahidDev) to chat about Kubernetes. We covered containers in general, Docker, Docker-Compose, Kubernetes, Helm, Istio, and much more! Shahid is a Microsoft MVP and user-group organiser, specialising in Azure and Kubernetes.

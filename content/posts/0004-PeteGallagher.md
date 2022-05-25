@@ -3,6 +3,7 @@ title: "Episode 4: Pete Gallagher"
 date: 2020-11-22
 draft: false
 episodeId: 6497776
+tags: ["IoT"]
 ---
 
 In this episode, I was joined by [Pete Gallagher](https://twitter.com/pete_codes) - Microsoft MVP, Pluralsight author, speaker, user-group organiser, and huge fan of IoT devices and STEM. We had great fun chatted for over an hour about various topics - mostly themed around technologies helping kids get into coding - but with many tangents thrown into the mix!

@@ -3,6 +3,7 @@ title: "Episode 30: Developer Productivity with (me!) Dan Clarke"
 date: 2022-01-09
 draft: false
 episodeId: 9854277
+tags: ["productivity", "learning"]
 ---
 
 Developer productivity is something I've been really interested in for quite a few years. So I decided, rather than having a guest on for this topic - it's one I wanted to cover myself. So in this first episode of the year - I've gone _solo_, and talk about the things I find have made a big difference to my productivity over the years. Also why I think this term "10x developer" is a big understatement!

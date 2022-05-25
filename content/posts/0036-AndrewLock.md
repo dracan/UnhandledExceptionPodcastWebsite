@@ -3,6 +3,7 @@ title: "Episode 36: Andrew Lock - ASP.NET, Blogging, Kuberetes, and more!"
 date: 2022-05-10
 draft: false
 episodeId: 10542009
+tags: ["grpc", "k8s", "minimal-api", "mediatr", "testing", "dotnet", "blazor", "github-copilot", "asp.net", "docker"]
 ---
 
 In this episode, I was honoured to be joined by [Andrew Lock](https://andrewlock.net/), who is probably best known for his amazing 'must-subscribe' blog - [andrewlock.net](https://andrewlock.net/). He's also the author of the Manning ebook, [ASP.NET Core in Action, Second Edition](https://www.manning.com/books/asp-net-core-in-action-second-edition). We covered a lot in this episode - from the different flavours of ASP.NET, to Kubernetes, Blazor, gRPC, testing, Minimal API, MediatR... and more!

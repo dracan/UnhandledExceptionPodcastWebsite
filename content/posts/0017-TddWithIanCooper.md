@@ -3,6 +3,7 @@ title: "Episode 17: TDD with Ian Cooper"
 date: 2021-05-28
 draft: false
 episodeId: 8606489
+tags: ["testing", "tdd"]
 ---
 
 In this episode, I was joined by [Ian Cooper](https://twitter.com/ICooper) to chat about Test Driven Development (TDD)! We discussed pain points that a lot of people hit when attempting to do TDD, and how to avoid them.

@@ -3,6 +3,7 @@ title: "Episode 20: Mark Rendle's Stream of Consciousness"
 date: 2021-07-22
 draft: false
 episodeId: 8904412
+tags: ["streaming", "dotnet"]
 ---
 
 In this episode, I was joined by [Mark Rendle](https://twitter.com/markrendle) to chat about his experiences live-coding/streaming on Twitch! Warning: We went on a lot of tangents during the conversation! It's all good though - as they were all awesome tangents! We not only talked about streaming, but also Blazor, C#, Unity, the rate of tech advancement, teaching kids to code, and much more!

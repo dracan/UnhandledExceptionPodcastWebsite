@@ -3,6 +3,7 @@ title: "Episode 22: Jetbrains Rider, and Code With Me"
 date: 2021-08-22
 draft: false
 episodeId: 9066826
+tags: ["rider", "dotnet"]
 ---
 
 Everyone who knows me, knows I'm a _massive_ fan of [Jetbrains Rider](https://www.jetbrains.com/rider/)! So it was about time we had an episode on it! In this episode, I was joined by both [Maarten Balliauw](https://twitter.com/maartenballiauw) and [Kirill Skrygan](https://twitter.com/kskrygan) to chat all about it. We discussed the Rider architecture, Code With Me, Remote Development; and also the awesome power of keyboard shortcuts!

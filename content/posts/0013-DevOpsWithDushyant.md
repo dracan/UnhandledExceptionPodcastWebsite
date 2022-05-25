@@ -3,6 +3,7 @@ title: "Episode 13: DevOps with Dushyant"
 date: 2021-03-10
 draft: false
 episodeId: 8114127
+tags: ["devops", "IaC"]
 ---
 
 In this episode, I was joined by good friend and ex-colleague, [Dushyant Priyadarshee](https://www.linkedin.com/in/dpriyadarshee/) to chat about devops! We covered a lot of ground, from what devops is, to infrastructure as code deployments, to exams and certifications! Dushyant is a Senior Platform Engineer at [NewDay](https://www.newday.co.uk/).

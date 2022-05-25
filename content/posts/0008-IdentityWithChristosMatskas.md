@@ -3,6 +3,7 @@ title: "Episode 8: Identity with Christos Matskas"
 date: 2020-12-20
 draft: false
 episodeId: 6936815
+tags: ["security"]
 ---
 
 In this last episode of the year, I was joined by [Christos Matskas](https://www.twitter.com/christosmatskas) to talk all about Identity! Christos is the Program Manager for the Microsoft Identity Platform, so obviously the conversation was slightly biased towards AzureAD and B2C as an identity provider - but we also tried to cover some common identity topics, and demystify terminology such as OAuth, OpenID Connect, scopes, claims, and more! We even went a bit _off-piste_ at the end and chatted about public speaking, languages (not programming languages), and even touched on speed reading!

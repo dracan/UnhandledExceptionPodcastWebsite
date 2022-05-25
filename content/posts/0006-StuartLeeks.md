@@ -3,6 +3,7 @@ title: "Episode 7: WSL2 with Stuart Leeks"
 date: 2020-12-11
 draft: false
 episodeId: 6787804
+tags: ["wsl", "cli"]
 ---
 
 In this episode, I was joined by [Stuart Leeks](https://twitter.com/stuartleeks) to chat all about WSL2, and his new book, [WSL 2 Tips, Tricks, and Techniques](https://wsl.tips/book)! We also covered plenty of other topics, such as public speaking, Windows Terminal, standing desks, and much more! Stuart is a Principal Software Development Engineer at Microsoft.

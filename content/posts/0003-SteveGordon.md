@@ -3,6 +3,7 @@ title: "Episode 3: Steve Gordon"
 date: 2020-11-09
 draft: false
 episodeId: 6294781
+tags: ["performance", "dotnet"]
 ---
 
 In this episode, I had a fascinating chat with [Steve Gordon](https://twitter.com/stevejgordon). We covered tons of topics - from his experience in being a Pluralsight author, to performance, productivity, organising user-groups, public speaking, audio editing, and much more!

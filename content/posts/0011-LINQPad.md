@@ -3,6 +3,7 @@ title: "Episode 11: LINQPad with Joseph Albahari"
 date: 2021-02-07
 draft: false
 episodeId: 7719526
+tags: ["linqpad", "dotnet"]
 ---
 
 In this episode, I was joined by Joe Albahari, author of one of my favourite software development tools - LINQPad! This is a tool that I use on a daily basis, and it saves me so much time! So I especially enjoyed chatting with Joe about the _many_ features of LINQPad, his experiences when developing it, and also future plans.

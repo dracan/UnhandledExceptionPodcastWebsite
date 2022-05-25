@@ -1,0 +1,12 @@
+<ul class="tags-list-custom">
+  {{ range first 10 ($taxonomy := $.Site.Taxonomies.tags).ByCount }}
+    <li class="tags-list-item-custom">
+        {{ partial "icon.html" (dict "ctx" $ "name" "tag") }}
+        <a class="tags-list-item-title" href="{{ .Page.Permalink }}">
+          ({{ .Count }})
+          {{ .Page.Title }}
+        </a>
+    </li>
+  {{ end }}
+</ul>
+<a class="app-header-menu-item" href="/tags/">- All Tags -</a>

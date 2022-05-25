@@ -3,6 +3,7 @@ title: "Episode 15: C#9 Source Generators with Jason Bock"
 date: 2021-04-09
 draft: false
 episodeId: 8303617
+tags: ["source-generators", "dotnet", "testing"]
 ---
 
 In this episode, I was joined by [Jason Bock](https://twitter.com/jasonbock) to chat about the new C#9 source generators! Writing code that writes code! We covered a _ton_ of content, covering Source Generators, the Compiler API, Syntax Trees, Semantic Models, Expression Trees, and much much more!

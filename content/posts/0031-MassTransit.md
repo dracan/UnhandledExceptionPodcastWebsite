@@ -3,6 +3,7 @@ title: "Episode 31: MassTransit and Open Source - with Chris Patterson"
 date: 2022-02-17
 draft: false
 episodeId: 10088406
+tags: ["masstransit", "messaging", "open-source", "azure-service-bus", "rabbitmq", "kafka", "service-mesh", "event-driven-architecture", "dotnet"]
 ---
 
 In this episode, I was joined by [Chris Patterson](https://twitter.com/PhatBoyG) to chat about the open-source distributed messaging framework, [MassTransit](https://masstransit-project.com/). We also spoke about open-source, event-driven architecture, docker, k8s, testing, Rider, and more!

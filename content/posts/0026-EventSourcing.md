@@ -3,6 +3,7 @@ title: "Episode 26: Event Sourcing and Event Driven Architecture - with Callum L
 date: 2021-10-15
 draft: false
 episodeId: 9372646
+tags: ["event-driven-architecture", "mediatr", "dotnet", "kafka", "rx"]
 ---
 
 In this episode, I was joined by [Callum Linington](https://twitter.com/No1Melman) to chat about Event Sourcing! Events over time are how the world works - so shouldn't we be leveraging that in our architectures? As quite often happens, we also went on one or two tangents, and covered a ton of other related including MediatR, CQRS, F#, DDD, Rx, Redux, and more!

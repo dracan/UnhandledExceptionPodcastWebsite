@@ -3,6 +3,7 @@ title: "Episode 18: Mutation Testing in .NET with Stefan Pölz"
 date: 2021-06-18
 draft: false
 episodeId: 8724085
+tags: ["testing", "dotnet"]
 ---
 
 In this episode, I was thrilled to be joined by [Stefan Pölz](https://twitter.com/0x_F0) to chat about Mutation Testing! I had seen a lightning talk by Stefan last year about this, and was fascinated by the concept. So it was great to have him on the show to chat about it!

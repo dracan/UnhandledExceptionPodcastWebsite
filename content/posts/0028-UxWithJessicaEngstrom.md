@@ -3,6 +3,7 @@ title: "Episode 28: UX with Jessica Engström"
 date: 2021-11-03
 draft: false
 episodeId: 9481799
+tags: ["ux"]
 ---
 
 In this episode, I was joined by [Jessica Engström](https://twitter.com/EngstromJess) to chat about UX! A topic that most developers (myself included) need to be more aware of when building UIs! Jessica is also a fellow podcast host, co-hosting the awesome [Coding After Work](http://codingafterwork.com/) podcast!

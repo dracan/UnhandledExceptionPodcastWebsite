@@ -3,6 +3,7 @@ title: "Episode 32: Technical Leadership - with Jess White"
 date: 2022-03-06
 draft: false
 episodeId: 10192253
+tags: ["leadership", "mentoring"]
 ---
 
 In this episode, I was joined by [Jess White](https://twitter.com/JessPWhite) to chat about technical leadership and how to support teams and manage people. Jess provides tons of advice and insights into what makes teams both happy and productive.

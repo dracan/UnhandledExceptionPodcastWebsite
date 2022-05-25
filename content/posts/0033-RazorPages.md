@@ -3,6 +3,7 @@ title: "Episode 33: Razor Pages with Mike Brind"
 date: 2022-03-19
 draft: false
 episodeId: 10278234
+tags: ["dotnet", "blazor", "asp.net"]
 ---
 
 In this episode, I was joined by [Mike Brind](https://twitter.com/Mikesdotnetting) to chat about ASP.NET Core Razor Pages. We also spoke about his Manning MEAP book, [ASP.NET Core Razor Pages in Action](https://www.manning.com/books/asp-net-core-razor-pages-in-action).

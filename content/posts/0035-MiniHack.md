@@ -3,6 +3,7 @@ title: "Episode 35: MiniHack"
 date: 2022-04-25
 draft: false
 episodeId: 10500679
+tags: ["hackathon"]
 ---
 
 In this episode, I was joined by [Paul Michaels](https://twitter.com/paul_michaels) and [Kev Smith](https://twitter.com/kev_bite), to chat about their monthly online meetup they both run.

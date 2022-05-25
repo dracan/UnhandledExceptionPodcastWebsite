@@ -3,6 +3,7 @@ title: "Episode 29: Snapshot Testing with Simon Cropp"
 date: 2021-11-26
 draft: false
 episodeId: 9616767
+tags: ["snapshot-testing", "testing", "dotnet"]
 ---
 
 In this episode, I was joined by [Simon Cropp](https://twitter.com/SimonCropp) to chat about a form of testing called Snapshot testing! Simon is the author of [Verify](https://github.com/VerifyTests/Verify), which is a library that I'm quickly discovering is going to save me a HUGE amount of time when writing tests in dotnet! We chatted about snapshot testing in general; the various helper extensions that Verify has, which adds support for lots of different technologies; and also about testing in general. If you've ever felt that you spend too much time writing asserts in tests - then this is the episode for you!

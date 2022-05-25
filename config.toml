@@ -29,7 +29,7 @@ googleAnalytics = "G-RN9Q259LF1"
 
 [params]
   author = "Dan Clarke"
-  avatar = "images/logo.png"
+  avatar = "images/UepLogoText.png"
   description = "Software Development podcast hosted by Dan Clarke"
   menu_item_separator = " - "
   [[params.social]]

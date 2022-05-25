@@ -3,6 +3,7 @@ title: "Episode 34: Geeking out on .NET with Nick Chapsas"
 date: 2022-03-31
 draft: false
 episodeId: 10352005
+tags: ["grpc", "k8s", "minimal-api", "mediatr", "testing", "dotnet", "blazor", "github-copilot", "open-source", "docker"]
 ---
 
 In this episode, I was thrilled to be joined by [Nick Chapsas](https://twitter.com/nickchapsas)! If you're a .NET developer - then his [YouTube channel](https://youtube.com/c/Elfocrash) is an absolute must! Given all the amazing topics he covers on his channel - it would have been a shame to just chat with him about a single topic! So we decided to do a few lightning topics instead! Here's what we geeked out on...

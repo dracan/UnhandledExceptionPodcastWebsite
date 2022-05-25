@@ -3,6 +3,7 @@ title: "Episode 21: Bicep with Alex Frankel"
 date: 2021-08-13
 draft: false
 episodeId: 9020712
+tags: ["bicep", "IaC", "azure"]
 ---
 
 In this episode, I was joined by [Alex Frankel](https://twitter.com/adotfrank) to chat about [Azure Bicep](https://github.com/Azure/bicep)! Bicep is a new DSL that transpiles down to native ARM templates. Except that it _greatly_ improved upon the very hard to read and write ARM templates, making _Infrastructure as Code_ in Azure a far nicer user experience. We delved into the Bicep language, the tooling, a bit of the history - and even geeked out a bit on how awesome .NET has become!

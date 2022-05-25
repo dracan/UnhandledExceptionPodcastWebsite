@@ -3,6 +3,7 @@ title: "Episode 27: Visual Studio 2022 - with Kendra Havens"
 date: 2021-10-24
 draft: false
 episodeId: 9422343
+tags: ["visual-studio", "testing", "github-copilot"]
 ---
 
 Not long to go until the release of both .NET 6 and Visual Studio 2022! But if you can't wait that long - the preview releases of both can be downloaded right now! In this episode, I was joined by [Kendra Havens](https://twitter.com/gotheap) to chat about what's new and coming! Kendra is a Program Manager on the .NET and Visual Studio team, and we also chatted a bit in this episode about what software development is like internally at Microsoft, and learn that Microsoft face the same struggles as most other companies! We're all human after all!

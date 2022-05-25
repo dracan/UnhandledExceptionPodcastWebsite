@@ -3,6 +3,7 @@ title: "Episode 16: Learning and Self Development with James World"
 date: 2021-05-02
 draft: false
 episodeId: 8443292
+tags: ["learning", "leadership"]
 ---
 
 In this episode, I was joined by [James World](https://twitter.com/jamesw0rld) to chat about learning! We covered an incredible amount in this episode - from certifications, to books and reading, interviews, what it means to be a senior developer, and much much more!
