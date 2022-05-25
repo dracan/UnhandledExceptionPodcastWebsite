@@ -6,7 +6,88 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aks</title>
+      <link>https://unhandledexceptionpodcast.com/tags/aks/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/aks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>azure</title>
+      <link>https://unhandledexceptionpodcast.com/tags/azure/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>azure-container-apps</title>
+      <link>https://unhandledexceptionpodcast.com/tags/azure-container-apps/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/azure-container-apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blazor</title>
+      <link>https://unhandledexceptionpodcast.com/tags/blazor/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/blazor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>build</title>
+      <link>https://unhandledexceptionpodcast.com/tags/build/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/build/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>https://unhandledexceptionpodcast.com/tags/conference/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotnet</title>
+      <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://unhandledexceptionpodcast.com/tags/k8s/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maui</title>
+      <link>https://unhandledexceptionpodcast.com/tags/maui/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/maui/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>asp.net</title>
       <link>https://unhandledexceptionpodcast.com/tags/asp.net/</link>
@@ -17,29 +98,11 @@
     </item>
     
     <item>
-      <title>blazor</title>
-      <link>https://unhandledexceptionpodcast.com/tags/blazor/</link>
-      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/blazor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>docker</title>
       <link>https://unhandledexceptionpodcast.com/tags/docker/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dotnet</title>
-      <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
-      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/dotnet/</guid>
       <description></description>
     </item>
     
@@ -58,15 +121,6 @@
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/grpc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>k8s</title>
-      <link>https://unhandledexceptionpodcast.com/tags/k8s/</link>
-      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/k8s/</guid>
       <description></description>
     </item>
     
@@ -287,15 +341,6 @@
     </item>
     
     <item>
-      <title>azure</title>
-      <link>https://unhandledexceptionpodcast.com/tags/azure/</link>
-      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>bicep</title>
       <link>https://unhandledexceptionpodcast.com/tags/bicep/</link>
       <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
@@ -409,15 +454,6 @@
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/wsl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>conference</title>
-      <link>https://unhandledexceptionpodcast.com/tags/conference/</link>
-      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/conference/</guid>
       <description></description>
     </item>
     
