@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dotnet on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
+    <description>Recent content in dotnet on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 36: Andrew Lock - ASP.NET, Blogging, Kuberetes, and more!</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</guid>
+      <description>In this episode, I was honoured to be joined by Andrew Lock, who is probably best known for his amazing &amp;lsquo;must-subscribe&amp;rsquo; blog - andrewlock.net. He&amp;rsquo;s also the author of the Manning ebook, ASP.NET Core in Action, Second Edition. We covered a lot in this episode - from the different flavours of ASP.NET, to Kubernetes, Blazor, gRPC, testing, Minimal API, MediatR&amp;hellip; and more!
+  Guests&#39; social links  Blog Twitter LinkedIn Github  Links from the show  Andrew&amp;rsquo;s book - ASP.</description>
+    </item>
+    
+    <item>
+      <title>Episode 34: Geeking out on .NET with Nick Chapsas</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0034-nickchapsas/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0034-nickchapsas/</guid>
+      <description>In this episode, I was thrilled to be joined by Nick Chapsas! If you&amp;rsquo;re a .NET developer - then his YouTube channel is an absolute must! Given all the amazing topics he covers on his channel - it would have been a shame to just chat with him about a single topic! So we decided to do a few lightning topics instead! Here&amp;rsquo;s what we geeked out on&amp;hellip;
+ .NET 6 Minimal API The outdated opinion of some non .</description>
+    </item>
+    
+    <item>
+      <title>Episode 33: Razor Pages with Mike Brind</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0033-razorpages/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0033-razorpages/</guid>
+      <description>In this episode, I was joined by Mike Brind to chat about ASP.NET Core Razor Pages. We also spoke about his Manning MEAP book, ASP.NET Core Razor Pages in Action.
+  Mike&amp;rsquo;s social links  Twitter Github Blog LinkedIn  Links from the show  Razor Pages on Microsoft Docs Mike&amp;rsquo;s Book: ASP.NET Core Razor Pages in Action (Manning 35% discount code for any of their books: podunhandled21) learnrazorpages.com Blog post from Andrew Lock about not replacing View Components with Razor Components in Razor Pages  </description>
+    </item>
+    
+    <item>
+      <title>Episode 31: MassTransit and Open Source - with Chris Patterson</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</guid>
+      <description>In this episode, I was joined by Chris Patterson to chat about the open-source distributed messaging framework, MassTransit. We also spoke about open-source, event-driven architecture, docker, k8s, testing, Rider, and more!
+  Chris&amp;rsquo;s social links  Twitter Github YouTube  Links from the show  MassTransit MassTransit Discord RabbitMQ Azure Service Bus Apache Kafka Azure Event Hub Kubernetes Istio Linkerd JetBrains Rider Visual Studio Live Share JetBrains Code With Me Past podcast episode re.</description>
+    </item>
+    
+    <item>
+      <title>Episode 29: Snapshot Testing with Simon Cropp</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</guid>
+      <description>In this episode, I was joined by Simon Cropp to chat about a form of testing called Snapshot testing! Simon is the author of Verify, which is a library that I&amp;rsquo;m quickly discovering is going to save me a HUGE amount of time when writing tests in dotnet! We chatted about snapshot testing in general; the various helper extensions that Verify has, which adds support for lots of different technologies; and also about testing in general.</description>
+    </item>
+    
+    <item>
+      <title>Episode 26: Event Sourcing and Event Driven Architecture - with Callum Linington</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0026-eventsourcing/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0026-eventsourcing/</guid>
+      <description>In this episode, I was joined by Callum Linington to chat about Event Sourcing! Events over time are how the world works - so shouldn&amp;rsquo;t we be leveraging that in our architectures? As quite often happens, we also went on one or two tangents, and covered a ton of other related including MediatR, CQRS, F#, DDD, Rx, Redux, and more!
+  Callum&amp;rsquo;s social links  Twitter LinkedIn Github  Links from the show  EventStore Apache Kafka Video: Greg Young — A Decade of DDD, CQRS, Event Sourcing MediatR Redux Rx Callum&amp;rsquo;s Liaison library Video: &amp;lsquo;Reaqtor&amp;rsquo; - Endjin&amp;rsquo;s Rx at scale talk at .</description>
+    </item>
+    
+    <item>
+      <title>Episode 25: NDepend with Patrick Smacchia</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</guid>
+      <description>In this episode, I was joined by Patrick Smacchia, all the way from the beautiful island of Mauritius, to chat all about NDepend! An amazing tool for analysing .NET projects and displaying tons of useful information to help improve code quality. From scanning for code quality issues, to showing plenty of dependency graphs and code visualisations.
+  Links from the show  NDepend NDepend use cases NDepend blog Patrick&amp;rsquo;s WSL2 blog post mentioned in his dev tip LINQPad  </description>
+    </item>
+    
+    <item>
+      <title>Episode 24: Dependency Injection in .NET with Steve Collins</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</guid>
+      <description>In this episode, I was joined by Steve Collins to chat all about dependency injection in .NET. We (well, Steve!) demystified terms such as dependency inversion and inversion of control containers, and then delved into the world of dependency injection in .NET, covering scopes, and much more&amp;hellip;
+  Steve&amp;rsquo;s bio Steve Collins is an independent software developer/architect with over 25 years of experience in the industry. He started developing in early &amp;rsquo;80s on ZX Spectrum, self-taught BASIC and Z80 Assembler.</description>
+    </item>
+    
+    <item>
+      <title>Episode 22: Jetbrains Rider, and Code With Me</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0022-rider/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0022-rider/</guid>
+      <description>Everyone who knows me, knows I&amp;rsquo;m a massive fan of Jetbrains Rider! So it was about time we had an episode on it! In this episode, I was joined by both Maarten Balliauw and Kirill Skrygan to chat all about it. We discussed the Rider architecture, Code With Me, Remote Development; and also the awesome power of keyboard shortcuts!
+  Maarten Balliauw&amp;rsquo;s Bio Maarten Balliauw loves building web and cloud apps.</description>
+    </item>
+    
+    <item>
+      <title>Episode 20: Mark Rendle&#39;s Stream of Consciousness</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0020-markrendle/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0020-markrendle/</guid>
+      <description>In this episode, I was joined by Mark Rendle to chat about his experiences live-coding/streaming on Twitch! Warning: We went on a lot of tangents during the conversation! It&amp;rsquo;s all good though - as they were all awesome tangents! We not only talked about streaming, but also Blazor, C#, Unity, the rate of tech advancement, teaching kids to code, and much more!
+  Mark&amp;rsquo;s Bio Mark Rendle decided he wanted to be a programmer when he was 10, became a professional programmer when he was 16, and is still a programmer 30 years later.</description>
+    </item>
+    
+    <item>
+      <title>Episode 19: Blazor with Chris Sainty</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0019-blazor/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0019-blazor/</guid>
+      <description>In this episode, I was thrilled to be joined by Chris Sainty to chat all about Blazor! Blazor is a new .NET technology allowing you to build SPA-like frontend web UIs in C#! Very focused on developer productivity and componentisation - Blazor is certainly going to become my go-to for frontends moving forward! And chatting with Chris in this episode, has shown me even more reasons why Blazor is becoming so immensely popular!</description>
+    </item>
+    
+    <item>
+      <title>Episode 18: Mutation Testing in .NET with Stefan Pölz</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0018-mutationtesting/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0018-mutationtesting/</guid>
+      <description>In this episode, I was thrilled to be joined by Stefan Pölz to chat about Mutation Testing! I had seen a lightning talk by Stefan last year about this, and was fascinated by the concept. So it was great to have him on the show to chat about it!
+  Links from the show Stefan&amp;rsquo;s Social Links  Twitter LinkedIn Github  Other links from the show  Stryker.NET (ie.</description>
+    </item>
+    
+    <item>
+      <title>Episode 15: C#9 Source Generators with Jason Bock</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</guid>
+      <description>In this episode, I was joined by Jason Bock to chat about the new C#9 source generators! Writing code that writes code! We covered a ton of content, covering Source Generators, the Compiler API, Syntax Trees, Semantic Models, Expression Trees, and much much more!
+  Links from the show Jason&amp;rsquo;s Links  Twitter Blog Github YouTube  Jason&amp;rsquo;s books  Metaprogramming in .NET Applied .NET Attributes CIL Programming: Under the Hood of .</description>
+    </item>
+    
+    <item>
+      <title>Episode 14: Spectre Console and Cake with Patrik Svensson</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0014-patriksvensson/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0014-patriksvensson/</guid>
+      <description>In this episode, I was joined by Patrik Svensson, creator of both the Cake Build System, and a .NET library called Spectre.Console. We mostly chatted about the Spectre Console library, which adds AMAZING functionality to .NET console apps (grid, charts, images, and much more!). We also touched on Cake and Cake Frosting.
+  Links from the show Patriks links  Blog Twitter LinkedIn  Links from the show  Spectre.</description>
+    </item>
+    
+    <item>
+      <title>Episode 11: LINQPad with Joseph Albahari</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0011-linqpad/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0011-linqpad/</guid>
+      <description>In this episode, I was joined by Joe Albahari, author of one of my favourite software development tools - LINQPad! This is a tool that I use on a daily basis, and it saves me so much time! So I especially enjoyed chatting with Joe about the many features of LINQPad, his experiences when developing it, and also future plans.
+  Links from the show  LINQPad Joe&amp;rsquo;s website Joe/LINQPad on Twitter LINQPad Tips and Tricks blog post series: Part1, Part2, Part 3 Writing a Neural Net from Scratch talk Pushing C# to the limit talk (alarm clock reference) .</description>
+    </item>
+    
+    <item>
+      <title>Episode 10: F# and Functional Programming</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0010-fsharp/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0010-fsharp/</guid>
+      <description>In this group episode I was joined by Scott Wlaschin, Isaac Abraham, and Ian Russell - to talk all about F#! This is .NET&amp;rsquo;s functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.
+  Guests&#39; social links  Ian Russell: Twitter, LinkedIn Isaac Abraham: Twitter, LinkedIn Scott Wlaschin: Twitter, LinkedIn  Links from the show  F# for fun and profit (Scott&amp;rsquo;s website) Ian&amp;rsquo;s &amp;ldquo;Introduction To Functional Programming In F#&amp;rdquo; blog post series Isaac&amp;rsquo;s book: &amp;ldquo;Get Programming with F#&amp;quot; Scott&amp;rsquo;s book: &amp;ldquo;Domain Modeling Made Functional&amp;rdquo; Dan&amp;rsquo;s &amp;ldquo;Writing More Succinct C#&amp;rdquo; blog post C# code-snippet Dan referred to when talking about using LINQ on a single object Nancy Framework Carter API Endpoints Diamond Kata:  Diamond Kata - TDD with only property-based tests Diamond Kata in F#   Book: &amp;ldquo;Stylish F#&amp;rdquo; by Kit Eason (@kitlovesfsharp) Blog post: &amp;ldquo;Ten reasons not to use a statically typed functional programming language&amp;rdquo; (&amp;ldquo;Like most programmers, I’m naturally conservative and I dislike learning new things.</description>
+    </item>
+    
+    <item>
+      <title>Episode 9: Functional Programming in C# with Simon Painter</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0009-simonpainter/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0009-simonpainter/</guid>
+      <description>For this very first episode of 2021, I was joined by Simon Painter to talk all about Functional Programming in C#! We spoke about functional concepts, plus terms such as Options, Maybes, and even tried to explain what a Monad is! As usual, there were a few tangents, and we also touched on topics such as React, TDD, and much more!
+  Links from the show  Simon&amp;rsquo;s social links:  Twitter Website   Book: Functional Programming in C# by Enrico Buonanno Recording of Simon&amp;rsquo;s &amp;lsquo;Functional Programming in C# talk (thanks to .</description>
+    </item>
+    
+    <item>
+      <title>Episode 3: Steve Gordon</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</guid>
+      <description>In this episode, I had a fascinating chat with Steve Gordon. We covered tons of topics - from his experience in being a Pluralsight author, to performance, productivity, organising user-groups, public speaking, audio editing, and much more!
+  Links from the show   Steve&amp;rsquo;s social and content links:
+ Twitter Blog Pluralsight YouTube    User-group links and mentioned events:
+ .NET South East (Steve&amp;rsquo;s user-group) MK.NET meetup with Steve on the 18th Scott Hanselman&amp;rsquo;s talk at .</description>
+    </item>
+    
+    <item>
+      <title>Episode 2: Derek Comartin - CQRS, MediatR, and more!</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</guid>
+      <description>In this second episode, I&amp;rsquo;m thrilled to welcome Derek Comartin (also known as CodeOpinion) onto the show to talk about CQRS and MediatR! We ended up recording over two different sessions and covered lots of different topics, including functional programming and remote working.
+  Links from the show  Derek on Twitter Derek&amp;rsquo;s blog Derek&amp;rsquo;s YouTube channel MediatR language-ext functional C# library Dan&amp;rsquo;s &amp;ldquo;Writing More Succinct C#&amp;rdquo; blog post Simon Painter&amp;rsquo;s Functional Programming in C# talk LINQPad (from devtips) Dan&amp;rsquo;s LINQPad Tips and Tricks blog post series  </description>
+    </item>
+    
+  </channel>
+</rss>

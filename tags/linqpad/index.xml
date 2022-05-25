@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linqpad on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/linqpad/</link>
+    <description>Recent content in linqpad on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/linqpad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 12: Kentico Kontent Headless CMS and JAMStack - with Matt Nield</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0012-mattnield/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0012-mattnield/</guid>
+      <description>In this episode, I was joined by good friend Matt Nield, who also co-runs the .NET Oxford user group with me. We chatted about the Kentico Kontent headless CMS, static websites and the JAMStack - plus much more!
+  Links from the show Matt&amp;rsquo;s links  Matt&amp;rsquo;s website Matt on Twitter  Kentico  Kentico main website Kentico Kontent Kentico Xperience (previously Kentico EMS): Kentico Kontent extended 3-month trial offer from Matt  Other links from the show  JAMStack HttpClient Interceptor LINQPad Matt&amp;rsquo;s YouTube video on using Kentico Kontent with LINQPad Statiq .</description>
+    </item>
+    
+    <item>
+      <title>Episode 11: LINQPad with Joseph Albahari</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0011-linqpad/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0011-linqpad/</guid>
+      <description>In this episode, I was joined by Joe Albahari, author of one of my favourite software development tools - LINQPad! This is a tool that I use on a daily basis, and it saves me so much time! So I especially enjoyed chatting with Joe about the many features of LINQPad, his experiences when developing it, and also future plans.
+  Links from the show  LINQPad Joe&amp;rsquo;s website Joe/LINQPad on Twitter LINQPad Tips and Tricks blog post series: Part1, Part2, Part 3 Writing a Neural Net from Scratch talk Pushing C# to the limit talk (alarm clock reference) .</description>
+    </item>
+    
+  </channel>
+</rss>

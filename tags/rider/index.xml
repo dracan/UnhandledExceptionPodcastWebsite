@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rider on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/rider/</link>
+    <description>Recent content in rider on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/rider/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 22: Jetbrains Rider, and Code With Me</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0022-rider/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0022-rider/</guid>
+      <description>Everyone who knows me, knows I&amp;rsquo;m a massive fan of Jetbrains Rider! So it was about time we had an episode on it! In this episode, I was joined by both Maarten Balliauw and Kirill Skrygan to chat all about it. We discussed the Rider architecture, Code With Me, Remote Development; and also the awesome power of keyboard shortcuts!
+  Maarten Balliauw&amp;rsquo;s Bio Maarten Balliauw loves building web and cloud apps.</description>
+    </item>
+    
+  </channel>
+</rss>

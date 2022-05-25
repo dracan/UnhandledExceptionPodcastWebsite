@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>leadership on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/leadership/</link>
+    <description>Recent content in leadership on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 32: Technical Leadership - with Jess White</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0032-jesswhite/</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0032-jesswhite/</guid>
+      <description>In this episode, I was joined by Jess White to chat about technical leadership and how to support teams and manage people. Jess provides tons of advice and insights into what makes teams both happy and productive.
+  Jess&amp;rsquo;s social links  Twitter Github Blog YouTube LinkedIn  Links from the show  Jess&amp;rsquo;s talk at .NET South West Past podcast episode with Jess - the group DDD episode DDD East Midlands School of Code Makers Academy .</description>
+    </item>
+    
+    <item>
+      <title>Episode 16: Learning and Self Development with James World</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</guid>
+      <description>In this episode, I was joined by James World to chat about learning! We covered an incredible amount in this episode - from certifications, to books and reading, interviews, what it means to be a senior developer, and much much more!
+  Links from the show James&#39; Links  Twitter LinkedIn (please include a note in your connection request so you stand out from the recruiter bots! Maybe a book recommendation?</description>
+    </item>
+    
+  </channel>
+</rss>

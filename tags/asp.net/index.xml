@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>asp.net on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/asp.net/</link>
+    <description>Recent content in asp.net on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/asp.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 36: Andrew Lock - ASP.NET, Blogging, Kuberetes, and more!</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</guid>
+      <description>In this episode, I was honoured to be joined by Andrew Lock, who is probably best known for his amazing &amp;lsquo;must-subscribe&amp;rsquo; blog - andrewlock.net. He&amp;rsquo;s also the author of the Manning ebook, ASP.NET Core in Action, Second Edition. We covered a lot in this episode - from the different flavours of ASP.NET, to Kubernetes, Blazor, gRPC, testing, Minimal API, MediatR&amp;hellip; and more!
+  Guests&#39; social links  Blog Twitter LinkedIn Github  Links from the show  Andrew&amp;rsquo;s book - ASP.</description>
+    </item>
+    
+    <item>
+      <title>Episode 33: Razor Pages with Mike Brind</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0033-razorpages/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0033-razorpages/</guid>
+      <description>In this episode, I was joined by Mike Brind to chat about ASP.NET Core Razor Pages. We also spoke about his Manning MEAP book, ASP.NET Core Razor Pages in Action.
+  Mike&amp;rsquo;s social links  Twitter Github Blog LinkedIn  Links from the show  Razor Pages on Microsoft Docs Mike&amp;rsquo;s Book: ASP.NET Core Razor Pages in Action (Manning 35% discount code for any of their books: podunhandled21) learnrazorpages.com Blog post from Andrew Lock about not replacing View Components with Razor Components in Razor Pages  </description>
+    </item>
+    
+    <item>
+      <title>Episode 24: Dependency Injection in .NET with Steve Collins</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</guid>
+      <description>In this episode, I was joined by Steve Collins to chat all about dependency injection in .NET. We (well, Steve!) demystified terms such as dependency inversion and inversion of control containers, and then delved into the world of dependency injection in .NET, covering scopes, and much more&amp;hellip;
+  Steve&amp;rsquo;s bio Steve Collins is an independent software developer/architect with over 25 years of experience in the industry. He started developing in early &amp;rsquo;80s on ZX Spectrum, self-taught BASIC and Z80 Assembler.</description>
+    </item>
+    
+  </channel>
+</rss>

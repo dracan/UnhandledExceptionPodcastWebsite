@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>azure on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/azure/</link>
+    <description>Recent content in azure on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 13 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 21: Bicep with Alex Frankel</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0021-bicep/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0021-bicep/</guid>
+      <description>In this episode, I was joined by Alex Frankel to chat about Azure Bicep! Bicep is a new DSL that transpiles down to native ARM templates. Except that it greatly improved upon the very hard to read and write ARM templates, making Infrastructure as Code in Azure a far nicer user experience. We delved into the Bicep language, the tooling, a bit of the history - and even geeked out a bit on how awesome .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>streaming on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/streaming/</link>
+    <description>Recent content in streaming on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/streaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 20: Mark Rendle&#39;s Stream of Consciousness</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0020-markrendle/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0020-markrendle/</guid>
+      <description>In this episode, I was joined by Mark Rendle to chat about his experiences live-coding/streaming on Twitch! Warning: We went on a lot of tangents during the conversation! It&amp;rsquo;s all good though - as they were all awesome tangents! We not only talked about streaming, but also Blazor, C#, Unity, the rate of tech advancement, teaching kids to code, and much more!
+  Mark&amp;rsquo;s Bio Mark Rendle decided he wanted to be a programmer when he was 10, became a professional programmer when he was 16, and is still a programmer 30 years later.</description>
+    </item>
+    
+  </channel>
+</rss>

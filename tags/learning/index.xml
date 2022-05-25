@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>learning on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/learning/</link>
+    <description>Recent content in learning on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 30: Developer Productivity with (me!) Dan Clarke</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</guid>
+      <description>Developer productivity is something I&amp;rsquo;ve been really interested in for quite a few years. So I decided, rather than having a guest on for this topic - it&amp;rsquo;s one I wanted to cover myself. So in this first episode of the year - I&amp;rsquo;ve gone solo, and talk about the things I find have made a big difference to my productivity over the years. Also why I think this term &amp;ldquo;10x developer&amp;rdquo; is a big understatement!</description>
+    </item>
+    
+    <item>
+      <title>Episode 16: Learning and Self Development with James World</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</guid>
+      <description>In this episode, I was joined by James World to chat about learning! We covered an incredible amount in this episode - from certifications, to books and reading, interviews, what it means to be a senior developer, and much much more!
+  Links from the show James&#39; Links  Twitter LinkedIn (please include a note in your connection request so you stand out from the recruiter bots! Maybe a book recommendation?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>functional-programming on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/functional-programming/</link>
+    <description>Recent content in functional-programming on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 9: Functional Programming in C# with Simon Painter</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0009-simonpainter/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0009-simonpainter/</guid>
+      <description>For this very first episode of 2021, I was joined by Simon Painter to talk all about Functional Programming in C#! We spoke about functional concepts, plus terms such as Options, Maybes, and even tried to explain what a Monad is! As usual, there were a few tangents, and we also touched on topics such as React, TDD, and much more!
+  Links from the show  Simon&amp;rsquo;s social links:  Twitter Website   Book: Functional Programming in C# by Enrico Buonanno Recording of Simon&amp;rsquo;s &amp;lsquo;Functional Programming in C# talk (thanks to .</description>
+    </item>
+    
+    <item>
+      <title>Episode 2: Derek Comartin - CQRS, MediatR, and more!</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</guid>
+      <description>In this second episode, I&amp;rsquo;m thrilled to welcome Derek Comartin (also known as CodeOpinion) onto the show to talk about CQRS and MediatR! We ended up recording over two different sessions and covered lots of different topics, including functional programming and remote working.
+  Links from the show  Derek on Twitter Derek&amp;rsquo;s blog Derek&amp;rsquo;s YouTube channel MediatR language-ext functional C# library Dan&amp;rsquo;s &amp;ldquo;Writing More Succinct C#&amp;rdquo; blog post Simon Painter&amp;rsquo;s Functional Programming in C# talk LINQPad (from devtips) Dan&amp;rsquo;s LINQPad Tips and Tricks blog post series  </description>
+    </item>
+    
+  </channel>
+</rss>

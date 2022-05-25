@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rx on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/rx/</link>
+    <description>Recent content in rx on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 15 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/rx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 26: Event Sourcing and Event Driven Architecture - with Callum Linington</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0026-eventsourcing/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0026-eventsourcing/</guid>
+      <description>In this episode, I was joined by Callum Linington to chat about Event Sourcing! Events over time are how the world works - so shouldn&amp;rsquo;t we be leveraging that in our architectures? As quite often happens, we also went on one or two tangents, and covered a ton of other related including MediatR, CQRS, F#, DDD, Rx, Redux, and more!
+  Callum&amp;rsquo;s social links  Twitter LinkedIn Github  Links from the show  EventStore Apache Kafka Video: Greg Young — A Decade of DDD, CQRS, Event Sourcing MediatR Redux Rx Callum&amp;rsquo;s Liaison library Video: &amp;lsquo;Reaqtor&amp;rsquo; - Endjin&amp;rsquo;s Rx at scale talk at .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>azure-service-bus on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/azure-service-bus/</link>
+    <description>Recent content in azure-service-bus on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/azure-service-bus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 31: MassTransit and Open Source - with Chris Patterson</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</guid>
+      <description>In this episode, I was joined by Chris Patterson to chat about the open-source distributed messaging framework, MassTransit. We also spoke about open-source, event-driven architecture, docker, k8s, testing, Rider, and more!
+  Chris&amp;rsquo;s social links  Twitter Github YouTube  Links from the show  MassTransit MassTransit Discord RabbitMQ Azure Service Bus Apache Kafka Azure Event Hub Kubernetes Istio Linkerd JetBrains Rider Visual Studio Live Share JetBrains Code With Me Past podcast episode re.</description>
+    </item>
+    
+  </channel>
+</rss>

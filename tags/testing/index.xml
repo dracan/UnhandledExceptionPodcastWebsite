@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>testing on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/testing/</link>
+    <description>Recent content in testing on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 36: Andrew Lock - ASP.NET, Blogging, Kuberetes, and more!</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</guid>
+      <description>In this episode, I was honoured to be joined by Andrew Lock, who is probably best known for his amazing &amp;lsquo;must-subscribe&amp;rsquo; blog - andrewlock.net. He&amp;rsquo;s also the author of the Manning ebook, ASP.NET Core in Action, Second Edition. We covered a lot in this episode - from the different flavours of ASP.NET, to Kubernetes, Blazor, gRPC, testing, Minimal API, MediatR&amp;hellip; and more!
+  Guests&#39; social links  Blog Twitter LinkedIn Github  Links from the show  Andrew&amp;rsquo;s book - ASP.</description>
+    </item>
+    
+    <item>
+      <title>Episode 34: Geeking out on .NET with Nick Chapsas</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0034-nickchapsas/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0034-nickchapsas/</guid>
+      <description>In this episode, I was thrilled to be joined by Nick Chapsas! If you&amp;rsquo;re a .NET developer - then his YouTube channel is an absolute must! Given all the amazing topics he covers on his channel - it would have been a shame to just chat with him about a single topic! So we decided to do a few lightning topics instead! Here&amp;rsquo;s what we geeked out on&amp;hellip;
+ .NET 6 Minimal API The outdated opinion of some non .</description>
+    </item>
+    
+    <item>
+      <title>Episode 29: Snapshot Testing with Simon Cropp</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</guid>
+      <description>In this episode, I was joined by Simon Cropp to chat about a form of testing called Snapshot testing! Simon is the author of Verify, which is a library that I&amp;rsquo;m quickly discovering is going to save me a HUGE amount of time when writing tests in dotnet! We chatted about snapshot testing in general; the various helper extensions that Verify has, which adds support for lots of different technologies; and also about testing in general.</description>
+    </item>
+    
+    <item>
+      <title>Episode 27: Visual Studio 2022 - with Kendra Havens</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0027-kendrahavens/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0027-kendrahavens/</guid>
+      <description>Not long to go until the release of both .NET 6 and Visual Studio 2022! But if you can&amp;rsquo;t wait that long - the preview releases of both can be downloaded right now! In this episode, I was joined by Kendra Havens to chat about what&amp;rsquo;s new and coming! Kendra is a Program Manager on the .NET and Visual Studio team, and we also chatted a bit in this episode about what software development is like internally at Microsoft, and learn that Microsoft face the same struggles as most other companies!</description>
+    </item>
+    
+    <item>
+      <title>Episode 19: Blazor with Chris Sainty</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0019-blazor/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0019-blazor/</guid>
+      <description>In this episode, I was thrilled to be joined by Chris Sainty to chat all about Blazor! Blazor is a new .NET technology allowing you to build SPA-like frontend web UIs in C#! Very focused on developer productivity and componentisation - Blazor is certainly going to become my go-to for frontends moving forward! And chatting with Chris in this episode, has shown me even more reasons why Blazor is becoming so immensely popular!</description>
+    </item>
+    
+    <item>
+      <title>Episode 18: Mutation Testing in .NET with Stefan Pölz</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0018-mutationtesting/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0018-mutationtesting/</guid>
+      <description>In this episode, I was thrilled to be joined by Stefan Pölz to chat about Mutation Testing! I had seen a lightning talk by Stefan last year about this, and was fascinated by the concept. So it was great to have him on the show to chat about it!
+  Links from the show Stefan&amp;rsquo;s Social Links  Twitter LinkedIn Github  Other links from the show  Stryker.NET (ie.</description>
+    </item>
+    
+    <item>
+      <title>Episode 17: TDD with Ian Cooper</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0017-tddwithiancooper/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0017-tddwithiancooper/</guid>
+      <description>In this episode, I was joined by Ian Cooper to chat about Test Driven Development (TDD)! We discussed pain points that a lot of people hit when attempting to do TDD, and how to avoid them.
+  Links from the show Ian&amp;rsquo;s Social Links  Twitter LinkedIn Github  Other links from the show  Ian&amp;rsquo;s Presentations on Github Ian&amp;rsquo;s talk - &amp;lsquo;TDD - Where did it all go wrong?</description>
+    </item>
+    
+    <item>
+      <title>Episode 15: C#9 Source Generators with Jason Bock</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</guid>
+      <description>In this episode, I was joined by Jason Bock to chat about the new C#9 source generators! Writing code that writes code! We covered a ton of content, covering Source Generators, the Compiler API, Syntax Trees, Semantic Models, Expression Trees, and much much more!
+  Links from the show Jason&amp;rsquo;s Links  Twitter Blog Github YouTube  Jason&amp;rsquo;s books  Metaprogramming in .NET Applied .NET Attributes CIL Programming: Under the Hood of .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hackathon on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/hackathon/</link>
+    <description>Recent content in hackathon on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 35: MiniHack</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0035-minihack/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0035-minihack/</guid>
+      <description>In this episode, I was joined by Paul Michaels and Kev Smith, to chat about their monthly online meetup they both run.
+MiniHack is an online tech-agnostic monthly meetup, where teams of between 3 and 6 people compete to produce the best solution to a given problem. In their own words - &amp;ldquo;Where we meet monthly to come up with cool solutions to pointless problems&amp;rdquo;.
+  Guests&#39; social links  Paul on Twitter Paul on LinkedIn Kev on Twitter Kev on LinkedIn  Links from the show  MiniHack website MiniHack on GitHub MiniHack on Twitter Promo video Brain**** programming language  Dev Picks  Tech Community Calendar - by Lee Englestone .</description>
+    </item>
+    
+  </channel>
+</rss>

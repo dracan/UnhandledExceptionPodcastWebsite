@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>source-generators on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/source-generators/</link>
+    <description>Recent content in source-generators on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/source-generators/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 15: C#9 Source Generators with Jason Bock</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</guid>
+      <description>In this episode, I was joined by Jason Bock to chat about the new C#9 source generators! Writing code that writes code! We covered a ton of content, covering Source Generators, the Compiler API, Syntax Trees, Semantic Models, Expression Trees, and much much more!
+  Links from the show Jason&amp;rsquo;s Links  Twitter Blog Github YouTube  Jason&amp;rsquo;s books  Metaprogramming in .NET Applied .NET Attributes CIL Programming: Under the Hood of .</description>
+    </item>
+    
+  </channel>
+</rss>

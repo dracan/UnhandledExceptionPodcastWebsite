@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/asp.net/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/blazor/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/docker/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/github-copilot/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/grpc/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/k8s/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/mediatr/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/minimal-api/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
+    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/testing/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/</loc>
@@ -14,7 +47,13 @@
     <loc>https://unhandledexceptionpodcast.com/posts/0035-minihack/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/hackathon/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0034-nickchapsas/</loc>
+    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/open-source/</loc>
     <lastmod>2022-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0033-razorpages/</loc>
@@ -23,26 +62,77 @@
     <loc>https://unhandledexceptionpodcast.com/posts/0032-jesswhite/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/leadership/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/mentoring/</loc>
+    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/azure-service-bus/</loc>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</loc>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</loc>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/kafka/</loc>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/masstransit/</loc>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/messaging/</loc>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/rabbitmq/</loc>
+    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/service-mesh/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/learning/</loc>
+    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/productivity/</loc>
+    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</loc>
+    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/snapshot-testing/</loc>
     <lastmod>2021-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0028-uxwithjessicaengstrom/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/ux/</loc>
+    <lastmod>2021-11-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0027-kendrahavens/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/visual-studio/</loc>
     <lastmod>2021-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0026-eventsourcing/</loc>
     <lastmod>2021-10-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/rx/</loc>
+    <lastmod>2021-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/code-quality/</loc>
+    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</loc>
     <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/dependency-injection/</loc>
+    <lastmod>2021-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</loc>
     <lastmod>2021-09-18T00:00:00+00:00</lastmod>
@@ -50,13 +140,31 @@
     <loc>https://unhandledexceptionpodcast.com/posts/0023-git/</loc>
     <lastmod>2021-09-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/git/</loc>
+    <lastmod>2021-09-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0022-rider/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/rider/</loc>
+    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/azure/</loc>
+    <lastmod>2021-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/bicep/</loc>
+    <lastmod>2021-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0021-bicep/</loc>
     <lastmod>2021-08-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/iac/</loc>
+    <lastmod>2021-08-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0020-markrendle/</loc>
+    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/streaming/</loc>
     <lastmod>2021-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0019-blazor/</loc>
@@ -68,19 +176,37 @@
     <loc>https://unhandledexceptionpodcast.com/posts/0017-tddwithiancooper/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/tdd/</loc>
+    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</loc>
     <lastmod>2021-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/source-generators/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cli/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0014-patriksvensson/</loc>
     <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/devops/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0013-devopswithdushyant/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cms/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0012-mattnield/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/linqpad/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0011-linqpad/</loc>
@@ -89,14 +215,29 @@
     <loc>https://unhandledexceptionpodcast.com/posts/0010-fsharp/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/fsharp/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0009-simonpainter/</loc>
+    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/functional-programming/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0008-identitywithchristosmatskas/</loc>
     <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/security/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0006-stuartleeks/</loc>
     <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/wsl/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/conference/</loc>
+    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0006-ddd/</loc>
     <lastmod>2020-12-05T00:00:00+00:00</lastmod>
@@ -107,10 +248,22 @@
     <loc>https://unhandledexceptionpodcast.com/posts/0004-petegallagher/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/iot/</loc>
+    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/performance/</loc>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cqrs/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/remote-working/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0001-helloworld/</loc>
@@ -123,7 +276,5 @@
     <loc>https://unhandledexceptionpodcast.com/pages/guest-faq/</loc>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/pages/</loc>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
   </url>
 </urlset>
