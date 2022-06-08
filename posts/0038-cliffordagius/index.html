@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-gb">
   <head>
-    <title>Episode 35: MiniHack // The Unhandled Exception Podcast</title>
+    <title>Episode 38: .NET MAUI, IoT, and Handy the bionic Arm - with Clifford Agius // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.82.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,19 +23,17 @@ if (!doNotTrack) {
 </script>
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Episode 35: MiniHack"/>
-<meta name="twitter:description" content="In this episode, I was joined by Paul Michaels and Kev Smith, to chat about their monthly online meetup they both run.
-MiniHack is an online tech-agnostic monthly meetup, where teams of between 3 and 6 people compete to produce the best solution to a given problem. In their own words - &ldquo;Where we meet monthly to come up with cool solutions to pointless problems&rdquo;.
-  Guests&#39; social links  Paul on Twitter Paul on LinkedIn Kev on Twitter Kev on LinkedIn  Links from the show  MiniHack website MiniHack on GitHub MiniHack on Twitter Promo video Brain**** programming language  Dev Picks  Tech Community Calendar - by Lee Englestone ."/>
+<meta name="twitter:title" content="Episode 38: .NET MAUI, IoT, and Handy the bionic Arm - with Clifford Agius"/>
+<meta name="twitter:description" content="In this episode, I was joined by Clifford Agius to chat about both .NET MAUI, and also developing for IoT. (These were separate topics - not specifically IoT on MAUI). Clifford is an airline pilot who&rsquo;s also a freelance .NET developer who regularly blogs and speaks at conferences around the world!
+MAUI (Multi-platform App UI) is a new .NET framework for building multi-platform apps - both mobile (iOS/Android) and desktop (macOS/Windows) using C# and XAML in a single codebase."/>
 
-    <meta property="og:title" content="Episode 35: MiniHack" />
-<meta property="og:description" content="In this episode, I was joined by Paul Michaels and Kev Smith, to chat about their monthly online meetup they both run.
-MiniHack is an online tech-agnostic monthly meetup, where teams of between 3 and 6 people compete to produce the best solution to a given problem. In their own words - &ldquo;Where we meet monthly to come up with cool solutions to pointless problems&rdquo;.
-  Guests&#39; social links  Paul on Twitter Paul on LinkedIn Kev on Twitter Kev on LinkedIn  Links from the show  MiniHack website MiniHack on GitHub MiniHack on Twitter Promo video Brain**** programming language  Dev Picks  Tech Community Calendar - by Lee Englestone ." />
+    <meta property="og:title" content="Episode 38: .NET MAUI, IoT, and Handy the bionic Arm - with Clifford Agius" />
+<meta property="og:description" content="In this episode, I was joined by Clifford Agius to chat about both .NET MAUI, and also developing for IoT. (These were separate topics - not specifically IoT on MAUI). Clifford is an airline pilot who&rsquo;s also a freelance .NET developer who regularly blogs and speaks at conferences around the world!
+MAUI (Multi-platform App UI) is a new .NET framework for building multi-platform apps - both mobile (iOS/Android) and desktop (macOS/Windows) using C# and XAML in a single codebase." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0035-minihack/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-04-25T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2022-04-25T00:00:00&#43;00:00" />
+<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0038-cliffordagius/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-08T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-06-08T00:00:00&#43;00:00" />
 
 
   </head>
@@ -211,53 +209,58 @@ MiniHack is an online tech-agnostic monthly meetup, where teams of between 3 and
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Episode 35: MiniHack</h1>
+      <h1 class ="post-title">Episode 38: .NET MAUI, IoT, and Handy the bionic Arm - with Clifford Agius</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          Apr 25, 2022
+          Jun 8, 2022
         </div>
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/hackathon/">hackathon</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">dotnet</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/maui/">maui</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/iot/">IoT</a>
         </div>
       </div>
     </header>
     <div class="post-content">
-      <p>In this episode, I was joined by <a href="https://twitter.com/paul_michaels">Paul Michaels</a> and <a href="https://twitter.com/kev_bite">Kev Smith</a>, to chat about their monthly online meetup they both run.</p>
-<p>MiniHack is an online tech-agnostic monthly meetup, where teams of between 3 and 6 people compete to produce the best solution to a given problem. In their own words - <em>&ldquo;Where we meet monthly to come up with cool solutions to pointless problems&rdquo;</em>.</p>
-<div id="buzzsprout-player-10500679"></div>
-<script src="https://www.buzzsprout.com/978640/10500679-hello-world.js?container_id=buzzsprout-player-10500679&player=small" type="text/javascript" charset="utf-8"></script>
+      <p>In this episode, I was joined by <a href="https://twitter.com/CliffordAgius">Clifford Agius</a> to chat about both .NET MAUI, and also developing for IoT. (These were separate topics - not specifically IoT on MAUI). Clifford is an airline pilot who&rsquo;s also a freelance .NET developer who regularly blogs and speaks at conferences around the world!</p>
+<p>MAUI (Multi-platform App UI) is a new .NET framework for building multi-platform apps - both mobile (iOS/Android) and desktop (macOS/Windows) using C# and XAML in a single codebase. It also supports Blazor components for those that prefer that over XAML.</p>
+<p>We also chatted about an incredible life-changing project that Clifford has worked on, building a 3D-printed prosthetic arm, which has helped turn a young boy&rsquo;s life around.</p>
+<div id="buzzsprout-player-10754243"></div>
+<script src="https://www.buzzsprout.com/978640/10754243-hello-world.js?container_id=buzzsprout-player-10754243&player=small" type="text/javascript" charset="utf-8"></script>
 
-<h1 id="guests-social-links">Guests' social links</h1>
+<h1 id="cliffords-social-links">Clifford&rsquo;s social links</h1>
 <ul>
-<li><a href="https://twitter.com/paul_michaels">Paul on Twitter</a></li>
-<li><a href="https://www.linkedin.com/in/pcmichaels/">Paul on LinkedIn</a></li>
-<li><a href="https://twitter.com/kev_bite">Kev on Twitter</a></li>
-<li><a href="https://www.linkedin.com/in/kevbite/">Kev on LinkedIn</a></li>
+<li><a href="https://twitter.com/CliffordAgius">Twitter</a></li>
+<li><a href="https://www.linkedin.com/in/clifford-agius/">LinkedIn</a></li>
+<li><a href="https://www.cliffordagius.co.uk/">Website</a></li>
 </ul>
 <h1 id="links-from-the-show">Links from the show</h1>
 <ul>
-<li><a href="https://onlineminihack.github.io/">MiniHack website</a></li>
-<li><a href="https://github.com/OnlineMiniHack/minihack">MiniHack on GitHub</a></li>
-<li><a href="https://twitter.com/OnlineMiniHack">MiniHack on Twitter</a></li>
-<li><a href="https://www.linkedin.com/feed/update/urn:li:activity:6917536300682067968/">Promo video</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Brainfuck">Brain**** programming language</a></li>
+<li><a href="https://dotnet.microsoft.com/en-us/apps/maui">Official MAUI website</a></li>
+<li><a href="https://github.com/CommunityToolkit/Maui">MAUI Community Toolkit</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/communitytoolkit/">MAUI Community Toolkit Documentation</a></li>
+<li><a href="http://developer.wildernesslabs.co/Meadow/Meadow_Basics/Hardware/F7v2/">Wilderness Labs Meadow</a></li>
+<li><a href="https://www.nanoframework.net/">.NET nanoFramework</a></li>
+<li><a href="https://azure.microsoft.com/en-gb/services/iot-hub/">Azure IoT Hub</a></li>
+<li><a href="https://azure.microsoft.com/en-gb/services/iot-central/">Azure IoT Central</a></li>
+<li><a href="https://www.cliffordagius.co.uk/post/handybigpicture">Handy (prosthetic arm) - Big Picture blog post</a></li>
+<li><a href="https://www.amazon.co.uk/Chimp-Paradox-Acclaimed-Management-Confidence-ebook/dp/B006K26BEQ">Book: The Chimp Paradox</a></li>
+<li><a href="https://www.youtube.com/watch?v=xCGu5Z_vaps">Dylan Beattie - Big Rewrite</a></li>
 </ul>
-<h2 id="dev-picks">Dev Picks</h2>
+<h1 id="devpick-links">Devpick links</h1>
 <ul>
-<li><a href="https://www.techcommunitycalendar.com/">Tech Community Calendar - by Lee Englestone</a></li>
-<li><a href="https://github.com/matthiasjost/dotnet-content-creators">.NET Content Creators - by Matthias Jost</a></li>
-</ul>
-<h2 id="listener-mention">Listener Mention</h2>
-<ul>
-<li><a href="https://twitter.com/ShreyasJejurkar/status/1511997549594353664">Shreyas Jejurkar</a></li>
+<li><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit">ZoomIt</a></li>
+<li><a href="https://keyoti.com/products/conveyor/index.html">Conveyor</a></li>
+<li><a href="https://www.youtube.com/c/NDCConferences/playlists">NDC Conference playlists</a></li>
+<li><a href="https://www.amazon.co.uk/Why-We-Sleep-Science-Dreams-ebook/dp/B06Y649387">Book: Why We Sleep</a></li>
 </ul>
 
     </div>

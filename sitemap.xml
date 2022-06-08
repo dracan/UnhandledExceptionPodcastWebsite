@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
+    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0038-cliffordagius/</loc>
+    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/iot/</loc>
+    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/maui/</loc>
+    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
+    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/aks/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -20,25 +41,10 @@
     <loc>https://unhandledexceptionpodcast.com/tags/conference/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0037-build/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/k8s/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/maui/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/asp.net/</loc>
@@ -261,9 +267,6 @@
     <lastmod>2020-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0004-petegallagher/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/iot/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</loc>
