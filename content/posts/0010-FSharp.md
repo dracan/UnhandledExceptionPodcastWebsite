@@ -3,7 +3,7 @@ title: "Episode 10: F# and Functional Programming"
 date: 2021-01-24
 draft: false
 episodeId: 7454740
-tags: ["dotnet", "fsharp"]
+tags: ["dotnet", "fsharp", "functional-programming"]
 ---
 
 In this group episode I was joined by [Scott Wlaschin](https://twitter.com/ScottWlaschin), [Isaac Abraham](https://twitter.com/isaac_abraham), and [Ian Russell](https://twitter.com/ijrussell) - to talk all about F#! This is .NET's functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.
