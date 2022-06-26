@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 39: Windows Terminal - with Kayla Cinnamon</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0039-windowsterminal/</link>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0039-windowsterminal/</guid>
+      <description>In this episode, I was thrilled to be joined by Kayla Cinnamon to chat about the Windows Terminal! I&amp;rsquo;m a huge fan of WT, and use it daily - so it was an honour to have Kayla on to chat about it! Kayla is a Program Manager at Microsoft, Delivering Windows Terminal and Cascadia Code. She&amp;rsquo;s also the Host of Windows Wednesday, and works on the Windows developer experience.
+  Kayla&amp;rsquo;s social links  Twitter LinkedIn  Links from the show  Windows Terminal on GitHub Windows Terminal Promo video PoshGit TerminalSplash.</description>
+    </item>
+    
     <item>
       <title>Episode 38: .NET MAUI, IoT, and Handy the bionic Arm - with Clifford Agius</title>
       <link>https://unhandledexceptionpodcast.com/posts/0038-cliffordagius/</link>
