@@ -1,5 +1,5 @@
 ---
-title: "Episode 36: Andrew Lock - ASP.NET, Blogging, Kuberetes, and more!"
+title: "Episode 36: Andrew Lock - ASP.NET, Blogging, Kubernetes, and more!"
 date: 2022-05-10
 draft: false
 episodeId: 10542009
