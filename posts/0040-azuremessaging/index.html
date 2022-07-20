@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-gb">
   <head>
-    <title>dotnet // The Unhandled Exception Podcast</title>
+    <title>Episode 40: Demystifying Messaging in Azure - with Sean Feldman // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.82.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,13 +23,17 @@ if (!doNotTrack) {
 </script>
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="dotnet"/>
-<meta name="twitter:description" content="Software Development podcast hosted by Dan Clarke"/>
+<meta name="twitter:title" content="Episode 40: Demystifying Messaging in Azure - with Sean Feldman"/>
+<meta name="twitter:description" content="In this episode, I was joined by Sean Feldman to chat all about messaging in Azure! Starting off explaining why you&rsquo;d want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.
+Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined."/>
 
-    <meta property="og:title" content="dotnet" />
-<meta property="og:description" content="Software Development podcast hosted by Dan Clarke" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/tags/dotnet/" />
+    <meta property="og:title" content="Episode 40: Demystifying Messaging in Azure - with Sean Feldman" />
+<meta property="og:description" content="In this episode, I was joined by Sean Feldman to chat all about messaging in Azure! Starting off explaining why you&rsquo;d want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.
+Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-07-20T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-07-20T00:00:00&#43;00:00" />
 
 
   </head>
@@ -203,61 +207,91 @@ if (!doNotTrack) {
     </header>
     <main class="app-container">
       
-  <article>
-    <ul class="posts-list">
-      
-        <li class="posts-list-item">
-          <a class="posts-list-item-title" href="https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/">Episode 2: Derek Comartin - CQRS, MediatR, and more!</a>
-          <span class="posts-list-item-description">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Episode 40: Demystifying Messaging in Azure - with Sean Feldman</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-            Oct 28, 2020
-
-            <div id="buzzsprout-player-6103414"></div>
-            <script src="https://www.buzzsprout.com/978640/6103414-hello-world.js?container_id=buzzsprout-player-6103414&player=small" type="text/javascript" charset="utf-8"></script>
-          </span>
-        </li>
-      
-    </ul>
-    
-
-<ul class="pagination">
-  
-  <li class="page-item">
-    <a class="page-link" href="/tags/dotnet/page/2/">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-arrow-left">
-  <title>arrow-left</title>
-  <line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline>
+          Jul 20, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-    </a>
-  </li>
-  
-  
-  <li class="page-item">
-    <a class="page-link" href="/tags/dotnet/">
-      1
-    </a>
-  </li>
-  
-  <li class="page-item">
-    <a class="page-link" href="/tags/dotnet/page/2/">
-      2
-    </a>
-  </li>
-  
-  <li class="page-item active">
-    <a class="page-link" href="/tags/dotnet/page/3/">
-      3
-    </a>
-  </li>
-  
-  
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/azure/">azure</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/messaging/">messaging</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">event-driven-architecture</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>In this episode, I was joined by <a href="https://twitter.com/sfeldman">Sean Feldman</a> to chat all about messaging in Azure! Starting off explaining why you&rsquo;d want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.</p>
+<p>Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined. When he&rsquo;s away from his computer and back on planet earth, he&rsquo;s having fun with family and his Malamute.</p>
+<div id="buzzsprout-player-10988456"></div>
+<script src="https://www.buzzsprout.com/978640/10988456-hello-world.js?container_id=buzzsprout-player-10988456&player=small" type="text/javascript" charset="utf-8"></script>
+
+<h1 id="seans-social-links">Sean&rsquo;s social links</h1>
+<ul>
+<li><a href="https://twitter.com/sfeldman">Twitter</a></li>
+<li><a href="https://www.linkedin.com/in/feldmansean/">LinkedIn</a></li>
+<li><a href="mailto:feldman.sean@gmail.com">Email</a></li>
+</ul>
+<h1 id="azure-services-discussed-in-the-show">Azure Services Discussed in the show</h1>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview">Azure Service Bus</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction">Queue Storage</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about">Event Hub</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/event-grid/overview">Event Grid</a></li>
+<li><a href="https://azure.microsoft.com/en-gb/services/iot-hub/">IoT Hub</a></li>
+<li><a href="https://azure.microsoft.com/en-gb/services/iot-central/">IoT Central</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/azure-relay/relay-what-is-it">Azure Relay</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/app-service/app-service-hybrid-connections">Azure Hybrid Connections</a></li>
+<li><a href="https://azure.microsoft.com/en-gb/services/notification-hubs/">Azure Notification Hub</a></li>
+</ul>
+<h1 id="other-links-from-the-show">Other links from the show</h1>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=7n38Tha5JIE">.NET Oxford talk</a></li>
+<li><a href="https://github.com/paolosalvatori/ServiceBusExplorer">ASB Explorer Tool</a></li>
+<li><a href="https://masstransit-project.com/">MassTransit</a></li>
+<li><a href="https://particular.net/nservicebus">NServiceBus</a></li>
+</ul>
+<h1 id="devpick-links">Devpick links</h1>
+<ul>
+<li><a href="https://frame.work/gb/en">Framework laptops</a></li>
+</ul>
+<h2 id="listener-mention">Listener mention</h2>
+<ul>
+<li><a href="https://twitter.com/carlcod_es/status/1536597069988876289">Carl Sargunar</a></li>
 </ul>
 
-
-
+    </div>
+    <div class="post-footer">
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "the-unhandled-exception-podcast" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
   </article>
 
     </main>

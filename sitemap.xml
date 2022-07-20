@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/azure/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/messaging/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/cli/</loc>
     <lastmod>2022-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0039-windowsterminal/</loc>
-    <lastmod>2022-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2022-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2022-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2022-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
@@ -30,9 +42,6 @@
     <lastmod>2022-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/aks/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/azure/</loc>
     <lastmod>2022-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/azure-container-apps/</loc>
@@ -107,16 +116,10 @@
     <loc>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/kafka/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/masstransit/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/messaging/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/rabbitmq/</loc>

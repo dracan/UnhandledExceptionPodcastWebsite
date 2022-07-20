@@ -6,7 +6,34 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 26 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>azure</title>
+      <link>https://unhandledexceptionpodcast.com/tags/azure/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>event-driven-architecture</title>
+      <link>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>messaging</title>
+      <link>https://unhandledexceptionpodcast.com/tags/messaging/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/messaging/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cli</title>
       <link>https://unhandledexceptionpodcast.com/tags/cli/</link>
@@ -49,15 +76,6 @@
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/aks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>azure</title>
-      <link>https://unhandledexceptionpodcast.com/tags/azure/</link>
-      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/azure/</guid>
       <description></description>
     </item>
     
@@ -215,15 +233,6 @@
     </item>
     
     <item>
-      <title>event-driven-architecture</title>
-      <link>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</link>
-      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>kafka</title>
       <link>https://unhandledexceptionpodcast.com/tags/kafka/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
@@ -238,15 +247,6 @@
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/masstransit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>messaging</title>
-      <link>https://unhandledexceptionpodcast.com/tags/messaging/</link>
-      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/messaging/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,17 @@
     <description>Recent content in event-driven-architecture on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 40: Demystifying Messaging in Azure - with Sean Feldman</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/</guid>
+      <description>In this episode, I was joined by Sean Feldman to chat all about messaging in Azure! Starting off explaining why you&amp;rsquo;d want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.
+Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined.</description>
+    </item>
+    
     <item>
       <title>Episode 31: MassTransit and Open Source - with Chris Patterson</title>
       <link>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</link>
