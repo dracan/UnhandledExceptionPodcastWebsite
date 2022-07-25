@@ -4,6 +4,8 @@ date: 2022-07-20
 draft: false
 episodeId: 10988456
 tags: ["azure", "messaging", "event-driven-architecture"]
+twitter_cards: true
+images: ["images/0040-AzureMessaging/Sean.jpg"]
 ---
 
 In this episode, I was joined by [Sean Feldman](https://twitter.com/sfeldman) to chat all about messaging in Azure! Starting off explaining why you'd want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.
