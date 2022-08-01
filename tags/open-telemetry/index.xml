@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open-telemetry on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/open-telemetry/</link>
+    <description>Recent content in open-telemetry on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/open-telemetry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 41: OpenTelemetry - with Martin Thwaites</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0041-opentelemetry/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0041-opentelemetry/</guid>
+      <description>In this episode, I was joined by Martin Thwaites from Honeycomb to chat about OpenTelemetry. OpenTelemetry (or OTel) standardises metrics, logs, and traces - allowing different systems and languages to be able to write telemetry data in a common format and be understood by any visualisation UIs that support it. This is becoming widely adopted, meaning that with minor changes to your applications - you can ship off telemetry to various combinations of providers, giving you much more choice and flexibility.</description>
+    </item>
+    
+  </channel>
+</rss>
