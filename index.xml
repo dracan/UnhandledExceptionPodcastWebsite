@@ -6,7 +6,16 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 42: The Unlikely Success of a Copy Paste Developer - with Iris Classon</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0042-irisclasson/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0042-irisclasson/</guid>
+      <description>In this episode, I was joined by Iris Classon to chat all about her book - The Unlikely Success of a Copy Paste Developer. The book is a very fun, light-hearted, fictional novel about a software developer called Leo, and a range of very interesting characters Leo has to work with. I&amp;rsquo;ve recently read the book, and thoroughly enjoyed it. As a software developer, a lot of the stories are very relatable!</description>
+    </item>
+    
     <item>
       <title>Episode 41: OpenTelemetry - with Martin Thwaites</title>
       <link>https://unhandledexceptionpodcast.com/posts/0041-opentelemetry/</link>
