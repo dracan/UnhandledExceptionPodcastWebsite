@@ -4,4 +4,6 @@
 <meta name="twitter:site" content="@dracan"/>
 {{- with $.Params.images -}}
 <meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+{{ else -}}
+<meta name="twitter:image" content='{{ "/images/DanTwitterCard.jpg" | absURL }}'/>
 {{ end -}}
