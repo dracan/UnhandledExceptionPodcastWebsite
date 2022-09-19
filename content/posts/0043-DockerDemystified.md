@@ -8,7 +8,7 @@ twitter_cards: true
 images: ["images/0043-DockerDemystified/Docker.png"]
 ---
 
-This episode was a solo episode where I try my best to _"demystify"_ Docker! A difficult task over an audio podcast, so hopefully it's !digestible! I cover the following topics...
+This episode was a solo episode where I try my best to _"demystify"_ Docker! A difficult task over an audio podcast, so hopefully it's digestible! I cover the following topics...
 
 * What are containers and images?
 * Container registries
