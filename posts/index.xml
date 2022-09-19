@@ -13,7 +13,7 @@
       <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/posts/0043-dockerdemystified/</guid>
-      <description>This episode was a solo episode where I try my best to &amp;ldquo;demystify&amp;rdquo; Docker! A difficult task over an audio podcast, so hopefully it&amp;rsquo;s !digestible! I cover the following topics&amp;hellip;
+      <description>This episode was a solo episode where I try my best to &amp;ldquo;demystify&amp;rdquo; Docker! A difficult task over an audio podcast, so hopefully it&amp;rsquo;s digestible! I cover the following topics&amp;hellip;
  What are containers and images? Container registries Use cases for containers Interacting with Docker Docker Compose Volumes Building your own images Image layer caching Multi-stage Dockerfiles About Container Orchestrators Using Docker for local development    Dan&amp;rsquo;s social links  Twitter LinkedIn Blog  Links from the show  Docker Docker docs Docker Compose docs Kubernetes Blog post: Switching to multi-stage Docker files Video: Integration Testing ASP.</description>
     </item>
     
