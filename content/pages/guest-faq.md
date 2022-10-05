@@ -14,7 +14,7 @@ The finished podcast will always be _much_ more seamless than during recording. 
 
 # How do we record?
 
-I use a platform called [Zencastr](https://zencastr.com/) for recording the audio. Zencastr is just a webapp, and there's nothing to install. It has video too so that we can see each other, but only the audio will be recorded. Zencastr automatically records high-quality wav files _locally_ for each person, and uploads it in the background. I can then download those wav files later for editing. I get a wav file per person, so I can edit each person's audio as a separate audio channel - which makes a _huge_ difference to my ability to edit. It might be worth joining the Zencastr link beforehand to ensure that your system passes all its health-checks.
+I use a platform called [RiversideFm](https://riverside.fm/) for recording the audio. Riverside is just a webapp, and there's nothing to install. It has video too so that we can see each other, but only the audio will be recorded. Riverside automatically records high-quality wav files _locally_ for each person, and uploads it in the background. I can then download those wav files later for editing. I get a wav file per person, so I can edit each person's audio as a separate audio channel - which makes a _huge_ difference to my ability to edit. It might be worth joining the Riverside link beforehand to ensure that your system passes all its health-checks.
 
 # What planning is involved before hand?
 
@@ -22,13 +22,13 @@ I normally create a shared Google Doc and share with the guest(s). This is basic
 
 # Headphones (IMPORTANT)
 
-Please make sure you use headphones or earphones instead of a PC/laptop speaker. A speaker might work with Zoom or Teams - but because Zencaster is recording unfiltered audio, there will be far too much echo where your microphone is also picking up your speakers.
+Please make sure you use headphones or earphones instead of a PC/laptop speaker. A speaker might work with Zoom or Teams - but because Riverside is recording unfiltered audio, there will be far too much echo where your microphone is also picking up your speakers.
 
 # Do I need a super-duper microphone?
 
 A microphone that isn't your built-in laptop microphone is definitely preferred. This doesn't have to be a super-duper few-hundred-pound microphone though! If you have a headset with a directional mic - that'll be much better than a built-in laptop mic. Whatever your setup - it's worth doing a few test recordings using a tool like [Audacity](https://www.audacityteam.org/) and listen back through headphones. When listening back, ask yourself if you'd be happy with the quality if you were a podcast listener.
 
-When it comes down to it - if you're concerned about your audio quality - just ask me, and we can discuss different ideas together beforehand to get the most of of your setup. And we can also do a test recording beforehand if you're still unsure.
+When it comes down to it - if you're concerned about your audio quality - just ask me, and we can discuss different ideas together beforehand to get the most out of your setup. And we can also do a test recording beforehand if you're still unsure.
 
 # A caution about headset microphones
 
