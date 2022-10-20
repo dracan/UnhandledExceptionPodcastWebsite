@@ -30,9 +30,9 @@ A microphone that isn't your built-in laptop microphone is definitely preferred.
 
 When it comes down to it - if you're concerned about your audio quality - just ask me, and we can discuss different ideas together beforehand to get the most out of your setup. And we can also do a test recording beforehand if you're still unsure.
 
-# A caution about headset microphones
+# A caution about headset microphones (IMPORTANT)
 
-If you are using a headset mic - please be mindful of how close the mic is to your mouth. Air hitting the mic as you talk will make quite harsh popping sounds, which is really difficult to edit out.
+If you are using a headset mic - please do a test recording using something like [Audacity](https://www.audacityteam.org/), and record yourself talking like you would be talking in the podcast. A problem I see a lot with headphone mics is that the air from the guest's mouth hits the mic whilst they're talking and creates really loud "wind" artifacts and are impossible to edit out, and not very pleasant for the listeners. Moving the mouthpiece away from your mouth can mitigate against this. It's easy for me to increase your volume due to mic not being right infront of your mouth - but it's impossible for me to remove those 'air' artifacts.
 
 # Background noise (IMPORTANT)
 
