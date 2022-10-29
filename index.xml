@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 18 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 44: gRPC - with Poornima Nayar</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0044-grpc/</link>
+      <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0044-grpc/</guid>
+      <description>In this episode, I was joined by Poornima Nayar to chat all about gRPC! gRPC is Google&amp;rsquo;s implementation of RPC. Since .NET Core 3.0, gRPC has first-class support in .NET and seems to be the way forward for remote procedure calls. We chatted about what gRPC is, how to use it, what usecases you&amp;rsquo;d want to use it for, and much much more!
+Poornima is a .NET developer with over 10 years of experience in .</description>
+    </item>
+    
     <item>
       <title>Episode 43: Docker Demystified - with (me) Dan Clarke</title>
       <link>https://unhandledexceptionpodcast.com/posts/0043-dockerdemystified/</link>

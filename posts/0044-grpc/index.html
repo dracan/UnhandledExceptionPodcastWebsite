@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-gb">
   <head>
-    <title>Posts // The Unhandled Exception Podcast</title>
+    <title>Episode 44: gRPC - with Poornima Nayar // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.82.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,16 +23,20 @@ if (!doNotTrack) {
 </script>
 
     
-    <meta property="og:title" content="Posts" />
-<meta property="og:description" content="Software Development podcast hosted by Dan Clarke" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/" />
+    <meta property="og:title" content="Episode 44: gRPC - with Poornima Nayar" />
+<meta property="og:description" content="In this episode, I was joined by Poornima Nayar to chat all about gRPC! gRPC is Google&rsquo;s implementation of RPC. Since .NET Core 3.0, gRPC has first-class support in .NET and seems to be the way forward for remote procedure calls. We chatted about what gRPC is, how to use it, what usecases you&rsquo;d want to use it for, and much much more!
+Poornima is a .NET developer with over 10 years of experience in ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0044-grpc/" /><meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0044-gRPC/Poornima.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-29T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-10-29T00:00:00&#43;00:00" />
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Software Development podcast hosted by Dan Clarke"/>
-<meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content='https://unhandledexceptionpodcast.com/images/DanTwitterCard.jpg'/>
+<meta name="twitter:title" content="Episode 44: gRPC - with Poornima Nayar"/>
+<meta name="twitter:description" content="In this episode, I was joined by Poornima Nayar to chat all about gRPC! gRPC is Google&rsquo;s implementation of RPC. Since .NET Core 3.0, gRPC has first-class support in .NET and seems to be the way forward for remote procedure calls. We chatted about what gRPC is, how to use it, what usecases you&rsquo;d want to use it for, and much much more!
+Poornima is a .NET developer with over 10 years of experience in ."/>
+<meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0044-gRPC/Poornima.jpg"/>
 
   </head>
 
@@ -216,115 +220,82 @@ if (!doNotTrack) {
     </header>
     <main class="app-container">
       
-  <article>
-    <ul class="posts-list">
-      
-        <li class="posts-list-item">
-          <a class="posts-list-item-title" href="https://unhandledexceptionpodcast.com/posts/0004-petegallagher/">Episode 4: Pete Gallagher</a>
-          <span class="posts-list-item-description">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Episode 44: gRPC - with Poornima Nayar</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-            Nov 22, 2020
-
-            <div id="buzzsprout-player-6497776"></div>
-            <script src="https://www.buzzsprout.com/978640/6497776-hello-world.js?container_id=buzzsprout-player-6497776&player=small" type="text/javascript" charset="utf-8"></script>
-          </span>
-        </li>
-      
-        <li class="posts-list-item">
-          <a class="posts-list-item-title" href="https://unhandledexceptionpodcast.com/posts/0003-stevegordon/">Episode 3: Steve Gordon</a>
-          <span class="posts-list-item-description">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
-  <title>calendar</title>
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+          Oct 29, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-            Nov 9, 2020
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/grpc/">grpc</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>In this episode, I was joined by <a href="https://twitter.com/PoornimaNayar">Poornima Nayar</a> to chat all about gRPC! gRPC is Google&rsquo;s implementation of RPC. Since .NET Core 3.0, gRPC has first-class support in .NET and seems to be the way forward for remote procedure calls. We chatted about what gRPC is, how to use it, what usecases you&rsquo;d want to use it for, and much much more!</p>
+<p>Poornima is a .NET developer with over 10 years of experience in .NET and Umbraco. She is passionate about learning new technologies and keeping herself up-to-date with the latest developments in technology. Outside her work, Poornima enjoys music and is undergoing training in Indian Classical music. Based in Langley, UK she mothers a little girl and spends her spare time reading, cooking, and watching movies.</p>
+<div id="buzzsprout-player-11592052"></div>
+<script src="https://www.buzzsprout.com/978640/11592052-hello-world.js?container_id=buzzsprout-player-11592052&player=small" type="text/javascript" charset="utf-8"></script>
 
-            <div id="buzzsprout-player-6294781"></div>
-            <script src="https://www.buzzsprout.com/978640/6294781-hello-world.js?container_id=buzzsprout-player-6294781&player=small" type="text/javascript" charset="utf-8"></script>
-          </span>
-        </li>
-      
-        <li class="posts-list-item">
-          <a class="posts-list-item-title" href="https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/">Episode 2: Derek Comartin - CQRS, MediatR, and more!</a>
-          <span class="posts-list-item-description">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
-  <title>calendar</title>
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
-</svg>
-            Oct 28, 2020
-
-            <div id="buzzsprout-player-6103414"></div>
-            <script src="https://www.buzzsprout.com/978640/6103414-hello-world.js?container_id=buzzsprout-player-6103414&player=small" type="text/javascript" charset="utf-8"></script>
-          </span>
-        </li>
-      
-        <li class="posts-list-item">
-          <a class="posts-list-item-title" href="https://unhandledexceptionpodcast.com/posts/0001-helloworld/">Episode 1: Hello World!</a>
-          <span class="posts-list-item-description">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
-  <title>calendar</title>
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
-</svg>
-            Oct 11, 2020
-
-            <div id="buzzsprout-player-5829550"></div>
-            <script src="https://www.buzzsprout.com/978640/5829550-hello-world.js?container_id=buzzsprout-player-5829550&player=small" type="text/javascript" charset="utf-8"></script>
-          </span>
-        </li>
-      
-    </ul>
-    
-
-<ul class="pagination">
-  
-  <li class="page-item">
-    <a class="page-link" href="/posts/page/4/">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-arrow-left">
-  <title>arrow-left</title>
-  <line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline>
-</svg>
-    </a>
-  </li>
-  
-  
-  <li class="page-item">
-    <a class="page-link" href="/posts/">
-      1
-    </a>
-  </li>
-  
-  <li class="page-item">
-    <a class="page-link" href="/posts/page/2/">
-      2
-    </a>
-  </li>
-  
-  <li class="page-item">
-    <a class="page-link" href="/posts/page/3/">
-      3
-    </a>
-  </li>
-  
-  <li class="page-item">
-    <a class="page-link" href="/posts/page/4/">
-      4
-    </a>
-  </li>
-  
-  <li class="page-item active">
-    <a class="page-link" href="/posts/page/5/">
-      5
-    </a>
-  </li>
-  
-  
+<h1 id="poornimas-social-links">Poornima&rsquo;s social links</h1>
+<ul>
+<li><a href="https://twitter.com/PoornimaNayar">Twitter</a></li>
+<li><a href="https://www.linkedin.com/in/poornimanayar/">LinkedIn</a></li>
+<li><a href="https://poornimanayar.co.uk/">Blog</a></li>
+</ul>
+<h1 id="links-from-the-show">Links from the show</h1>
+<ul>
+<li><a href="https://poornimanayar.co.uk/community/resources-for-my-talk-grpc-in-net/">List of gRPC resources on Poornima&rsquo;s blog</a></li>
+<li><a href="https://www.youtube.com/watch?v=CXH_jEa8dUw">High-performance services with gRPC: What&rsquo;s new in .NET 6</a></li>
+<li><a href="https://www.youtube.com/watch?v=ds27V6rNick">ASP.NET Community Standup - gRPC Updates in .NET 7</a></li>
+<li><a href="https://github.com/fullstorydev/grpcurl">gRPCurl</a></li>
+<li><a href="https://github.com/fullstorydev/grpcui">gRPC UI</a></li>
+<li><a href="https://www.postman.com/">Postman</a></li>
+<li><a href="https://github.com/bloomrpc/bloomrpc">BloomRPC</a></li>
+<li><a href="https://blog.postman.com/postman-now-supports-grpc/">Blog: Postman Now Supports gRPC</a></li>
+</ul>
+<h1 id="devpick-links">Devpick links</h1>
+<ul>
+<li><a href="https://devblogs.microsoft.com/dotnet/experimental-webtransport-over-http-3-support-in-kestrel/">Experimental WebTransport over HTTP/3 support in Kestrel</a></li>
+<li><a href="https://www.danclarke.com/config-files-in-git">Source-controlling Config files in Git</a></li>
+</ul>
+<h1 id="listener-mention">Listener mention</h1>
+<ul>
+<li><a href="https://twitter.com/carlcod_es/status/1576546527102742528">Carl Sargunar</a></li>
 </ul>
 
-
-
+    </div>
+    <div class="post-footer">
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "the-unhandled-exception-podcast" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
   </article>
 
     </main>
