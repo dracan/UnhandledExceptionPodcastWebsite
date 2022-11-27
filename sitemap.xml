@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0046-vim/</loc>
+    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
+    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/vim/</loc>
+    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0045-go/</loc>
     <lastmod>2022-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/golang/</loc>
-    <lastmod>2022-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2022-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2022-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2022-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0044-grpc/</loc>

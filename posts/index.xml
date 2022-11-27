@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 46: Vim - with Joseph Woodward</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0046-vim/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0046-vim/</guid>
+      <description>In this episode, I was joined again by Joseph Woodward to geek out on Vim! Joe joined us on the last episode to talk about the Go programming language - and as we&amp;rsquo;re both huge fans of Vim, we decided to stay on and record a second episode chatting about it!
+In it, we talk about both the Vim way of using the keyboard (Vim keybindings), and also Vim the editor and its plugin ecosystem.</description>
+    </item>
+    
     <item>
       <title>Episode 45: Go - with Joseph Woodward</title>
       <link>https://unhandledexceptionpodcast.com/posts/0045-go/</link>
