@@ -6,7 +6,16 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>security</title>
+      <link>https://unhandledexceptionpodcast.com/tags/security/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Vim</title>
       <link>https://unhandledexceptionpodcast.com/tags/vim/</link>
@@ -472,15 +481,6 @@
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/functional-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://unhandledexceptionpodcast.com/tags/security/</link>
-      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/security/</guid>
       <description></description>
     </item>
     

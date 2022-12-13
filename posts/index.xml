@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 47: Application Security - with Tanya Janca</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0047-applicationsecurity/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0047-applicationsecurity/</guid>
+      <description>In this episode, I was joined by Tanya Janca to chat about Application Security (or AppSec for short!). We chatted about various topics - from security topics and training, to her book and online community, to public speaking!
+Tanya is the founder and CEO at We Hack Purple, which is an online learning academy, community and weekly podcast that revolves around teaching everyone to create secure software. She&amp;rsquo;s also the Director of Developer Relations at Bright, and best-selling author of the book Alice and Bob Learn Application Security.</description>
+    </item>
+    
     <item>
       <title>Episode 46: Vim - with Joseph Woodward</title>
       <link>https://unhandledexceptionpodcast.com/posts/0046-vim/</link>

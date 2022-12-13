@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unhandledexceptionpodcast.com/posts/0046-vim/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+    <loc>https://unhandledexceptionpodcast.com/posts/0047-applicationsecurity/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/security/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0046-vim/</loc>
     <lastmod>2022-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/vim/</loc>
@@ -282,9 +288,6 @@
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0008-identitywithchristosmatskas/</loc>
-    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/security/</loc>
     <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0006-stuartleeks/</loc>
