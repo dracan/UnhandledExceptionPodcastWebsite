@@ -3,7 +3,7 @@ title: "Episode 43: Docker Demystified - with (me) Dan Clarke"
 date: 2022-09-18
 draft: false
 episodeId: 11339396
-tags: []
+tags: ["docker"]
 twitter_cards: true
 images: ["images/0043-DockerDemystified/Docker.png"]
 ---
