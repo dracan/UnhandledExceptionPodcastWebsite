@@ -6,7 +6,25 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS</title>
+      <link>https://unhandledexceptionpodcast.com/tags/aws/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://unhandledexceptionpodcast.com/tags/learning/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/learning/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>security</title>
       <link>https://unhandledexceptionpodcast.com/tags/security/</link>
@@ -40,6 +58,15 @@
       <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/grpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://unhandledexceptionpodcast.com/tags/docker/</link>
+      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -179,15 +206,6 @@
     </item>
     
     <item>
-      <title>docker</title>
-      <link>https://unhandledexceptionpodcast.com/tags/docker/</link>
-      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>github-copilot</title>
       <link>https://unhandledexceptionpodcast.com/tags/github-copilot/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
@@ -301,15 +319,6 @@
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/service-mesh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learning</title>
-      <link>https://unhandledexceptionpodcast.com/tags/learning/</link>
-      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/learning/</guid>
       <description></description>
     </item>
     
