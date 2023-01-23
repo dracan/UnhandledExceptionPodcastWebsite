@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cake on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/cake/</link>
+    <description>Recent content in Cake on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/cake/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 49: Cake 🍰 - with Mattias Karlsson</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0049-cake/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0049-cake/</guid>
+      <description>In this episode, I was joined by Mattias Karlsson to chat about Cake! Nope, not the food - something even better! Cake is a build orchestration tool where your builds scripts are written in C#. There are tons of addons for most tasks you can think of, and it&amp;rsquo;s easy to write your own. And you can run these all locally just like you would on the build agent. I dread to think how many many days I&amp;rsquo;ve lost when doing CI/CD natively in YAML where I&amp;rsquo;ve had to push to CI/CD, waiting for a build agent to pick it up, just to find that I&amp;rsquo;d got a path or indentation wrong.</description>
+    </item>
+    
+  </channel>
+</rss>

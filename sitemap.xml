@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cake/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/devops/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0049-cake/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/aws/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,15 +27,6 @@
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/learning/</loc>
-    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2023-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0047-applicationsecurity/</loc>
@@ -262,9 +271,6 @@
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0014-patriksvensson/</loc>
     <lastmod>2021-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/devops/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0013-devopswithdushyant/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>

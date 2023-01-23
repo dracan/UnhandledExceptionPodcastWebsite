@@ -6,7 +6,25 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cake</title>
+      <link>https://unhandledexceptionpodcast.com/tags/cake/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/cake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://unhandledexceptionpodcast.com/tags/devops/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>AWS</title>
       <link>https://unhandledexceptionpodcast.com/tags/aws/</link>
@@ -445,15 +463,6 @@
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/source-generators/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>devops</title>
-      <link>https://unhandledexceptionpodcast.com/tags/devops/</link>
-      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/devops/</guid>
       <description></description>
     </item>
     
