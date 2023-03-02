@@ -16,6 +16,8 @@ We had quite a fun chat afterwards too, so decided to include that in the episod
 
 {{< buzzsprout-episode 12362216 >}}
 
+![](https://pbs.twimg.com/media/FpKmxpsXgAATBWm?format=jpg&name=large)
+
 # David's social links
 
 * [Mastodon](https://aus.social/@davidwengier)
