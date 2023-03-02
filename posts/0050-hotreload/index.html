@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-gb">
   <head>
-    <title>Episode 17: TDD with Ian Cooper // The Unhandled Exception Podcast</title>
+    <title>Episode 50 🎉: Hot Reload - with David Wengier // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.82.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,20 +23,20 @@ if (!doNotTrack) {
 </script>
 
     
-    <meta property="og:title" content="Episode 17: TDD with Ian Cooper" />
-<meta property="og:description" content="In this episode, I was joined by Ian Cooper to chat about Test Driven Development (TDD)! We discussed pain points that a lot of people hit when attempting to do TDD, and how to avoid them.
-  Links from the show Ian&rsquo;s Social Links  Twitter LinkedIn Github  Other links from the show  Ian&rsquo;s Presentations on Github Ian&rsquo;s talk - &lsquo;TDD - Where did it all go wrong?" />
+    <meta property="og:title" content="Episode 50 🎉: Hot Reload - with David Wengier" />
+<meta property="og:description" content="In this milestone 50th episode (🥳🎉🍻) - I was joined by David Wengier to chat about how .NET&rsquo;s hot reload works! We covered how the metadata in dotnet assemblies work, and how hot reload manipulates this data in various ways in memory to do its thing. We also touched a bit on the whole hot-reload dotnet drama thing! 🤫🙈
+We had quite a fun chat afterwards too, so decided to include that in the episode - so keep playing past my usual outro to hear that." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0017-tddwithiancooper/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-05-28T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-05-28T00:00:00&#43;00:00" />
+<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0050-hotreload/" /><meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0050-HotReload/David.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-02T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2023-03-02T00:00:00&#43;00:00" />
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Episode 17: TDD with Ian Cooper"/>
-<meta name="twitter:description" content="In this episode, I was joined by Ian Cooper to chat about Test Driven Development (TDD)! We discussed pain points that a lot of people hit when attempting to do TDD, and how to avoid them.
-  Links from the show Ian&rsquo;s Social Links  Twitter LinkedIn Github  Other links from the show  Ian&rsquo;s Presentations on Github Ian&rsquo;s talk - &lsquo;TDD - Where did it all go wrong?"/>
-<meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content='https://unhandledexceptionpodcast.com/images/DanTwitterCard.jpg'/>
+<meta name="twitter:title" content="Episode 50 🎉: Hot Reload - with David Wengier"/>
+<meta name="twitter:description" content="In this milestone 50th episode (🥳🎉🍻) - I was joined by David Wengier to chat about how .NET&rsquo;s hot reload works! We covered how the metadata in dotnet assemblies work, and how hot reload manipulates this data in various ways in memory to do its thing. We also touched a bit on the whole hot-reload dotnet drama thing! 🤫🙈
+We had quite a fun chat afterwards too, so decided to include that in the episode - so keep playing past my usual outro to hear that."/>
+<meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0050-HotReload/David.jpg"/>
 
   </head>
 
@@ -229,51 +229,50 @@ if (!doNotTrack) {
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Episode 17: TDD with Ian Cooper</h1>
+      <h1 class ="post-title">Episode 50 🎉: Hot Reload - with David Wengier</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          May 28, 2021
+          Mar 2, 2023
         </div>
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/testing/">testing</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/tdd/">tdd</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">dotnet</a>
         </div>
       </div>
     </header>
     <div class="post-content">
-      <p>In this episode, I was joined by <a href="https://twitter.com/ICooper">Ian Cooper</a> to chat about Test Driven Development (TDD)! We discussed pain points that a lot of people hit when attempting to do TDD, and how to avoid them.</p>
-<div id="buzzsprout-player-8606489"></div>
-<script src="https://www.buzzsprout.com/978640/8606489-hello-world.js?container_id=buzzsprout-player-8606489&player=small" type="text/javascript" charset="utf-8"></script>
+      <p>In this milestone 50th episode (🥳🎉🍻) - I was joined by <a href="https://aus.social/@davidwengier">David Wengier</a> to chat about how .NET&rsquo;s hot reload works! We covered how the metadata in dotnet assemblies work, and how hot reload manipulates this data in various ways in memory to do its thing. We also touched a bit on the whole hot-reload dotnet drama thing! 🤫🙈</p>
+<p>We had quite a fun chat afterwards too, so decided to include that in the episode - so keep playing past my usual outro to hear that.</p>
+<p><a href="https://aus.social/@davidwengier">David</a> is a Roslyn and Razor tooling developer at Microsoft, living in Melbourne, Australia.</p>
+<div id="buzzsprout-player-12362216"></div>
+<script src="https://www.buzzsprout.com/978640/12362216-hello-world.js?container_id=buzzsprout-player-12362216&player=small" type="text/javascript" charset="utf-8"></script>
 
+<h1 id="davids-social-links">David&rsquo;s social links</h1>
+<ul>
+<li><a href="https://aus.social/@davidwengier">Mastodon</a></li>
+<li><a href="https://github.com/davidwengier">GitHub</a></li>
+<li><a href="https://twitter.com/davidwengier">Twitter</a></li>
+<li><a href="https://wengier.com/">Website/Blog</a></li>
+<li><a href="https://www.linkedin.com/in/davidwengier/">LinkedIn</a></li>
+</ul>
 <h1 id="links-from-the-show">Links from the show</h1>
-<h2 id="ians-social-links">Ian&rsquo;s Social Links</h2>
 <ul>
-<li><a href="https://twitter.com/ICooper">Twitter</a></li>
-<li><a href="https://www.linkedin.com/in/ian-cooper-2b059b/">LinkedIn</a></li>
-<li><a href="https://github.com/iancooper">Github</a></li>
+<li><a href="https://www.youtube.com/watch?v=tVmABHwxuqE">&ldquo;How does Hot Reload even work?&rdquo; - David&rsquo;s talk on YouTube from NDC Sydney</a></li>
+<li><a href="https://github.com/dotnet/metadata-tools">MDV/metadata-tools</a></li>
+<li><a href="https://github.com/icsharpcode/ILSpy">ILSpy</a></li>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/api/system.reflection.metadata.metadataupdatehandlerattribute?view=net-7.0">MetadataUpdateHandlerAttribute (helps make your code work better with hot-reload)</a></li>
+<li><a href="https://www.youtube.com/watch?v=ink9PYoSGc0">Dan&rsquo;s &lsquo;Git under the hood&rsquo; YouTube video</a></li>
 </ul>
-<h2 id="other-links-from-the-show">Other links from the show</h2>
+<h1 id="listener-mention">Listener mention</h1>
 <ul>
-<li><a href="https://github.com/iancooper/Presentations">Ian&rsquo;s Presentations on Github</a></li>
-<li><a href="https://www.youtube.com/watch?v=9PUbJQgq8pk">Ian&rsquo;s talk - &lsquo;TDD - Where did it all go wrong?'</a></li>
-<li><a href="https://www.amazon.co.uk/Test-Driven-Development-Addison-Wesley-Signature/dp/0321146530">Kent Beck&rsquo;s book - TDD By Example</a></li>
-<li><a href="https://github.com/iancooper/Presentations/blob/master/Kent%20Beck%20Style%20TDD%20-%20Seven%20Years%20After.pdf">Slides about Given When Then</a></li>
-<li><a href="https://github.com/HuddleEng/octopose">Octopose</a></li>
-<li><a href="https://www.docker.com/">Docker</a></li>
-<li><a href="https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-5.0">ASP.NET WebApplicationFactory Tests</a></li>
-</ul>
-<h2 id="devtip-links">DevTip Links</h2>
-<ul>
-<li><a href="">Github Browser extension to view code in a TreeView</a> (link coming soon)</li>
-<li><a href="https://github.com/features/codespaces">Code Spaces</a></li>
+<li><a href="https://twitter.com/surajsingh_K/status/1617745765702725634">Suraj Kentura</a></li>
 </ul>
 
     </div>

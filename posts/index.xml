@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 50 🎉: Hot Reload - with David Wengier</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0050-hotreload/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0050-hotreload/</guid>
+      <description>In this milestone 50th episode (🥳🎉🍻) - I was joined by David Wengier to chat about how .NET&amp;rsquo;s hot reload works! We covered how the metadata in dotnet assemblies work, and how hot reload manipulates this data in various ways in memory to do its thing. We also touched a bit on the whole hot-reload dotnet drama thing! 🤫🙈
+We had quite a fun chat afterwards too, so decided to include that in the episode - so keep playing past my usual outro to hear that.</description>
+    </item>
+    
     <item>
       <title>Episode 49: Cake 🍰 - with Mattias Karlsson</title>
       <link>https://unhandledexceptionpodcast.com/posts/0049-cake/</link>
