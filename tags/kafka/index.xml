@@ -6,7 +6,18 @@
     <description>Recent content in kafka on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/kafka/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/kafka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 51: Brighter - with Ian Cooper</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0051-brighter/</link>
+      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0051-brighter/</guid>
+      <description>In this episode, I was joined by Ian Cooper to chat about the Brighter and Darker frameworks.
+Brighter is a framework for building messaging applications with .NET and C#. It can be used with an in-memory bus, or for interoperability in a microservices architecture allowing out of process messaging via a wider range of middleware transports. And Darker is the query counterpart to Brighter.
+Ian is a Senior Principal Engineer at Just Eat Takeaway, frequent public speaker, and organiser of London .</description>
+    </item>
+    
     <item>
       <title>Episode 31: MassTransit and Open Source - with Chris Patterson</title>
       <link>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</link>

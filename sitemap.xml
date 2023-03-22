@@ -3,18 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
-    <lastmod>2023-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/0050-hotreload/</loc>
-    <lastmod>2023-03-02T00:00:00+00:00</lastmod>
+    <loc>https://unhandledexceptionpodcast.com/posts/0051-brighter/</loc>
+    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</loc>
+    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/kafka/</loc>
+    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2023-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/rabbitmq/</loc>
+    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2023-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0050-hotreload/</loc>
     <lastmod>2023-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/cake/</loc>
@@ -78,9 +90,6 @@
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/</loc>
-    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/messaging/</loc>
@@ -170,13 +179,7 @@
     <loc>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/kafka/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/masstransit/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/rabbitmq/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/service-mesh/</loc>
