@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elasticsearch on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/elasticsearch/</link>
+    <description>Recent content in elasticsearch on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 52: Elastic - with Steve Gordon</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0052-elasticsearch/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0052-elasticsearch/</guid>
+      <description>In this episode, I was joined by Steve Gordon to chat about the Elastic Slack, and his work on the Elasticsearch .NET client.
+Steve is a senior engineer at Elastic, maintaining the .NET client libraries. He&amp;rsquo;s a Microsoft MVP, Pluralsight author, speaker, and blogger, and user-group organiser.
+  Steve&amp;rsquo;s social links  Twitter Mastodon GitHub Website/Blog LinkedIn YouTube  Links from the show  Elastic Elasticsearch client Elastic Observability Kibana Logstash Snapshot testing with Verify episode Verify on GitHub LocalStack  Devtip links  Github CLI Flurl Dan&amp;rsquo;s Flurl YouTube video  Listener Mention  Danielle D  </description>
+    </item>
+    
+  </channel>
+</rss>

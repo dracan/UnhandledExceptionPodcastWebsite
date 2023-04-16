@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/elasticsearch/</loc>
+    <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0052-elasticsearch/</loc>
+    <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
+    <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2023-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0051-brighter/</loc>
     <lastmod>2023-03-22T00:00:00+00:00</lastmod>
@@ -14,16 +29,7 @@
     <loc>https://unhandledexceptionpodcast.com/tags/kafka/</loc>
     <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/rabbitmq/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0050-hotreload/</loc>
