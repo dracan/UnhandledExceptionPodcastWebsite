@@ -37,6 +37,7 @@ Matthias is a full-stack developer at INGTES.
 
 * [We Are .NET](https://www.wearedotnet.io/)
 * [Discord Community](https://discord.gg/GG6uFZJnE5)
+* [Initial 'dotnet-content-creators' Github repo](https://github.com/matthiasjost/dotnet-content-creators) (where it all began!)
 * [Blog post from Tim about WeAreDotnet](https://medium.com/@tim.cadenbach/wearedotnet-d8ec96685c33)
 
 # Devtip links
