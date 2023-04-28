@@ -31,7 +31,7 @@ Matthias is a full-stack developer at INGTES.
 
 * [Twitter](https://twitter.com/jost0101)
 * [LinkedIn](https://www.linkedin.com/in/matthias-jost)
-* [Newsletter](https://jost0101.substack.com/)
+* [Blog](https://www.matthias-jost.ch/)
 
 # Links from the show
 
