@@ -2,22 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/code-quality/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cqrs/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cqs/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/mediatr/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/tdd/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/community/</loc>
     <lastmod>2023-04-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
-    <lastmod>2023-04-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0053-wearedotnet/</loc>
-    <lastmod>2023-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2023-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2023-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2023-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/elasticsearch/</loc>
@@ -152,9 +170,6 @@
     <loc>https://unhandledexceptionpodcast.com/tags/github-copilot/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/mediatr/</loc>
-    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/minimal-api/</loc>
     <lastmod>2022-05-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -227,9 +242,6 @@
     <loc>https://unhandledexceptionpodcast.com/tags/rx/</loc>
     <lastmod>2021-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/code-quality/</loc>
-    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</loc>
     <lastmod>2021-10-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -273,9 +285,6 @@
     <lastmod>2021-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0017-tddwithiancooper/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/tdd/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</loc>
@@ -340,9 +349,6 @@
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/performance/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/cqrs/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</loc>
     <lastmod>2020-10-28T00:00:00+00:00</lastmod>

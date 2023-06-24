@@ -6,22 +6,67 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>community</title>
-      <link>https://unhandledexceptionpodcast.com/tags/community/</link>
-      <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+      <title>code-quality</title>
+      <link>https://unhandledexceptionpodcast.com/tags/code-quality/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://unhandledexceptionpodcast.com/tags/community/</guid>
+      <guid>https://unhandledexceptionpodcast.com/tags/code-quality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cqrs</title>
+      <link>https://unhandledexceptionpodcast.com/tags/cqrs/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/cqrs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cqs</title>
+      <link>https://unhandledexceptionpodcast.com/tags/cqs/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/cqs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dotnet</title>
       <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
-      <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mediatr</title>
+      <link>https://unhandledexceptionpodcast.com/tags/mediatr/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/mediatr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tdd</title>
+      <link>https://unhandledexceptionpodcast.com/tags/tdd/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>community</title>
+      <link>https://unhandledexceptionpodcast.com/tags/community/</link>
+      <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/community/</guid>
       <description></description>
     </item>
     
@@ -269,15 +314,6 @@
     </item>
     
     <item>
-      <title>mediatr</title>
-      <link>https://unhandledexceptionpodcast.com/tags/mediatr/</link>
-      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/mediatr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>minimal-api</title>
       <link>https://unhandledexceptionpodcast.com/tags/minimal-api/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
@@ -404,15 +440,6 @@
     </item>
     
     <item>
-      <title>code-quality</title>
-      <link>https://unhandledexceptionpodcast.com/tags/code-quality/</link>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/code-quality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>dependency-injection</title>
       <link>https://unhandledexceptionpodcast.com/tags/dependency-injection/</link>
       <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
@@ -463,15 +490,6 @@
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/streaming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tdd</title>
-      <link>https://unhandledexceptionpodcast.com/tags/tdd/</link>
-      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/tdd/</guid>
       <description></description>
     </item>
     
@@ -535,15 +553,6 @@
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/performance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cqrs</title>
-      <link>https://unhandledexceptionpodcast.com/tags/cqrs/</link>
-      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/cqrs/</guid>
       <description></description>
     </item>
     

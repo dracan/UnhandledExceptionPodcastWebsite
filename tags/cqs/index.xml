@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cqs on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/cqs/</link>
+    <description>Recent content in cqs on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/cqs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 54: Cleaning your Big Ball of Mud using CQS - with Matt Hunt</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/</guid>
+      <description>In this episode, I was thrilled to be joined by Matt Hunt to chat about using the CQS pattern to improve your codebase quality and help avoid writing those &amp;lsquo;Big Ball of Mud&amp;rsquo; code-bases that sadly we see way too often in our industry!
+CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both.</description>
+    </item>
+    
+  </channel>
+</rss>
