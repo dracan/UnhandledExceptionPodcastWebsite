@@ -8,7 +8,7 @@ twitter_cards: true
 images: ["images/0054-BallOfMudCqrs/Matt.png"]
 ---
 
-In this episode, I was thrilled to be joined by [Matt Hunt](https://twitter.com/matthunt) to chat about using the CQS pattern to improve your codebase quality and help avoid writing those 'Big Ball of Mud' code-bases that sadly we see way too often in our industry!
+In this episode, I was thrilled to be joined by [Matt Hunt](https://twitter.com/DoesDotNet) to chat about using the CQS pattern to improve your codebase quality and help avoid writing those 'Big Ball of Mud' code-bases that sadly we see way too often in our industry!
 
 CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both. This approach promotes a clear separation of concerns, improves readability, and can lead to more maintainable and scalable codebases.
 
