@@ -6,7 +6,34 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>database-internals</title>
+      <link>https://unhandledexceptionpodcast.com/tags/database-internals/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/database-internals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>performance</title>
+      <link>https://unhandledexceptionpodcast.com/tags/performance/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ravendb</title>
+      <link>https://unhandledexceptionpodcast.com/tags/ravendb/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/ravendb/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>code-quality</title>
       <link>https://unhandledexceptionpodcast.com/tags/code-quality/</link>
@@ -544,15 +571,6 @@
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/wsl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>performance</title>
-      <link>https://unhandledexceptionpodcast.com/tags/performance/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/performance/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,17 @@
     <description>Recent content in performance on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 55: RavenDB and Database Internals - with Oren Eini</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0055-oreneini-databaseinternals/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0055-oreneini-databaseinternals/</guid>
+      <description>In this episode, I had the pleasure of speaking with Oren Eini about RavenDB and diving deep into the world of database internals. We explore the intricacies of how databases work under the hood and discuss the challenges - especially around performance.
+Oren Eini, also known as Ayende Rahien, is the Founder and CEO of RavenDB, a leading NoSQL document database management platform, empowering both startups and Fortune 500 companies. With over 20 years of software development experience and business leadership, Oren is an internationally acclaimed presenter, a thought leader and an author, committed to continue and lead innovation of quality software and best practices.</description>
+    </item>
+    
     <item>
       <title>Episode 3: Steve Gordon</title>
       <link>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</link>
