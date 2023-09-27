@@ -6,7 +6,34 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>event-driven-architecture</title>
+      <link>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nservicebus</title>
+      <link>https://unhandledexceptionpodcast.com/tags/nservicebus/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/nservicebus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rabbitmq</title>
+      <link>https://unhandledexceptionpodcast.com/tags/rabbitmq/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>database-internals</title>
       <link>https://unhandledexceptionpodcast.com/tags/database-internals/</link>
@@ -107,29 +134,11 @@
     </item>
     
     <item>
-      <title>event-driven-architecture</title>
-      <link>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</link>
-      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>kafka</title>
       <link>https://unhandledexceptionpodcast.com/tags/kafka/</link>
       <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/kafka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rabbitmq</title>
-      <link>https://unhandledexceptionpodcast.com/tags/rabbitmq/</link>
-      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/rabbitmq/</guid>
       <description></description>
     </item>
     

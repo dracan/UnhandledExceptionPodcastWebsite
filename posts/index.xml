@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 56: NServiceBus - with Laïla Bougriâ</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0056-nservicebus/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0056-nservicebus/</guid>
+      <description>In this episode, I had great fun chatting with Laïla Bougriâ about NServiceBus and how it can help with your distributed architecture. From its support for observability (including OTel) and dashboarding, to sagas and pub/sub. Even zombie and ghost messages! (spooky!). And as has been known to happen on this show - we did end up going on a tangent and geeking out about the awesome Jetbrains Rider too!
+Laïla is a Solutions Architect and Software Engineer at Particular Software.</description>
+    </item>
+    
     <item>
       <title>Episode 55: RavenDB and Database Internals - with Oren Eini</title>
       <link>https://unhandledexceptionpodcast.com/posts/0055-oreneini-databaseinternals/</link>
