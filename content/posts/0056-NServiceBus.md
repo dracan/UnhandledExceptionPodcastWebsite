@@ -35,4 +35,4 @@ Dev tips:
 * ['Monoliths are not dinosaurs' blog post](https://www.allthingsdistributed.com/2023/05/monoliths-are-not-dinosaurs.html)
 * [VsCode StickyScroll](https://twitter.com/chris__sev/status/1692565265169695224?t=Ba6WZH4Dyc2F9QlXtGkq3Q&s=19)
 
-Please remember to subscribe to the podcast and share this episode with your friends and colleagues! And if you'd like to support the show, please consider [becoming a patron](https://www.patreon.com/danclarke), which comes with additional benefits like earlier and extra episodes, and more!
+Please remember to subscribe to the podcast and share this episode with your friends and colleagues!
