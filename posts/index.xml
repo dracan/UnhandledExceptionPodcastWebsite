@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 57: .NET and Podcasting - with Jamie Taylor</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0057-jamietaylor/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0057-jamietaylor/</guid>
+      <description>In this episode, I was joined by the host of The Modern .NET Show, Jamie Taylor to chat about both .NET and podcasting! We also chatted about various other things like productivity, remote working and life balance, supporting junior developers, and plenty more!
+Jamie Taylor is the lead developer, CTO, and Microsoft MVP for developer technologies at RJJ Software. As a seasoned professional with 14 years of experience, Jamie brings expertise in .</description>
+    </item>
+    
     <item>
       <title>Episode 56: NServiceBus - with Laïla Bougriâ</title>
       <link>https://unhandledexceptionpodcast.com/posts/0056-nservicebus/</link>
