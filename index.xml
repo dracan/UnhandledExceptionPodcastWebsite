@@ -6,7 +6,16 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 17 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 58: Dometrain - with Nick Chapsas</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0058-dometrain/</link>
+      <pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0058-dometrain/</guid>
+      <description>In this episode, I was joined for the second time by Nick Chapsas! This time, we chatted about his new Dometrain teaching platform. Nick started off creating courses on his own website, nickchapsas.com, which he&amp;rsquo;s recently rebranded to Dometrain and reached out to other authors to also create courses - myself included! I&amp;rsquo;ve recently released a Docker course on Dometrain, and we chatted about my experience doing this, as well as Nick&amp;rsquo;s story and motivations behind building Dometrain.</description>
+    </item>
+    
     <item>
       <title>Episode 57: .NET and Podcasting - with Jamie Taylor</title>
       <link>https://unhandledexceptionpodcast.com/posts/0057-jamietaylor/</link>
