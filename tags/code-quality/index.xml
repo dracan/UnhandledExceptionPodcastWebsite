@@ -6,7 +6,18 @@
     <description>Recent content in code-quality on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 59: Hexagonal Architecture - with Valentina Cupać</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0059-hexagonalarchitecture/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0059-hexagonalarchitecture/</guid>
+      <description>In this episode, I was joined by Valentina Cupać to chat about Hexagonal Architecture. We discussed what Hexagonal Architecture is, how it can help us build better software, and the difference between it and other similar architectures, such as Clean and Onion Architecture.
+Valentina is a Technical Coach at Optive, helping development teams deliver quality software with TDD and Clean Architecture. She also the runs the Tech Excellence community.
+  Valentina&amp;rsquo;s social links  Twitter LinkedIn YouTube GitHub Newsletter Discord Tech Excellence community:  Meetup YouTube Discord    Links from the show  Alistair Cockburn&amp;rsquo;s article   Please remember to subscribe to the podcast and share this episode with your friends and colleagues!</description>
+    </item>
+    
     <item>
       <title>Episode 54: Cleaning your Big Ball of Mud using CQS - with Matt Hunt</title>
       <link>https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/</link>

@@ -6,7 +6,16 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 29 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>code-quality</title>
+      <link>https://unhandledexceptionpodcast.com/tags/code-quality/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/code-quality/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>learning</title>
       <link>https://unhandledexceptionpodcast.com/tags/learning/</link>
@@ -85,15 +94,6 @@
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/ravendb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code-quality</title>
-      <link>https://unhandledexceptionpodcast.com/tags/code-quality/</link>
-      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/code-quality/</guid>
       <description></description>
     </item>
     
