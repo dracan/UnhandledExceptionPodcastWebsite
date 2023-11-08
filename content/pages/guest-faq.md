@@ -24,6 +24,12 @@ Also, please ensure your Discord audio settings match this screenshot...
 
 All guests will also be given the 'guest' role in our Discord community - which will put you near the top of the list of members.
 
+# Alternative recording method - manual local recordings
+
+If you'd rather not use Discord and the Craig bot, then please see the follow page...
+
+[Manually recording audio locally with Audacity (or similar software)](/pages/guest-faq-manual-recordings/)
+
 # What planning is involved before hand?
 
 I normally create a shared Google Doc and share with the guest(s). This is basically a brain-dump, where both myself and guest(s) can dump ideas into it. This'll form a rough structure to the show. But given the shows are very _conversational_, we don't need to stick with that structure, and we can go _off-piste_. The doc is just a rough guide.
