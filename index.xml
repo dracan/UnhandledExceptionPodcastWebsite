@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 60: .NET Conf 2023 - with Scott Hunter</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0060-dotnetconfwithscotthunter/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0060-dotnetconfwithscotthunter/</guid>
+      <description>In this episode I was honoured to be joined by Scott Hunter to chat about the announcements from .NET Conf 2023! The main areas we discussed were C#12 features, the new .NET Aspire, C# Devkit, Native AOT, and also touched a bit on Blazor. As always - it&amp;rsquo;s an exciting time to be a .NET developer!
+   👉 A big thank you to TrackJS for sponsoring this episode! 🙏 TrackJS makes finding and fixing client-side errors simple - automatically detecting bugs on your website and giving you a clear view of how the user got to the error.</description>
+    </item>
+    
     <item>
       <title>Episode 59: Hexagonal Architecture - with Valentina Cupać</title>
       <link>https://unhandledexceptionpodcast.com/posts/0059-hexagonalarchitecture/</link>
