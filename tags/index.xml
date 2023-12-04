@@ -6,7 +6,43 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>devops</title>
+      <link>https://unhandledexceptionpodcast.com/tags/devops/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IaC</title>
+      <link>https://unhandledexceptionpodcast.com/tags/iac/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/iac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pulumi</title>
+      <link>https://unhandledexceptionpodcast.com/tags/pulumi/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/pulumi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>https://unhandledexceptionpodcast.com/tags/terraform/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>aspire</title>
       <link>https://unhandledexceptionpodcast.com/tags/aspire/</link>
@@ -220,15 +256,6 @@
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/cake/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>devops</title>
-      <link>https://unhandledexceptionpodcast.com/tags/devops/</link>
-      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/devops/</guid>
       <description></description>
     </item>
     
@@ -562,15 +589,6 @@
       <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/bicep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IaC</title>
-      <link>https://unhandledexceptionpodcast.com/tags/iac/</link>
-      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/iac/</guid>
       <description></description>
     </item>
     

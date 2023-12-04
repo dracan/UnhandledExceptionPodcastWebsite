@@ -6,7 +6,18 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 61: Platform Engineering and IaC - with Shahid Iqbal</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0061-platformengineering/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0061-platformengineering/</guid>
+      <description>In this episode, I was joined for a second time by Shahid Iqbal, this time to chat about Platform Engineering and Infrastructure as Code! We discussed what Platform Engineering means, and also different IaC tools. And Shahid&amp;rsquo;s undying love for Pulumi! 😂
+Shahid is a Principal Platform Architect at Auror based in Auckland NZ, and is also an Azure MVP.
+   Shahid&amp;rsquo;s social links  Twitter LinkedIn Blog  Links from the show  Terraform Pulumi Past episode where we talked about Kubernetes Episode on OTel with Martin Thwaites Article on Terraform licence change OpenTofu   If you&amp;rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!</description>
+    </item>
+    
     <item>
       <title>Episode 60: .NET Conf 2023 - with Scott Hunter</title>
       <link>https://unhandledexceptionpodcast.com/posts/0060-dotnetconfwithscotthunter/</link>

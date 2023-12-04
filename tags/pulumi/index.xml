@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devops on The Unhandled Exception Podcast</title>
-    <link>https://unhandledexceptionpodcast.com/tags/devops/</link>
-    <description>Recent content in devops on The Unhandled Exception Podcast</description>
+    <title>Pulumi on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/pulumi/</link>
+    <description>Recent content in Pulumi on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/pulumi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 61: Platform Engineering and IaC - with Shahid Iqbal</title>
       <link>https://unhandledexceptionpodcast.com/posts/0061-platformengineering/</link>
@@ -16,15 +16,6 @@
       <description>In this episode, I was joined for a second time by Shahid Iqbal, this time to chat about Platform Engineering and Infrastructure as Code! We discussed what Platform Engineering means, and also different IaC tools. And Shahid&amp;rsquo;s undying love for Pulumi! 😂
 Shahid is a Principal Platform Architect at Auror based in Auckland NZ, and is also an Azure MVP.
    Shahid&amp;rsquo;s social links  Twitter LinkedIn Blog  Links from the show  Terraform Pulumi Past episode where we talked about Kubernetes Episode on OTel with Martin Thwaites Article on Terraform licence change OpenTofu   If you&amp;rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!</description>
-    </item>
-    
-    <item>
-      <title>Episode 49: Cake 🍰 - with Mattias Karlsson</title>
-      <link>https://unhandledexceptionpodcast.com/posts/0049-cake/</link>
-      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/posts/0049-cake/</guid>
-      <description>In this episode, I was joined by Mattias Karlsson to chat about Cake! Nope, not the food - something even better! Cake is a build orchestration tool where your builds scripts are written in C#. There are tons of addons for most tasks you can think of, and it&amp;rsquo;s easy to write your own. And you can run these all locally just like you would on the build agent. I dread to think how many many days I&amp;rsquo;ve lost when doing CI/CD natively in YAML where I&amp;rsquo;ve had to push to CI/CD, waiting for a build agent to pick it up, just to find that I&amp;rsquo;d got a path or indentation wrong.</description>
     </item>
     
     <item>
