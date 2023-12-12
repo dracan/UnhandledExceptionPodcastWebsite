@@ -6,7 +6,25 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>community</title>
+      <link>https://unhandledexceptionpodcast.com/tags/community/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mentoring</title>
+      <link>https://unhandledexceptionpodcast.com/tags/mentoring/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/mentoring/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>devops</title>
       <link>https://unhandledexceptionpodcast.com/tags/devops/</link>
@@ -220,15 +238,6 @@
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/tdd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>community</title>
-      <link>https://unhandledexceptionpodcast.com/tags/community/</link>
-      <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/community/</guid>
       <description></description>
     </item>
     
@@ -472,15 +481,6 @@
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/leadership/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mentoring</title>
-      <link>https://unhandledexceptionpodcast.com/tags/mentoring/</link>
-      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/mentoring/</guid>
       <description></description>
     </item>
     
