@@ -18,9 +18,11 @@ We will use [Discord](https://discord.com/) for recording. The podcast has a Dis
 
 I recommend downloading the Discord desktop app rather than using the web-app.
 
-Also, please ensure your Discord audio settings match this screenshot...
+Also, please ensure your Discord audio settings match these screenshots...
 
-![Discord audio settings](/images/DiscordAudioSettings.png)
+![Discord audio settings 1/2](/images/DiscordAudioSettings.png)
+
+![Discord audio settings 2/2](/images/DiscordAudioSettings2.png)
 
 All guests will also be given the 'guest' role in our Discord community - which will put you near the top of the list of members.
 
