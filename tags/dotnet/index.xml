@@ -6,7 +6,17 @@
     <description>Recent content in dotnet on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 17 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 63: Chocolatey - with Gary Ewan Park</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0063-chocolatey/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0063-chocolatey/</guid>
+      <description>In this episode, I was joined by Gary Ewan Park to chat about Chocolatey, and what it&amp;rsquo;s been like as a developer working on it. Chocolatey is a package manager for Windows, and it&amp;rsquo;s a tool that I&amp;rsquo;ve used for many years - so really enjoyed chatting with Gary about it!
+Gary is a Principal Software Engineer at Chocolatey Software and Microsoft Visual Studio and Development Technologies MVP and GitHub Star.</description>
+    </item>
+    
     <item>
       <title>Episode 57: .NET and Podcasting - with Jamie Taylor</title>
       <link>https://unhandledexceptionpodcast.com/posts/0057-jamietaylor/</link>
