@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 64: GitKraken - with Justin Roberts and Eric Amodio</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0064-gitkraken/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0064-gitkraken/</guid>
+      <description>In this episode, I was joined by Justin Roberts and Eric Amodio to chat about the GitKraken Git client. We chatted about its features, and also what it&amp;rsquo;s been like working on it. We also spoke about the GitLens VS Code client.
+Justin is the Senior Director of Product at GitKraken, and has been leading the design of the GitKraken Git Client. Eric is the CTO, and also the creator of GitLens for VS Code, and previously a VS Code developer at Microsoft.</description>
+    </item>
+    
     <item>
       <title>Episode 63: Chocolatey - with Gary Ewan Park</title>
       <link>https://unhandledexceptionpodcast.com/posts/0063-chocolatey/</link>
