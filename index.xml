@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 65: C# and Blazor - with Mads Torgersen, Dan Roth, and Scott Hunter!</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0065-madst-danr-scotth/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0065-madst-danr-scotth/</guid>
+      <description>In this episode, I was honoured to be joined by Mads Torgersen, Dan Roth, and Scott Hunter!!! 🤯 We chatted about Blazor in .NET 8; C#12 interceptors, C#13, C#36 (you have to listen 😉), source generators, discriminated unions, AOT, and Stephen Toub&amp;rsquo;s performance blog posts!
+Mads, Dan, and Scott all work for Microsoft, and are heavily involved in .NET. Mads is the Lead Designer of C#, Dan is Product Manager on the ASP.</description>
+    </item>
+    
     <item>
       <title>Episode 64: GitKraken - with Justin Roberts and Eric Amodio</title>
       <link>https://unhandledexceptionpodcast.com/posts/0064-gitkraken/</link>
