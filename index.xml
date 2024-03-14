@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 66: Serverless, AWS, and .NET - with James Eastham</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0066-jameseastham/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0066-jameseastham/</guid>
+      <description>In this episode I was joined by James Eastham to initially to chat about AWS and Serverless with .NET&amp;hellip; but we ended up covering a whole lot more! We chatted about OpenTelemetry, Kubernetes, Rust, and our Dometrain courses too!
+James Eastham is a Senior Cloud Architect at Amazon Web Services and content creator. He has over 10 years of experience in software, at all layers of the application stack. He has worked in front-line support, database administration, backend development and now works with some of the biggest companies in the world architecting systems using AWS technologies.</description>
+    </item>
+    
     <item>
       <title>Episode 65: C# and Blazor - with Mads Torgersen, Dan Roth, and Scott Hunter!</title>
       <link>https://unhandledexceptionpodcast.com/posts/0065-madst-danr-scotth/</link>
