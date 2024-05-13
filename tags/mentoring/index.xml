@@ -6,7 +6,17 @@
     <description>Recent content in mentoring on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/mentoring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/mentoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 67: Live Panel Discussion at DDD South West 2024</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</guid>
+      <description>This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.
+  Guest bios Carl Sargunar is a web and mobile application developer and technical consultant, Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .</description>
+    </item>
+    
     <item>
       <title>Episode 62: Speed mentoring and the power of Community - with Mia Gordon</title>
       <link>https://unhandledexceptionpodcast.com/posts/0062-speedmentoring/</link>
