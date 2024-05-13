@@ -43,6 +43,7 @@ Panel members ordered from right-to-left in the photo below...
 # Links from the show
 
 * [DDD South West](https://dddsouthwest.com/)
+* [Aaron Green's talk on confidence (audio only)](https://www.dropbox.com/s/nhs9gos416a1y7f/Aaron_Green_DDDSW2024.mp3?dl=0)
 * [Dan's Docker and Kubernetes courses](https://dometrain.com/author/dan-clarke/) (👉 use code `PODDAN` for 20% off!)
 
 ---
