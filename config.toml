@@ -26,6 +26,11 @@ googleAnalytics = "G-RN9Q259LF1"
     name = "Guest FAQ"
     url = "/pages/guest-faq/"
     weight = 300
+  [[menu.main]]
+    identifier = "sponsorship"
+    name = "Sponsorship"
+    url = "/pages/sponsorship/"
+    weight = 300
 
 [params]
   author = "Dan Clarke"
