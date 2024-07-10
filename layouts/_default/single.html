@@ -25,7 +25,9 @@
       {{ .Content }}
     </div>
     <div class="post-footer">
+      {{- if ne .Type "page" }}
       {{ template "_internal/disqus.html" . }}
+      {{- end }}
     </div>
   </article>
 {{ end }}
