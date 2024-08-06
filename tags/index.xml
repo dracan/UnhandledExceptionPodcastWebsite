@@ -6,7 +6,34 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cms</title>
+      <link>https://unhandledexceptionpodcast.com/tags/cms/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/cms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>community</title>
+      <link>https://unhandledexceptionpodcast.com/tags/community/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Umbraco</title>
+      <link>https://unhandledexceptionpodcast.com/tags/umbraco/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/umbraco/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>C#</title>
       <link>https://unhandledexceptionpodcast.com/tags/c#/</link>
@@ -49,15 +76,6 @@
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>community</title>
-      <link>https://unhandledexceptionpodcast.com/tags/community/</link>
-      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/community/</guid>
       <description></description>
     </item>
     
@@ -670,15 +688,6 @@
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/source-generators/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cms</title>
-      <link>https://unhandledexceptionpodcast.com/tags/cms/</link>
-      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/cms/</guid>
       <description></description>
     </item>
     

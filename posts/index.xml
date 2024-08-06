@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 69: The Umbraco CMS and Community</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0069-umbraco/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0069-umbraco/</guid>
+      <description>In this group episode, I was joined by Carl Sargunar, Lotte Pitcher, Carole Rennie Logan, and Callum Whyte, to discuss the Umbraco community and CMS! We chatted about the amazing community around Umbraco, as well as the features of the CMS itself. It definitely made me want to reach for Umbraco next time I need a CMS!
+  Guest bios Carl Sargunar is an independent web and mobile application developer and technical consultant.</description>
+    </item>
+    
     <item>
       <title>Episode 68: Modular Monoliths - with Steve &#34;ardalis&#34; Smith</title>
       <link>https://unhandledexceptionpodcast.com/posts/0068-modularmonolithswithardalis/</link>
@@ -24,7 +34,7 @@ Steve is an entrepreneur and software developer with a passion for building qual
       
       <guid>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</guid>
       <description>This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.
-  Guest bios Carl Sargunar is a web and mobile application developer and technical consultant, Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .</description>
+  Guest bios Carl Sargunar is an independent web and mobile application developer and technical consultant.</description>
     </item>
     
     <item>
