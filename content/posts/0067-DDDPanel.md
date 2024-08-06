@@ -14,7 +14,7 @@ This was the first episode we've done which has been recorded live with an audie
 
 # Guest bios
 
-[Carl Sargunar](https://www.linkedin.com/in/carl-sargunar-63b5814/) is a web and mobile application developer and technical consultant, Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .NET SouthWest monthly meetup.
+[Carl Sargunar](https://www.linkedin.com/in/carl-sargunar-63b5814/) is an independent web and mobile application developer and technical consultant. Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .NET SouthWest monthly meetup
 
 _Carl wasn't on the panel, but is an organiser of DDD South West and helped make this recording possible. He spoke on the podcast in the intro section about the DDD conference._
 
