@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 70: Naming things is hard! With Nick Cosentino</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0070-namingthingsishard/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0070-namingthingsishard/</guid>
+      <description>In this episode, I was joined by Nick Cosentino (DevLeader on the socials) to chat about refactoring code. We also discussed various other things, like automated testing, and how AI might affect us as developers, and much more!
+Nick Cosentino is a Principal Software Engineering Manager at Microsoft and a .NET content creator. He manages the teams responsible for deploying the hundreds of services supporting the Microsoft365 suite of products to serve users across the planet.</description>
+    </item>
+    
     <item>
       <title>Episode 69: The Umbraco CMS and Community</title>
       <link>https://unhandledexceptionpodcast.com/posts/0069-umbraco/</link>

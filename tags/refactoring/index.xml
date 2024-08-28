@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>refactoring on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/refactoring/</link>
+    <description>Recent content in refactoring on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/refactoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 70: Naming things is hard! With Nick Cosentino</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0070-namingthingsishard/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0070-namingthingsishard/</guid>
+      <description>In this episode, I was joined by Nick Cosentino (DevLeader on the socials) to chat about refactoring code. We also discussed various other things, like automated testing, and how AI might affect us as developers, and much more!
+Nick Cosentino is a Principal Software Engineering Manager at Microsoft and a .NET content creator. He manages the teams responsible for deploying the hundreds of services supporting the Microsoft365 suite of products to serve users across the planet.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,34 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C#</title>
+      <link>https://unhandledexceptionpodcast.com/tags/c#/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/c#/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotnet</title>
+      <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>refactoring</title>
+      <link>https://unhandledexceptionpodcast.com/tags/refactoring/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/refactoring/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cms</title>
       <link>https://unhandledexceptionpodcast.com/tags/cms/</link>
@@ -31,24 +58,6 @@
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/umbraco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C#</title>
-      <link>https://unhandledexceptionpodcast.com/tags/c#/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/c#/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dotnet</title>
-      <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/dotnet/</guid>
       <description></description>
     </item>
     
