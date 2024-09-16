@@ -6,7 +6,17 @@
     <description>Recent content in devops on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 71: GitHub Actions - With Scott Sauber</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0071-githubactions/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0071-githubactions/</guid>
+      <description>In this episode, I was joined by Scott Sauber to chat about GitHub Actions. Before that though, we chatted about the differences between &amp;lsquo;Continuous Integration&amp;rsquo;, &amp;lsquo;Continuous Delivery&amp;rsquo;, and &amp;lsquo;Continuous Deployment&amp;rsquo;. Then we delved into the world of GitHub Actions, and how they can be used to automate your workflows.
+Scott is a software consultant and primarily does web development using ASP.NET Core and JavaScript. His second passion behind web development is helping teams realize their potential through technical practices (such as CI/CD, IAC, TDD, etc.</description>
+    </item>
+    
     <item>
       <title>Episode 61: Platform Engineering and IaC - with Shahid Iqbal</title>
       <link>https://unhandledexceptionpodcast.com/posts/0061-platformengineering/</link>

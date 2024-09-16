@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/devops/</loc>
+    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0071-githubactions/</loc>
+    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/github/</loc>
+    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
+    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/c#/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,16 +29,7 @@
     <loc>https://unhandledexceptionpodcast.com/posts/0070-namingthingsishard/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/refactoring/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/cms/</loc>
@@ -88,9 +97,6 @@
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0062-speedmentoring/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/devops/</loc>
-    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0061-platformengineering/</loc>
     <lastmod>2023-12-04T00:00:00+00:00</lastmod>
@@ -472,6 +478,8 @@
     <loc>https://unhandledexceptionpodcast.com/pages/guest-faq-manual-recordings/</loc>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/categories/</loc>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/ci/cd/</loc>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/pages/guest-faq/</loc>
   </url><url>
