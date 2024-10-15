@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>exceptions on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/exceptions/</link>
+    <description>Recent content in exceptions on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/exceptions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 72: Unhandled Exceptions - With Callum Linington</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0072-exceptions/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0072-exceptions/</guid>
+      <description>throw new UnhandledExceptionPodcast(&amp;quot;Episode 72: Exceptions - With Callum Linington&amp;quot;);
+In this episode, I was joined for a second time by Callum Linington - this time to discuss exceptions, which is quite fitting given the show&amp;rsquo;s name! We chatted about why you should avoid using exceptions for your main business logic and control flow, and explored better ways to handle errors. And I&amp;rsquo;m afraid the &amp;ldquo;monad&amp;rdquo; word got thrown in too! 🙈</description>
+    </item>
+    
+  </channel>
+</rss>
