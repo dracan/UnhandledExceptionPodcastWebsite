@@ -6,7 +6,25 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>productivity</title>
+      <link>https://unhandledexceptionpodcast.com/tags/productivity/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soft-skills</title>
+      <link>https://unhandledexceptionpodcast.com/tags/soft-skills/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/soft-skills/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>C#</title>
       <link>https://unhandledexceptionpodcast.com/tags/c#/</link>
@@ -625,15 +643,6 @@
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/service-mesh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>productivity</title>
-      <link>https://unhandledexceptionpodcast.com/tags/productivity/</link>
-      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/productivity/</guid>
       <description></description>
     </item>
     

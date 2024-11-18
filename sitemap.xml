@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0073-robwest/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/productivity/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/soft-skills/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/c#/</loc>
     <lastmod>2024-10-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,15 +30,6 @@
     <lastmod>2024-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/exceptions/</loc>
-    <lastmod>2024-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2024-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2024-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2024-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/devops/</loc>
@@ -345,9 +354,6 @@
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/productivity/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</loc>
