@@ -6,7 +6,25 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dotnet</title>
+      <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uno-platform</title>
+      <link>https://unhandledexceptionpodcast.com/tags/uno-platform/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/uno-platform/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>productivity</title>
       <link>https://unhandledexceptionpodcast.com/tags/productivity/</link>
@@ -31,15 +49,6 @@
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/c#/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dotnet</title>
-      <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/dotnet/</guid>
       <description></description>
     </item>
     
