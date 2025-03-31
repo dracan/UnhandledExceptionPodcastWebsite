@@ -3,7 +3,7 @@ title: "Episode 51: Brighter - with Ian Cooper"
 date: 2023-03-22
 draft: false
 episodeId: 12492979
-tags: ["dotnet", "event-driven-architecture", "rabbitmq", "kafka"]
+tags: ["dotnet", "event-driven-architecture", "rabbitmq", "kafka", "messaging"]
 twitter_cards: true
 images: ["images/0051-Brighter/Ian.jpg"]
 ---

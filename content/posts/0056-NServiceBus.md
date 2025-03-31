@@ -3,7 +3,7 @@ title: "Episode 56: NServiceBus - with Laïla Bougriâ"
 date: 2023-09-27
 draft: false
 episodeId: 13666675
-tags: ["nservicebus", "event-driven-architecture", "rabbitmq"]
+tags: ["nservicebus", "event-driven-architecture", "rabbitmq", "messaging"]
 twitter_cards: true
 images: ["images/0056-NServiceBus/Laila.jpeg"]
 ---
