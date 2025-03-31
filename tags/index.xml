@@ -6,7 +6,16 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>messaging</title>
+      <link>https://unhandledexceptionpodcast.com/tags/messaging/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/messaging/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>dotnet</title>
       <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
@@ -490,15 +499,6 @@
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>messaging</title>
-      <link>https://unhandledexceptionpodcast.com/tags/messaging/</link>
-      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/messaging/</guid>
       <description></description>
     </item>
     
