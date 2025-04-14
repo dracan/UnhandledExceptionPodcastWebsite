@@ -13,6 +13,18 @@ improve reliability of messaging by storing outgoing messages in a database tabl
 
 {{< buzzsprout-episode 16891790 >}}
 
+# Tomek's bio
+
+Technology geek passionate about the design and development of software systems. Interested in distributed, message-based architectures and technology in general. Likes to know if systems work correctly, how they fail, and what that even means in the first place. Co-author at https://exactly-once.github.io/.
+
+# Szymon's bio
+
+Szymon works an engineer at Particular Software, the makers of NServiceBus. His main areas of expertise are Domain-Driven Design and asynchronous messaging. He is especially interested in the intersection of these two topics -- in the patterns and tools for ensuring all messages are processed exactly once and in the correct order.
+
+Szymon is a co-author of https://exactly-once.github.io/, a website dedicated to all things related to messaging.
+
+In his free time Szymon plays with Lego, building models of real-life off-road vehicles.
+
 ---
 
 # Contact links
