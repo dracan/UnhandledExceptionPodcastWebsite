@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>observability on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/observability/</link>
+    <description>Recent content in observability on The Unhandled Exception Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/observability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 76: .NET Aspire with Maddy Montaquila</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0076-dotnetaspire/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0076-dotnetaspire/</guid>
+      <description>In this episode, I was honoured to be joined by Maddy Montaquila to chat about the amazing .NET Aspire! We covered a lot of stuff in this episode - from what Aspire is, and its features - to various stories about the decisions made and the future plans for Aspire. We also took a few tangents, chatting about AI and vibe coding! It was such a fun conversation!
+We also talk about my new Dometrain course on .</description>
+    </item>
+    
+  </channel>
+</rss>

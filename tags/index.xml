@@ -6,22 +6,40 @@
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>messaging</title>
-      <link>https://unhandledexceptionpodcast.com/tags/messaging/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <title>aspire</title>
+      <link>https://unhandledexceptionpodcast.com/tags/aspire/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://unhandledexceptionpodcast.com/tags/messaging/</guid>
+      <guid>https://unhandledexceptionpodcast.com/tags/aspire/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dotnet</title>
       <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
-      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>observability</title>
+      <link>https://unhandledexceptionpodcast.com/tags/observability/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/observability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>messaging</title>
+      <link>https://unhandledexceptionpodcast.com/tags/messaging/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/tags/messaging/</guid>
       <description></description>
     </item>
     
@@ -247,15 +265,6 @@
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://unhandledexceptionpodcast.com/tags/terraform/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>aspire</title>
-      <link>https://unhandledexceptionpodcast.com/tags/aspire/</link>
-      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/aspire/</guid>
       <description></description>
     </item>
     

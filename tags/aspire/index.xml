@@ -6,7 +6,17 @@
     <description>Recent content in aspire on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/aspire/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/aspire/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 76: .NET Aspire with Maddy Montaquila</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0076-dotnetaspire/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0076-dotnetaspire/</guid>
+      <description>In this episode, I was honoured to be joined by Maddy Montaquila to chat about the amazing .NET Aspire! We covered a lot of stuff in this episode - from what Aspire is, and its features - to various stories about the decisions made and the future plans for Aspire. We also took a few tangents, chatting about AI and vibe coding! It was such a fun conversation!
+We also talk about my new Dometrain course on .</description>
+    </item>
+    
     <item>
       <title>Episode 60: .NET Conf 2023 - with Scott Hunter</title>
       <link>https://unhandledexceptionpodcast.com/posts/0060-dotnetconfwithscotthunter/</link>
