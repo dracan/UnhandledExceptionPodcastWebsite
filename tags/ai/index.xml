@@ -6,7 +6,18 @@
     <description>Recent content in AI on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 77: Shawn Wildermuth</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0077-shawnwildermuth/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0077-shawnwildermuth/</guid>
+      <description>In this episode, I was delighted to be joined by Shawn Wildermuth. We chatted about software development in general, careers, AI, and more!
+Shawn Wildermuth is a software development consultant, Microsoft MVP, Pluralsight author, and speaker with over 30 years of experience in the industry.
+   Shawn&amp;rsquo;s social links  Website YouTube Bluesky LinkedIn GitHub Pluralsight Courses  Links from the show  Hello World film Vue.js .NET Aspire episode with Maddy Dan&amp;rsquo;s Aspire Dometrain course VSCode agent mode XMind Steve Smith&amp;rsquo;s episode talking about modular monoliths   If you&amp;rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!</description>
+    </item>
+    
     <item>
       <title>Episode 67: Live Panel Discussion at DDD South West 2024</title>
       <link>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</link>
