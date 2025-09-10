@@ -12,25 +12,19 @@ I do _a lot_ of editing afterwards, and it's easy to chop bits out whilst editin
 
 The finished podcast will always be _much_ more seamless than during recording. Knowing this up-front, should hopefully make it a much more relaxing and less stressful experience.
 
-# How do we record? (IMPORTANT)
+# How do we record?
 
-We will use [Discord](https://discord.com/) for recording. The podcast has a Discord community, which you can join [here](https://discord.gg/bfsWQDP9Nh). Before the recording I'll invite you to a private voice channel, where we can use video to see each other during the chat (only audio will be recorded though). I use a Discord Bot called [Craig](https://craig.chat/), which will record our audio locally in high quality. I'll then download the audio files afterwards from Craig's servers. I get a separate audio file per person - which makes a _huge_ difference to my ability to edit.
+I use a platform called [RiversideFm](https://riverside.fm/) for recording the audio. Riverside is just a webapp, and there's nothing to install. You'll receive a link to join when I send you the calendar invite.
 
-I recommend downloading the Discord desktop app rather than using the web-app.
+Riverside has video so that we can see each other, but only the audio will be recorded. Riverside automatically records high-quality wav files _locally_ for each person, and uploads it in the background. I can then download those wav files later for editing. I get a wav file per person, so I can edit each person's audio as a separate audio channel - which makes a _huge_ difference to my ability to edit.
 
-Also, please ensure your Discord audio settings match these screenshots...
+It's worth visiting the Riverside link beforehand to ensure that your system passes all its health-checks.
 
-![Discord audio settings 1/2](/images/DiscordAudioSettings.png)
+# Discord
 
-![Discord audio settings 2/2](/images/DiscordAudioSettings2.png)
+The podcast also has a Discord community. Whilst not a requirement for recording (it used to be when I previously used to use Discord for recording) - it's still nice if guests do join the podcast's Discord community. All guests will also be given the 'guest' role in our Discord community - which will put you near the top of the list of members.
 
-All guests will also be given the 'guest' role in our Discord community - which will put you near the top of the list of members.
-
-# Alternative recording method - manual local recordings
-
-If you'd rather not use Discord and the Craig bot, then please see the follow page...
-
-[Manually recording audio locally with Audacity (or similar software)](/pages/guest-faq-manual-recordings/)
+To join the Discord, please click [here](https://discord.gg/bfsWQDP9Nh).
 
 # What planning is involved before hand?
 
@@ -38,7 +32,7 @@ I normally create a shared Google Doc and share with the guest(s). This is basic
 
 # Headphones (IMPORTANT)
 
-Please make sure you use headphones or earphones instead of a PC/laptop speaker. A speaker might work with Zoom or Teams - but because we'll be recording unfiltered audio, there will be far too much echo where your microphone is also picking up your speakers.
+Please make sure you use headphones or earphones instead of a PC/laptop speaker. A speaker might work with Zoom or Teams - but because Riverside is recording unfiltered audio, there will be far too much echo where your microphone is also picking up your speakers.
 
 # Do I need a super-duper microphone?
 
