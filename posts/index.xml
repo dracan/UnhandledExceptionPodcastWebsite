@@ -6,7 +6,17 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 79: A Microsoft AI discussion with Olorunfemi Davis</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0079-olorunfemidavis/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0079-olorunfemidavis/</guid>
+      <description>In this episode, I was joined by Olorunfemi Davis to chat about AI. We chatted about Microsoft Copilot Studio, Semantic Kernel, and AI in general.
+With 9 years of experience, Olorunfemi specialises in architecting, building, and optimising secure, high-performance systems. His expertise covers the full spectrum of C# / .NET development and managing infrastructure across Microsoft Azure, AWS, and Google Cloud (GCP). He focuses on bridging Dev and Ops to drive efficiency, CI/CD Automation, and data-driven reliability, incorporating robust security features like end-to-end encryption and leveraging techniques like AI/machine learning to streamline complex workflows.</description>
+    </item>
+    
     <item>
       <title>Episode 78: Goals and time management - with Gui Ferreira</title>
       <link>https://unhandledexceptionpodcast.com/posts/0078-guiferreira/</link>
