@@ -2,7 +2,7 @@ baseURL = "https://unhandledexceptionpodcast.com/"
 languageCode = "en-gb"
 title = "The Unhandled Exception Podcast"
 theme = "m10c"
-disqusShortname = "the-unhandled-exception-podcast"
+
 googleAnalytics = "G-RN9Q259LF1"
 
 [menu]
@@ -37,6 +37,8 @@ googleAnalytics = "G-RN9Q259LF1"
   avatar = "images/UepLogoText.png"
   description = "Software Development podcast hosted by Dan Clarke"
   menu_item_separator = " - "
+  giscusRepoId = "R_kgDOQSZ8HA"
+  giscusCategoryId = "DIC_kwDOQSZ8HM4CxnOC"
   [[params.social]]
     name = "github"
     url = "https://github.com/dracan/UnhandledExceptionPodcastWebsite"
