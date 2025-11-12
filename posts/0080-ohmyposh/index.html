@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-gb">
   <head>
-    <title>Episode 75: The Outbox Pattern - with Tomek Masternak and Szymon Pobiega // The Unhandled Exception Podcast</title>
+    <title>Episode 80: Oh My Posh - with Jan De Dobbeleer // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.82.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,20 +23,20 @@ if (!doNotTrack) {
 </script>
 
     
-    <meta property="og:title" content="Episode 75: The Outbox Pattern - with Tomek Masternak and Szymon Pobiega" />
-<meta property="og:description" content="In this episode, I was joined by Tomek Masternak and Szymon Pobiega from Particular Software (NServiceBus) for a technical discussion about the Outbox Pattern! The pattern is designed to improve reliability of messaging by storing outgoing messages in a database table (the &ldquo;outbox&rdquo;) as part of the same transaction that modifies business data - allowing a separate process to read and publish those messages to a message broker.
-  Tomek&rsquo;s bio Technology geek passionate about the design and development of software systems." />
+    <meta property="og:title" content="Episode 80: Oh My Posh - with Jan De Dobbeleer" />
+<meta property="og:description" content="In this episode, I was delighted to be joined by Jan De Dobbeleer to chat about the amazing Oh My Posh! This is something I&rsquo;ve used for years, so it was really great chatting with Jan about it. Oh My Posh is a highly customisable cross-platform prompt engine for any shell. We also chatted about his experiences as an open-source developer.
+Jan is a passionate software engineer with a love for creating clean, intuitive, and user-friendly tools." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0075-theoutboxpattern/" /><meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0075-TheOutboxPattern/OutboxPatternGraphic.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-03-31T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2025-03-31T00:00:00&#43;00:00" />
+<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0080-ohmyposh/" /><meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0080-JanDeDobbeleer/Jan.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-11-12T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2025-11-12T00:00:00&#43;00:00" />
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Episode 75: The Outbox Pattern - with Tomek Masternak and Szymon Pobiega"/>
-<meta name="twitter:description" content="In this episode, I was joined by Tomek Masternak and Szymon Pobiega from Particular Software (NServiceBus) for a technical discussion about the Outbox Pattern! The pattern is designed to improve reliability of messaging by storing outgoing messages in a database table (the &ldquo;outbox&rdquo;) as part of the same transaction that modifies business data - allowing a separate process to read and publish those messages to a message broker.
-  Tomek&rsquo;s bio Technology geek passionate about the design and development of software systems."/>
-<meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0075-TheOutboxPattern/OutboxPatternGraphic.png"/>
+<meta name="twitter:title" content="Episode 80: Oh My Posh - with Jan De Dobbeleer"/>
+<meta name="twitter:description" content="In this episode, I was delighted to be joined by Jan De Dobbeleer to chat about the amazing Oh My Posh! This is something I&rsquo;ve used for years, so it was really great chatting with Jan about it. Oh My Posh is a highly customisable cross-platform prompt engine for any shell. We also chatted about his experiences as an open-source developer.
+Jan is a passionate software engineer with a love for creating clean, intuitive, and user-friendly tools."/>
+<meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0080-JanDeDobbeleer/Jan.jpg"/>
 
   </head>
 
@@ -236,63 +236,51 @@ if (!doNotTrack) {
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Episode 75: The Outbox Pattern - with Tomek Masternak and Szymon Pobiega</h1>
+      <h1 class ="post-title">Episode 80: Oh My Posh - with Jan De Dobbeleer</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          Mar 31, 2025
+          Nov 12, 2025
         </div>
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/messaging/">messaging</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/cli/">cli</a>
         </div>
       </div>
     </header>
     <div class="post-content">
-      <p>In this episode, I was joined by Tomek Masternak and Szymon Pobiega from Particular Software (NServiceBus) for a technical discussion about the Outbox Pattern! The pattern is designed to
-improve reliability of messaging by storing outgoing messages in a database table (the &ldquo;outbox&rdquo;) as part of the same transaction that modifies business data - allowing a separate process to read and publish those messages to a message broker.</p>
-<div id="buzzsprout-player-16891790"></div>
-<script src="https://www.buzzsprout.com/978640/16891790-hello-world.js?container_id=buzzsprout-player-16891790&player=small" type="text/javascript" charset="utf-8"></script>
+      <p>In this episode, I was delighted to be joined by <a href="https://ohmyposh.dev/">Jan De Dobbeleer</a> to chat about the amazing <a href="https://ohmyposh.dev/">Oh My Posh</a>! This is something I&rsquo;ve used for years, so it was really great chatting with Jan about it. Oh My Posh is a highly customisable cross-platform prompt engine for any shell. We also chatted about his experiences as an open-source developer.</p>
+<p>Jan is a passionate software engineer with a love for creating clean, intuitive, and user-friendly tools. With a background in computer science and years of experience in the industry, he has a deep understanding of what it takes to build successful and widely-used open-source projects.</p>
+<p>In addition to oh-my-posh, Jan is also an active contributor to other open-source projects and a frequent speaker at tech conferences and meetups. He is always looking for new ways to improve and expand upon his work, and is constantly pushing the boundaries of what is possible with terminal customization.</p>
+<div id="buzzsprout-player-18179084"></div>
+<script src="https://www.buzzsprout.com/978640/18179084-hello-world.js?container_id=buzzsprout-player-18179084&player=small" type="text/javascript" charset="utf-8"></script>
 
-<h1 id="tomeks-bio">Tomek&rsquo;s bio</h1>
-<p>Technology geek passionate about the design and development of software systems. Interested in distributed, message-based architectures and technology in general. Likes to know if systems work correctly, how they fail, and what that even means in the first place. Co-author at <a href="https://exactly-once.github.io/">https://exactly-once.github.io/</a>.</p>
-<h1 id="szymons-bio">Szymon&rsquo;s bio</h1>
-<p>Szymon works an engineer at Particular Software, the makers of NServiceBus. His main areas of expertise are Domain-Driven Design and asynchronous messaging. He is especially interested in the intersection of these two topics &ndash; in the patterns and tools for ensuring all messages are processed exactly once and in the correct order.</p>
-<p>Szymon is a co-author of <a href="https://exactly-once.github.io/,">https://exactly-once.github.io/,</a> a website dedicated to all things related to messaging.</p>
-<p>In his free time Szymon plays with Lego, building models of real-life off-road vehicles.</p>
 <hr>
-<h1 id="contact-links">Contact links</h1>
+<h1 id="jans-social-links">Jan&rsquo;s social links</h1>
 <ul>
-<li><a href="https://www.linkedin.com/in/tomek-masternak-9142602/">Tomek on LinkedIn</a></li>
-<li><a href="https://www.linkedin.com/in/szymonpobiega/">Szymon on LinkedIn</a></li>
-<li><a href="https://x.com/Masternak">Tomek on X-Twitter</a></li>
-<li><a href="https://x.com/SzymonPobiega">Szymon on X-Twitter</a></li>
-<li><a href="https://exactly-once.github.io/">Joint blog written by both Tomek and Syzmon</a></li>
+<li><a href="https://github.com/JanDeDobbeleer">GitHub</a></li>
+<li><a href="https://bsky.app/profile/jan.ohmyposh.dev">Bluesky</a></li>
+<li><a href="https://www.linkedin.com/in/jandedobbeleer/">LinkedIn</a></li>
 </ul>
-<hr>
 <h1 id="links-from-the-show">Links from the show</h1>
 <ul>
-<li><a href="https://github.com/exactly-once/workshop/tree/master/NewExercises">Workshop material on GitHub</a></li>
-<li><a href="https://event-driven.io/en/push_based_outbox_pattern_with_postgres_logical_replication">Oskar&rsquo;s post on implementing Outbox using PostgreSQL</a></li>
-<li><a href="https://www.youtube.com/watch?v=FZ-1dbtQXYY">Jimmy Bogard @ NDC London 2025: Consistency and Agreements in Distributed Systems</a></li>
-<li>Some outbox flavours:
-<ul>
-<li><a href="https://learn.microsoft.com/en-us/azure/architecture/databases/guide/transactional-outbox-cosmos">Async/bach</a></li>
-<li><a href="https://www.youtube.com/watch?v=rTovKpG0rhY&amp;t=1846s">HTTP triggered (NServiceBus, Dapr)</a></li>
+<li><a href="https://ohmyposh.dev/">Oh My Posh</a></li>
+<li><a href="https://github.com/JanDeDobbeleer/oh-my-posh">Oh My Posh - GitHub</a></li>
+<li><a href="https://www.warp.dev/">Warp Terminal</a></li>
+<li><a href="https://www.nerdfonts.com/">Nerd Fonts</a></li>
+<li><a href="/posts/0029-snapshottesting/">Simon Cropp&rsquo;s episode on Snapshot Testing</a></li>
 </ul>
-</li>
-</ul>
-<h2 id="from-dev-picks-section">From dev picks section</h2>
+<h2 id="dev-pick-links">Dev Pick Links</h2>
 <ul>
-<li><a href="https://www.gozerog.com/">Zero-G flights</a></li>
-<li><a href="https://readwise.io/i/dan7773">Readwise invite link</a> (gives an extra 1-month free trial)</li>
-<li><a href="https://euroshop.boox.com/products/boox-go-6">Onyx Boox Go 6</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZWPthpm7Bs4">YouTube - James Montemagno - Background Coding Agents</a> (Dan&rsquo;s dev pick)</li>
+<li><a href="https://github.com/github/copilot-cli">GitHub CoPilot CLI</a> - Also mentioned in Dan&rsquo;s dev pick</li>
+<li><a href="https://github.com/github/spec-kit">GitHub Spec Kit</a> - Jan&rsquo;s dev pick</li>
 </ul>
 <hr>
 <p>If you&rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!</p>
