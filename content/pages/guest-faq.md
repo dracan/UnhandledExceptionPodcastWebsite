@@ -34,9 +34,13 @@ I normally create a shared Google Doc and share with the guest(s). This is basic
 
 Please make sure you use headphones or earphones instead of a PC/laptop speaker. A speaker might work with Zoom or Teams - but because Riverside is recording unfiltered audio, there will be far too much echo where your microphone is also picking up your speakers.
 
-# Do I need a super-duper microphone?
+# Microphone
 
-A microphone that isn't your built-in laptop microphone is definitely preferred. This doesn't have to be a super-duper few-hundred-pound microphone though! If you have a headset with a directional mic - that'll be much better than a built-in laptop mic. Whatever your setup - it's worth doing a few test recordings using a tool like [Audacity](https://www.audacityteam.org/) and listen back through headphones. When listening back, ask yourself if you'd be happy with the quality if you were a podcast listener.
+Whilst a super-duper very expensive microphone setup is of course not required - please note that the laptop mic, or a pair of Airpods will definitely not be good enough quality, and results in a very poor experience for the listeners.
+
+A desktop mic like the Blue Yeti (or equivalent) works well. Or if you have a dynamic mic with boom arm, etc - then you probably don't need to read this section! ;) Or alternatively, if you have a headset with a directional mic - that works too (but do read the related section below).
+
+Whatever your setup - it's worth doing a few test recordings using a tool like [Audacity](https://www.audacityteam.org/) and listen back through headphones. When listening back, ask yourself if you'd be happy with the quality if you were a podcast listener.
 
 When it comes down to it - if you're concerned about your audio quality - just ask me, and we can discuss different ideas together beforehand to get the most out of your setup. And we can also do a test recording beforehand if you're still unsure.
 
