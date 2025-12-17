@@ -31,6 +31,7 @@ James World is a seasoned technology leader and Solution Architect with over thr
 * [AutoGen](https://github.com/microsoft/autogen)
 * [Episode 16 - Learning and Self Development with James World](/posts/0016-learningwithjamesworld/)
 * [Episode 23 - Git - with Jesse Liberty and James World](/posts/0023-git/)
+* [James' 99-line coding agent](https://gist.github.com/james-world/857409d64bccb6c4f992a406250361d1)
 
 ---
 
