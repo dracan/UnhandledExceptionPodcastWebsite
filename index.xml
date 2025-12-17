@@ -6,7 +6,17 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 82: AI and the Microsoft Agent Framework - with James World</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0082-jamesworld/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://unhandledexceptionpodcast.com/posts/0082-jamesworld/</guid>
+      <description>In this episode, I was joined by James World to chat about AI for developers. We covered a lot of general AI chat - from using it to quickly knock up tools, to spec-driven development, and much more. We also discussed the Microsoft Agent Framework - a new open-source framework for building AI agents and multi-agent workflows.
+James World is a seasoned technology leader and Solution Architect with over three decades of experience building and guiding software solutions across the financial and enterprise sectors.</description>
+    </item>
+    
     <item>
       <title>Episode 81: AI-driven development and DevOps - with Jeffrey Palermo</title>
       <link>https://unhandledexceptionpodcast.com/posts/0081-jeffreypalermo/</link>
