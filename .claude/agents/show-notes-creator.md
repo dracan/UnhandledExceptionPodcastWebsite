@@ -1,7 +1,7 @@
 ---
 name: show-notes-creator
 description: Use this agent when you need to create show notes for a new podcast episode.
-model: sonnet
+model: opus
 color: blue
 ---
 
