@@ -32,6 +32,7 @@ James World is a seasoned technology leader and Solution Architect with over thr
 * [Episode 16 - Learning and Self Development with James World](/posts/0016-learningwithjamesworld/)
 * [Episode 23 - Git - with Jesse Liberty and James World](/posts/0023-git/)
 * [James' 99-line coding agent](https://gist.github.com/james-world/857409d64bccb6c4f992a406250361d1)
+* [Twitter/X post from Dan's dev tip](https://x.com/SahilBloom/status/1990813045354815878)
 
 ---
 
