@@ -7,7 +7,9 @@
       "WebFetch(domain:ohmyposh.dev)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:unhandledexceptionpodcast.com)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(powershell -File:*)",
+      "Bash(hugo server:*)"
     ],
     "deny": [],
     "ask": []
