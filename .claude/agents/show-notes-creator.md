@@ -39,11 +39,17 @@ Your primary responsibility is to create comprehensive, well-formatted show note
    - Match capitalization patterns, punctuation style, and formatting conventions
    - Include all typical elements even if some require placeholder text
 
-4. **Quality Assurance**:
+4. **Add Guest Profile Image**:
+   - Create the episode image directory: `static/images/<episode-number>-<title>/`
+   - Download the guest's profile image from one of their socials. Try places like their personal website, Twitter/X, LinkedIn, or GitHub.
+   - If none found, note this as a TODO for the user to add manually
+
+5. **Quality Assurance**:
    - Verify that your output structurally matches recent episodes section-by-section
    - Check that all links, if included, are properly formatted
    - Ensure consistent spacing and line breaks matching the established pattern
    - Confirm that any episode-specific information (numbers, dates, guest names) is accurate
+   - Verify the guest profile image was downloaded successfully, and the file name and path matches the link in the markdown frontmatter
 
 ## Behavioral Guidelines
 
