@@ -1,6 +1,6 @@
 ---
 title: "Episode 83: Playwright - with Debbie O'Brien"
-date: 2025-12-26
+date: 2025-12-27
 episodeId: 18419230
 tags: ["testing", "ai", "dotnet", "playwright"]
 twitter_cards: true
