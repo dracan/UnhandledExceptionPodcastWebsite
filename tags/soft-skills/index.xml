@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>soft-skills on The Unhandled Exception Podcast</title>
+    <title>Soft-Skills on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/soft-skills/</link>
-    <description>Recent content in soft-skills on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Soft-Skills on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/soft-skills/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/soft-skills/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 73: Upgrade your Brain&#39;s OS - with Rob West</title>
       <link>https://unhandledexceptionpodcast.com/posts/0073-robwest/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0073-robwest/</guid>
-      <description>As developers, we&amp;rsquo;re always looking for ways to improve and optimise our code. Yet we often neglect our body&amp;rsquo;s hardware and software. In this episode, I was joined by Rob West, to chat about how we can use mindfulness, nutrition, and exercise to upgrade our brain&amp;rsquo;s operating system. A large part of our discussion was about our ability to focus, why are brains naturally struggle with this, especially in the modern world - and techniques to help us with this.</description>
+      <description>&lt;p&gt;As developers, we&amp;rsquo;re always looking for ways to improve and optimise our code. Yet we often neglect our body&amp;rsquo;s hardware and software. In this episode, I was joined by Rob West, to chat about how we can use mindfulness, nutrition, and exercise to upgrade our brain&amp;rsquo;s operating system. A large part of our discussion was about our ability to focus, why are brains naturally struggle with this, especially in the modern world - and techniques to help us with this. We did, of course, also chat about coffee! ☕️&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 30: Developer Productivity with (me!) Dan Clarke</title>
       <link>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</guid>
-      <description>Developer productivity is something I&amp;rsquo;ve been really interested in for quite a few years. So I decided, rather than having a guest on for this topic - it&amp;rsquo;s one I wanted to cover myself. So in this first episode of the year - I&amp;rsquo;ve gone solo, and talk about the things I find have made a big difference to my productivity over the years. Also why I think this term &amp;ldquo;10x developer&amp;rdquo; is a big understatement!</description>
+      <description>&lt;p&gt;Developer productivity is something I&amp;rsquo;ve been really interested in for quite a few years. So I decided, rather than having a guest on for this topic - it&amp;rsquo;s one I wanted to cover myself. So in this first episode of the year - I&amp;rsquo;ve gone &lt;em&gt;solo&lt;/em&gt;, and talk about the things I find have made a big difference to my productivity over the years. Also why I think this term &amp;ldquo;10x developer&amp;rdquo; is a big understatement!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

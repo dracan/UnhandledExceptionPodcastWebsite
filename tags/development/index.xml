@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>development on The Unhandled Exception Podcast</title>
+    <title>Development on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/development/</link>
-    <description>Recent content in development on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Development on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 78: Goals and time management - with Gui Ferreira</title>
       <link>https://unhandledexceptionpodcast.com/posts/0078-guiferreira/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0078-guiferreira/</guid>
-      <description>In this episode, I was joined by Gui Ferreira to chat about one of my favourite topics - life productivity! Where we talked about goal-setting, time management, and productivity in general. We also chatted a bit at the end about testing and AI.
-Guilherme Ferreira, also known as Gui, is a Minimalist Software Craftsman, passionate about simplicity and continuous learning. Gui is a Microsoft MVP for Developer Technologies, a Tech Speaker, a YouTuber, and a .</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://guiferreira.me/&#34;&gt;Gui Ferreira&lt;/a&gt; to chat about one of my favourite topics - life productivity! Where we talked about goal-setting, time management, and productivity in general. We also chatted a bit at the end about testing and AI.&lt;/p&gt;&#xA;&lt;p&gt;Guilherme Ferreira, also known as Gui, is a Minimalist Software Craftsman, passionate about simplicity and continuous learning. Gui is a Microsoft MVP for Developer Technologies, a Tech Speaker, a YouTuber, and a .NET content creator. With over 15 years of experience in software development, Gui went from Startups to Tech Giants. Along his journey, he got to know several hats, including Software Engineer, Architect, CTO, and Developer Advocate, gathering a diverse and invaluable skill set.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 77: Shawn Wildermuth</title>
       <link>https://unhandledexceptionpodcast.com/posts/0077-shawnwildermuth/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0077-shawnwildermuth/</guid>
-      <description>In this episode, I was delighted to be joined by Shawn Wildermuth. We chatted about software development in general, careers, AI, and more!
-Shawn Wildermuth is a software development consultant, Microsoft MVP, Pluralsight author, and speaker with over 30 years of experience in the industry.
-   Shawn&amp;rsquo;s social links  Website YouTube Bluesky LinkedIn GitHub Pluralsight Courses  Links from the show  Hello World film Vue.js .NET Aspire episode with Maddy Dan&amp;rsquo;s Aspire Dometrain course VSCode agent mode XMind Steve Smith&amp;rsquo;s episode talking about modular monoliths   If you&amp;rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!</description>
+      <description>&lt;p&gt;In this episode, I was delighted to be joined by &lt;a href=&#34;https://wildermuth.com/&#34;&gt;Shawn Wildermuth&lt;/a&gt;. We chatted about software development in general, careers, AI, and more!&lt;/p&gt;&#xA;&lt;p&gt;Shawn Wildermuth is a software development consultant, Microsoft MVP, Pluralsight author, and speaker with over 30 years of experience in the industry.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-17428782&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/17428782-hello-world.js?container_id=buzzsprout-player-17428782&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;shawns-social-links&#34;&gt;Shawn&amp;rsquo;s social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wildermuth.com/&#34;&gt;Website&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@swildermuth&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bsky.app/profile/wildermuth.com&#34;&gt;Bluesky&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/shawnwildermuth/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/shawnwildermuth&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/authors/shawn-wildermuth&#34;&gt;Pluralsight Courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twainfilms.com/hwfilm/&#34;&gt;Hello World film&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue.js&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unhandledexceptionpodcast.com/posts/0076-dotnetaspire/&#34;&gt;.NET Aspire episode with Maddy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dometrain.com/course/getting-started-dotnet-aspire/?ref=dan-clarke&amp;amp;promotion=podcast&#34;&gt;Dan&amp;rsquo;s Aspire Dometrain course&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode&#34;&gt;VSCode agent mode&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://xmind.com/&#34;&gt;XMind&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unhandledexceptionpodcast.com/posts/0068-modularmonolithswithardalis/&#34;&gt;Steve Smith&amp;rsquo;s episode talking about modular monoliths&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

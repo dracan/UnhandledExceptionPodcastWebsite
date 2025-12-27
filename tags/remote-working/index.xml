@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>remote-working on The Unhandled Exception Podcast</title>
+    <title>Remote-Working on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/remote-working/</link>
-    <description>Recent content in remote-working on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Remote-Working on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/remote-working/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/remote-working/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 2: Derek Comartin - CQRS, MediatR, and more!</title>
       <link>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</guid>
-      <description>In this second episode, I&amp;rsquo;m thrilled to welcome Derek Comartin (also known as CodeOpinion) onto the show to talk about CQRS and MediatR! We ended up recording over two different sessions and covered lots of different topics, including functional programming and remote working.
-  Links from the show  Derek on Twitter Derek&amp;rsquo;s blog Derek&amp;rsquo;s YouTube channel MediatR language-ext functional C# library Dan&amp;rsquo;s &amp;ldquo;Writing More Succinct C#&amp;rdquo; blog post Simon Painter&amp;rsquo;s Functional Programming in C# talk LINQPad (from devtips) Dan&amp;rsquo;s LINQPad Tips and Tricks blog post series  </description>
+      <description>&lt;p&gt;In this second episode, I&amp;rsquo;m thrilled to welcome &lt;a href=&#34;https://twitter.com/codeopinion&#34;&gt;Derek Comartin&lt;/a&gt; (also known as CodeOpinion) onto the show to talk about CQRS and MediatR! We ended up recording over two different sessions and covered lots of different topics, including functional programming and remote working.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-6103414&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/6103414-hello-world.js?container_id=buzzsprout-player-6103414&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/codeopinion&#34;&gt;Derek on Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://codeopinion.com/&#34;&gt;Derek&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC3RKA4vunFAfrfxiJhPEplw&#34;&gt;Derek&amp;rsquo;s YouTube channel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/jbogard/MediatR&#34;&gt;MediatR&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/louthy/language-ext&#34;&gt;language-ext functional C# library&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/2020-more-succinct-csharp&#34;&gt;Dan&amp;rsquo;s &amp;ldquo;Writing More Succinct C#&amp;rdquo; blog post&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=mwIEYPLXh3A&#34;&gt;Simon Painter&amp;rsquo;s Functional Programming in C# talk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linqpad.net/&#34;&gt;LINQPad&lt;/a&gt; (from devtips)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/linqpad-tips-and-tricks&#34;&gt;Dan&amp;rsquo;s LINQPad Tips and Tricks blog post series&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

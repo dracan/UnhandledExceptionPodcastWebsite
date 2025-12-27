@@ -2,60 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C# on The Unhandled Exception Podcast</title>
-    <link>https://unhandledexceptionpodcast.com/tags/c#/</link>
+    <link>https://unhandledexceptionpodcast.com/tags/c%23/</link>
     <description>Recent content in C# on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 72: Unhandled Exceptions - With Callum Linington</title>
       <link>https://unhandledexceptionpodcast.com/posts/0072-exceptions/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0072-exceptions/</guid>
-      <description>throw new UnhandledExceptionPodcast(&amp;quot;Episode 72: Exceptions - With Callum Linington&amp;quot;);
-In this episode, I was joined for a second time by Callum Linington - this time to discuss exceptions, which is quite fitting given the show&amp;rsquo;s name! We chatted about why you should avoid using exceptions for your main business logic and control flow, and explored better ways to handle errors. And I&amp;rsquo;m afraid the &amp;ldquo;monad&amp;rdquo; word got thrown in too! 🙈</description>
+      <description>&lt;p&gt;&lt;code&gt;throw new UnhandledExceptionPodcast(&amp;quot;Episode 72: Exceptions - With Callum Linington&amp;quot;);&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this episode, I was joined for a second time by Callum Linington - this time to discuss exceptions, which is quite fitting given the show&amp;rsquo;s name! We chatted about why you should avoid using exceptions for your main business logic and control flow, and explored better ways to handle errors. And I&amp;rsquo;m afraid the &amp;ldquo;monad&amp;rdquo; word got thrown in too! 🙈&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 70: Naming things is hard! With Nick Cosentino</title>
       <link>https://unhandledexceptionpodcast.com/posts/0070-namingthingsishard/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0070-namingthingsishard/</guid>
-      <description>In this episode, I was joined by Nick Cosentino (DevLeader on the socials) to chat about refactoring code. We also discussed various other things, like automated testing, and how AI might affect us as developers, and much more!
-Nick Cosentino is a Principal Software Engineering Manager at Microsoft and a .NET content creator. He manages the teams responsible for deploying the hundreds of services supporting the Microsoft365 suite of products to serve users across the planet.</description>
+      <description>&lt;p&gt;In this episode, I was joined by Nick Cosentino (DevLeader on the socials) to chat about refactoring code. We also discussed various other things, like automated testing, and how AI might affect us as developers, and much more!&lt;/p&gt;&#xA;&lt;p&gt;Nick Cosentino is a Principal Software Engineering Manager at Microsoft and a .NET content creator. He manages the teams responsible for deploying the hundreds of services supporting the Microsoft365 suite of products to serve users across the planet. Nick brings his unique experiences to the Big Tech world having worked at a startup that scaled from a handful of employees to hundreds before it went public. Nick runs a software engineering and dotnet-focused blog as well as a YouTube channel called Dev Leader. While he enjoys solving complex problems with software solutions, Nick is passionate about reducing barriers for people to get started on their software engineering journey.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 68: Modular Monoliths - with Steve &#34;ardalis&#34; Smith</title>
       <link>https://unhandledexceptionpodcast.com/posts/0068-modularmonolithswithardalis/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0068-modularmonolithswithardalis/</guid>
-      <description>In this episode, I was honoured to be joined by Steve &amp;ldquo;ardalis&amp;rdquo; Smith to chat about Modular Monoliths! We discussed the benefits of going down the Modular Monolith route instead of moving to microservices. We also chatted about how MediatR can help with this, and also about creating online courses.
-Steve is an entrepreneur and software developer with a passion for building quality software as effectively as possible. He provides mentoring and training workshops for teams with the desire to improve.</description>
+      <description>&lt;p&gt;In this episode, I was honoured to be joined by Steve &amp;ldquo;ardalis&amp;rdquo; Smith to chat about Modular Monoliths! We discussed the benefits of going down the Modular Monolith route instead of moving to microservices. We also chatted about how MediatR can help with this, and also about creating online courses.&lt;/p&gt;&#xA;&lt;p&gt;Steve is an entrepreneur and software developer with a passion for building quality software as effectively as possible. He provides mentoring and training workshops for teams with the desire to improve. Steve has been recognized as a Microsoft MVP for over 10 consecutive years, and is a frequent speaker at software developer conferences and events. He is the top contributor to the official documentation on ASP.NET Core and enjoys helpings others write maintainable, testable applications using Microsoft&amp;rsquo;s developer tools.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 66: Serverless, AWS, and .NET - with James Eastham</title>
       <link>https://unhandledexceptionpodcast.com/posts/0066-jameseastham/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0066-jameseastham/</guid>
-      <description>In this episode I was joined by James Eastham to initially to chat about AWS and Serverless with .NET&amp;hellip; but we ended up covering a whole lot more! We chatted about OpenTelemetry, Kubernetes, Rust, and our Dometrain courses too!
-James Eastham is a Senior Cloud Architect at Amazon Web Services and content creator. He has over 10 years of experience in software, at all layers of the application stack. He has worked in front-line support, database administration, backend development and now works with some of the biggest companies in the world architecting systems using AWS technologies.</description>
+      <description>&lt;p&gt;In this episode I was joined by James Eastham to initially to chat about AWS and Serverless with .NET&amp;hellip; but we ended up covering a whole lot more! We chatted about OpenTelemetry, Kubernetes, Rust, and our Dometrain courses too!&lt;/p&gt;&#xA;&lt;p&gt;James Eastham is a Senior Cloud Architect at Amazon Web Services and content creator. He has over 10 years of experience in software, at all layers of the application stack.&#xA;He has worked in front-line support, database administration, backend development and now works with some of the biggest companies in the world architecting systems using AWS technologies.&#xA;James produces content on YouTube, focused on building applications with serverless technologies using .NET, Java, and Rust.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 65: C# and Blazor - with Mads Torgersen, Dan Roth, and Scott Hunter!</title>
       <link>https://unhandledexceptionpodcast.com/posts/0065-madst-danr-scotth/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0065-madst-danr-scotth/</guid>
-      <description>In this episode, I was honoured to be joined by Mads Torgersen, Dan Roth, and Scott Hunter!!! 🤯 We chatted about Blazor in .NET 8; C#12 interceptors, C#13, C#36 (you have to listen 😉), source generators, discriminated unions, AOT, and Stephen Toub&amp;rsquo;s performance blog posts!
-Mads, Dan, and Scott all work for Microsoft, and are heavily involved in .NET. Mads is the Lead Designer of C#, Dan is Product Manager on the ASP.</description>
+      <description>&lt;p&gt;In this episode, I was honoured to be joined by &lt;a href=&#34;https://twitter.com/MadsTorgersen&#34;&gt;Mads Torgersen&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/danroth27&#34;&gt;Dan Roth&lt;/a&gt;, and &lt;a href=&#34;https://twitter.com/coolcsh&#34;&gt;Scott Hunter&lt;/a&gt;!!! 🤯 We chatted about Blazor in .NET 8; C#12 interceptors, C#13, C#36 (you have to listen 😉), source generators, discriminated unions, AOT, and Stephen Toub&amp;rsquo;s performance blog posts!&lt;/p&gt;&#xA;&lt;p&gt;Mads, Dan, and Scott all work for Microsoft, and are heavily involved in .NET. &lt;a href=&#34;https://twitter.com/MadsTorgersen&#34;&gt;Mads&lt;/a&gt; is the Lead Designer of C#, &lt;a href=&#34;https://twitter.com/danroth27&#34;&gt;Dan&lt;/a&gt; is Product Manager on the ASP.NET Team for Blazor, and &lt;a href=&#34;https://twitter.com/coolcsh&#34;&gt;Scott&lt;/a&gt; is the VP of Product, working on the Azure Dev Experience team.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

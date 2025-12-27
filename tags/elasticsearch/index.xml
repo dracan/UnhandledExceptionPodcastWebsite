@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>elasticsearch on The Unhandled Exception Podcast</title>
+    <title>Elasticsearch on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/elasticsearch/</link>
-    <description>Recent content in elasticsearch on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Elasticsearch on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 52: Elastic - with Steve Gordon</title>
       <link>https://unhandledexceptionpodcast.com/posts/0052-elasticsearch/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0052-elasticsearch/</guid>
-      <description>In this episode, I was joined by Steve Gordon to chat about the Elastic Stack, and his work on the Elasticsearch .NET client.
-Steve is a senior engineer at Elastic, maintaining the .NET client libraries. He&amp;rsquo;s a Microsoft MVP, Pluralsight author, speaker, and blogger, and user-group organiser.
-  Steve&amp;rsquo;s social links  Twitter Mastodon GitHub Website/Blog LinkedIn YouTube  Links from the show  Elastic Elasticsearch client Elastic Observability Kibana Logstash Snapshot testing with Verify episode Verify on GitHub LocalStack  Devtip links  Github CLI Flurl Dan&amp;rsquo;s Flurl YouTube video  Listener Mention  Danielle D  </description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/stevejgordon&#34;&gt;Steve Gordon&lt;/a&gt; to chat about the &lt;a href=&#34;https://www.elastic.co/elastic-stack&#34;&gt;Elastic Stack&lt;/a&gt;, and his work on the Elasticsearch .NET client.&lt;/p&gt;&#xA;&lt;p&gt;Steve is a senior engineer at Elastic, maintaining the .NET client libraries. He&amp;rsquo;s a Microsoft MVP, Pluralsight author, speaker, and blogger, and user-group organiser.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-12659194&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/12659194-hello-world.js?container_id=buzzsprout-player-12659194&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;steves-social-links&#34;&gt;Steve&amp;rsquo;s social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/stevejgordon&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://fosstodon.org/@stevejgordon&#34;&gt;Mastodon&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/stevejgordon&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.stevejgordon.co.uk/about&#34;&gt;Website/Blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/steve-gordon-a6691114/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/codewithsteve&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.elastic.co/&#34;&gt;Elastic&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.elastic.co/guide/en/elasticsearch/client/net-api/current/introduction.html&#34;&gt;Elasticsearch client&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.elastic.co/observability&#34;&gt;Elastic Observability&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.elastic.co/kibana/&#34;&gt;Kibana&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.elastic.co/logstash/&#34;&gt;Logstash&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/&#34;&gt;Snapshot testing with Verify episode&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/VerifyTests/Verify&#34;&gt;Verify on GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://localstack.cloud/&#34;&gt;LocalStack&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;devtip-links&#34;&gt;Devtip links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cli.github.com/&#34;&gt;Github CLI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://flurl.dev/&#34;&gt;Flurl&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/dJTS1vgEB9s&#34;&gt;Dan&amp;rsquo;s Flurl YouTube video&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;listener-mention&#34;&gt;Listener Mention&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/DanielleD_Dev/status/1638800386088751104&#34;&gt;Danielle D&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

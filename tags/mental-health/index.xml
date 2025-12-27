@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mental-health on The Unhandled Exception Podcast</title>
+    <title>Mental-Health on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/mental-health/</link>
-    <description>Recent content in mental-health on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Mental-Health on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 17 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/mental-health/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/mental-health/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 57: .NET and Podcasting - with Jamie Taylor</title>
       <link>https://unhandledexceptionpodcast.com/posts/0057-jamietaylor/</link>
       <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0057-jamietaylor/</guid>
-      <description>In this episode, I was joined by the host of The Modern .NET Show, Jamie Taylor to chat about both .NET and podcasting! We also chatted about various other things like productivity, remote working and life balance, supporting junior developers, and plenty more!
-Jamie Taylor is the lead developer, CTO, and Microsoft MVP for developer technologies at RJJ Software. As a seasoned professional with 14 years of experience, Jamie brings expertise in .</description>
+      <description>&lt;p&gt;In this episode, I was joined by the host of &lt;a href=&#34;https://dotnetcore.show/&#34;&gt;The Modern .NET Show&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/podcasterJay&#34;&gt;Jamie Taylor&lt;/a&gt; to chat about both .NET and podcasting! We also chatted about various other things like productivity, remote working and life balance, supporting junior developers, and plenty more!&lt;/p&gt;&#xA;&lt;p&gt;Jamie Taylor is the lead developer, CTO, and Microsoft MVP for developer technologies at RJJ Software. As a seasoned professional with 14 years of experience, Jamie brings expertise in .NET, Python, Go, Flutter, JavaScript, Docker, and Node. He fosters a culture of continual learning and giving back, evident in his podcasts like The Modern .NET Show and Tabs and Spaces. Under Jamie&amp;rsquo;s leadership, RJJ Software prioritizes empathy and compassion in software development, ensuring a holistic understanding of clients&amp;rsquo; needs. His vision and commitment have earned him recognition, including the Managing Director of the Year award for Most Visionary Software Development &amp;amp; Consultancy in 2023.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

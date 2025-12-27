@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en-gb">
+  <head>
+    <title>Episode 83: Playwright - with Debbie O&#39;Brien // The Unhandled Exception Podcast</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.153.3">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Dan Clarke" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://unhandledexceptionpodcast.com/css/main.min.e4801e56ded6ddc58a4680d1bfea46f5678acc4d8e0057520d8b3bcfaa69ce56.css" />
+    <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RN9Q259LF1');
+        }
+      </script>
+    
+    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0083-playwright/">
+  <meta property="og:site_name" content="The Unhandled Exception Podcast">
+  <meta property="og:title" content="Episode 83: Playwright - with Debbie O&#39;Brien">
+  <meta property="og:description" content="In this episode, I was joined by Debbie O’Brien to chat about Playwright - Microsoft’s open-source end-to-end testing framework. I’m a huge fan of Playwright, so I was really excited to have this chat with Debbie. We covered a lot of ground, including features such as Codegen, Trace Viewer, and UI Mode. We also spoke a lot about AI - including the exciting Playwright MCP Server which enables AI agents to automate browser interactions!">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-27T00:00:00+00:00">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="Dotnet">
+    <meta property="article:tag" content="Playwright">
+    <meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0083-Playwright/DebbieOBrien.jpg">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Episode 83: Playwright - with Debbie O&#39;Brien"/>
+<meta name="twitter:description" content="In this episode, I was joined by Debbie O&rsquo;Brien to chat about Playwright - Microsoft&rsquo;s open-source end-to-end testing framework. I&rsquo;m a huge fan of Playwright, so I was really excited to have this chat with Debbie. We covered a lot of ground, including features such as Codegen, Trace Viewer, and UI Mode. We also spoke a lot about AI - including the exciting Playwright MCP Server which enables AI agents to automate browser interactions!"/>
+<meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0083-Playwright/DebbieOBrien.jpg"/>
+
+  </head>
+
+  <body>
+    <header class="app-header">
+      <a href="https://unhandledexceptionpodcast.com/"><img class="app-header-avatar" src="/images/UepLogoText.png" alt="Dan Clarke" /></a>
+      
+      <br>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/pages/about/">About</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/pages/guest-faq/">Guest FAQ</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/pages/sponsorship/">Sponsorship</a>
+      </nav>
+      <div id="listen-on">
+  <a class="listen-on-icon rss-feed-icon" target="_blank" href="https://feeds.buzzsprout.com/978640.rss"></a>
+  <a class="listen-on-icon apple-icon" target="_blank" href="https://podcasts.apple.com/gb/podcast/the-unhandled-exception-podcast/id1536194837"></a>
+  <a class="listen-on-icon spotify-icon" target="_blank" href="https://open.spotify.com/show/2DgUE1Iyl9cZxzzvUUIPBK"></a>
+  <a class="listen-on-icon youtube-icon" target="_blank" href="https://www.youtube.com/@UnhandledExceptionPodcast/podcasts"></a>
+  <br/>
+  <a class="listen-on-icon pocketcasts-icon" target="_blank" href="https://play.pocketcasts.com/podcasts/63c68d60-f59a-0138-e82d-0acc26574db2"></a>
+  <a class="listen-on-icon podcastaddict-icon" target="_blank" href="https://podcastaddict.com/podcast/3143967"></a>
+  <a class="listen-on-icon podchaser-icon" target="_blank" href="https://www.podchaser.com/podcasts/the-unhandled-exception-podcas-1519582"></a>
+</div>
+      <div id="bmc-container">
+  <link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
+  <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/danclarke">
+      <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
+      <span style="margin-left:5px;font-size:19px !important;">Buy me a coffee</span>
+  </a>
+</div>
+      <p>Software Development podcast hosted by Dan Clarke</p>
+
+      <div>
+  <a target="_blank" href="https://danclarke.beehiiv.com/subscribe?utm_source=UnhandledExceptonPodcastWebsite&utm_medium=website">
+      <img src="/images/Newsletter.png" alt="Newsletter" style="width: 100%;">
+  </a>
+</div>
+      <div>
+  <a target="_blank" href="https://twitter.com/dracan">
+      <img src="/images/Twitter.png" alt="Twitter" style="width: 100%;">
+  </a>
+</div>
+      <div>
+  <a rel="me" target="_blank" href="https://mstdn.social/@danclarke">
+      <img src="/images/Mastodon.png" alt="Mastodon" style="width: 100%;">
+  </a>
+</div>
+
+
+      <div>
+  <a target="_blank" href="https://discord.gg/RVpnQf2yjH">
+      <img src="/images/Discord-logo.png" alt="Discord" style="width: 100%;">
+  </a>
+</div>
+
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/dracan/UnhandledExceptionPodcastWebsite" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/dracan" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+      </div>
+      <a href="https://audionautix.com/">Music by Audionautix.com</a>
+
+      <ul class="tags-list-custom">
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
+          (37)
+          Dotnet
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
+          (9)
+          Testing
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
+          (7)
+          Blazor
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
+          (6)
+          AI
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
+          (6)
+          Mediatr
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
+          (6)
+          Messaging
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
+          (5)
+          C#
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
+          (5)
+          Community
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
+          (5)
+          Devops
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
+          (5)
+          Event-Driven-Architecture
+        </a>
+    </li>
+  
+</ul>
+<a class="app-header-menu-item" href="/tags/">- All Tags -</a>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Episode 83: Playwright - with Debbie O&#39;Brien</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Dec 27, 2025
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/testing/">Testing</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/ai/">AI</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">Dotnet</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/playwright/">Playwright</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>In this episode, I was joined by <a href="https://debbie.codes/">Debbie O&rsquo;Brien</a> to chat about <a href="https://playwright.dev/">Playwright</a> - Microsoft&rsquo;s open-source end-to-end testing framework. I&rsquo;m a huge fan of Playwright, so I was really excited to have this chat with Debbie. We covered a lot of ground, including features such as Codegen, Trace Viewer, and UI Mode. We also spoke a lot about AI - including the exciting <a href="https://github.com/microsoft/playwright-mcp">Playwright MCP Server</a> which enables AI agents to automate browser interactions!</p>
+<p>Debbie has been an integral part of Playwright as a Principal Program Manager at Microsoft and has led the Playwright community, shaping much of what Playwright has become today - driving a lot of the features mentioned above. She&rsquo;s also a Google Developer Expert in web technologies, Nuxt Ambassador, and is a former Microsoft Most Valuable Professional in developer technologies, Media Developer Expert and GitHub star alumni.</p>
+<div id="buzzsprout-player-18419230"></div>
+<script src="https://www.buzzsprout.com/978640/18419230-hello-world.js?container_id=buzzsprout-player-18419230&player=small" type="text/javascript" charset="utf-8"></script>
+
+<hr>
+<h1 id="debbies-social-links">Debbie&rsquo;s social links</h1>
+<ul>
+<li><a href="https://debbie.codes/">Website</a></li>
+<li><a href="https://github.com/debs-obrien">GitHub</a></li>
+<li><a href="https://x.com/debs_obrien">Twitter/X</a></li>
+<li><a href="https://www.linkedin.com/in/debbie-o-brien-1a199975/">LinkedIn</a></li>
+<li><a href="https://www.youtube.com/@DebbieOBrien">YouTube</a></li>
+</ul>
+<h1 id="links-from-the-show">Links from the show</h1>
+<ul>
+<li><a href="https://playwright.dev/">Playwright</a></li>
+<li><a href="https://github.com/microsoft/playwright">Playwright - GitHub</a></li>
+<li><a href="https://github.com/microsoft/playwright-mcp">Playwright MCP Server</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright">Playwright VS Code Extension</a></li>
+<li><a href="https://playwright.dev/docs/codegen-intro">Playwright Codegen</a></li>
+<li><a href="https://playwright.dev/docs/trace-viewer-intro">Playwright Trace Viewer</a></li>
+<li><a href="https://playwright.dev/docs/test-ui-mode">Playwright UI Mode</a></li>
+<li><a href="https://playwright.dev/community/welcome">Playwright community</a> (Discord, LinkedIn, etc)</li>
+<li><a href="https://elevenlabs.io/">ElevenLabs</a></li>
+</ul>
+<h2 id="dev-pick-links">Dev Pick Links</h2>
+<ul>
+<li><a href="https://github.com/block/goose">Goose</a></li>
+</ul>
+<hr>
+<p>If you&rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!</p>
+
+    </div>
+    <div class="post-footer">
+      <script src="https://giscus.app/client.js"
+        data-repo="dracan/unhandledexceptionpodcast-comments"
+        data-repo-id="R_kgDOQSZ8HA"
+        data-category="Comments"
+        data-category-id="DIC_kwDOQSZ8HM4CxnOC"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_dimmed"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>uno-platform on The Unhandled Exception Podcast</title>
+    <title>Uno-Platform on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/uno-platform/</link>
-    <description>Recent content in uno-platform on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Uno-Platform on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/uno-platform/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/uno-platform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 74: The Uno Platform and Hot Design - with Jérôme Laban</title>
       <link>https://unhandledexceptionpodcast.com/posts/0074-unoplatformandhotdesign/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0074-unoplatformandhotdesign/</guid>
-      <description>In this episode, I was joined by Jérôme Laban, the CTO of the Uno Platform. We chatted about the Uno Platform itself, which is a cross-platform framework for building single-codebase applications that run on Windows, iOS, Android, macOS, Linux, and the web via WebAssembly. We also discussed a new Hot Design feature, which is a designer/builder that during development, becomes part your application at runtime, so you can live build/edit your UIs with an easy drag and drop interface, whilst your application is running!</description>
+      <description>&lt;p&gt;In this episode, I was joined by Jérôme Laban, the CTO of the Uno Platform. We chatted about the Uno Platform itself, which is a cross-platform framework for building single-codebase applications that run on Windows, iOS, Android, macOS, Linux, and the web via WebAssembly. We also discussed a new Hot Design feature, which is a designer/builder that during development, becomes part your application at runtime, so you can live build/edit your UIs with an easy drag and drop interface, whilst your application is running! Given you&amp;rsquo;re building your UI at runtime, the designer UI also has access to your &lt;em&gt;real&lt;/em&gt; data and its properties for databinding, and renders them as you edit!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

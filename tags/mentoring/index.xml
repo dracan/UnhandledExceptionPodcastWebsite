@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mentoring on The Unhandled Exception Podcast</title>
+    <title>Mentoring on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/mentoring/</link>
-    <description>Recent content in mentoring on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Mentoring on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/mentoring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/mentoring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 67: Live Panel Discussion at DDD South West 2024</title>
       <link>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</guid>
-      <description>This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.
-  Guest bios Carl Sargunar is an independent web and mobile application developer and technical consultant.</description>
+      <description>&lt;p&gt;This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-15052916&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/15052916-hello-world.js?container_id=buzzsprout-player-15052916&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;guest-bios&#34;&gt;Guest bios&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/carl-sargunar-63b5814/&#34;&gt;Carl Sargunar&lt;/a&gt; is an independent web and mobile application developer and technical consultant. Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .NET SouthWest monthly meetup&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 62: Speed mentoring and the power of Community - with Mia Gordon</title>
       <link>https://unhandledexceptionpodcast.com/posts/0062-speedmentoring/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0062-speedmentoring/</guid>
-      <description>In this episode, I was joined by Mia Gordon to chat about speed mentoring! I was recently invited to a speed mentoring event that she organised, and it was such a fun event and great idea and concept - that I invited her onto the show to chat about it! We also spoke about the power of community, and how big a difference it can make to your career and life.</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://www.linkedin.com/in/mia-gordon-63940273/&#34;&gt;Mia Gordon&lt;/a&gt; to chat about speed mentoring! I was recently invited to a speed mentoring event that she organised, and it was such a fun event and great idea and concept - that I invited her onto the show to chat about it! We also spoke about the power of community, and how big a difference it can make to your career and life.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 32: Technical Leadership - with Jess White</title>
       <link>https://unhandledexceptionpodcast.com/posts/0032-jesswhite/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0032-jesswhite/</guid>
-      <description>In this episode, I was joined by Jess White to chat about technical leadership and how to support teams and manage people. Jess provides tons of advice and insights into what makes teams both happy and productive.
-  Jess&amp;rsquo;s social links  Twitter Github Blog YouTube LinkedIn  Links from the show  Jess&amp;rsquo;s talk at .NET South West Past podcast episode with Jess - the group DDD episode DDD East Midlands School of Code Makers Academy .</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/JessPWhite&#34;&gt;Jess White&lt;/a&gt; to chat about technical leadership and how to support teams and manage people. Jess provides tons of advice and insights into what makes teams both happy and productive.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-10192253&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/10192253-hello-world.js?container_id=buzzsprout-player-10192253&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;jesss-social-links&#34;&gt;Jess&amp;rsquo;s social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/JessPWhite&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/wordshaker&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jesswhite.co.uk/&#34;&gt;Blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCtqON6Uw9YIOWw43SeX7mMQ&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/jessica-white-67917883/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=048HIHscmkU&#34;&gt;Jess&amp;rsquo;s talk at .NET South West&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unhandledexceptionpodcast.com/posts/0006-ddd/&#34;&gt;Past podcast episode with Jess - the group DDD episode&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dddeastmidlands.com/&#34;&gt;DDD East Midlands&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.schoolofcode.co.uk/&#34;&gt;School of Code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.makers.tech/community/&#34;&gt;Makers Academy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dotnetoxford.com/&#34;&gt;.NET Oxford (inc Slack link)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.grahamallcott.com/books/productivity-ninja&#34;&gt;Productivity Ninja book&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

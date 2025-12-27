@@ -3,7 +3,7 @@
   <head>
     <title>Episode 75: The Outbox Pattern - with Tomek Masternak and Szymon Pobiega // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.153.3">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Dan Clarke" />
     <meta name="description" content="" />
@@ -11,31 +11,43 @@
     <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-RN9Q259LF1', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RN9Q259LF1');
+        }
+      </script>
     
-    <meta property="og:title" content="Episode 75: The Outbox Pattern - with Tomek Masternak and Szymon Pobiega" />
-<meta property="og:description" content="In this episode, I was joined by Tomek Masternak and Szymon Pobiega from Particular Software (NServiceBus) for a technical discussion about the Outbox Pattern! The pattern is designed to improve reliability of messaging by storing outgoing messages in a database table (the &ldquo;outbox&rdquo;) as part of the same transaction that modifies business data - allowing a separate process to read and publish those messages to a message broker.
-  Tomek&rsquo;s bio Technology geek passionate about the design and development of software systems." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0075-theoutboxpattern/" /><meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0075-TheOutboxPattern/OutboxPatternGraphic.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-03-31T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2025-03-31T00:00:00&#43;00:00" />
-
+    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0075-theoutboxpattern/">
+  <meta property="og:site_name" content="The Unhandled Exception Podcast">
+  <meta property="og:title" content="Episode 75: The Outbox Pattern - with Tomek Masternak and Szymon Pobiega">
+  <meta property="og:description" content="In this episode, I was joined by Tomek Masternak and Szymon Pobiega from Particular Software (NServiceBus) for a technical discussion about the Outbox Pattern! The pattern is designed to improve reliability of messaging by storing outgoing messages in a database table (the “outbox”) as part of the same transaction that modifies business data - allowing a separate process to read and publish those messages to a message broker.
+Tomek’s bio Technology geek passionate about the design and development of software systems. Interested in distributed, message-based architectures and technology in general. Likes to know if systems work correctly, how they fail, and what that even means in the first place. Co-author at https://exactly-once.github.io/.">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-31T00:00:00+00:00">
+    <meta property="article:tag" content="Messaging">
+    <meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0075-TheOutboxPattern/OutboxPatternGraphic.png">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Episode 75: The Outbox Pattern - with Tomek Masternak and Szymon Pobiega"/>
-<meta name="twitter:description" content="In this episode, I was joined by Tomek Masternak and Szymon Pobiega from Particular Software (NServiceBus) for a technical discussion about the Outbox Pattern! The pattern is designed to improve reliability of messaging by storing outgoing messages in a database table (the &ldquo;outbox&rdquo;) as part of the same transaction that modifies business data - allowing a separate process to read and publish those messages to a message broker.
-  Tomek&rsquo;s bio Technology geek passionate about the design and development of software systems."/>
+<meta name="twitter:description" content="In this episode, I was joined by Tomek Masternak and Szymon Pobiega from Particular Software (NServiceBus) for a technical discussion about the Outbox Pattern! The pattern is designed to
+improve reliability of messaging by storing outgoing messages in a database table (the &ldquo;outbox&rdquo;) as part of the same transaction that modifies business data - allowing a separate process to read and publish those messages to a message broker.
+
+
+
+Tomek&rsquo;s bio
+Technology geek passionate about the design and development of software systems. Interested in distributed, message-based architectures and technology in general. Likes to know if systems work correctly, how they fail, and what that even means in the first place. Co-author at https://exactly-once.github.io/."/>
 <meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0075-TheOutboxPattern/OutboxPatternGraphic.png"/>
 
   </head>
@@ -125,8 +137,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (36)
-          dotnet
+          (37)
+          Dotnet
         </a>
     </li>
   
@@ -136,8 +148,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (8)
-          testing
+          (9)
+          Testing
         </a>
     </li>
   
@@ -148,7 +160,18 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
           (7)
-          blazor
+          Blazor
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
+          (6)
+          AI
         </a>
     </li>
   
@@ -159,7 +182,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
           (6)
-          mediatr
+          Mediatr
         </a>
     </li>
   
@@ -170,7 +193,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
           (6)
-          messaging
+          Messaging
         </a>
     </li>
   
@@ -179,18 +202,7 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (5)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c#/">
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
           (5)
           C#
         </a>
@@ -203,7 +215,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
           (5)
-          community
+          Community
         </a>
     </li>
   
@@ -214,7 +226,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
           (5)
-          devops
+          Devops
         </a>
     </li>
   
@@ -225,7 +237,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
           (5)
-          event-driven-architecture
+          Event-Driven-Architecture
         </a>
     </li>
   
@@ -250,7 +262,7 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/messaging/">messaging</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/messaging/">Messaging</a>
         </div>
       </div>
     </header>
@@ -264,7 +276,7 @@ improve reliability of messaging by storing outgoing messages in a database tabl
 <p>Technology geek passionate about the design and development of software systems. Interested in distributed, message-based architectures and technology in general. Likes to know if systems work correctly, how they fail, and what that even means in the first place. Co-author at <a href="https://exactly-once.github.io/">https://exactly-once.github.io/</a>.</p>
 <h1 id="szymons-bio">Szymon&rsquo;s bio</h1>
 <p>Szymon works an engineer at Particular Software, the makers of NServiceBus. His main areas of expertise are Domain-Driven Design and asynchronous messaging. He is especially interested in the intersection of these two topics &ndash; in the patterns and tools for ensuring all messages are processed exactly once and in the correct order.</p>
-<p>Szymon is a co-author of <a href="https://exactly-once.github.io/,">https://exactly-once.github.io/,</a> a website dedicated to all things related to messaging.</p>
+<p>Szymon is a co-author of <a href="https://exactly-once.github.io/">https://exactly-once.github.io/</a>, a website dedicated to all things related to messaging.</p>
 <p>In his free time Szymon plays with Lego, building models of real-life off-road vehicles.</p>
 <hr>
 <h1 id="contact-links">Contact links</h1>

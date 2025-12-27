@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hackathon on The Unhandled Exception Podcast</title>
+    <title>Hackathon on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/hackathon/</link>
-    <description>Recent content in hackathon on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Hackathon on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 35: MiniHack</title>
       <link>https://unhandledexceptionpodcast.com/posts/0035-minihack/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0035-minihack/</guid>
-      <description>In this episode, I was joined by Paul Michaels and Kev Smith, to chat about their monthly online meetup they both run.
-MiniHack is an online tech-agnostic monthly meetup, where teams of between 3 and 6 people compete to produce the best solution to a given problem. In their own words - &amp;ldquo;Where we meet monthly to come up with cool solutions to pointless problems&amp;rdquo;.
-  Guests&#39; social links  Paul on Twitter Paul on LinkedIn Kev on Twitter Kev on LinkedIn  Links from the show  MiniHack website MiniHack on GitHub MiniHack on Twitter Promo video Brain**** programming language  Dev Picks  Tech Community Calendar - by Lee Englestone .</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/paul_michaels&#34;&gt;Paul Michaels&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/kev_bite&#34;&gt;Kev Smith&lt;/a&gt;, to chat about their monthly online meetup they both run.&lt;/p&gt;&#xA;&lt;p&gt;MiniHack is an online tech-agnostic monthly meetup, where teams of between 3 and 6 people compete to produce the best solution to a given problem. In their own words - &lt;em&gt;&amp;ldquo;Where we meet monthly to come up with cool solutions to pointless problems&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-10500679&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/10500679-hello-world.js?container_id=buzzsprout-player-10500679&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;guests-social-links&#34;&gt;Guests&amp;rsquo; social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/paul_michaels&#34;&gt;Paul on Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/pcmichaels/&#34;&gt;Paul on LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/kev_bite&#34;&gt;Kev on Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/kevbite/&#34;&gt;Kev on LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://onlineminihack.github.io/&#34;&gt;MiniHack website&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/OnlineMiniHack/minihack&#34;&gt;MiniHack on GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/OnlineMiniHack&#34;&gt;MiniHack on Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:6917536300682067968/&#34;&gt;Promo video&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Brainfuck&#34;&gt;Brain**** programming language&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;dev-picks&#34;&gt;Dev Picks&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.techcommunitycalendar.com/&#34;&gt;Tech Community Calendar - by Lee Englestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/matthiasjost/dotnet-content-creators&#34;&gt;.NET Content Creators - by Matthias Jost&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;listener-mention&#34;&gt;Listener Mention&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/ShreyasJejurkar/status/1511997549594353664&#34;&gt;Shreyas Jejurkar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

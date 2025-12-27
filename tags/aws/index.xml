@@ -4,17 +4,16 @@
     <title>AWS on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/aws/</link>
     <description>Recent content in AWS on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 48: Coffee and Code - with Isaac Levin</title>
       <link>https://unhandledexceptionpodcast.com/posts/0048-isaaclevin/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0048-isaaclevin/</guid>
-      <description>In this episode, I was joined by Isaac Levin that chat about&amp;hellip; way too many things to put in an episode title, that&amp;rsquo;s for sure! 😂 We decided to not have a particular topic in mind - and just chat and see where the conversation took us! We ended up talking about podcasting, working remotely and the pandemic, general career stuff, public speaking, containers, AWS, learning, mindsets, guitars, and more!</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/isaacrlevin&#34;&gt;Isaac Levin&lt;/a&gt; that chat about&amp;hellip; way too many things to put in an episode title, that&amp;rsquo;s for sure! 😂 We decided to not have a particular topic in mind - and just chat and see where the conversation took us! We ended up talking about podcasting, working remotely and the pandemic, general career stuff, public speaking, containers, AWS, learning, mindsets, guitars, and more!&lt;/p&gt;&#xA;&lt;p&gt;Isaac is a .NET Developer Advocate at Amazon Web Services and a Microsoft MVP. He hosts a podcast called &lt;a href=&#34;https://www.coffeeandopensource.com/&#34;&gt;Coffee and Open Source&lt;/a&gt;, where he interviews folks from across the tech industry.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>visual-studio on The Unhandled Exception Podcast</title>
+    <title>Visual-Studio on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/visual-studio/</link>
-    <description>Recent content in visual-studio on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Visual-Studio on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 27: Visual Studio 2022 - with Kendra Havens</title>
       <link>https://unhandledexceptionpodcast.com/posts/0027-kendrahavens/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0027-kendrahavens/</guid>
-      <description>Not long to go until the release of both .NET 6 and Visual Studio 2022! But if you can&amp;rsquo;t wait that long - the preview releases of both can be downloaded right now! In this episode, I was joined by Kendra Havens to chat about what&amp;rsquo;s new and coming! Kendra is a Program Manager on the .NET and Visual Studio team, and we also chatted a bit in this episode about what software development is like internally at Microsoft, and learn that Microsoft face the same struggles as most other companies!</description>
+      <description>&lt;p&gt;Not long to go until the release of both .NET 6 and Visual Studio 2022! But if you can&amp;rsquo;t wait that long - the preview releases of both can be downloaded right now! In this episode, I was joined by &lt;a href=&#34;https://twitter.com/gotheap&#34;&gt;Kendra Havens&lt;/a&gt; to chat about what&amp;rsquo;s new and coming! Kendra is a Program Manager on the .NET and Visual Studio team, and we also chatted a bit in this episode about what software development is like internally at Microsoft, and learn that Microsoft face the same struggles as most other companies! We&amp;rsquo;re all human after all!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

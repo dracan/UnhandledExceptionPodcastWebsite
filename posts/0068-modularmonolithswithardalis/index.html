@@ -3,7 +3,7 @@
   <head>
     <title>Episode 68: Modular Monoliths - with Steve &#34;ardalis&#34; Smith // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.153.3">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Dan Clarke" />
     <meta name="description" content="" />
@@ -11,31 +11,41 @@
     <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-RN9Q259LF1', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RN9Q259LF1');
+        }
+      </script>
     
-    <meta property="og:title" content="Episode 68: Modular Monoliths - with Steve &#34;ardalis&#34; Smith" />
-<meta property="og:description" content="In this episode, I was honoured to be joined by Steve &ldquo;ardalis&rdquo; Smith to chat about Modular Monoliths! We discussed the benefits of going down the Modular Monolith route instead of moving to microservices. We also chatted about how MediatR can help with this, and also about creating online courses.
-Steve is an entrepreneur and software developer with a passion for building quality software as effectively as possible. He provides mentoring and training workshops for teams with the desire to improve." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0068-modularmonolithswithardalis/" /><meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0068-ModularMonolithsWithArdalis/SteveSmith.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-07-09T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2024-07-09T00:00:00&#43;00:00" />
-
+    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0068-modularmonolithswithardalis/">
+  <meta property="og:site_name" content="The Unhandled Exception Podcast">
+  <meta property="og:title" content="Episode 68: Modular Monoliths - with Steve &#34;ardalis&#34; Smith">
+  <meta property="og:description" content="In this episode, I was honoured to be joined by Steve “ardalis” Smith to chat about Modular Monoliths! We discussed the benefits of going down the Modular Monolith route instead of moving to microservices. We also chatted about how MediatR can help with this, and also about creating online courses.
+Steve is an entrepreneur and software developer with a passion for building quality software as effectively as possible. He provides mentoring and training workshops for teams with the desire to improve. Steve has been recognized as a Microsoft MVP for over 10 consecutive years, and is a frequent speaker at software developer conferences and events. He is the top contributor to the official documentation on ASP.NET Core and enjoys helpings others write maintainable, testable applications using Microsoft’s developer tools.">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-09T00:00:00+00:00">
+    <meta property="article:tag" content="Dotnet">
+    <meta property="article:tag" content="C#">
+    <meta property="article:tag" content="Micro-Services">
+    <meta property="article:tag" content="Mediatr">
+    <meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0068-ModularMonolithsWithArdalis/SteveSmith.png">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Episode 68: Modular Monoliths - with Steve &#34;ardalis&#34; Smith"/>
 <meta name="twitter:description" content="In this episode, I was honoured to be joined by Steve &ldquo;ardalis&rdquo; Smith to chat about Modular Monoliths! We discussed the benefits of going down the Modular Monolith route instead of moving to microservices. We also chatted about how MediatR can help with this, and also about creating online courses.
-Steve is an entrepreneur and software developer with a passion for building quality software as effectively as possible. He provides mentoring and training workshops for teams with the desire to improve."/>
+Steve is an entrepreneur and software developer with a passion for building quality software as effectively as possible. He provides mentoring and training workshops for teams with the desire to improve. Steve has been recognized as a Microsoft MVP for over 10 consecutive years, and is a frequent speaker at software developer conferences and events. He is the top contributor to the official documentation on ASP.NET Core and enjoys helpings others write maintainable, testable applications using Microsoft&rsquo;s developer tools."/>
 <meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0068-ModularMonolithsWithArdalis/SteveSmith.png"/>
 
   </head>
@@ -125,8 +135,8 @@ Steve is an entrepreneur and software developer with a passion for building qual
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (36)
-          dotnet
+          (37)
+          Dotnet
         </a>
     </li>
   
@@ -136,8 +146,8 @@ Steve is an entrepreneur and software developer with a passion for building qual
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (8)
-          testing
+          (9)
+          Testing
         </a>
     </li>
   
@@ -148,7 +158,18 @@ Steve is an entrepreneur and software developer with a passion for building qual
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
           (7)
-          blazor
+          Blazor
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
+          (6)
+          AI
         </a>
     </li>
   
@@ -159,7 +180,7 @@ Steve is an entrepreneur and software developer with a passion for building qual
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
           (6)
-          mediatr
+          Mediatr
         </a>
     </li>
   
@@ -170,7 +191,7 @@ Steve is an entrepreneur and software developer with a passion for building qual
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
           (6)
-          messaging
+          Messaging
         </a>
     </li>
   
@@ -179,18 +200,7 @@ Steve is an entrepreneur and software developer with a passion for building qual
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (5)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c#/">
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
           (5)
           C#
         </a>
@@ -203,7 +213,7 @@ Steve is an entrepreneur and software developer with a passion for building qual
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
           (5)
-          community
+          Community
         </a>
     </li>
   
@@ -214,7 +224,7 @@ Steve is an entrepreneur and software developer with a passion for building qual
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
           (5)
-          devops
+          Devops
         </a>
     </li>
   
@@ -225,7 +235,7 @@ Steve is an entrepreneur and software developer with a passion for building qual
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
           (5)
-          event-driven-architecture
+          Event-Driven-Architecture
         </a>
     </li>
   
@@ -250,10 +260,10 @@ Steve is an entrepreneur and software developer with a passion for building qual
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">dotnet</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/c#/">C#</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/micro-services/">micro-services</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/mediatr/">mediatr</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">Dotnet</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/c%23/">C#</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/micro-services/">Micro-Services</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/mediatr/">Mediatr</a>
         </div>
       </div>
     </header>

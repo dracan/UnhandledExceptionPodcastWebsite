@@ -3,7 +3,7 @@
   <head>
     <title>Episode 10: F# and Functional Programming // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.153.3">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Dan Clarke" />
     <meta name="description" content="" />
@@ -11,31 +11,101 @@
     <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-RN9Q259LF1', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RN9Q259LF1');
+        }
+      </script>
     
-    <meta property="og:title" content="Episode 10: F# and Functional Programming" />
-<meta property="og:description" content="In this group episode I was joined by Scott Wlaschin, Isaac Abraham, and Ian Russell - to talk all about F#! This is .NET&rsquo;s functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.
-  Guests&#39; social links  Ian Russell: Twitter, LinkedIn Isaac Abraham: Twitter, LinkedIn Scott Wlaschin: Twitter, LinkedIn  Links from the show  F# for fun and profit (Scott&rsquo;s website) Ian&rsquo;s &ldquo;Introduction To Functional Programming In F#&rdquo; blog post series Isaac&rsquo;s book: &ldquo;Get Programming with F#&quot; Scott&rsquo;s book: &ldquo;Domain Modeling Made Functional&rdquo; Dan&rsquo;s &ldquo;Writing More Succinct C#&rdquo; blog post C# code-snippet Dan referred to when talking about using LINQ on a single object Nancy Framework Carter API Endpoints Diamond Kata:  Diamond Kata - TDD with only property-based tests Diamond Kata in F#   Book: &ldquo;Stylish F#&rdquo; by Kit Eason (@kitlovesfsharp) Blog post: &ldquo;Ten reasons not to use a statically typed functional programming language&rdquo; (&ldquo;Like most programmers, I’m naturally conservative and I dislike learning new things." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0010-fsharp/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-01-24T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-01-24T00:00:00&#43;00:00" />
-
+    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0010-fsharp/">
+  <meta property="og:site_name" content="The Unhandled Exception Podcast">
+  <meta property="og:title" content="Episode 10: F# and Functional Programming">
+  <meta property="og:description" content="In this group episode I was joined by Scott Wlaschin, Isaac Abraham, and Ian Russell - to talk all about F#! This is .NET’s functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.
+Guests’ social links Ian Russell: Twitter, LinkedIn Isaac Abraham: Twitter, LinkedIn Scott Wlaschin: Twitter, LinkedIn Links from the show F# for fun and profit (Scott’s website) Ian’s “Introduction To Functional Programming In F#” blog post series Isaac’s book: “Get Programming with F#” Scott’s book: “Domain Modeling Made Functional” Dan’s “Writing More Succinct C#” blog post C# code-snippet Dan referred to when talking about using LINQ on a single object Nancy Framework Carter API Endpoints Diamond Kata: Diamond Kata - TDD with only property-based tests Diamond Kata in F# Book: “Stylish F#” by Kit Eason (@kitlovesfsharp) Blog post: “Ten reasons not to use a statically typed functional programming language” (“Like most programmers, I’m naturally conservative and I dislike learning new things. That’s why I picked a career in IT.” is from this post) “Why We Sleep” book (from one of the dev-tips) Links related to the topics we discussed Composition: Video: “The Power of Composition” - explains piping and other composition techniques Video and blog: “Railway oriented programming” - shows some composition techniques for error handling Property Based Testing: Blog post: An introduction to property-based testing Video: The lazy programmer’s guide to writing thousands of tests Functional architecture: Video: “Reinventing the Transaction Script” - talks about pushing I/O to the edges Video: “Functional architecture - The pits of success - Mark Seemann” Blog post: “Cyclic dependencies are evil” Video: “Domain Modeling Made Functional” Video: “F# for C# Programmers” Video: “F# Code I love” by Don Syme Isaac’s “FP on .NET” blog post series F# Community and other links Join the F# slack F# hashtag on twitter F# Weekly - A roundup of F# content from each week Awesome F# - list of libraries, links and resources">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-01-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-01-24T00:00:00+00:00">
+    <meta property="article:tag" content="Dotnet">
+    <meta property="article:tag" content="Fsharp">
+    <meta property="article:tag" content="Functional-Programming">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Episode 10: F# and Functional Programming"/>
 <meta name="twitter:description" content="In this group episode I was joined by Scott Wlaschin, Isaac Abraham, and Ian Russell - to talk all about F#! This is .NET&rsquo;s functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.
-  Guests&#39; social links  Ian Russell: Twitter, LinkedIn Isaac Abraham: Twitter, LinkedIn Scott Wlaschin: Twitter, LinkedIn  Links from the show  F# for fun and profit (Scott&rsquo;s website) Ian&rsquo;s &ldquo;Introduction To Functional Programming In F#&rdquo; blog post series Isaac&rsquo;s book: &ldquo;Get Programming with F#&quot; Scott&rsquo;s book: &ldquo;Domain Modeling Made Functional&rdquo; Dan&rsquo;s &ldquo;Writing More Succinct C#&rdquo; blog post C# code-snippet Dan referred to when talking about using LINQ on a single object Nancy Framework Carter API Endpoints Diamond Kata:  Diamond Kata - TDD with only property-based tests Diamond Kata in F#   Book: &ldquo;Stylish F#&rdquo; by Kit Eason (@kitlovesfsharp) Blog post: &ldquo;Ten reasons not to use a statically typed functional programming language&rdquo; (&ldquo;Like most programmers, I’m naturally conservative and I dislike learning new things."/>
+
+
+
+Guests&rsquo; social links
+
+Ian Russell: Twitter, LinkedIn
+Isaac Abraham: Twitter, LinkedIn
+Scott Wlaschin: Twitter, LinkedIn
+
+Links from the show
+
+F# for fun and profit (Scott&rsquo;s website)
+Ian&rsquo;s &ldquo;Introduction To Functional Programming In F#&rdquo; blog post series
+Isaac&rsquo;s book: &ldquo;Get Programming with F#&rdquo;
+Scott&rsquo;s book: &ldquo;Domain Modeling Made Functional&rdquo;
+Dan&rsquo;s &ldquo;Writing More Succinct C#&rdquo; blog post
+C# code-snippet Dan referred to when talking about using LINQ on a single object
+Nancy Framework
+Carter
+API Endpoints
+Diamond Kata:
+
+Diamond Kata - TDD with only property-based tests
+Diamond Kata in F#
+
+
+Book: &ldquo;Stylish F#&rdquo; by Kit Eason (@kitlovesfsharp)
+Blog post: &ldquo;Ten reasons not to use a statically typed functional programming language&rdquo; (&ldquo;Like most programmers, I’m naturally conservative and I dislike learning new things. That&rsquo;s why I picked a career in IT.&rdquo; is from this post)
+&ldquo;Why We Sleep&rdquo; book (from one of the dev-tips)
+
+Links related to the topics we discussed
+
+Composition:
+
+Video: &ldquo;The Power of Composition&rdquo; - explains piping and other composition techniques
+Video and blog: &ldquo;Railway oriented programming&rdquo; - shows some composition techniques for error handling
+
+
+Property Based Testing:
+
+Blog post: An introduction to property-based testing
+Video: The lazy programmer&rsquo;s guide to writing thousands of tests
+
+
+Functional architecture:
+
+Video: &ldquo;Reinventing the Transaction Script&rdquo; - talks about pushing I/O to the edges
+Video: &ldquo;Functional architecture - The pits of success - Mark Seemann&rdquo;
+
+
+Blog post: &ldquo;Cyclic dependencies are evil&rdquo;
+Video: &ldquo;Domain Modeling Made Functional&rdquo;
+Video: &ldquo;F# for C# Programmers&rdquo;
+Video: &ldquo;F# Code I love&rdquo; by Don Syme
+Isaac&rsquo;s &ldquo;FP on .NET&rdquo; blog post series
+
+F# Community and other links
+
+Join the F# slack
+F# hashtag on twitter
+F# Weekly - A roundup of F# content from each week
+Awesome F# - list of libraries, links and resources
+"/>
 <meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content='https://unhandledexceptionpodcast.com/images/DanTwitterCard.jpg'/>
 
   </head>
@@ -125,8 +195,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (36)
-          dotnet
+          (37)
+          Dotnet
         </a>
     </li>
   
@@ -136,8 +206,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (8)
-          testing
+          (9)
+          Testing
         </a>
     </li>
   
@@ -148,7 +218,18 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
           (7)
-          blazor
+          Blazor
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
+          (6)
+          AI
         </a>
     </li>
   
@@ -159,7 +240,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
           (6)
-          mediatr
+          Mediatr
         </a>
     </li>
   
@@ -170,7 +251,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
           (6)
-          messaging
+          Messaging
         </a>
     </li>
   
@@ -179,18 +260,7 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (5)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c#/">
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
           (5)
           C#
         </a>
@@ -203,7 +273,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
           (5)
-          community
+          Community
         </a>
     </li>
   
@@ -214,7 +284,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
           (5)
-          devops
+          Devops
         </a>
     </li>
   
@@ -225,7 +295,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
           (5)
-          event-driven-architecture
+          Event-Driven-Architecture
         </a>
     </li>
   
@@ -250,9 +320,9 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">dotnet</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/fsharp/">fsharp</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/functional-programming/">functional-programming</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">Dotnet</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/fsharp/">Fsharp</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/functional-programming/">Functional-Programming</a>
         </div>
       </div>
     </header>
@@ -261,7 +331,7 @@ if (!doNotTrack) {
 <div id="buzzsprout-player-7454740"></div>
 <script src="https://www.buzzsprout.com/978640/7454740-hello-world.js?container_id=buzzsprout-player-7454740&player=small" type="text/javascript" charset="utf-8"></script>
 
-<h1 id="guests-social-links">Guests' social links</h1>
+<h1 id="guests-social-links">Guests&rsquo; social links</h1>
 <ul>
 <li>Ian Russell: <a href="https://twitter.com/ijrussell">Twitter</a>, <a href="https://www.linkedin.com/in/ian-russell-7b5301ba/">LinkedIn</a></li>
 <li>Isaac Abraham: <a href="https://twitter.com/isaac_abraham">Twitter</a>, <a href="https://www.linkedin.com/in/isaacabraham/">LinkedIn</a></li>
@@ -271,7 +341,7 @@ if (!doNotTrack) {
 <ul>
 <li><a href="https://fsharpforfunandprofit.com/">F# for fun and profit</a> (Scott&rsquo;s website)</li>
 <li><a href="https://www.softwarepark.cc/blog/2020/8/9/introduction-to-functional-programming-in-f-table-of-contents">Ian&rsquo;s &ldquo;Introduction To Functional Programming In F#&rdquo; blog post series</a></li>
-<li><a href="https://www.manning.com/books/get-programming-with-f-sharp">Isaac&rsquo;s book: &ldquo;Get Programming with F#&quot;</a></li>
+<li><a href="https://www.manning.com/books/get-programming-with-f-sharp">Isaac&rsquo;s book: &ldquo;Get Programming with F#&rdquo;</a></li>
 <li><a href="https://fsharpforfunandprofit.com/books/">Scott&rsquo;s book: &ldquo;Domain Modeling Made Functional&rdquo;</a></li>
 <li><a href="https://www.danclarke.com/2020-more-succinct-csharp">Dan&rsquo;s &ldquo;Writing More Succinct C#&rdquo; blog post</a></li>
 <li><a href="https://twitter.com/dracan/status/1260942493878804481">C# code-snippet Dan referred to when talking about using LINQ on a single object</a></li>
@@ -285,7 +355,7 @@ if (!doNotTrack) {
 </ul>
 </li>
 <li><a href="https://www.apress.com/gb/book/9781484239995">Book: &ldquo;Stylish F#&rdquo; by Kit Eason</a> (<a href="https://twitter.com/kitlovesfsharp">@kitlovesfsharp</a>)</li>
-<li><a href="https://fsharpforfunandprofit.com/posts/ten-reasons-not-to-use-a-functional-programming-language/">Blog post: &ldquo;Ten reasons not to use a statically typed functional programming language&rdquo;</a> (<em>&ldquo;Like most programmers, I’m naturally conservative and I dislike learning new things. That&rsquo;s why I picked a career in IT.&quot;</em> is from this post)</li>
+<li><a href="https://fsharpforfunandprofit.com/posts/ten-reasons-not-to-use-a-functional-programming-language/">Blog post: &ldquo;Ten reasons not to use a statically typed functional programming language&rdquo;</a> (<em>&ldquo;Like most programmers, I’m naturally conservative and I dislike learning new things. That&rsquo;s why I picked a career in IT.&rdquo;</em> is from this post)</li>
 <li><a href="https://www.amazon.co.uk/dp/B06Y649387">&ldquo;Why We Sleep&rdquo; book</a> (from one of the dev-tips)</li>
 </ul>
 <h1 id="links-related-to-the-topics-we-discussed">Links related to the topics we discussed</h1>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ci/cd on The Unhandled Exception Podcast</title>
+    <title>Ci/Cd on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/ci/cd/</link>
-    <description>Recent content in ci/cd on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="https://unhandledexceptionpodcast.com/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Ci/Cd on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 71: GitHub Actions - With Scott Sauber</title>
       <link>https://unhandledexceptionpodcast.com/posts/0071-githubactions/</link>
       <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0071-githubactions/</guid>
-      <description>In this episode, I was joined by Scott Sauber to chat about GitHub Actions. Before that though, we chatted about the differences between &amp;lsquo;Continuous Integration&amp;rsquo;, &amp;lsquo;Continuous Delivery&amp;rsquo;, and &amp;lsquo;Continuous Deployment&amp;rsquo;. Then we delved into the world of GitHub Actions, and how they can be used to automate your workflows.
-Scott is a software consultant and primarily does web development using ASP.NET Core and JavaScript. His second passion behind web development is helping teams realize their potential through technical practices (such as CI/CD, IAC, TDD, etc.</description>
+      <description>&lt;p&gt;In this episode, I was joined by Scott Sauber to chat about GitHub Actions. Before that though, we chatted about the differences between &amp;lsquo;Continuous Integration&amp;rsquo;, &amp;lsquo;Continuous Delivery&amp;rsquo;, and &amp;lsquo;Continuous Deployment&amp;rsquo;. Then we delved into the world of GitHub Actions, and how they can be used to automate your workflows.&lt;/p&gt;&#xA;&lt;p&gt;Scott is a software consultant and primarily does web development using ASP.NET Core and JavaScript. His second passion behind web development is helping teams realize their potential through technical practices (such as CI/CD, IAC, TDD, etc.) and working more effectively (such as limiting WIP, visualizing work, etc). He&amp;rsquo;s a Microsoft MVP, Redgate Community Ambassador, international speaker, and co-organizes the Iowa .NET User Group.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

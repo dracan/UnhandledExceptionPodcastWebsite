@@ -1,59 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>learning on The Unhandled Exception Podcast</title>
+    <title>Learning on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/learning/</link>
-    <description>Recent content in learning on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Learning on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 77: Shawn Wildermuth</title>
       <link>https://unhandledexceptionpodcast.com/posts/0077-shawnwildermuth/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0077-shawnwildermuth/</guid>
-      <description>In this episode, I was delighted to be joined by Shawn Wildermuth. We chatted about software development in general, careers, AI, and more!
-Shawn Wildermuth is a software development consultant, Microsoft MVP, Pluralsight author, and speaker with over 30 years of experience in the industry.
-   Shawn&amp;rsquo;s social links  Website YouTube Bluesky LinkedIn GitHub Pluralsight Courses  Links from the show  Hello World film Vue.js .NET Aspire episode with Maddy Dan&amp;rsquo;s Aspire Dometrain course VSCode agent mode XMind Steve Smith&amp;rsquo;s episode talking about modular monoliths   If you&amp;rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!</description>
+      <description>&lt;p&gt;In this episode, I was delighted to be joined by &lt;a href=&#34;https://wildermuth.com/&#34;&gt;Shawn Wildermuth&lt;/a&gt;. We chatted about software development in general, careers, AI, and more!&lt;/p&gt;&#xA;&lt;p&gt;Shawn Wildermuth is a software development consultant, Microsoft MVP, Pluralsight author, and speaker with over 30 years of experience in the industry.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-17428782&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/17428782-hello-world.js?container_id=buzzsprout-player-17428782&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;shawns-social-links&#34;&gt;Shawn&amp;rsquo;s social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wildermuth.com/&#34;&gt;Website&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@swildermuth&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bsky.app/profile/wildermuth.com&#34;&gt;Bluesky&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/shawnwildermuth/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/shawnwildermuth&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/authors/shawn-wildermuth&#34;&gt;Pluralsight Courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twainfilms.com/hwfilm/&#34;&gt;Hello World film&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue.js&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unhandledexceptionpodcast.com/posts/0076-dotnetaspire/&#34;&gt;.NET Aspire episode with Maddy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dometrain.com/course/getting-started-dotnet-aspire/?ref=dan-clarke&amp;amp;promotion=podcast&#34;&gt;Dan&amp;rsquo;s Aspire Dometrain course&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode&#34;&gt;VSCode agent mode&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://xmind.com/&#34;&gt;XMind&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unhandledexceptionpodcast.com/posts/0068-modularmonolithswithardalis/&#34;&gt;Steve Smith&amp;rsquo;s episode talking about modular monoliths&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 58: Dometrain - with Nick Chapsas</title>
       <link>https://unhandledexceptionpodcast.com/posts/0058-dometrain/</link>
       <pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0058-dometrain/</guid>
-      <description>In this episode, I was joined for the second time by Nick Chapsas! This time, we chatted about his new Dometrain teaching platform. Nick started off creating courses on his own website, nickchapsas.com, which he&amp;rsquo;s recently rebranded to Dometrain and reached out to other authors to also create courses - myself included! I&amp;rsquo;ve recently released a Docker course on Dometrain, and we chatted about my experience doing this, as well as Nick&amp;rsquo;s story and motivations behind building Dometrain.</description>
+      <description>&lt;p&gt;In this episode, I was joined for the second time by Nick Chapsas! This time, we chatted about his new &lt;a href=&#34;https://www.dometrain.com/&#34;&gt;Dometrain&lt;/a&gt; teaching platform. Nick started off creating courses on his own website, nickchapsas.com, which he&amp;rsquo;s recently rebranded to Dometrain and reached out to other authors to also create courses - myself included! I&amp;rsquo;ve recently released a Docker course on Dometrain, and we chatted about my experience doing this, as well as Nick&amp;rsquo;s story and motivations behind building Dometrain.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 48: Coffee and Code - with Isaac Levin</title>
       <link>https://unhandledexceptionpodcast.com/posts/0048-isaaclevin/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0048-isaaclevin/</guid>
-      <description>In this episode, I was joined by Isaac Levin that chat about&amp;hellip; way too many things to put in an episode title, that&amp;rsquo;s for sure! 😂 We decided to not have a particular topic in mind - and just chat and see where the conversation took us! We ended up talking about podcasting, working remotely and the pandemic, general career stuff, public speaking, containers, AWS, learning, mindsets, guitars, and more!</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/isaacrlevin&#34;&gt;Isaac Levin&lt;/a&gt; that chat about&amp;hellip; way too many things to put in an episode title, that&amp;rsquo;s for sure! 😂 We decided to not have a particular topic in mind - and just chat and see where the conversation took us! We ended up talking about podcasting, working remotely and the pandemic, general career stuff, public speaking, containers, AWS, learning, mindsets, guitars, and more!&lt;/p&gt;&#xA;&lt;p&gt;Isaac is a .NET Developer Advocate at Amazon Web Services and a Microsoft MVP. He hosts a podcast called &lt;a href=&#34;https://www.coffeeandopensource.com/&#34;&gt;Coffee and Open Source&lt;/a&gt;, where he interviews folks from across the tech industry.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 30: Developer Productivity with (me!) Dan Clarke</title>
       <link>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</guid>
-      <description>Developer productivity is something I&amp;rsquo;ve been really interested in for quite a few years. So I decided, rather than having a guest on for this topic - it&amp;rsquo;s one I wanted to cover myself. So in this first episode of the year - I&amp;rsquo;ve gone solo, and talk about the things I find have made a big difference to my productivity over the years. Also why I think this term &amp;ldquo;10x developer&amp;rdquo; is a big understatement!</description>
+      <description>&lt;p&gt;Developer productivity is something I&amp;rsquo;ve been really interested in for quite a few years. So I decided, rather than having a guest on for this topic - it&amp;rsquo;s one I wanted to cover myself. So in this first episode of the year - I&amp;rsquo;ve gone &lt;em&gt;solo&lt;/em&gt;, and talk about the things I find have made a big difference to my productivity over the years. Also why I think this term &amp;ldquo;10x developer&amp;rdquo; is a big understatement!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 16: Learning and Self Development with James World</title>
       <link>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</guid>
-      <description>In this episode, I was joined by James World to chat about learning! We covered an incredible amount in this episode - from certifications, to books and reading, interviews, what it means to be a senior developer, and much much more!
-  Links from the show James&#39; Links  Twitter LinkedIn (please include a note in your connection request so you stand out from the recruiter bots! Maybe a book recommendation?</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/jamesw0rld&#34;&gt;James World&lt;/a&gt; to chat about learning! We covered an incredible amount in this episode - from certifications, to books and reading, interviews, what it means to be a senior developer, and much much more!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-8443292&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/8443292-hello-world.js?container_id=buzzsprout-player-8443292&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;h2 id=&#34;james-links&#34;&gt;James&amp;rsquo; Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/jamesw0rld&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://linkd.in/james-world&#34;&gt;LinkedIn&lt;/a&gt; (please include a note in your connection request so you stand out from the recruiter bots! Maybe a book recommendation?!)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;other-links-from-the-show&#34;&gt;Other links from the show&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.uk/hz/wishlist/ls/318QGVZD245I?ref_=wl_share&#34;&gt;James&amp;rsquo; recommended book list&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/getting-microsoft-azure-solution-architect-expert-james-world&#34;&gt;Blog post from James about his recent experience doing the Azure Solution Architect Export exam&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/learn/certifications/&#34;&gt;Microsoft Certifications&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/learn/certifications/renew-your-microsoft-certification&#34;&gt;Microsoft Certification Renewal changes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.oreilly.com/&#34;&gt;O&amp;rsquo;Reilly&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.manning.com/&#34;&gt;Manning&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/microsoft/codetour&#34;&gt;CodeTour GitHub project&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://approvaltests.com/&#34;&gt;Approval Tests website&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;5 Dysfunctions of a Team book (&lt;a href=&#34;https://www.amazon.co.uk/Five-Dysfunctions-Team-Leadership-Lencioni/dp/0787960756&#34;&gt;Amazon&lt;/a&gt;) (&lt;a href=&#34;https://www.audible.co.uk/pd/The-Five-Dysfunctions-of-a-Team-Audiobook/B004EXKC5M&#34;&gt;Audible&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/2020-pair-programming&#34;&gt;Pair programming blog post by Dan&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Rubber_duck_debugging&#34;&gt;Rubber duck debugging wikipedia page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/junegunn/fzf&#34;&gt;fzf - fuzzy command line finder&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

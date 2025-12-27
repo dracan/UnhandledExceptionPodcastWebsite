@@ -4,7 +4,8 @@
     <title>Categories on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/categories/</link>
     <description>Recent content in Categories on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="https://unhandledexceptionpodcast.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <atom:link href="https://unhandledexceptionpodcast.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>performance on The Unhandled Exception Podcast</title>
+    <title>Performance on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/performance/</link>
-    <description>Recent content in performance on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Performance on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 55: RavenDB and Database Internals - with Oren Eini</title>
       <link>https://unhandledexceptionpodcast.com/posts/0055-oreneini-databaseinternals/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0055-oreneini-databaseinternals/</guid>
-      <description>In this episode, I had the pleasure of speaking with Oren Eini about RavenDB and diving deep into the world of database internals. We explore the intricacies of how databases work under the hood and discuss the challenges - especially around performance.
-Oren Eini, also known as Ayende Rahien, is the Founder and CEO of RavenDB, a leading NoSQL document database management platform, empowering both startups and Fortune 500 companies. With over 20 years of software development experience and business leadership, Oren is an internationally acclaimed presenter, a thought leader and an author, committed to continue and lead innovation of quality software and best practices.</description>
+      <description>&lt;p&gt;In this episode, I had the pleasure of speaking with &lt;a href=&#34;https://ayende.com/blog/&#34;&gt;Oren Eini&lt;/a&gt; about RavenDB and diving deep into the world of database internals. We explore the intricacies of how databases work under the hood and discuss the challenges - especially around performance.&lt;/p&gt;&#xA;&lt;p&gt;Oren Eini, also known as Ayende Rahien, is the Founder and CEO of RavenDB, a leading&#xA;NoSQL document database management platform, empowering both startups and Fortune 500&#xA;companies. With over 20 years of software development experience and business leadership,&#xA;Oren is an internationally acclaimed presenter, a thought leader and an author, committed to&#xA;continue and lead innovation of quality software and best practices. RavenDB delivers fully&#xA;transactional (ACID), smart &amp;amp; agile, cutting-edge NoSQL end-to-end solutions, empowering&#xA;businesses in efficient data management.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 3: Steve Gordon</title>
       <link>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</link>
       <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</guid>
-      <description>In this episode, I had a fascinating chat with Steve Gordon. We covered tons of topics - from his experience in being a Pluralsight author, to performance, productivity, organising user-groups, public speaking, audio editing, and much more!
-  Links from the show   Steve&amp;rsquo;s social and content links:
- Twitter Blog Pluralsight YouTube    User-group links and mentioned events:
- .NET South East (Steve&amp;rsquo;s user-group) MK.NET meetup with Steve on the 18th Scott Hanselman&amp;rsquo;s talk at .</description>
+      <description>&lt;p&gt;In this episode, I had a fascinating chat with &lt;a href=&#34;https://twitter.com/stevejgordon&#34;&gt;Steve Gordon&lt;/a&gt;. We covered tons of topics - from his experience in being a Pluralsight author, to performance, productivity, organising user-groups, public speaking, audio editing, and much more!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-6294781&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/6294781-hello-world.js?container_id=buzzsprout-player-6294781&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Steve&amp;rsquo;s social and content links:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/stevejgordon&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.stevejgordon.co.uk/&#34;&gt;Blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pluralsight.pxf.io/AavkN&#34;&gt;Pluralsight&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/codewithsteve&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;User-group links and mentioned events:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/dotnetsoutheast/&#34;&gt;.NET South East (Steve&amp;rsquo;s user-group)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Milton-Keynes-NET-Meetup-Group/events/274405773/&#34;&gt;MK.NET meetup with Steve on the 18th&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dotnetoxford.com/posts/2020-09-wsl-with-scott-hanselman&#34;&gt;Scott Hanselman&amp;rsquo;s talk at .NET Oxford&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dotnetoxford.com/posts/2020-06-scott-hunter&#34;&gt;Scott Hunter&amp;rsquo;s talk at .NET Oxford&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Blog posts:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

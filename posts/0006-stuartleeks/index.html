@@ -3,7 +3,7 @@
   <head>
     <title>Episode 7: WSL2 with Stuart Leeks // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.153.3">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Dan Clarke" />
     <meta name="description" content="" />
@@ -11,31 +11,90 @@
     <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-RN9Q259LF1', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RN9Q259LF1');
+        }
+      </script>
     
-    <meta property="og:title" content="Episode 7: WSL2 with Stuart Leeks" />
-<meta property="og:description" content="In this episode, I was joined by Stuart Leeks to chat all about WSL2, and his new book, WSL 2 Tips, Tricks, and Techniques! We also covered plenty of other topics, such as public speaking, Windows Terminal, standing desks, and much more! Stuart is a Principal Software Development Engineer at Microsoft.
-  Links from the show  Stuart&rsquo;s social links:  Twitter Blog GitHub   THE BOOK! WSL2 homepage Dr Michelle Dickinson:  @NanogirlLabs on Twitter Public Speaking Skills for Quiet People How to Rock the Stage (with Dr James Whittaker)   Stuart&rsquo;s WSL2 ." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0006-stuartleeks/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-12-11T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2020-12-11T00:00:00&#43;00:00" />
-
+    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0006-stuartleeks/">
+  <meta property="og:site_name" content="The Unhandled Exception Podcast">
+  <meta property="og:title" content="Episode 7: WSL2 with Stuart Leeks">
+  <meta property="og:description" content="In this episode, I was joined by Stuart Leeks to chat all about WSL2, and his new book, WSL 2 Tips, Tricks, and Techniques! We also covered plenty of other topics, such as public speaking, Windows Terminal, standing desks, and much more! Stuart is a Principal Software Development Engineer at Microsoft.
+Links from the show Stuart’s social links: Twitter Blog GitHub THE BOOK! WSL2 homepage Dr Michelle Dickinson: @NanogirlLabs on Twitter Public Speaking Skills for Quiet People How to Rock the Stage (with Dr James Whittaker) Stuart’s WSL2 .NET Oxford Lightning talk Visual Studio Code Remote-Development: Overview Remote-WSL Remote-Containers CodeSpaces Extensions Git Graph - Visual Studio Marketplace Git rebase shortcuts - Visual Studio Marketplace Windows Terminal Windows Terminal marketing video dotfiles project on GitHub Some of Stuart’s related projects: stuartleeks/devcontainer-cli: CLI for working with Visual Studio Code devcontainers (github.com) stuartleeks/wsl-clock: A utility to automatically correct clock drift in WSL 2 using Windows Events to detect points where clock drift may have occurred (github.com) Standing desk: Part 1 - Initial thoughts - Dan Clarke Traveler Guitar XKCD: Compiling">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-12-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-12-11T00:00:00+00:00">
+    <meta property="article:tag" content="Wsl">
+    <meta property="article:tag" content="Cli">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Episode 7: WSL2 with Stuart Leeks"/>
 <meta name="twitter:description" content="In this episode, I was joined by Stuart Leeks to chat all about WSL2, and his new book, WSL 2 Tips, Tricks, and Techniques! We also covered plenty of other topics, such as public speaking, Windows Terminal, standing desks, and much more! Stuart is a Principal Software Development Engineer at Microsoft.
-  Links from the show  Stuart&rsquo;s social links:  Twitter Blog GitHub   THE BOOK! WSL2 homepage Dr Michelle Dickinson:  @NanogirlLabs on Twitter Public Speaking Skills for Quiet People How to Rock the Stage (with Dr James Whittaker)   Stuart&rsquo;s WSL2 ."/>
+
+
+
+Links from the show
+
+Stuart&rsquo;s social links:
+
+Twitter
+Blog
+GitHub
+
+
+THE BOOK!
+WSL2 homepage
+Dr Michelle Dickinson:
+
+@NanogirlLabs on Twitter
+Public Speaking Skills for Quiet People
+How to Rock the Stage (with Dr James Whittaker)
+
+
+Stuart&rsquo;s WSL2 .NET Oxford Lightning talk
+Visual Studio Code
+
+Remote-Development:
+
+Overview
+Remote-WSL
+Remote-Containers
+CodeSpaces
+
+
+Extensions
+
+Git Graph - Visual Studio Marketplace
+Git rebase shortcuts - Visual Studio Marketplace
+
+
+
+
+Windows Terminal
+Windows Terminal marketing video
+dotfiles project on GitHub
+Some of Stuart&rsquo;s related projects:
+
+stuartleeks/devcontainer-cli: CLI for working with Visual Studio Code devcontainers (github.com)
+stuartleeks/wsl-clock: A utility to automatically correct clock drift in WSL 2 using Windows Events to detect points where clock drift may have occurred (github.com)
+
+
+Standing desk: Part 1 - Initial thoughts - Dan Clarke
+Traveler Guitar
+XKCD: Compiling
+"/>
 <meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content='https://unhandledexceptionpodcast.com/images/DanTwitterCard.jpg'/>
 
   </head>
@@ -125,8 +184,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (36)
-          dotnet
+          (37)
+          Dotnet
         </a>
     </li>
   
@@ -136,8 +195,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (8)
-          testing
+          (9)
+          Testing
         </a>
     </li>
   
@@ -148,7 +207,18 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
           (7)
-          blazor
+          Blazor
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
+          (6)
+          AI
         </a>
     </li>
   
@@ -159,7 +229,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
           (6)
-          mediatr
+          Mediatr
         </a>
     </li>
   
@@ -170,7 +240,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
           (6)
-          messaging
+          Messaging
         </a>
     </li>
   
@@ -179,18 +249,7 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (5)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c#/">
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
           (5)
           C#
         </a>
@@ -203,7 +262,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
           (5)
-          community
+          Community
         </a>
     </li>
   
@@ -214,7 +273,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
           (5)
-          devops
+          Devops
         </a>
     </li>
   
@@ -225,7 +284,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
           (5)
-          event-driven-architecture
+          Event-Driven-Architecture
         </a>
     </li>
   
@@ -250,8 +309,8 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/wsl/">wsl</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/cli/">cli</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/wsl/">Wsl</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/cli/">Cli</a>
         </div>
       </div>
     </header>

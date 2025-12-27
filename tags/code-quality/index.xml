@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>code-quality on The Unhandled Exception Podcast</title>
+    <title>Code-Quality on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/code-quality/</link>
-    <description>Recent content in code-quality on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Code-Quality on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 59: Hexagonal Architecture - with Valentina Cupać</title>
       <link>https://unhandledexceptionpodcast.com/posts/0059-hexagonalarchitecture/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0059-hexagonalarchitecture/</guid>
-      <description>In this episode, I was joined by Valentina Cupać to chat about Hexagonal Architecture. We discussed what Hexagonal Architecture is, how it can help us build better software, and the difference between it and other similar architectures, such as Clean and Onion Architecture.
-Valentina is a Technical Coach at Optive, helping development teams deliver quality software with TDD and Clean Architecture. She also the runs the Tech Excellence community.
-  Valentina&amp;rsquo;s social links  Twitter LinkedIn YouTube GitHub Newsletter Discord Tech Excellence community:  Meetup YouTube Discord    Links from the show  Alistair Cockburn&amp;rsquo;s article   Please remember to subscribe to the podcast and share this episode with your friends and colleagues!</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/ValentinaCupac&#34;&gt;Valentina Cupać&lt;/a&gt; to chat about Hexagonal Architecture. We discussed what Hexagonal Architecture is, how it can help us build better software, and the difference between it and other similar architectures, such as Clean and Onion Architecture.&lt;/p&gt;&#xA;&lt;p&gt;Valentina is a Technical Coach at Optive, helping development teams deliver quality software with TDD and Clean Architecture. She also the runs the &lt;a href=&#34;https://www.meetup.com/techexcellence/&#34;&gt;Tech Excellence community&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-13923857&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/13923857-hello-world.js?container_id=buzzsprout-player-13923857&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;valentinas-social-links&#34;&gt;Valentina&amp;rsquo;s social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/ValentinaCupac&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/valentinacupac/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@valentinacupac&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/valentinacupac&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://journal.optivem.com/&#34;&gt;Newsletter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://discord.com/invite/e2vEY8krrC&#34;&gt;Discord&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Tech Excellence community:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/techexcellence/&#34;&gt;Meetup&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TechExcellence&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://discord.gg/KXdf4t4j2m&#34;&gt;Discord&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://alistair.cockburn.us/hexagonal-architecture/&#34;&gt;Alistair Cockburn&amp;rsquo;s article&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Please remember to subscribe to the podcast and share this episode with your friends and colleagues!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 54: Cleaning your Big Ball of Mud using CQS - with Matt Hunt</title>
       <link>https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/</guid>
-      <description>In this episode, I was thrilled to be joined by Matt Hunt to chat about using the CQS pattern to improve your codebase quality and help avoid writing those &amp;lsquo;Big Ball of Mud&amp;rsquo; code-bases that sadly we see way too often in our industry!
-CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both.</description>
+      <description>&lt;p&gt;In this episode, I was thrilled to be joined by &lt;a href=&#34;https://twitter.com/DoesDotNet&#34;&gt;Matt Hunt&lt;/a&gt; to chat about using the CQS pattern to improve your codebase quality and help avoid writing those &amp;lsquo;Big Ball of Mud&amp;rsquo; code-bases that sadly we see way too often in our industry!&lt;/p&gt;&#xA;&lt;p&gt;CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both. This approach promotes a clear separation of concerns, improves readability, and can lead to more maintainable and scalable codebases.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 25: NDepend with Patrick Smacchia</title>
       <link>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</guid>
-      <description>In this episode, I was joined by Patrick Smacchia, all the way from the beautiful island of Mauritius, to chat all about NDepend! An amazing tool for analysing .NET projects and displaying tons of useful information to help improve code quality. From scanning for code quality issues, to showing plenty of dependency graphs and code visualisations.
-  Links from the show  NDepend NDepend use cases NDepend blog Patrick&amp;rsquo;s WSL2 blog post mentioned in his dev tip LINQPad  </description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://www.linkedin.com/in/patrick-smacchia-b0123110/&#34;&gt;Patrick Smacchia&lt;/a&gt;, all the way from the beautiful island of Mauritius, to chat all about &lt;a href=&#34;https://www.ndepend.com/&#34;&gt;NDepend&lt;/a&gt;! An amazing tool for analysing .NET projects and displaying tons of useful information to help improve code quality. From scanning for code quality issues, to showing plenty of dependency graphs and code visualisations.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-9300769&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/9300769-hello-world.js?container_id=buzzsprout-player-9300769&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ndepend.com/&#34;&gt;NDepend&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ndepend.com/docs/ndepend-use-cases&#34;&gt;NDepend use cases&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.ndepend.com/&#34;&gt;NDepend blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.ndepend.com/debugging-a-net-app-on-linux-from-windows-visual-studio-with-wsl&#34;&gt;Patrick&amp;rsquo;s WSL2 blog post mentioned in his dev tip&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linqpad.net/&#34;&gt;LINQPad&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

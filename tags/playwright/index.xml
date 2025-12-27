@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playwright on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/playwright/</link>
+    <description>Recent content in Playwright on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/playwright/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 83: Playwright - with Debbie O&#39;Brien</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0083-playwright/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://unhandledexceptionpodcast.com/posts/0083-playwright/</guid>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://debbie.codes/&#34;&gt;Debbie O&amp;rsquo;Brien&lt;/a&gt; to chat about &lt;a href=&#34;https://playwright.dev/&#34;&gt;Playwright&lt;/a&gt; - Microsoft&amp;rsquo;s open-source end-to-end testing framework. I&amp;rsquo;m a huge fan of Playwright, so I was really excited to have this chat with Debbie. We covered a lot of ground, including features such as Codegen, Trace Viewer, and UI Mode. We also spoke a lot about AI - including the exciting &lt;a href=&#34;https://github.com/microsoft/playwright-mcp&#34;&gt;Playwright MCP Server&lt;/a&gt; which enables AI agents to automate browser interactions!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

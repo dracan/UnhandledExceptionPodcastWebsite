@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>azure on The Unhandled Exception Podcast</title>
+    <title>Azure on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/azure/</link>
-    <description>Recent content in azure on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Azure on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 40: Demystifying Messaging in Azure - with Sean Feldman</title>
       <link>https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/</guid>
-      <description>In this episode, I was joined by Sean Feldman to chat all about messaging in Azure! Starting off explaining why you&amp;rsquo;d want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.
-Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined.</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/sfeldman&#34;&gt;Sean Feldman&lt;/a&gt; to chat all about messaging in Azure! Starting off explaining why you&amp;rsquo;d want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.&lt;/p&gt;&#xA;&lt;p&gt;Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined. When he&amp;rsquo;s away from his computer and back on planet earth, he&amp;rsquo;s having fun with family and his Malamute.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 37: Microsoft Build 2022</title>
       <link>https://unhandledexceptionpodcast.com/posts/0037-build/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0037-build/</guid>
-      <description>Microsoft have just had their annual Build conference - which comes with a whole host of exciting announcements and discussions about hot programming topics in the Microsoft developer space. And each year, I long for a podcast episode to come out straight after Build, overviewing them! Well, this year - this podcast aims to do just that! In this episode, I was joined by both Scott Hunter and Gaurav Seth to chat about various topics.</description>
+      <description>&lt;p&gt;Microsoft have just had their annual Build conference - which comes with a whole host of exciting announcements and discussions about hot programming topics in the Microsoft developer space. And each year, I long for a podcast episode to come out straight after Build, overviewing them! Well, this year - this podcast aims to do just that! In this episode, I was joined by both &lt;a href=&#34;https://twitter.com/coolcsh&#34;&gt;Scott Hunter&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/gauravseth&#34;&gt;Gaurav Seth&lt;/a&gt; to chat about various topics. Check out the links below for a guide to what we discussed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 21: Bicep with Alex Frankel</title>
       <link>https://unhandledexceptionpodcast.com/posts/0021-bicep/</link>
       <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0021-bicep/</guid>
-      <description>In this episode, I was joined by Alex Frankel to chat about Azure Bicep! Bicep is a new DSL that transpiles down to native ARM templates. Except that it greatly improved upon the very hard to read and write ARM templates, making Infrastructure as Code in Azure a far nicer user experience. We delved into the Bicep language, the tooling, a bit of the history - and even geeked out a bit on how awesome .</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/adotfrank&#34;&gt;Alex Frankel&lt;/a&gt; to chat about &lt;a href=&#34;https://github.com/Azure/bicep&#34;&gt;Azure Bicep&lt;/a&gt;! Bicep is a new DSL that transpiles down to native ARM templates. Except that it &lt;em&gt;greatly&lt;/em&gt; improved upon the very hard to read and write ARM templates, making &lt;em&gt;Infrastructure as Code&lt;/em&gt; in Azure a far nicer user experience. We delved into the Bicep language, the tooling, a bit of the history - and even geeked out a bit on how awesome .NET has become!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rider on The Unhandled Exception Podcast</title>
+    <title>Rider on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/rider/</link>
-    <description>Recent content in rider on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Rider on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/rider/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/rider/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 22: Jetbrains Rider, and Code With Me</title>
       <link>https://unhandledexceptionpodcast.com/posts/0022-rider/</link>
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0022-rider/</guid>
-      <description>Everyone who knows me, knows I&amp;rsquo;m a massive fan of Jetbrains Rider! So it was about time we had an episode on it! In this episode, I was joined by both Maarten Balliauw and Kirill Skrygan to chat all about it. We discussed the Rider architecture, Code With Me, Remote Development; and also the awesome power of keyboard shortcuts!
-  Maarten Balliauw&amp;rsquo;s Bio Maarten Balliauw loves building web and cloud apps.</description>
+      <description>&lt;p&gt;Everyone who knows me, knows I&amp;rsquo;m a &lt;em&gt;massive&lt;/em&gt; fan of &lt;a href=&#34;https://www.jetbrains.com/rider/&#34;&gt;Jetbrains Rider&lt;/a&gt;! So it was about time we had an episode on it! In this episode, I was joined by both &lt;a href=&#34;https://twitter.com/maartenballiauw&#34;&gt;Maarten Balliauw&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/kskrygan&#34;&gt;Kirill Skrygan&lt;/a&gt; to chat all about it. We discussed the Rider architecture, Code With Me, Remote Development; and also the awesome power of keyboard shortcuts!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-9066826&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/9066826-hello-world.js?container_id=buzzsprout-player-9066826&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;maarten-balliauws-bio&#34;&gt;Maarten Balliauw&amp;rsquo;s Bio&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://unhandledexceptionpodcast.com/images/0022-Rider/Maarten.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Maarten Balliauw loves building web and cloud apps. His main interests are in .NET web technologies, C#, Microsoft Azure and application performance. He is Developer Advocate at JetBrains, creator of &lt;a href=&#34;https://www.speaker.travel/&#34;&gt;SpeakerTravel&lt;/a&gt;, and formerly founded &lt;a href=&#34;https://www.myget.org/&#34;&gt;MyGet&lt;/a&gt;. He&amp;rsquo;s an ASP Insider and former Microsoft MVP. Maarten is a frequent speaker at various national and international events and organizes &lt;a href=&#34;https://www.azug.be/&#34;&gt;Azure User Group&lt;/a&gt; events in Belgium. In his free time, he brews his own beer. Maarten&amp;rsquo;s blog can be found at &lt;a href=&#34;https://blog.maartenballiauw.be&#34;&gt;blog.maartenballiauw.be&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

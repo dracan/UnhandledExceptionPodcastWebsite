@@ -3,7 +3,7 @@
   <head>
     <title>Episode 60: .NET Conf 2023 - with Scott Hunter // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.153.3">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Dan Clarke" />
     <meta name="description" content="" />
@@ -11,31 +11,47 @@
     <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-RN9Q259LF1', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RN9Q259LF1');
+        }
+      </script>
     
-    <meta property="og:title" content="Episode 60: .NET Conf 2023 - with Scott Hunter" />
-<meta property="og:description" content="In this episode I was honoured to be joined by Scott Hunter to chat about the announcements from .NET Conf 2023! The main areas we discussed were C#12 features, the new .NET Aspire, C# Devkit, Native AOT, and also touched a bit on Blazor. As always - it&rsquo;s an exciting time to be a .NET developer!
-   👉 A big thank you to TrackJS for sponsoring this episode! 🙏 TrackJS makes finding and fixing client-side errors simple - automatically detecting bugs on your website and giving you a clear view of how the user got to the error." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0060-dotnetconfwithscotthunter/" /><meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0060-DotnetConfWithScottHunter/Scott.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-11-14T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2023-11-14T00:00:00&#43;00:00" />
-
+    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0060-dotnetconfwithscotthunter/">
+  <meta property="og:site_name" content="The Unhandled Exception Podcast">
+  <meta property="og:title" content="Episode 60: .NET Conf 2023 - with Scott Hunter">
+  <meta property="og:description" content="In this episode I was honoured to be joined by Scott Hunter to chat about the announcements from .NET Conf 2023! The main areas we discussed were C#12 features, the new .NET Aspire, C# Devkit, Native AOT, and also touched a bit on Blazor. As always - it’s an exciting time to be a .NET developer!
+👉 A big thank you to TrackJS for sponsoring this episode! 🙏 TrackJS makes finding and fixing client-side errors simple - automatically detecting bugs on your website and giving you a clear view of how the user got to the error.">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-11-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-11-14T00:00:00+00:00">
+    <meta property="article:tag" content="Dotnetconf">
+    <meta property="article:tag" content="Aspire">
+    <meta property="article:tag" content="C#12">
+    <meta property="article:tag" content="Csharpdevkit">
+    <meta property="article:tag" content="Nativeaot">
+    <meta property="article:tag" content="Blazor">
+    <meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0060-DotnetConfWithScottHunter/Scott.png">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Episode 60: .NET Conf 2023 - with Scott Hunter"/>
 <meta name="twitter:description" content="In this episode I was honoured to be joined by Scott Hunter to chat about the announcements from .NET Conf 2023! The main areas we discussed were C#12 features, the new .NET Aspire, C# Devkit, Native AOT, and also touched a bit on Blazor. As always - it&rsquo;s an exciting time to be a .NET developer!
-   👉 A big thank you to TrackJS for sponsoring this episode! 🙏 TrackJS makes finding and fixing client-side errors simple - automatically detecting bugs on your website and giving you a clear view of how the user got to the error."/>
+
+
+
+
+👉 A big thank you to TrackJS for sponsoring this episode! 🙏 TrackJS makes finding and fixing client-side errors simple - automatically detecting bugs on your website and giving you a clear view of how the user got to the error."/>
 <meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0060-DotnetConfWithScottHunter/Scott.png"/>
 
   </head>
@@ -125,8 +141,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (36)
-          dotnet
+          (37)
+          Dotnet
         </a>
     </li>
   
@@ -136,8 +152,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (8)
-          testing
+          (9)
+          Testing
         </a>
     </li>
   
@@ -148,7 +164,18 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
           (7)
-          blazor
+          Blazor
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
+          (6)
+          AI
         </a>
     </li>
   
@@ -159,7 +186,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
           (6)
-          mediatr
+          Mediatr
         </a>
     </li>
   
@@ -170,7 +197,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
           (6)
-          messaging
+          Messaging
         </a>
     </li>
   
@@ -179,18 +206,7 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (5)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c#/">
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
           (5)
           C#
         </a>
@@ -203,7 +219,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
           (5)
-          community
+          Community
         </a>
     </li>
   
@@ -214,7 +230,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
           (5)
-          devops
+          Devops
         </a>
     </li>
   
@@ -225,7 +241,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
           (5)
-          event-driven-architecture
+          Event-Driven-Architecture
         </a>
     </li>
   
@@ -250,12 +266,12 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnetconf/">dotnetconf</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/aspire/">aspire</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/c#12/">c#12</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/csharpdevkit/">csharpdevkit</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/nativeaot/">nativeaot</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/blazor/">blazor</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnetconf/">Dotnetconf</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/aspire/">Aspire</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/c%2312/">C#12</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/csharpdevkit/">Csharpdevkit</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/nativeaot/">Nativeaot</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/blazor/">Blazor</a>
         </div>
       </div>
     </header>

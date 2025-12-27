@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ravendb on The Unhandled Exception Podcast</title>
+    <title>Ravendb on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/ravendb/</link>
-    <description>Recent content in ravendb on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ravendb on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/ravendb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/ravendb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 55: RavenDB and Database Internals - with Oren Eini</title>
       <link>https://unhandledexceptionpodcast.com/posts/0055-oreneini-databaseinternals/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0055-oreneini-databaseinternals/</guid>
-      <description>In this episode, I had the pleasure of speaking with Oren Eini about RavenDB and diving deep into the world of database internals. We explore the intricacies of how databases work under the hood and discuss the challenges - especially around performance.
-Oren Eini, also known as Ayende Rahien, is the Founder and CEO of RavenDB, a leading NoSQL document database management platform, empowering both startups and Fortune 500 companies. With over 20 years of software development experience and business leadership, Oren is an internationally acclaimed presenter, a thought leader and an author, committed to continue and lead innovation of quality software and best practices.</description>
+      <description>&lt;p&gt;In this episode, I had the pleasure of speaking with &lt;a href=&#34;https://ayende.com/blog/&#34;&gt;Oren Eini&lt;/a&gt; about RavenDB and diving deep into the world of database internals. We explore the intricacies of how databases work under the hood and discuss the challenges - especially around performance.&lt;/p&gt;&#xA;&lt;p&gt;Oren Eini, also known as Ayende Rahien, is the Founder and CEO of RavenDB, a leading&#xA;NoSQL document database management platform, empowering both startups and Fortune 500&#xA;companies. With over 20 years of software development experience and business leadership,&#xA;Oren is an internationally acclaimed presenter, a thought leader and an author, committed to&#xA;continue and lead innovation of quality software and best practices. RavenDB delivers fully&#xA;transactional (ACID), smart &amp;amp; agile, cutting-edge NoSQL end-to-end solutions, empowering&#xA;businesses in efficient data management.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

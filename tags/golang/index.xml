@@ -4,19 +4,16 @@
     <title>GoLang on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/golang/</link>
     <description>Recent content in GoLang on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 45: Go - with Joseph Woodward</title>
       <link>https://unhandledexceptionpodcast.com/posts/0045-go/</link>
       <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0045-go/</guid>
-      <description>In this episode, I was joined by Joseph Woodward to chat all about the Go programming language. Joe has done a lot of dotnet in the past, but is now focusing more on Go - so an ideal guest to help us compare on contrast.
-Joseph is a Software Engineer at Form3, speaker, and open-source contributor. Lover of Go, OSS, Neovim and distributed systems things.
-  Joe&amp;rsquo;s social links  Twitter GitHub LinkedIn Blog  Links from the show  Go website Learn Go Video by Rob Pike K9s Infographic showing code complexity vs developer experience  Devpick links  Book: The Fearless Organisation, by Amy Edmondson  Listener mention  Shawn Stoddard  </description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/_josephwoodward&#34;&gt;Joseph Woodward&lt;/a&gt; to chat all about the Go programming language. Joe has done a lot of dotnet in the past, but is now focusing more on Go - so an ideal guest to help us compare on contrast.&lt;/p&gt;&#xA;&lt;p&gt;Joseph is a Software Engineer at &lt;a href=&#34;https://www.form3.tech/&#34;&gt;Form3&lt;/a&gt;, speaker, and open-source contributor. Lover of Go, OSS, Neovim and distributed systems things.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-11683254&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/11683254-hello-world.js?container_id=buzzsprout-player-11683254&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;joes-social-links&#34;&gt;Joe&amp;rsquo;s social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/_josephwoodward&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/JosephWoodward&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/joseph-woodward2/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://josephwoodward.co.uk/&#34;&gt;Blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://go.dev/&#34;&gt;Go website&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://go.dev/learn/&#34;&gt;Learn Go&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YXV7sa4oM4I&#34;&gt;Video by Rob Pike&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://k9scli.io/&#34;&gt;K9s&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/rossipedia/status/1580639227313676288&#34;&gt;Infographic showing code complexity vs developer experience&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;devpick-links&#34;&gt;Devpick links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.uk/Fearless-Organization-Psychological-Workplace-Innovation/dp/1119477247&#34;&gt;Book: The Fearless Organisation, by Amy Edmondson&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;listener-mention&#34;&gt;Listener mention&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/shawnstoddard/status/1561714695601635328&#34;&gt;Shawn Stoddard&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

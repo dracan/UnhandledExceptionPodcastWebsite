@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>c#12 on The Unhandled Exception Podcast</title>
-    <link>https://unhandledexceptionpodcast.com/tags/c#12/</link>
-    <description>Recent content in c#12 on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>C#12 on The Unhandled Exception Podcast</title>
+    <link>https://unhandledexceptionpodcast.com/tags/c%2312/</link>
+    <description>Recent content in C#12 on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/c#12/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/c%2312/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 60: .NET Conf 2023 - with Scott Hunter</title>
       <link>https://unhandledexceptionpodcast.com/posts/0060-dotnetconfwithscotthunter/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0060-dotnetconfwithscotthunter/</guid>
-      <description>In this episode I was honoured to be joined by Scott Hunter to chat about the announcements from .NET Conf 2023! The main areas we discussed were C#12 features, the new .NET Aspire, C# Devkit, Native AOT, and also touched a bit on Blazor. As always - it&amp;rsquo;s an exciting time to be a .NET developer!
-   👉 A big thank you to TrackJS for sponsoring this episode! 🙏 TrackJS makes finding and fixing client-side errors simple - automatically detecting bugs on your website and giving you a clear view of how the user got to the error.</description>
+      <description>&lt;p&gt;In this episode I was honoured to be joined by &lt;a href=&#34;https://twitter.com/coolcsh&#34;&gt;Scott Hunter&lt;/a&gt; to chat about the announcements from .NET Conf 2023! The main areas we discussed were C#12 features, the new .NET Aspire, C# Devkit, Native AOT, and also touched a bit on Blazor. As always - it&amp;rsquo;s an exciting time to be a .NET developer!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-13968108&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/13968108-hello-world.js?container_id=buzzsprout-player-13968108&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;👉 A big thank you to &lt;a href=&#34;https://trackjs.com/&#34;&gt;TrackJS&lt;/a&gt; for sponsoring this episode! 🙏 TrackJS makes finding and fixing client-side errors simple - automatically detecting bugs on your website and giving you a clear view of how the user got to the error.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

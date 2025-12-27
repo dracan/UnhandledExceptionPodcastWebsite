@@ -4,818 +4,646 @@
     <title>Tags on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/</link>
     <description>Recent content in Tags on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://unhandledexceptionpodcast.com/tags/ai/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://unhandledexceptionpodcast.com/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dotnet</title>
+      <title>Dotnet</title>
       <link>https://unhandledexceptionpodcast.com/tags/dotnet/</link>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://unhandledexceptionpodcast.com/tags/dotnet/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>devops</title>
+      <title>Playwright</title>
+      <link>https://unhandledexceptionpodcast.com/tags/playwright/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://unhandledexceptionpodcast.com/tags/playwright/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>https://unhandledexceptionpodcast.com/tags/testing/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://unhandledexceptionpodcast.com/tags/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
       <link>https://unhandledexceptionpodcast.com/tags/devops/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/devops/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cli</title>
+      <title>Cli</title>
       <link>https://unhandledexceptionpodcast.com/tags/cli/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/cli/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>career</title>
+      <title>Career</title>
       <link>https://unhandledexceptionpodcast.com/tags/career/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/career/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>https://unhandledexceptionpodcast.com/tags/development/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>productivity</title>
+      <title>Productivity</title>
       <link>https://unhandledexceptionpodcast.com/tags/productivity/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/productivity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>learning</title>
+      <title>Learning</title>
       <link>https://unhandledexceptionpodcast.com/tags/learning/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/learning/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>aspire</title>
+      <title>Aspire</title>
       <link>https://unhandledexceptionpodcast.com/tags/aspire/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/aspire/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>observability</title>
+      <title>Observability</title>
       <link>https://unhandledexceptionpodcast.com/tags/observability/</link>
       <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/observability/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>messaging</title>
+      <title>Messaging</title>
       <link>https://unhandledexceptionpodcast.com/tags/messaging/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/messaging/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>uno-platform</title>
+      <title>Uno-Platform</title>
       <link>https://unhandledexceptionpodcast.com/tags/uno-platform/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/uno-platform/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>soft-skills</title>
+      <title>Soft-Skills</title>
       <link>https://unhandledexceptionpodcast.com/tags/soft-skills/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/soft-skills/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>C#</title>
-      <link>https://unhandledexceptionpodcast.com/tags/c#/</link>
+      <link>https://unhandledexceptionpodcast.com/tags/c%23/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/c#/</guid>
+      <guid>https://unhandledexceptionpodcast.com/tags/c%23/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>exceptions</title>
+      <title>Exceptions</title>
       <link>https://unhandledexceptionpodcast.com/tags/exceptions/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/exceptions/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>github</title>
+      <title>Ci/Cd</title>
+      <link>https://unhandledexceptionpodcast.com/tags/ci/cd/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://unhandledexceptionpodcast.com/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
       <link>https://unhandledexceptionpodcast.com/tags/github/</link>
       <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/github/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>refactoring</title>
+      <title>Refactoring</title>
       <link>https://unhandledexceptionpodcast.com/tags/refactoring/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/refactoring/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cms</title>
+      <title>Cms</title>
       <link>https://unhandledexceptionpodcast.com/tags/cms/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/cms/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>community</title>
+      <title>Community</title>
       <link>https://unhandledexceptionpodcast.com/tags/community/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/community/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Umbraco</title>
       <link>https://unhandledexceptionpodcast.com/tags/umbraco/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/umbraco/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mediatr</title>
+      <title>Mediatr</title>
       <link>https://unhandledexceptionpodcast.com/tags/mediatr/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/mediatr/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>micro-services</title>
+      <title>Micro-Services</title>
       <link>https://unhandledexceptionpodcast.com/tags/micro-services/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/micro-services/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>conference</title>
+      <title>Conference</title>
       <link>https://unhandledexceptionpodcast.com/tags/conference/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/conference/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Kubernetes</title>
       <link>https://unhandledexceptionpodcast.com/tags/kubernetes/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mentoring</title>
+      <title>Mentoring</title>
       <link>https://unhandledexceptionpodcast.com/tags/mentoring/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/mentoring/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>OpenTelemetry</title>
       <link>https://unhandledexceptionpodcast.com/tags/opentelemetry/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/opentelemetry/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Rust</title>
       <link>https://unhandledexceptionpodcast.com/tags/rust/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/rust/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Serverless</title>
       <link>https://unhandledexceptionpodcast.com/tags/serverless/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/serverless/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blazor</title>
+      <title>Blazor</title>
       <link>https://unhandledexceptionpodcast.com/tags/blazor/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/blazor/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>git</title>
+      <title>Git</title>
       <link>https://unhandledexceptionpodcast.com/tags/git/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/git/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>IaC</title>
       <link>https://unhandledexceptionpodcast.com/tags/iac/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/iac/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Pulumi</title>
       <link>https://unhandledexceptionpodcast.com/tags/pulumi/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/pulumi/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Terraform</title>
       <link>https://unhandledexceptionpodcast.com/tags/terraform/</link>
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/terraform/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>c#12</title>
-      <link>https://unhandledexceptionpodcast.com/tags/c#12/</link>
+      <title>C#12</title>
+      <link>https://unhandledexceptionpodcast.com/tags/c%2312/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/c#12/</guid>
+      <guid>https://unhandledexceptionpodcast.com/tags/c%2312/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>csharpdevkit</title>
+      <title>Csharpdevkit</title>
       <link>https://unhandledexceptionpodcast.com/tags/csharpdevkit/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/csharpdevkit/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dotnetconf</title>
+      <title>Dotnetconf</title>
       <link>https://unhandledexceptionpodcast.com/tags/dotnetconf/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/dotnetconf/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nativeaot</title>
+      <title>Nativeaot</title>
       <link>https://unhandledexceptionpodcast.com/tags/nativeaot/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/nativeaot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>code-quality</title>
+      <title>Code-Quality</title>
       <link>https://unhandledexceptionpodcast.com/tags/code-quality/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/code-quality/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mental-health</title>
+      <title>Mental-Health</title>
       <link>https://unhandledexceptionpodcast.com/tags/mental-health/</link>
       <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/mental-health/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>event-driven-architecture</title>
+      <title>Event-Driven-Architecture</title>
       <link>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</link>
       <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nservicebus</title>
+      <title>Nservicebus</title>
       <link>https://unhandledexceptionpodcast.com/tags/nservicebus/</link>
       <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/nservicebus/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rabbitmq</title>
+      <title>Rabbitmq</title>
       <link>https://unhandledexceptionpodcast.com/tags/rabbitmq/</link>
       <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/rabbitmq/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>database-internals</title>
+      <title>Database-Internals</title>
       <link>https://unhandledexceptionpodcast.com/tags/database-internals/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/database-internals/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>performance</title>
+      <title>Performance</title>
       <link>https://unhandledexceptionpodcast.com/tags/performance/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/performance/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ravendb</title>
+      <title>Ravendb</title>
       <link>https://unhandledexceptionpodcast.com/tags/ravendb/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/ravendb/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cqrs</title>
+      <title>Cqrs</title>
       <link>https://unhandledexceptionpodcast.com/tags/cqrs/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/cqrs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cqs</title>
+      <title>Cqs</title>
       <link>https://unhandledexceptionpodcast.com/tags/cqs/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/cqs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tdd</title>
+      <title>Tdd</title>
       <link>https://unhandledexceptionpodcast.com/tags/tdd/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/tdd/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>elasticsearch</title>
+      <title>Elasticsearch</title>
       <link>https://unhandledexceptionpodcast.com/tags/elasticsearch/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/elasticsearch/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kafka</title>
+      <title>Kafka</title>
       <link>https://unhandledexceptionpodcast.com/tags/kafka/</link>
       <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/kafka/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cake</title>
       <link>https://unhandledexceptionpodcast.com/tags/cake/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/cake/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AWS</title>
       <link>https://unhandledexceptionpodcast.com/tags/aws/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>security</title>
+      <title>Security</title>
       <link>https://unhandledexceptionpodcast.com/tags/security/</link>
       <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/security/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Vim</title>
       <link>https://unhandledexceptionpodcast.com/tags/vim/</link>
       <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/vim/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GoLang</title>
       <link>https://unhandledexceptionpodcast.com/tags/golang/</link>
       <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/golang/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>grpc</title>
+      <title>Grpc</title>
       <link>https://unhandledexceptionpodcast.com/tags/grpc/</link>
       <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/grpc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docker</title>
+      <title>Docker</title>
       <link>https://unhandledexceptionpodcast.com/tags/docker/</link>
       <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>open-telemetry</title>
+      <title>Open-Telemetry</title>
       <link>https://unhandledexceptionpodcast.com/tags/open-telemetry/</link>
       <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/open-telemetry/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>azure</title>
+      <title>Azure</title>
       <link>https://unhandledexceptionpodcast.com/tags/azure/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/azure/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>IoT</title>
       <link>https://unhandledexceptionpodcast.com/tags/iot/</link>
       <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/iot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>maui</title>
+      <title>Maui</title>
       <link>https://unhandledexceptionpodcast.com/tags/maui/</link>
       <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/maui/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>aks</title>
+      <title>Aks</title>
       <link>https://unhandledexceptionpodcast.com/tags/aks/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/aks/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>azure-container-apps</title>
+      <title>Azure-Container-Apps</title>
       <link>https://unhandledexceptionpodcast.com/tags/azure-container-apps/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/azure-container-apps/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>build</title>
+      <title>Build</title>
       <link>https://unhandledexceptionpodcast.com/tags/build/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/build/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>k8s</title>
+      <title>K8s</title>
       <link>https://unhandledexceptionpodcast.com/tags/k8s/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/k8s/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>asp.net</title>
+      <title>Asp.net</title>
       <link>https://unhandledexceptionpodcast.com/tags/asp.net/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/asp.net/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>github-copilot</title>
+      <title>Github-Copilot</title>
       <link>https://unhandledexceptionpodcast.com/tags/github-copilot/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/github-copilot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>minimal-api</title>
+      <title>Minimal-Api</title>
       <link>https://unhandledexceptionpodcast.com/tags/minimal-api/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/minimal-api/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>testing</title>
-      <link>https://unhandledexceptionpodcast.com/tags/testing/</link>
-      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/testing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hackathon</title>
+      <title>Hackathon</title>
       <link>https://unhandledexceptionpodcast.com/tags/hackathon/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/hackathon/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>open-source</title>
+      <title>Open-Source</title>
       <link>https://unhandledexceptionpodcast.com/tags/open-source/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/open-source/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>leadership</title>
+      <title>Leadership</title>
       <link>https://unhandledexceptionpodcast.com/tags/leadership/</link>
       <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/leadership/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>azure-service-bus</title>
+      <title>Azure-Service-Bus</title>
       <link>https://unhandledexceptionpodcast.com/tags/azure-service-bus/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/azure-service-bus/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>masstransit</title>
+      <title>Masstransit</title>
       <link>https://unhandledexceptionpodcast.com/tags/masstransit/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/masstransit/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>service-mesh</title>
+      <title>Service-Mesh</title>
       <link>https://unhandledexceptionpodcast.com/tags/service-mesh/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/service-mesh/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>snapshot-testing</title>
+      <title>Snapshot-Testing</title>
       <link>https://unhandledexceptionpodcast.com/tags/snapshot-testing/</link>
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/snapshot-testing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ux</title>
+      <title>Ux</title>
       <link>https://unhandledexceptionpodcast.com/tags/ux/</link>
       <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/ux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>visual-studio</title>
+      <title>Visual-Studio</title>
       <link>https://unhandledexceptionpodcast.com/tags/visual-studio/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/visual-studio/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rx</title>
+      <title>Rx</title>
       <link>https://unhandledexceptionpodcast.com/tags/rx/</link>
       <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/rx/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dependency-injection</title>
+      <title>Dependency-Injection</title>
       <link>https://unhandledexceptionpodcast.com/tags/dependency-injection/</link>
       <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/dependency-injection/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rider</title>
+      <title>Rider</title>
       <link>https://unhandledexceptionpodcast.com/tags/rider/</link>
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/rider/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bicep</title>
+      <title>Bicep</title>
       <link>https://unhandledexceptionpodcast.com/tags/bicep/</link>
       <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/bicep/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>streaming</title>
+      <title>Streaming</title>
       <link>https://unhandledexceptionpodcast.com/tags/streaming/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/streaming/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>source-generators</title>
+      <title>Source-Generators</title>
       <link>https://unhandledexceptionpodcast.com/tags/source-generators/</link>
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/source-generators/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linqpad</title>
+      <title>Linqpad</title>
       <link>https://unhandledexceptionpodcast.com/tags/linqpad/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/linqpad/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>fsharp</title>
+      <title>Fsharp</title>
       <link>https://unhandledexceptionpodcast.com/tags/fsharp/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/fsharp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>functional-programming</title>
+      <title>Functional-Programming</title>
       <link>https://unhandledexceptionpodcast.com/tags/functional-programming/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/functional-programming/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wsl</title>
+      <title>Wsl</title>
       <link>https://unhandledexceptionpodcast.com/tags/wsl/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/wsl/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>remote-working</title>
+      <title>Remote-Working</title>
       <link>https://unhandledexceptionpodcast.com/tags/remote-working/</link>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/tags/remote-working/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>ci/cd</title>
-      <link>https://unhandledexceptionpodcast.com/tags/ci/cd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unhandledexceptionpodcast.com/tags/ci/cd/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

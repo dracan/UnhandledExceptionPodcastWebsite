@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>conference on The Unhandled Exception Podcast</title>
+    <title>Conference on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/conference/</link>
-    <description>Recent content in conference on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Conference on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 67: Live Panel Discussion at DDD South West 2024</title>
       <link>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</guid>
-      <description>This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.
-  Guest bios Carl Sargunar is an independent web and mobile application developer and technical consultant.</description>
+      <description>&lt;p&gt;This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-15052916&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/15052916-hello-world.js?container_id=buzzsprout-player-15052916&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;guest-bios&#34;&gt;Guest bios&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/carl-sargunar-63b5814/&#34;&gt;Carl Sargunar&lt;/a&gt; is an independent web and mobile application developer and technical consultant. Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .NET SouthWest monthly meetup&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 37: Microsoft Build 2022</title>
       <link>https://unhandledexceptionpodcast.com/posts/0037-build/</link>
       <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0037-build/</guid>
-      <description>Microsoft have just had their annual Build conference - which comes with a whole host of exciting announcements and discussions about hot programming topics in the Microsoft developer space. And each year, I long for a podcast episode to come out straight after Build, overviewing them! Well, this year - this podcast aims to do just that! In this episode, I was joined by both Scott Hunter and Gaurav Seth to chat about various topics.</description>
+      <description>&lt;p&gt;Microsoft have just had their annual Build conference - which comes with a whole host of exciting announcements and discussions about hot programming topics in the Microsoft developer space. And each year, I long for a podcast episode to come out straight after Build, overviewing them! Well, this year - this podcast aims to do just that! In this episode, I was joined by both &lt;a href=&#34;https://twitter.com/coolcsh&#34;&gt;Scott Hunter&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/gauravseth&#34;&gt;Gaurav Seth&lt;/a&gt; to chat about various topics. Check out the links below for a guide to what we discussed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 6: The DDD Conferences</title>
       <link>https://unhandledexceptionpodcast.com/posts/0006-ddd/</link>
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0006-ddd/</guid>
-      <description>In this episode, I was joined by five awesome guests to chat all about the DDD conferences! This was such a fun episode, where we chatted about both organising and speaking at the DDD conferences, plus a few other bits and bats along the way!
-  Guests  Jess White Paul Michaels Pete Gallagher Simon Painter Stuart Lang  Links from the show  Wikipedia page about the DDD conferences DDD Day DDD East Midlands blog DDD South West DDD North DDD East Anglia DDD Scotland Event registration for DDD on the 12th Dec Ian Johnson&amp;rsquo;s sketch notes Musical instrument photo taken at end Paul&amp;rsquo;s MiniHack meetup mentioned in intro Dan&amp;rsquo;s DDD-related blog posts:  2017: &amp;ldquo;Fun at DDDSW in Bristol!</description>
+      <description>&lt;p&gt;In this episode, I was joined by five awesome guests to chat all about the DDD conferences! This was &lt;em&gt;such&lt;/em&gt; a fun episode, where we chatted about both organising and speaking at the DDD conferences, plus a few other bits and bats along the way!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-6703288&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/6703288-hello-world.js?container_id=buzzsprout-player-6703288&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;guests&#34;&gt;Guests&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/JessPWhite&#34;&gt;Jess White&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/paul_michaels&#34;&gt;Paul Michaels&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/pete_codes&#34;&gt;Pete Gallagher&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/madSimonJ&#34;&gt;Simon Painter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/stuartblang&#34;&gt;Stuart Lang&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Developer!_Developer!_Developer!&#34;&gt;Wikipedia page about the DDD conferences&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.developerdeveloperdeveloper.com/&#34;&gt;DDD Day&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.dddeastmidlands.com/&#34;&gt;DDD East Midlands blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dddsouthwest.com/&#34;&gt;DDD South West&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dddnorth.co.uk/&#34;&gt;DDD North&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dddeastanglia.com/&#34;&gt;DDD East Anglia&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/dddscot&#34;&gt;DDD Scotland&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ddd2020.eventbrite.co.uk/&#34;&gt;Event registration for DDD on the 12th Dec&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.ninjaferret.co.uk/&#34;&gt;Ian Johnson&amp;rsquo;s sketch notes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/dracan/status/1333893000402001925&#34;&gt;Musical instrument photo taken at end&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/mini-hack/&#34;&gt;Paul&amp;rsquo;s MiniHack meetup mentioned in intro&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Dan&amp;rsquo;s DDD-related blog posts:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/dddsw-bristol-2017&#34;&gt;2017: &amp;ldquo;Fun at DDDSW in Bristol!&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/ddd12-reading-2017&#34;&gt;2017: &amp;ldquo;Developer Day 2017 (DDD12)&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/developer-productivity-talk-at-dddsw&#34;&gt;2018: &amp;ldquo;Developer Productivity: My Talk at DDDSW&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/k8s-on-raspberry-pis-talk&#34;&gt;2019: &amp;ldquo;Kubernetes and .NET running on a Raspberry Pi Cluster&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

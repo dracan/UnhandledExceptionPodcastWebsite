@@ -3,7 +3,7 @@
   <head>
     <title>Episode 54: Cleaning your Big Ball of Mud using CQS - with Matt Hunt // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.153.3">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Dan Clarke" />
     <meta name="description" content="" />
@@ -11,31 +11,43 @@
     <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-RN9Q259LF1', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RN9Q259LF1');
+        }
+      </script>
     
-    <meta property="og:title" content="Episode 54: Cleaning your Big Ball of Mud using CQS - with Matt Hunt" />
-<meta property="og:description" content="In this episode, I was thrilled to be joined by Matt Hunt to chat about using the CQS pattern to improve your codebase quality and help avoid writing those &lsquo;Big Ball of Mud&rsquo; code-bases that sadly we see way too often in our industry!
-CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/" /><meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0054-BallOfMudCqrs/Matt.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-06-24T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2023-06-24T00:00:00&#43;00:00" />
-
+    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/">
+  <meta property="og:site_name" content="The Unhandled Exception Podcast">
+  <meta property="og:title" content="Episode 54: Cleaning your Big Ball of Mud using CQS - with Matt Hunt">
+  <meta property="og:description" content="In this episode, I was thrilled to be joined by Matt Hunt to chat about using the CQS pattern to improve your codebase quality and help avoid writing those ‘Big Ball of Mud’ code-bases that sadly we see way too often in our industry!
+CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both. This approach promotes a clear separation of concerns, improves readability, and can lead to more maintainable and scalable codebases.">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-06-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-06-24T00:00:00+00:00">
+    <meta property="article:tag" content="Dotnet">
+    <meta property="article:tag" content="Cqs">
+    <meta property="article:tag" content="Cqrs">
+    <meta property="article:tag" content="Mediatr">
+    <meta property="article:tag" content="Tdd">
+    <meta property="article:tag" content="Code-Quality">
+    <meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0054-BallOfMudCqrs/Matt.png">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Episode 54: Cleaning your Big Ball of Mud using CQS - with Matt Hunt"/>
 <meta name="twitter:description" content="In this episode, I was thrilled to be joined by Matt Hunt to chat about using the CQS pattern to improve your codebase quality and help avoid writing those &lsquo;Big Ball of Mud&rsquo; code-bases that sadly we see way too often in our industry!
-CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both."/>
+CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both. This approach promotes a clear separation of concerns, improves readability, and can lead to more maintainable and scalable codebases."/>
 <meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0054-BallOfMudCqrs/Matt.png"/>
 
   </head>
@@ -125,8 +137,8 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (36)
-          dotnet
+          (37)
+          Dotnet
         </a>
     </li>
   
@@ -136,8 +148,8 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (8)
-          testing
+          (9)
+          Testing
         </a>
     </li>
   
@@ -148,7 +160,18 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
           (7)
-          blazor
+          Blazor
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
+          (6)
+          AI
         </a>
     </li>
   
@@ -159,7 +182,7 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
           (6)
-          mediatr
+          Mediatr
         </a>
     </li>
   
@@ -170,7 +193,7 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
           (6)
-          messaging
+          Messaging
         </a>
     </li>
   
@@ -179,18 +202,7 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (5)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c#/">
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
           (5)
           C#
         </a>
@@ -203,7 +215,7 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
           (5)
-          community
+          Community
         </a>
     </li>
   
@@ -214,7 +226,7 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
           (5)
-          devops
+          Devops
         </a>
     </li>
   
@@ -225,7 +237,7 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
           (5)
-          event-driven-architecture
+          Event-Driven-Architecture
         </a>
     </li>
   
@@ -250,12 +262,12 @@ CQS (Command Query Separation) is a pattern that states that a method should eit
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">dotnet</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/cqs/">cqs</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/cqrs/">cqrs</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/mediatr/">mediatr</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/tdd/">tdd</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/code-quality/">code-quality</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">Dotnet</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/cqs/">Cqs</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/cqrs/">Cqrs</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/mediatr/">Mediatr</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/tdd/">Tdd</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/code-quality/">Code-Quality</a>
         </div>
       </div>
     </header>

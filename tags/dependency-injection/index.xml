@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dependency-injection on The Unhandled Exception Podcast</title>
+    <title>Dependency-Injection on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/dependency-injection/</link>
-    <description>Recent content in dependency-injection on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Dependency-Injection on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 18 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/dependency-injection/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/dependency-injection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 24: Dependency Injection in .NET with Steve Collins</title>
       <link>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</link>
       <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</guid>
-      <description>In this episode, I was joined by Steve Collins to chat all about dependency injection in .NET. We (well, Steve!) demystified terms such as dependency inversion and inversion of control containers, and then delved into the world of dependency injection in .NET, covering scopes, and much more&amp;hellip;
-  Steve&amp;rsquo;s bio Steve Collins is an independent software developer/architect with over 25 years of experience in the industry. He started developing in early &amp;rsquo;80s on ZX Spectrum, self-taught BASIC and Z80 Assembler.</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/stevetalkscode&#34;&gt;Steve Collins&lt;/a&gt; to chat all about dependency injection in .NET. We (well, Steve!) demystified terms such as dependency inversion and inversion of control containers, and then delved into the world of dependency injection in .NET, covering scopes, and much more&amp;hellip;&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-9218106&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/9218106-hello-world.js?container_id=buzzsprout-player-9218106&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;steves-bio&#34;&gt;Steve&amp;rsquo;s bio&lt;/h1&gt;&#xA;&lt;p&gt;Steve Collins is an independent software developer/architect with over 25 years of experience in the industry. He started developing in early &amp;rsquo;80s on ZX Spectrum, self-taught BASIC and Z80 Assembler. Then professionally with Microsoft technologies since the early 90s starting with VB3 through to .NET5. He&amp;rsquo;s spoken at user groups / DDD conferences around the UK and also at NDC London 2021.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,59 +4,51 @@
     <title>AI on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/ai/</link>
     <description>Recent content in AI on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 83: Playwright - with Debbie O&#39;Brien</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0083-playwright/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://unhandledexceptionpodcast.com/posts/0083-playwright/</guid>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://debbie.codes/&#34;&gt;Debbie O&amp;rsquo;Brien&lt;/a&gt; to chat about &lt;a href=&#34;https://playwright.dev/&#34;&gt;Playwright&lt;/a&gt; - Microsoft&amp;rsquo;s open-source end-to-end testing framework. I&amp;rsquo;m a huge fan of Playwright, so I was really excited to have this chat with Debbie. We covered a lot of ground, including features such as Codegen, Trace Viewer, and UI Mode. We also spoke a lot about AI - including the exciting &lt;a href=&#34;https://github.com/microsoft/playwright-mcp&#34;&gt;Playwright MCP Server&lt;/a&gt; which enables AI agents to automate browser interactions!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Episode 82: AI and the Microsoft Agent Framework - with James World</title>
       <link>https://unhandledexceptionpodcast.com/posts/0082-jamesworld/</link>
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0082-jamesworld/</guid>
-      <description>In this episode, I was joined by James World to chat about AI for developers. We covered a lot of general AI chat - from using it to quickly knock up tools, to spec-driven development, and much more. We also discussed the Microsoft Agent Framework - a new open-source framework for building AI agents and multi-agent workflows.
-James World is a seasoned technology leader and Solution Architect with over three decades of experience building and guiding software solutions across the financial and enterprise sectors.</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://www.linkedin.com/in/james-world-08a55a1/&#34;&gt;James World&lt;/a&gt; to chat about AI for developers. We covered a lot of general AI chat - from using it to quickly knock up tools, to spec-driven development, and much more. We also discussed the &lt;a href=&#34;https://github.com/microsoft/agent-framework&#34;&gt;Microsoft Agent Framework&lt;/a&gt; - a new open-source framework for building AI agents and multi-agent workflows.&lt;/p&gt;&#xA;&lt;p&gt;James World is a seasoned technology leader and Solution Architect with over three decades of experience building and guiding software solutions across the financial and enterprise sectors. He&amp;rsquo;s a passionate polyglot programmer, with deep expertise in C# and the Azure ecosystem, including years spent learning and teaching at Microsoft where he was a consultant advising customers building solutions on the Microsoft stack. Outside of hands-on engineering and architecture, he loves exploring continuous learning, mentorship, and ways to help teams level up their craft - topics he&amp;rsquo;s shared on The Unhandled Exception Podcast and in tech communities around .NET and cloud computing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 81: AI-driven development and DevOps - with Jeffrey Palermo</title>
       <link>https://unhandledexceptionpodcast.com/posts/0081-jeffreypalermo/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0081-jeffreypalermo/</guid>
-      <description>In this episode, I was joined by Jeffrey Palermo to chat about AI-driven development and DevOps. We discussed how AI is changing the way we write software, and the importance of having mature DevOps processes in place (eg. good tests, CI pipelines, and specs) before we can properly start leveraging AI to write features in a reliable and consistent way.
-Jeffrey Palermo is the host of the Azure &amp;amp; DevOps podcast, Founder and Chief Architect of Clear Measure, a long-time Microsoft MVP, tech speaker, book author, and more!</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://jeffreypalermo.com/&#34;&gt;Jeffrey Palermo&lt;/a&gt; to chat about AI-driven development and DevOps. We discussed how AI is changing the way we write software, and the importance of having mature DevOps processes in place (eg. good tests, CI pipelines, and specs) before we can properly start leveraging AI to write features in a reliable and consistent way.&lt;/p&gt;&#xA;&lt;p&gt;Jeffrey Palermo is the host of the &lt;a href=&#34;https://azuredevopspodcast.clear-measure.com/&#34;&gt;Azure &amp;amp; DevOps podcast&lt;/a&gt;, Founder and Chief Architect of &lt;a href=&#34;https://clearmeasure.com/&#34;&gt;Clear Measure&lt;/a&gt;, a long-time Microsoft MVP, tech speaker, book author, and more!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 79: A Microsoft AI discussion with Olorunfemi Davis</title>
       <link>https://unhandledexceptionpodcast.com/posts/0079-olorunfemidavis/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0079-olorunfemidavis/</guid>
-      <description>In this episode, I was joined by Olorunfemi Davis to chat about AI. We chatted about Microsoft Copilot Studio, Semantic Kernel, and AI in general.
-With 9 years of experience, Olorunfemi specialises in architecting, building, and optimising secure, high-performance systems. His expertise covers the full spectrum of C# / .NET development and managing infrastructure across Microsoft Azure, AWS, and Google Cloud (GCP). He focuses on bridging Dev and Ops to drive efficiency, CI/CD Automation, and data-driven reliability, incorporating robust security features like end-to-end encryption and leveraging techniques like AI/machine learning to streamline complex workflows.</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://www.linkedin.com/in/olorunfemidavis/&#34;&gt;Olorunfemi Davis&lt;/a&gt; to chat about AI. We chatted about Microsoft Copilot Studio, Semantic Kernel, and AI in general.&lt;/p&gt;&#xA;&lt;p&gt;With 9 years of experience, Olorunfemi specialises in architecting, building, and optimising secure, high-performance systems. His expertise covers the full spectrum of C# / .NET development and managing infrastructure across Microsoft Azure, AWS, and Google Cloud (GCP). He focuses on bridging Dev and Ops to drive efficiency, CI/CD Automation, and data-driven reliability, incorporating robust security features like end-to-end encryption and leveraging techniques like AI/machine learning to streamline complex workflows.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 77: Shawn Wildermuth</title>
       <link>https://unhandledexceptionpodcast.com/posts/0077-shawnwildermuth/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0077-shawnwildermuth/</guid>
-      <description>In this episode, I was delighted to be joined by Shawn Wildermuth. We chatted about software development in general, careers, AI, and more!
-Shawn Wildermuth is a software development consultant, Microsoft MVP, Pluralsight author, and speaker with over 30 years of experience in the industry.
-   Shawn&amp;rsquo;s social links  Website YouTube Bluesky LinkedIn GitHub Pluralsight Courses  Links from the show  Hello World film Vue.js .NET Aspire episode with Maddy Dan&amp;rsquo;s Aspire Dometrain course VSCode agent mode XMind Steve Smith&amp;rsquo;s episode talking about modular monoliths   If you&amp;rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!</description>
+      <description>&lt;p&gt;In this episode, I was delighted to be joined by &lt;a href=&#34;https://wildermuth.com/&#34;&gt;Shawn Wildermuth&lt;/a&gt;. We chatted about software development in general, careers, AI, and more!&lt;/p&gt;&#xA;&lt;p&gt;Shawn Wildermuth is a software development consultant, Microsoft MVP, Pluralsight author, and speaker with over 30 years of experience in the industry.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-17428782&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/17428782-hello-world.js?container_id=buzzsprout-player-17428782&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;shawns-social-links&#34;&gt;Shawn&amp;rsquo;s social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wildermuth.com/&#34;&gt;Website&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@swildermuth&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bsky.app/profile/wildermuth.com&#34;&gt;Bluesky&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/shawnwildermuth/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/shawnwildermuth&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pluralsight.com/authors/shawn-wildermuth&#34;&gt;Pluralsight Courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twainfilms.com/hwfilm/&#34;&gt;Hello World film&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue.js&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unhandledexceptionpodcast.com/posts/0076-dotnetaspire/&#34;&gt;.NET Aspire episode with Maddy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://dometrain.com/course/getting-started-dotnet-aspire/?ref=dan-clarke&amp;amp;promotion=podcast&#34;&gt;Dan&amp;rsquo;s Aspire Dometrain course&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode&#34;&gt;VSCode agent mode&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://xmind.com/&#34;&gt;XMind&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unhandledexceptionpodcast.com/posts/0068-modularmonolithswithardalis/&#34;&gt;Steve Smith&amp;rsquo;s episode talking about modular monoliths&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 67: Live Panel Discussion at DDD South West 2024</title>
       <link>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</guid>
-      <description>This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.
-  Guest bios Carl Sargunar is an independent web and mobile application developer and technical consultant.</description>
+      <description>&lt;p&gt;This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-15052916&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/15052916-hello-world.js?container_id=buzzsprout-player-15052916&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;guest-bios&#34;&gt;Guest bios&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/carl-sargunar-63b5814/&#34;&gt;Carl Sargunar&lt;/a&gt; is an independent web and mobile application developer and technical consultant. Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .NET SouthWest monthly meetup&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

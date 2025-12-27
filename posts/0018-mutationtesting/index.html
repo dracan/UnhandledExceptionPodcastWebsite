@@ -3,7 +3,7 @@
   <head>
     <title>Episode 18: Mutation Testing in .NET with Stefan Pölz // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.153.3">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Dan Clarke" />
     <meta name="description" content="" />
@@ -11,31 +11,70 @@
     <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-RN9Q259LF1', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RN9Q259LF1');
+        }
+      </script>
     
-    <meta property="og:title" content="Episode 18: Mutation Testing in .NET with Stefan Pölz" />
-<meta property="og:description" content="In this episode, I was thrilled to be joined by Stefan Pölz to chat about Mutation Testing! I had seen a lightning talk by Stefan last year about this, and was fascinated by the concept. So it was great to have him on the show to chat about it!
-  Links from the show Stefan&rsquo;s Social Links  Twitter LinkedIn Github  Other links from the show  Stryker.NET (ie." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0018-mutationtesting/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-06-18T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-06-18T00:00:00&#43;00:00" />
-
+    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0018-mutationtesting/">
+  <meta property="og:site_name" content="The Unhandled Exception Podcast">
+  <meta property="og:title" content="Episode 18: Mutation Testing in .NET with Stefan Pölz">
+  <meta property="og:description" content="In this episode, I was thrilled to be joined by Stefan Pölz to chat about Mutation Testing! I had seen a lightning talk by Stefan last year about this, and was fascinated by the concept. So it was great to have him on the show to chat about it!
+Links from the show Stefan’s Social Links Twitter LinkedIn Github Other links from the show Stryker.NET (ie. the main framework we discussed) Stefan’s 2020 lightning talk on Mutation testing at .NET South West YouTube recording Github repo Faultify - Byte Code Dotnet Mutation Utility Awesome Mutation Testing - list of links Upcoming .NET Oxford half-hour talk from Stefan about Mutation Testing Testura Testura Visual Studio extension Listener mention from Adam Storr DevTip Links John Carmack on static source code analysis Tweet from David Wengier about GenerateDocumentionFile fix for unused local variables Roslynator Analysers Overview of .NET source code analysis">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-06-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-06-18T00:00:00+00:00">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content="Dotnet">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Episode 18: Mutation Testing in .NET with Stefan Pölz"/>
 <meta name="twitter:description" content="In this episode, I was thrilled to be joined by Stefan Pölz to chat about Mutation Testing! I had seen a lightning talk by Stefan last year about this, and was fascinated by the concept. So it was great to have him on the show to chat about it!
-  Links from the show Stefan&rsquo;s Social Links  Twitter LinkedIn Github  Other links from the show  Stryker.NET (ie."/>
+
+
+
+Links from the show
+Stefan&rsquo;s Social Links
+
+Twitter
+LinkedIn
+Github
+
+Other links from the show
+
+Stryker.NET (ie. the main framework we discussed)
+Stefan&rsquo;s 2020 lightning talk on Mutation testing at .NET South West
+
+YouTube recording
+Github repo
+
+
+Faultify - Byte Code Dotnet Mutation Utility
+Awesome Mutation Testing - list of links
+Upcoming .NET Oxford half-hour talk from Stefan about Mutation Testing
+Testura
+Testura Visual Studio extension
+Listener mention from Adam Storr
+
+DevTip Links
+
+John Carmack on static source code analysis
+Tweet from David Wengier about GenerateDocumentionFile fix for unused local variables
+Roslynator Analysers
+Overview of .NET source code analysis
+"/>
 <meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content='https://unhandledexceptionpodcast.com/images/DanTwitterCard.jpg'/>
 
   </head>
@@ -125,8 +164,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (36)
-          dotnet
+          (37)
+          Dotnet
         </a>
     </li>
   
@@ -136,8 +175,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (8)
-          testing
+          (9)
+          Testing
         </a>
     </li>
   
@@ -148,7 +187,18 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
           (7)
-          blazor
+          Blazor
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
+          (6)
+          AI
         </a>
     </li>
   
@@ -159,7 +209,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
           (6)
-          mediatr
+          Mediatr
         </a>
     </li>
   
@@ -170,7 +220,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
           (6)
-          messaging
+          Messaging
         </a>
     </li>
   
@@ -179,18 +229,7 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (5)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c#/">
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
           (5)
           C#
         </a>
@@ -203,7 +242,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
           (5)
-          community
+          Community
         </a>
     </li>
   
@@ -214,7 +253,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
           (5)
-          devops
+          Devops
         </a>
     </li>
   
@@ -225,7 +264,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
           (5)
-          event-driven-architecture
+          Event-Driven-Architecture
         </a>
     </li>
   
@@ -250,8 +289,8 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/testing/">testing</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">dotnet</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/testing/">Testing</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">Dotnet</a>
         </div>
       </div>
     </header>

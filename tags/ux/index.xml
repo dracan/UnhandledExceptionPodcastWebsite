@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ux on The Unhandled Exception Podcast</title>
+    <title>Ux on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/ux/</link>
-    <description>Recent content in ux on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ux on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 03 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/ux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 28: UX with Jessica Engström</title>
       <link>https://unhandledexceptionpodcast.com/posts/0028-uxwithjessicaengstrom/</link>
       <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0028-uxwithjessicaengstrom/</guid>
-      <description>In this episode, I was joined by Jessica Engström to chat about UX! A topic that most developers (myself included) need to be more aware of when building UIs! Jessica is also a fellow podcast host, co-hosting the awesome Coding After Work podcast!
-  Jess&amp;rsquo;s social links  Twitter LinkedIn Github Blog  Links from the show  Coding After Work:  Podcast Twitch YouTube   What is Aphantasia?</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/EngstromJess&#34;&gt;Jessica Engström&lt;/a&gt; to chat about UX! A topic that most developers (myself included) need to be more aware of when building UIs! Jessica is also a fellow podcast host, co-hosting the awesome &lt;a href=&#34;http://codingafterwork.com/&#34;&gt;Coding After Work&lt;/a&gt; podcast!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-9481799&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/9481799-hello-world.js?container_id=buzzsprout-player-9481799&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;jesss-social-links&#34;&gt;Jess&amp;rsquo;s social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/EngstromJess&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/engstromjess/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/EngstromJess&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://engstromjess.com/&#34;&gt;Blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Coding After Work:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://codingafterwork.com/&#34;&gt;Podcast&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.twitch.tv/codingafterwork&#34;&gt;Twitch&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/CodingAfterWork&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aphantasia.com/what-is-aphantasia/&#34;&gt;What is Aphantasia?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.uk/Design-Everyday-Things-Revised-Expanded/dp/0465050654&#34;&gt;Book: The Design of Everyday Things&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/design/inclusive/&#34;&gt;MS Inclusive Design (includes various PDF booklets)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.hotjar.com/&#34;&gt;Hotjar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect&#34;&gt;Dunning–Kruger effect&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dunning%E2%80%93Kruger_Effect_01.svg/1200px-Dunning%E2%80%93Kruger_Effect_01.svg.png&#34;&gt;Dunning–Kruger effect - the image my google search came up with in the show!&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.w3.org/TR/WCAG20/&#34;&gt;WCAG 2 guidelines and tools&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://uitraps.com/&#34;&gt;Tenants and Traps cards - main site, US only&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.azm.se/traps&#34;&gt;Tenants and Traps cards - order from Europe&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

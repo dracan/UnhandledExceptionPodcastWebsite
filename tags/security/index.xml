@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>security on The Unhandled Exception Podcast</title>
+    <title>Security on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/security/</link>
-    <description>Recent content in security on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Security on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 47: Application Security - with Tanya Janca</title>
       <link>https://unhandledexceptionpodcast.com/posts/0047-applicationsecurity/</link>
       <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0047-applicationsecurity/</guid>
-      <description>In this episode, I was joined by Tanya Janca to chat about Application Security (or AppSec for short!). We chatted about various topics - from security topics and training, to her book and online community, to public speaking!
-Tanya is the founder and CEO at We Hack Purple, which is an online learning academy, community and weekly podcast that revolves around teaching everyone to create secure software. She&amp;rsquo;s also the Director of Developer Relations at Bright, and best-selling author of the book Alice and Bob Learn Application Security.</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/shehackspurple&#34;&gt;Tanya Janca&lt;/a&gt; to chat about Application Security (or AppSec for short!). We chatted about various topics - from security topics and training, to her book and online community, to public speaking!&lt;/p&gt;&#xA;&lt;p&gt;Tanya is the founder and CEO at &lt;a href=&#34;https://community.wehackpurple.com/&#34;&gt;We Hack Purple&lt;/a&gt;, which is an online learning academy, community and weekly podcast that revolves around teaching everyone to create secure software. She&amp;rsquo;s also the Director of Developer Relations at &lt;a href=&#34;https://brightsec.com/&#34;&gt;Bright&lt;/a&gt;, and best-selling author of the book &lt;a href=&#34;https://www.amazon.co.uk/Alice-Bob-Learn-Application-Security/dp/1119687357&#34;&gt;Alice and Bob Learn Application Security&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 8: Identity with Christos Matskas</title>
       <link>https://unhandledexceptionpodcast.com/posts/0008-identitywithchristosmatskas/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0008-identitywithchristosmatskas/</guid>
-      <description>In this last episode of the year, I was joined by Christos Matskas to talk all about Identity! Christos is the Program Manager for the Microsoft Identity Platform, so obviously the conversation was slightly biased towards AzureAD and B2C as an identity provider - but we also tried to cover some common identity topics, and demystify terminology such as OAuth, OpenID Connect, scopes, claims, and more! We even went a bit off-piste at the end and chatted about public speaking, languages (not programming languages), and even touched on speed reading!</description>
+      <description>&lt;p&gt;In this last episode of the year, I was joined by &lt;a href=&#34;https://www.twitter.com/christosmatskas&#34;&gt;Christos Matskas&lt;/a&gt; to talk all about Identity! Christos is the Program Manager for the Microsoft Identity Platform, so obviously the conversation was slightly biased towards AzureAD and B2C as an identity provider - but we also tried to cover some common identity topics, and demystify terminology such as OAuth, OpenID Connect, scopes, claims, and more! We even went a bit &lt;em&gt;off-piste&lt;/em&gt; at the end and chatted about public speaking, languages (not programming languages), and even touched on speed reading!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   <head>
     <title>Episode 74: The Uno Platform and Hot Design - with Jérôme Laban // The Unhandled Exception Podcast</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.82.0" />
+    <meta name="generator" content="Hugo 0.153.3">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Dan Clarke" />
     <meta name="description" content="" />
@@ -11,29 +11,37 @@
     <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
     
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-RN9Q259LF1', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RN9Q259LF1');
+        }
+      </script>
     
-    <meta property="og:title" content="Episode 74: The Uno Platform and Hot Design - with Jérôme Laban" />
-<meta property="og:description" content="In this episode, I was joined by Jérôme Laban, the CTO of the Uno Platform. We chatted about the Uno Platform itself, which is a cross-platform framework for building single-codebase applications that run on Windows, iOS, Android, macOS, Linux, and the web via WebAssembly. We also discussed a new Hot Design feature, which is a designer/builder that during development, becomes part your application at runtime, so you can live build/edit your UIs with an easy drag and drop interface, whilst your application is running!" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0074-unoplatformandhotdesign/" /><meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0074-UnoPlatformAndHotDesign/Jerome.jpg" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-02-28T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2025-02-28T00:00:00&#43;00:00" />
-
+    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0074-unoplatformandhotdesign/">
+  <meta property="og:site_name" content="The Unhandled Exception Podcast">
+  <meta property="og:title" content="Episode 74: The Uno Platform and Hot Design - with Jérôme Laban">
+  <meta property="og:description" content="In this episode, I was joined by Jérôme Laban, the CTO of the Uno Platform. We chatted about the Uno Platform itself, which is a cross-platform framework for building single-codebase applications that run on Windows, iOS, Android, macOS, Linux, and the web via WebAssembly. We also discussed a new Hot Design feature, which is a designer/builder that during development, becomes part your application at runtime, so you can live build/edit your UIs with an easy drag and drop interface, whilst your application is running! Given you’re building your UI at runtime, the designer UI also has access to your real data and its properties for databinding, and renders them as you edit!">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-28T00:00:00+00:00">
+    <meta property="article:tag" content="Uno-Platform">
+    <meta property="article:tag" content="Dotnet">
+    <meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0074-UnoPlatformAndHotDesign/Jerome.jpg">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Episode 74: The Uno Platform and Hot Design - with Jérôme Laban"/>
-<meta name="twitter:description" content="In this episode, I was joined by Jérôme Laban, the CTO of the Uno Platform. We chatted about the Uno Platform itself, which is a cross-platform framework for building single-codebase applications that run on Windows, iOS, Android, macOS, Linux, and the web via WebAssembly. We also discussed a new Hot Design feature, which is a designer/builder that during development, becomes part your application at runtime, so you can live build/edit your UIs with an easy drag and drop interface, whilst your application is running!"/>
+<meta name="twitter:description" content="In this episode, I was joined by Jérôme Laban, the CTO of the Uno Platform. We chatted about the Uno Platform itself, which is a cross-platform framework for building single-codebase applications that run on Windows, iOS, Android, macOS, Linux, and the web via WebAssembly. We also discussed a new Hot Design feature, which is a designer/builder that during development, becomes part your application at runtime, so you can live build/edit your UIs with an easy drag and drop interface, whilst your application is running! Given you&rsquo;re building your UI at runtime, the designer UI also has access to your real data and its properties for databinding, and renders them as you edit!"/>
 <meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0074-UnoPlatformAndHotDesign/Jerome.jpg"/>
 
   </head>
@@ -123,8 +131,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (36)
-          dotnet
+          (37)
+          Dotnet
         </a>
     </li>
   
@@ -134,8 +142,8 @@ if (!doNotTrack) {
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (8)
-          testing
+          (9)
+          Testing
         </a>
     </li>
   
@@ -146,7 +154,18 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
           (7)
-          blazor
+          Blazor
+        </a>
+    </li>
+  
+    <li class="tags-list-item-custom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
+          (6)
+          AI
         </a>
     </li>
   
@@ -157,7 +176,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
           (6)
-          mediatr
+          Mediatr
         </a>
     </li>
   
@@ -168,7 +187,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
           (6)
-          messaging
+          Messaging
         </a>
     </li>
   
@@ -177,18 +196,7 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (5)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c#/">
+        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
           (5)
           C#
         </a>
@@ -201,7 +209,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
           (5)
-          community
+          Community
         </a>
     </li>
   
@@ -212,7 +220,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
           (5)
-          devops
+          Devops
         </a>
     </li>
   
@@ -223,7 +231,7 @@ if (!doNotTrack) {
 </svg>
         <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
           (5)
-          event-driven-architecture
+          Event-Driven-Architecture
         </a>
     </li>
   
@@ -248,8 +256,8 @@ if (!doNotTrack) {
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/uno-platform/">uno-platform</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">dotnet</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/uno-platform/">Uno-Platform</a>
+              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">Dotnet</a>
         </div>
       </div>
     </header>

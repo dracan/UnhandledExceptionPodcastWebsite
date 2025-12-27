@@ -4,18 +4,16 @@
     <title>Umbraco on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/umbraco/</link>
     <description>Recent content in Umbraco on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/umbraco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/umbraco/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 69: The Umbraco CMS and Community</title>
       <link>https://unhandledexceptionpodcast.com/posts/0069-umbraco/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0069-umbraco/</guid>
-      <description>In this group episode, I was joined by Carl Sargunar, Lotte Pitcher, Carole Rennie Logan, and Callum Whyte, to discuss the Umbraco community and CMS! We chatted about the amazing community around Umbraco, as well as the features of the CMS itself. It definitely made me want to reach for Umbraco next time I need a CMS!
-  Guest bios Carl Sargunar is an independent web and mobile application developer and technical consultant.</description>
+      <description>&lt;p&gt;In this group episode, I was joined by Carl Sargunar, Lotte Pitcher, Carole Rennie Logan, and Callum Whyte, to discuss the Umbraco community and CMS! We chatted about the amazing community around Umbraco, as well as the features of the CMS itself. It definitely made me want to reach for Umbraco next time I need a CMS!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-15540584&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/15540584-hello-world.js?container_id=buzzsprout-player-15540584&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;guest-bios&#34;&gt;Guest bios&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/carl-sargunar-63b5814/&#34;&gt;Carl Sargunar&lt;/a&gt; is an independent web and mobile application developer and technical consultant. Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .NET SouthWest monthly meetup&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tdd on The Unhandled Exception Podcast</title>
+    <title>Tdd on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/tdd/</link>
-    <description>Recent content in tdd on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tdd on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 54: Cleaning your Big Ball of Mud using CQS - with Matt Hunt</title>
       <link>https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/</link>
       <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/</guid>
-      <description>In this episode, I was thrilled to be joined by Matt Hunt to chat about using the CQS pattern to improve your codebase quality and help avoid writing those &amp;lsquo;Big Ball of Mud&amp;rsquo; code-bases that sadly we see way too often in our industry!
-CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both.</description>
+      <description>&lt;p&gt;In this episode, I was thrilled to be joined by &lt;a href=&#34;https://twitter.com/DoesDotNet&#34;&gt;Matt Hunt&lt;/a&gt; to chat about using the CQS pattern to improve your codebase quality and help avoid writing those &amp;lsquo;Big Ball of Mud&amp;rsquo; code-bases that sadly we see way too often in our industry!&lt;/p&gt;&#xA;&lt;p&gt;CQS (Command Query Separation) is a pattern that states that a method should either be a command that performs an action or a query that returns data, but not both. This approach promotes a clear separation of concerns, improves readability, and can lead to more maintainable and scalable codebases.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 17: TDD with Ian Cooper</title>
       <link>https://unhandledexceptionpodcast.com/posts/0017-tddwithiancooper/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0017-tddwithiancooper/</guid>
-      <description>In this episode, I was joined by Ian Cooper to chat about Test Driven Development (TDD)! We discussed pain points that a lot of people hit when attempting to do TDD, and how to avoid them.
-  Links from the show Ian&amp;rsquo;s Social Links  Twitter LinkedIn Github  Other links from the show  Ian&amp;rsquo;s Presentations on Github Ian&amp;rsquo;s talk - &amp;lsquo;TDD - Where did it all go wrong?</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/ICooper&#34;&gt;Ian Cooper&lt;/a&gt; to chat about Test Driven Development (TDD)! We discussed pain points that a lot of people hit when attempting to do TDD, and how to avoid them.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-8606489&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/8606489-hello-world.js?container_id=buzzsprout-player-8606489&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;h2 id=&#34;ians-social-links&#34;&gt;Ian&amp;rsquo;s Social Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/ICooper&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/ian-cooper-2b059b/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/iancooper&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;other-links-from-the-show&#34;&gt;Other links from the show&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/iancooper/Presentations&#34;&gt;Ian&amp;rsquo;s Presentations on Github&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9PUbJQgq8pk&#34;&gt;Ian&amp;rsquo;s talk - &amp;lsquo;TDD - Where did it all go wrong?&amp;rsquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.amazon.co.uk/Test-Driven-Development-Addison-Wesley-Signature/dp/0321146530&#34;&gt;Kent Beck&amp;rsquo;s book - TDD By Example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/iancooper/Presentations/blob/master/Kent%20Beck%20Style%20TDD%20-%20Seven%20Years%20After.pdf&#34;&gt;Slides about Given When Then&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/HuddleEng/octopose&#34;&gt;Octopose&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-5.0&#34;&gt;ASP.NET WebApplicationFactory Tests&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;devtip-links&#34;&gt;DevTip Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;&#34;&gt;Github Browser extension to view code in a TreeView&lt;/a&gt; (link coming soon)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/features/codespaces&#34;&gt;Code Spaces&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

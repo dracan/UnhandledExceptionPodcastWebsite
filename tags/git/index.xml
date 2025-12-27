@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on The Unhandled Exception Podcast</title>
+    <title>Git on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/git/</link>
-    <description>Recent content in git on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Git on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 64: GitKraken - with Justin Roberts and Eric Amodio</title>
       <link>https://unhandledexceptionpodcast.com/posts/0064-gitkraken/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0064-gitkraken/</guid>
-      <description>In this episode, I was joined by Justin Roberts and Eric Amodio to chat about the GitKraken Git client. We chatted about its features, and also what it&amp;rsquo;s been like working on it. We also spoke about the GitLens VS Code client.
-Justin is the Senior Director of Product at GitKraken, and has been leading the design of the GitKraken Git Client. Eric is the CTO, and also the creator of GitLens for VS Code, and previously a VS Code developer at Microsoft.</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://www.linkedin.com/in/justinar/&#34;&gt;Justin Roberts&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/eamodio/&#34;&gt;Eric Amodio&lt;/a&gt; to chat about the &lt;a href=&#34;https://chocolatey.org/&#34;&gt;GitKraken&lt;/a&gt; Git client. We chatted about its features, and also what it&amp;rsquo;s been like working on it. We also spoke about the GitLens VS Code client.&lt;/p&gt;&#xA;&lt;p&gt;Justin is the Senior Director of Product at GitKraken, and has been leading the design of the GitKraken Git Client. Eric is the CTO, and also the creator of GitLens for VS Code, and previously a VS Code developer at Microsoft.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 23: Git - with Jesse Liberty and James World</title>
       <link>https://unhandledexceptionpodcast.com/posts/0023-git/</link>
       <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0023-git/</guid>
-      <description>In this episode, I was joined by Jesse Liberty and James World to chat about a topic I&amp;rsquo;m also personally very passionate about - the Git source control system.
-Jesse is a fellow podcast host, as well as an author of a book about Git.
-James is a Solution Architect who has done many a talk on Git and likes to delve a bit deeper into what goes on under the hood (as you&amp;rsquo;ll see in this episode!</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/JesseLiberty&#34;&gt;Jesse Liberty&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/jamesw0rld&#34;&gt;James World&lt;/a&gt; to chat about a topic I&amp;rsquo;m also personally very passionate about - the Git source control system.&lt;/p&gt;&#xA;&lt;p&gt;Jesse is a fellow podcast host, as well as an author of a book about Git.&lt;/p&gt;&#xA;&lt;p&gt;James is a Solution Architect who has done many a talk on Git and likes to delve a bit deeper into what goes on under the hood (as you&amp;rsquo;ll see in this episode!).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

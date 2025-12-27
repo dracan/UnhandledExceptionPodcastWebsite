@@ -1,60 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>community on The Unhandled Exception Podcast</title>
+    <title>Community on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/community/</link>
-    <description>Recent content in community on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Community on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 69: The Umbraco CMS and Community</title>
       <link>https://unhandledexceptionpodcast.com/posts/0069-umbraco/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0069-umbraco/</guid>
-      <description>In this group episode, I was joined by Carl Sargunar, Lotte Pitcher, Carole Rennie Logan, and Callum Whyte, to discuss the Umbraco community and CMS! We chatted about the amazing community around Umbraco, as well as the features of the CMS itself. It definitely made me want to reach for Umbraco next time I need a CMS!
-  Guest bios Carl Sargunar is an independent web and mobile application developer and technical consultant.</description>
+      <description>&lt;p&gt;In this group episode, I was joined by Carl Sargunar, Lotte Pitcher, Carole Rennie Logan, and Callum Whyte, to discuss the Umbraco community and CMS! We chatted about the amazing community around Umbraco, as well as the features of the CMS itself. It definitely made me want to reach for Umbraco next time I need a CMS!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-15540584&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/15540584-hello-world.js?container_id=buzzsprout-player-15540584&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;guest-bios&#34;&gt;Guest bios&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/carl-sargunar-63b5814/&#34;&gt;Carl Sargunar&lt;/a&gt; is an independent web and mobile application developer and technical consultant. Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .NET SouthWest monthly meetup&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 67: Live Panel Discussion at DDD South West 2024</title>
       <link>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</guid>
-      <description>This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.
-  Guest bios Carl Sargunar is an independent web and mobile application developer and technical consultant.</description>
+      <description>&lt;p&gt;This was the first episode we&amp;rsquo;ve done which has been recorded live with an audience! It was hosted at the DDD South West conference in Bristol (UK), and I was joined by a panel of speakers. After introductions, I kicked off the conversation with a question about AI - and then we went from there, taking further dev-related questions from the audience.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-15052916&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/15052916-hello-world.js?container_id=buzzsprout-player-15052916&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;guest-bios&#34;&gt;Guest bios&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/carl-sargunar-63b5814/&#34;&gt;Carl Sargunar&lt;/a&gt; is an independent web and mobile application developer and technical consultant. Carl also enjoys working with the wider community, helping run the DDDSouthWest free conference and the .NET SouthWest monthly meetup&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 62: Speed mentoring and the power of Community - with Mia Gordon</title>
       <link>https://unhandledexceptionpodcast.com/posts/0062-speedmentoring/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0062-speedmentoring/</guid>
-      <description>In this episode, I was joined by Mia Gordon to chat about speed mentoring! I was recently invited to a speed mentoring event that she organised, and it was such a fun event and great idea and concept - that I invited her onto the show to chat about it! We also spoke about the power of community, and how big a difference it can make to your career and life.</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://www.linkedin.com/in/mia-gordon-63940273/&#34;&gt;Mia Gordon&lt;/a&gt; to chat about speed mentoring! I was recently invited to a speed mentoring event that she organised, and it was such a fun event and great idea and concept - that I invited her onto the show to chat about it! We also spoke about the power of community, and how big a difference it can make to your career and life.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 53: We Are .NET - with Tim Cadenbach and Matthias Jost</title>
       <link>https://unhandledexceptionpodcast.com/posts/0053-wearedotnet/</link>
       <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0053-wearedotnet/</guid>
-      <description>In this episode, I was joined by both Tim Cadenbach and Matthias Jost to chat about the exciting new .NET community - We Are .NET! At its core, it&amp;rsquo;s a community portal aggregating and presenting videos, blogs, twitch, and other feeds of any creator with .NET content. However, it&amp;rsquo;s not just content aggregation though - and is becoming a rapidly growing community.
-  Tim Cadenbach Tim is a developer evangelist at Deepl and Microsoft MVP.</description>
+      <description>&lt;p&gt;In this episode, I was joined by both &lt;a href=&#34;https://twitter.com/TimCadenbach&#34;&gt;Tim Cadenbach&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/jost0101&#34;&gt;Matthias Jost&lt;/a&gt; to chat about the exciting new .NET community - &lt;a href=&#34;https://www.wearedotnet.io/&#34;&gt;We Are .NET&lt;/a&gt;! At its core, it&amp;rsquo;s a community portal aggregating and presenting videos, blogs, twitch, and other feeds of any creator with .NET content. However, it&amp;rsquo;s not just content aggregation though - and is becoming a rapidly growing community.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-12742936&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/12742936-hello-world.js?container_id=buzzsprout-player-12742936&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;tim-cadenbach&#34;&gt;Tim Cadenbach&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://unhandledexceptionpodcast.com/images/0053-WeAreDotnet/Tim.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tim is a developer evangelist at &lt;a href=&#34;https://www.deepl.com/&#34;&gt;Deepl&lt;/a&gt; and Microsoft MVP.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Episode 6: The DDD Conferences</title>
       <link>https://unhandledexceptionpodcast.com/posts/0006-ddd/</link>
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0006-ddd/</guid>
-      <description>In this episode, I was joined by five awesome guests to chat all about the DDD conferences! This was such a fun episode, where we chatted about both organising and speaking at the DDD conferences, plus a few other bits and bats along the way!
-  Guests  Jess White Paul Michaels Pete Gallagher Simon Painter Stuart Lang  Links from the show  Wikipedia page about the DDD conferences DDD Day DDD East Midlands blog DDD South West DDD North DDD East Anglia DDD Scotland Event registration for DDD on the 12th Dec Ian Johnson&amp;rsquo;s sketch notes Musical instrument photo taken at end Paul&amp;rsquo;s MiniHack meetup mentioned in intro Dan&amp;rsquo;s DDD-related blog posts:  2017: &amp;ldquo;Fun at DDDSW in Bristol!</description>
+      <description>&lt;p&gt;In this episode, I was joined by five awesome guests to chat all about the DDD conferences! This was &lt;em&gt;such&lt;/em&gt; a fun episode, where we chatted about both organising and speaking at the DDD conferences, plus a few other bits and bats along the way!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-6703288&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/6703288-hello-world.js?container_id=buzzsprout-player-6703288&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;guests&#34;&gt;Guests&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/JessPWhite&#34;&gt;Jess White&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/paul_michaels&#34;&gt;Paul Michaels&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/pete_codes&#34;&gt;Pete Gallagher&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/madSimonJ&#34;&gt;Simon Painter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/stuartblang&#34;&gt;Stuart Lang&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Developer!_Developer!_Developer!&#34;&gt;Wikipedia page about the DDD conferences&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.developerdeveloperdeveloper.com/&#34;&gt;DDD Day&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.dddeastmidlands.com/&#34;&gt;DDD East Midlands blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dddsouthwest.com/&#34;&gt;DDD South West&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dddnorth.co.uk/&#34;&gt;DDD North&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.dddeastanglia.com/&#34;&gt;DDD East Anglia&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/dddscot&#34;&gt;DDD Scotland&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ddd2020.eventbrite.co.uk/&#34;&gt;Event registration for DDD on the 12th Dec&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.ninjaferret.co.uk/&#34;&gt;Ian Johnson&amp;rsquo;s sketch notes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/dracan/status/1333893000402001925&#34;&gt;Musical instrument photo taken at end&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/mini-hack/&#34;&gt;Paul&amp;rsquo;s MiniHack meetup mentioned in intro&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Dan&amp;rsquo;s DDD-related blog posts:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/dddsw-bristol-2017&#34;&gt;2017: &amp;ldquo;Fun at DDDSW in Bristol!&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/ddd12-reading-2017&#34;&gt;2017: &amp;ldquo;Developer Day 2017 (DDD12)&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/developer-productivity-talk-at-dddsw&#34;&gt;2018: &amp;ldquo;Developer Productivity: My Talk at DDDSW&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.danclarke.com/k8s-on-raspberry-pis-talk&#34;&gt;2019: &amp;ldquo;Kubernetes and .NET running on a Raspberry Pi Cluster&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

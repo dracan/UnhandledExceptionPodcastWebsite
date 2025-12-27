@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>azure-service-bus on The Unhandled Exception Podcast</title>
+    <title>Azure-Service-Bus on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/azure-service-bus/</link>
-    <description>Recent content in azure-service-bus on The Unhandled Exception Podcast</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Azure-Service-Bus on The Unhandled Exception Podcast</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unhandledexceptionpodcast.com/tags/azure-service-bus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://unhandledexceptionpodcast.com/tags/azure-service-bus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 31: MassTransit and Open Source - with Chris Patterson</title>
       <link>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</guid>
-      <description>In this episode, I was joined by Chris Patterson to chat about the open-source distributed messaging framework, MassTransit. We also spoke about open-source, event-driven architecture, docker, k8s, testing, Rider, and more!
-  Chris&amp;rsquo;s social links  Twitter Github YouTube  Links from the show  MassTransit MassTransit Discord RabbitMQ Azure Service Bus Apache Kafka Azure Event Hub Kubernetes Istio Linkerd JetBrains Rider Visual Studio Live Share JetBrains Code With Me Past podcast episode re.</description>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://twitter.com/PhatBoyG&#34;&gt;Chris Patterson&lt;/a&gt; to chat about the open-source distributed messaging framework, &lt;a href=&#34;https://masstransit-project.com/&#34;&gt;MassTransit&lt;/a&gt;. We also spoke about open-source, event-driven architecture, docker, k8s, testing, Rider, and more!&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-10088406&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/10088406-hello-world.js?container_id=buzzsprout-player-10088406&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;h1 id=&#34;chriss-social-links&#34;&gt;Chris&amp;rsquo;s social links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://twitter.com/PhatBoyG&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/phatboyg&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/phatboyg&#34;&gt;YouTube&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;links-from-the-show&#34;&gt;Links from the show&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://masstransit-project.com/&#34;&gt;MassTransit&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://masstransit-project.com/discord.html&#34;&gt;MassTransit Discord&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview&#34;&gt;Azure Service Bus&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about&#34;&gt;Azure Event Hub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/&#34;&gt;Kubernetes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://istio.io/&#34;&gt;Istio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://linkerd.io/&#34;&gt;Linkerd&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/rider/&#34;&gt;JetBrains Rider&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://visualstudio.microsoft.com/services/live-share/&#34;&gt;Visual Studio Live Share&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/code-with-me/&#34;&gt;JetBrains Code With Me&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unhandledexceptionpodcast.com/posts/0022-rider/&#34;&gt;Past podcast episode re. Rider and CodeWithMe&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;DevTips&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://karabiner-elements.pqrs.org/&#34;&gt;Karabiner-Elements&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.hammerspoon.org/&#34;&gt;Hammerspoon&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>
