@@ -45,3 +45,8 @@ googleAnalytics = "G-RN9Q259LF1"
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/dracan"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
