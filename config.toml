@@ -44,7 +44,7 @@ googleAnalytics = "G-RN9Q259LF1"
     url = "https://github.com/dracan/UnhandledExceptionPodcastWebsite"
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/dracan"
+    url = "https://x.com/dracan"
 
 [sitemap]
   changefreq = "weekly"
