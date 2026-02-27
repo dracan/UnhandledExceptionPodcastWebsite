@@ -26,7 +26,7 @@ Irina is a Software Architect at [Particular Software](https://particular.net/),
 
 # Jonathan Tower
 
-Jonathan is an 11-time Microsoft MVP and founding partner of [Trailhead Technology Partners](https://trailheadtechnology.com/). He's been president of the [Beer City Code](https://www.beercitycode.com/) conference for over a decade and is a newly elected .NET Foundation board member.
+Jonathan is a 12-time Microsoft MVP and founding partner of [Trailhead Technology Partners](https://trailheadtechnology.com/). He's been president of the [Beer City Code](https://www.beercitycode.com/) conference for over a decade and is a newly elected .NET Foundation board member.
 
 * [Website](https://www.jtower.com)
 * [GitHub](https://github.com/jonathantower)
