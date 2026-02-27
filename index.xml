@@ -6,8 +6,15 @@
     <description>Recent content on The Unhandled Exception Podcast</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 27 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://unhandledexceptionpodcast.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 84: The .NET Foundation - with Irina Dominte and Jonathan Tower</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0084-dotnetfoundation/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://unhandledexceptionpodcast.com/posts/0084-dotnetfoundation/</guid>
+      <description>&lt;p&gt;In this episode, I was joined by both &lt;a href=&#34;https://irina.codes&#34;&gt;Irina Dominte&lt;/a&gt; and &lt;a href=&#34;https://www.jtower.com&#34;&gt;Jonathan Tower&lt;/a&gt; to chat about the &lt;a href=&#34;https://dotnetfoundation.org/&#34;&gt;.NET Foundation&lt;/a&gt;. They both recently ran for the .NET Foundation&amp;rsquo;s board of directors, and were elected! 👏 We chatted about their experiences running for the board, what the election process was like, and their initial experiences as board members.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-18760443&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/18760443-hello-world.js?container_id=buzzsprout-player-18760443&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;irina-dominte&#34;&gt;Irina Dominte&lt;/h1&gt;&#xA;&lt;p&gt;Irina is a Software Architect at &lt;a href=&#34;https://particular.net/&#34;&gt;Particular Software&lt;/a&gt;, Microsoft MVP, and Microsoft Certified Trainer. She&amp;rsquo;s an international conference speaker, founder of &lt;a href=&#34;https://dotnetdays.ro/&#34;&gt;dotnetdays.ro&lt;/a&gt; and multiple .NET user groups, and a newly elected .NET Foundation board member.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Episode 83: Playwright - with Debbie O&#39;Brien</title>
       <link>https://unhandledexceptionpodcast.com/posts/0083-playwright/</link>
