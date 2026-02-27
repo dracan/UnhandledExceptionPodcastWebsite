@@ -87,10 +87,10 @@ Uses **Giscus** (GitHub Discussions-based commenting):
 Automated via GitHub Actions (`.github/workflows/buildanddeploy.yml`):
 1. Triggers on push to `main` branch
 2. Checks out code with submodules
-3. Sets up Hugo v0.82.0 Extended
+3. Sets up latest Hugo Extended version
 4. Builds site with `hugo --theme=m10c`
 5. Creates CNAME file for custom domain
-6. Deploys to `gh-pages` branch using `peaceiris/actions-gh-pages@v3`
+6. Deploys to `gh-pages` branch using `peaceiris/actions-gh-pages@v4`
 
 ### Static Assets
 
