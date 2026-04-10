@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GRPC on The Unhandled Exception Podcast</title>
+    <title>Grpc on The Unhandled Exception Podcast</title>
     <link>https://unhandledexceptionpodcast.com/tags/grpc/</link>
-    <description>Recent content in GRPC on The Unhandled Exception Podcast</description>
+    <description>Recent content in Grpc on The Unhandled Exception Podcast</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Sat, 29 Oct 2022 00:00:00 +0000</lastBuildDate>

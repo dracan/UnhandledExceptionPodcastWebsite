@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0085-simplicityfirst/</loc>
+    <lastmod>2026-04-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
+    <lastmod>2026-04-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
+    <lastmod>2026-04-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/community/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -17,17 +32,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

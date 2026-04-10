@@ -6,8 +6,15 @@
     <description>Recent content in Posts on The Unhandled Exception Podcast</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://unhandledexceptionpodcast.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Episode 85: Simplicity First - with Chris Woody Woodruff</title>
+      <link>https://unhandledexceptionpodcast.com/posts/0085-simplicityfirst/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://unhandledexceptionpodcast.com/posts/0085-simplicityfirst/</guid>
+      <description>&lt;p&gt;In this episode, I was joined by &lt;a href=&#34;https://woodruff.dev/&#34;&gt;Chris &amp;ldquo;Woody&amp;rdquo; Woodruff&lt;/a&gt; to chat about a &lt;a href=&#34;https://simplicity-first.dev/&#34;&gt;simplicity-first&lt;/a&gt; approach to software architecture. Chris has a book coming out on this topic, and we discussed why simplicity should be the default.&lt;/p&gt;&#xA;&lt;div id=&#34;buzzsprout-player-18993399&#34;&gt;&lt;/div&gt;&#xA;&lt;script src=&#34;https://www.buzzsprout.com/978640/18993399-hello-world.js?container_id=buzzsprout-player-18993399&amp;player=small&#34; type=&#34;text/javascript&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;chris-woodruff&#34;&gt;Chris Woodruff&lt;/h1&gt;&#xA;&lt;p&gt;Chris &amp;ldquo;Woody&amp;rdquo; Woodruff is a software developer and architect with over 25 years of experience. He currently works as a Fractional Architect at Real Time Technologies, focusing on API design and scalable architectures. He&amp;rsquo;s a Microsoft MVP specialising in .NET and Web Development, co-hosts The Breakpoint Show podcast, and is the author of the upcoming book &amp;ldquo;Software Architecture Made Simple: A &amp;lsquo;Simplicity-First&amp;rsquo; Approach to Software in the Age of Complexity&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Episode 84: The .NET Foundation - with Irina Dominte and Jonathan Tower</title>
       <link>https://unhandledexceptionpodcast.com/posts/0084-dotnetfoundation/</link>
