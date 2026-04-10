@@ -69,6 +69,7 @@ Create a new file in the `Content/Posts` directory. Match the same pattern as pr
 
 Use the below example as a guide to the format of new podcast episode show note markdown files.
 Leave `episodeId` as TODO.
+Do NOT include a `draft` field in the front matter - it is not needed.
 Try to infer the tags from the topic and past tags. All existing tags are listed here: https://unhandledexceptionpodcast.com/tags/
 
 ```
@@ -78,7 +79,7 @@ date: <current date in format YYYY-MM-DD>
 episodeId: TODO
 tags: ["tag1", "tag2"]
 twitter_cards: true
-images: ["images/<episode-number>-<title>/<guest name>.jpg"]
+images: ["images/<episode-number>-<title>/<guest name>.jpg"]  # This must be the guest's profile photo - do NOT create a separate thumbnail filename
 ---
 
 <Intro text>
