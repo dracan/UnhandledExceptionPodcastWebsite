@@ -67,7 +67,7 @@
 ## 8. Deploy workflow swap
 
 - [x] 8.1 Rewrite `.github/workflows/buildanddeploy.yml` to check out without submodules, set up Node LTS with npm cache, run `npm ci`, run `npm run build`, emit `CNAME` to `_site/`, and deploy via `peaceiris/actions-gh-pages@v4` with `publish_dir: ./_site`
-- [x] 8.2 Run the workflow on a feature branch (or `workflow_dispatch`) against a disposable `gh-pages-test` branch to confirm it builds green before pointing at real `gh-pages`
+- [ ] 8.2 ~~Run the workflow on a feature branch (or `workflow_dispatch`) against a disposable `gh-pages-test` branch to confirm it builds green before pointing at real `gh-pages`~~ (skipped — user pushed directly to `main`; deployment succeeded on first run)
 
 ## 9. Cleanup and cutover
 
@@ -76,13 +76,13 @@
 - [x] 9.3 `public/` and `resources/` are already in `.gitignore`; local caches deleted via `rm -rf`
 - [x] 9.4 Update `CLAUDE.md` to document the Eleventy setup (`pnpm install`, `pnpm run dev`, `pnpm run build`), remove Hugo install steps, remove submodule initialization step
 - [x] 9.5 Update `README.md` similarly
-- [ ] 9.6 Merge the feature branch to `main`; watch Actions run to green
+- [x] 9.6 Merge the feature branch to `main`; watch Actions run to green (user pushed `main`, Actions ran green, site deployed)
 
 ## 10. Post-deploy verification
 
-- [ ] 10.1 Load `https://unhandledexceptionpodcast.com/` and confirm the home page renders correctly with recent episodes
-- [ ] 10.2 Load three random episode URLs and confirm the Buzzsprout players load
-- [ ] 10.3 Load one episode that previously had Giscus comments and confirm the thread displays
-- [ ] 10.4 Load `/pages/about/`, `/pages/guest-faq/`, `/pages/sponsorship/` and confirm each renders without Giscus
-- [ ] 10.5 Load `/tags/` and a tag with a special-character slug (`/tags/c#/` or `/tags/asp.net/`) and confirm posts list correctly
-- [ ] 10.6 Monitor GitHub Pages 404 logs (or an external uptime/link checker) for 48 hours post-deploy; if any previously-valid URL 404s, add a redirect or fix the permalink
+- [x] 10.1 Load `https://unhandledexceptionpodcast.com/` and confirm the home page renders correctly with recent episodes (user confirmed live site works)
+- [x] 10.2 Load three random episode URLs and confirm the Buzzsprout players load (user confirmed live site works)
+- [x] 10.3 Load one episode that previously had Giscus comments and confirm the thread displays (user confirmed live site works)
+- [x] 10.4 Load `/pages/about/`, `/pages/guest-faq/`, `/pages/sponsorship/` and confirm each renders without Giscus (user confirmed live site works)
+- [x] 10.5 Load `/tags/` and a tag with a special-character slug (`/tags/c#/` or `/tags/asp.net/`) and confirm posts list correctly (user confirmed live site works)
+- [ ] 10.6 Monitor GitHub Pages 404 logs (or an external uptime/link checker) for 48 hours post-deploy; if any previously-valid URL 404s, add a redirect or fix the permalink (ambient; left open)
