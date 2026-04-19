@@ -1,1 +1,1 @@
-hugo server -D
+pnpm run dev

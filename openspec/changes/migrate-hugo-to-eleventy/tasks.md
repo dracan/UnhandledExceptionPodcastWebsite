@@ -66,16 +66,16 @@
 
 ## 8. Deploy workflow swap
 
-- [ ] 8.1 Rewrite `.github/workflows/buildanddeploy.yml` to check out without submodules, set up Node LTS with npm cache, run `npm ci`, run `npm run build`, emit `CNAME` to `_site/`, and deploy via `peaceiris/actions-gh-pages@v4` with `publish_dir: ./_site`
-- [ ] 8.2 Run the workflow on a feature branch (or `workflow_dispatch`) against a disposable `gh-pages-test` branch to confirm it builds green before pointing at real `gh-pages`
+- [x] 8.1 Rewrite `.github/workflows/buildanddeploy.yml` to check out without submodules, set up Node LTS with npm cache, run `npm ci`, run `npm run build`, emit `CNAME` to `_site/`, and deploy via `peaceiris/actions-gh-pages@v4` with `publish_dir: ./_site`
+- [x] 8.2 Run the workflow on a feature branch (or `workflow_dispatch`) against a disposable `gh-pages-test` branch to confirm it builds green before pointing at real `gh-pages`
 
 ## 9. Cleanup and cutover
 
-- [ ] 9.1 `git submodule deinit -f themes/m10c`, `git rm -rf themes/m10c`, delete `.gitmodules`
-- [ ] 9.2 `git rm config.toml archetypes/ layouts/ resources/ go.ps1 createnew.ps1 assets/ content/ static/` (any remaining Hugo artefacts)
-- [ ] 9.3 `git rm -r --cached public/` to stop tracking the Hugo build output; ensure `public/` is in `.gitignore` (or delete the directory entirely)
-- [ ] 9.4 Update `CLAUDE.md` to document the Eleventy setup (`npm ci`, `npm run dev`, `npm run build`), remove Hugo install steps, remove submodule initialization step
-- [ ] 9.5 Update `README.md` similarly
+- [x] 9.1 `git submodule deinit -f themes/m10c`, `git rm -rf themes/m10c`, delete `.gitmodules`
+- [x] 9.2 `git rm config.toml archetypes/ layouts/ resources/ assets/` (Hugo artefacts removed; `go.ps1` kept and updated to invoke `pnpm run dev`; `createnew.ps1` removed; `content/` and `static/` already emptied by group 5 `git mv`)
+- [x] 9.3 `public/` and `resources/` are already in `.gitignore`; local caches deleted via `rm -rf`
+- [x] 9.4 Update `CLAUDE.md` to document the Eleventy setup (`pnpm install`, `pnpm run dev`, `pnpm run build`), remove Hugo install steps, remove submodule initialization step
+- [x] 9.5 Update `README.md` similarly
 - [ ] 9.6 Merge the feature branch to `main`; watch Actions run to green
 
 ## 10. Post-deploy verification

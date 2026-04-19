@@ -1,9 +1,30 @@
-# Prerequisites
+# The Unhandled Exception Podcast — website
 
-* Hugo (extended version is installed) - `choco install hugo-extended` on Windows (see Hugo docs for other OSs)
-* As well as cloning this repository, also run `git submodule update --init` so that submodules are also pulled down
+Source for [unhandledexceptionpodcast.com](https://unhandledexceptionpodcast.com/). Built with [Eleventy](https://www.11ty.dev/) and deployed to GitHub Pages.
 
-# Running locally
+## Prerequisites
 
-* Run `go.ps1` (which just runs `hugo server -D`)
+* Node.js (LTS)
+* [pnpm](https://pnpm.io/)
 
+## Setup
+
+```
+pnpm install
+```
+
+## Running locally
+
+```
+.\go.ps1        # or directly: pnpm run dev
+```
+
+Serves on http://localhost:8080 with live reload and SCSS watching.
+
+## Building
+
+```
+pnpm run build
+```
+
+Outputs the static site to `_site/`.

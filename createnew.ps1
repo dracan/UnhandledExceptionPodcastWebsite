@@ -1,1 +1,0 @@
-hugo new posts/$args.md
