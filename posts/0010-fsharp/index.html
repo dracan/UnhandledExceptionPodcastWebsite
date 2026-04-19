@@ -1,139 +1,50 @@
 <!doctype html>
 <html lang="en-gb">
-  <head>
-    <title>Episode 10: F# and Functional Programming // The Unhandled Exception Podcast</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://www.buzzsprout.com">
-    <link rel="preconnect" href="https://giscus.app">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <meta name="author" content="Dan Clarke" />
-    <meta name="description" content="" />
-    <link rel="stylesheet" href="https://unhandledexceptionpodcast.com/css/main.min.e4801e56ded6ddc58a4680d1bfea46f5678acc4d8e0057520d8b3bcfaa69ce56.css" />
-    <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
+<head>
+  <title>Episode 10: F# and Functional Programming // The Unhandled Exception Podcast</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://www.buzzsprout.com">
+  <link rel="preconnect" href="https://giscus.app">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="author" content="Dan Clarke" />
+  <meta name="description" content="Software Development podcast hosted by Dan Clarke" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
-    
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-      <script>
-        var doNotTrack = false;
-        if ( true ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-RN9Q259LF1');
-        }
-      </script>
-    
-    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0010-fsharp/">
-  <meta property="og:site_name" content="The Unhandled Exception Podcast">
-  <meta property="og:title" content="Episode 10: F# and Functional Programming">
-  <meta property="og:description" content="In this group episode I was joined by Scott Wlaschin, Isaac Abraham, and Ian Russell - to talk all about F#! This is .NET’s functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.
-Guests’ social links Ian Russell: Twitter, LinkedIn Isaac Abraham: Twitter, LinkedIn Scott Wlaschin: Twitter, LinkedIn Links from the show F# for fun and profit (Scott’s website) Ian’s “Introduction To Functional Programming In F#” blog post series Isaac’s book: “Get Programming with F#” Scott’s book: “Domain Modeling Made Functional” Dan’s “Writing More Succinct C#” blog post C# code-snippet Dan referred to when talking about using LINQ on a single object Nancy Framework Carter API Endpoints Diamond Kata: Diamond Kata - TDD with only property-based tests Diamond Kata in F# Book: “Stylish F#” by Kit Eason (@kitlovesfsharp) Blog post: “Ten reasons not to use a statically typed functional programming language” (“Like most programmers, I’m naturally conservative and I dislike learning new things. That’s why I picked a career in IT.” is from this post) “Why We Sleep” book (from one of the dev-tips) Links related to the topics we discussed Composition: Video: “The Power of Composition” - explains piping and other composition techniques Video and blog: “Railway oriented programming” - shows some composition techniques for error handling Property Based Testing: Blog post: An introduction to property-based testing Video: The lazy programmer’s guide to writing thousands of tests Functional architecture: Video: “Reinventing the Transaction Script” - talks about pushing I/O to the edges Video: “Functional architecture - The pits of success - Mark Seemann” Blog post: “Cyclic dependencies are evil” Video: “Domain Modeling Made Functional” Video: “F# for C# Programmers” Video: “F# Code I love” by Don Syme Isaac’s “FP on .NET” blog post series F# Community and other links Join the F# slack F# hashtag on twitter F# Weekly - A roundup of F# content from each week Awesome F# - list of libraries, links and resources">
-  <meta property="og:locale" content="en_gb">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2021-01-24T00:00:00+00:00">
-    <meta property="article:modified_time" content="2021-01-24T00:00:00+00:00">
-    <meta property="article:tag" content="Dotnet">
-    <meta property="article:tag" content="Fsharp">
-    <meta property="article:tag" content="Functional-Programming">
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Episode 10: F# and Functional Programming // The Unhandled Exception Podcast" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0010-fsharp/" />
+  <meta property="og:description" content="Software Development podcast hosted by Dan Clarke" />
+  <meta property="og:site_name" content="The Unhandled Exception Podcast" />
+  <meta property="og:image" content="https://unhandledexceptionpodcast.com/images/DanTwitterCard.jpg" />
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Episode 10: F# and Functional Programming"/>
-<meta name="twitter:description" content="In this group episode I was joined by Scott Wlaschin, Isaac Abraham, and Ian Russell - to talk all about F#! This is .NET&rsquo;s functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Episode 10: F# and Functional Programming // The Unhandled Exception Podcast" />
+  <meta name="twitter:description" content="Software Development podcast hosted by Dan Clarke" />
+  <meta name="twitter:site" content="@dracan" />
+  <meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/DanTwitterCard.jpg" />
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RN9Q259LF1');
+  </script>
+</head>
 
-
-Guests&rsquo; social links
-
-Ian Russell: Twitter, LinkedIn
-Isaac Abraham: Twitter, LinkedIn
-Scott Wlaschin: Twitter, LinkedIn
-
-Links from the show
-
-F# for fun and profit (Scott&rsquo;s website)
-Ian&rsquo;s &ldquo;Introduction To Functional Programming In F#&rdquo; blog post series
-Isaac&rsquo;s book: &ldquo;Get Programming with F#&rdquo;
-Scott&rsquo;s book: &ldquo;Domain Modeling Made Functional&rdquo;
-Dan&rsquo;s &ldquo;Writing More Succinct C#&rdquo; blog post
-C# code-snippet Dan referred to when talking about using LINQ on a single object
-Nancy Framework
-Carter
-API Endpoints
-Diamond Kata:
-
-Diamond Kata - TDD with only property-based tests
-Diamond Kata in F#
-
-
-Book: &ldquo;Stylish F#&rdquo; by Kit Eason (@kitlovesfsharp)
-Blog post: &ldquo;Ten reasons not to use a statically typed functional programming language&rdquo; (&ldquo;Like most programmers, I’m naturally conservative and I dislike learning new things. That&rsquo;s why I picked a career in IT.&rdquo; is from this post)
-&ldquo;Why We Sleep&rdquo; book (from one of the dev-tips)
-
-Links related to the topics we discussed
-
-Composition:
-
-Video: &ldquo;The Power of Composition&rdquo; - explains piping and other composition techniques
-Video and blog: &ldquo;Railway oriented programming&rdquo; - shows some composition techniques for error handling
-
-
-Property Based Testing:
-
-Blog post: An introduction to property-based testing
-Video: The lazy programmer&rsquo;s guide to writing thousands of tests
-
-
-Functional architecture:
-
-Video: &ldquo;Reinventing the Transaction Script&rdquo; - talks about pushing I/O to the edges
-Video: &ldquo;Functional architecture - The pits of success - Mark Seemann&rdquo;
-
-
-Blog post: &ldquo;Cyclic dependencies are evil&rdquo;
-Video: &ldquo;Domain Modeling Made Functional&rdquo;
-Video: &ldquo;F# for C# Programmers&rdquo;
-Video: &ldquo;F# Code I love&rdquo; by Don Syme
-Isaac&rsquo;s &ldquo;FP on .NET&rdquo; blog post series
-
-F# Community and other links
-
-Join the F# slack
-F# hashtag on twitter
-F# Weekly - A roundup of F# content from each week
-Awesome F# - list of libraries, links and resources
-"/>
-<meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content='https://unhandledexceptionpodcast.com/images/DanTwitterCard.jpg'/>
-
-  </head>
-
-  <body>
-    <header class="app-header">
-      <a href="https://unhandledexceptionpodcast.com/"><img class="app-header-avatar" src="/images/UepLogoText.png" alt="Dan Clarke" loading="lazy" /></a>
-      
-      <br>
-      <nav class="app-header-menu">
-          <a class="app-header-menu-item" href="/">Home</a>
-             - 
-          
-          <a class="app-header-menu-item" href="/tags/">Tags</a>
-             - 
-          
-          <a class="app-header-menu-item" href="/pages/about/">About</a>
-             - 
-          
-          <a class="app-header-menu-item" href="/pages/guest-faq/">Guest FAQ</a>
-             - 
-          
-          <a class="app-header-menu-item" href="/pages/sponsorship/">Sponsorship</a>
-      </nav>
-      <div id="listen-on">
+<body>
+  <header class="app-header">
+    <a href="https://unhandledexceptionpodcast.com/"><img class="app-header-avatar" src="/images/UepLogoText.png" alt="Dan Clarke" loading="lazy" /></a>
+    <br>
+    <nav class="app-header-menu"><a class="app-header-menu-item" href="/">Home</a> - <a class="app-header-menu-item" href="/tags/">Tags</a> - <a class="app-header-menu-item" href="/pages/about/">About</a> - <a class="app-header-menu-item" href="/pages/guest-faq/">Guest FAQ</a> - <a class="app-header-menu-item" href="/pages/sponsorship/">Sponsorship</a>
+    </nav>
+    <div id="listen-on">
   <a class="listen-on-icon rss-feed-icon" target="_blank" rel="noopener noreferrer" href="https://feeds.buzzsprout.com/978640.rss" aria-label="RSS Feed"></a>
   <a class="listen-on-icon apple-icon" target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/gb/podcast/the-unhandled-exception-podcast/id1536194837" aria-label="Apple Podcasts"></a>
   <a class="listen-on-icon spotify-icon" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/show/2DgUE1Iyl9cZxzzvUUIPBK" aria-label="Spotify"></a>
@@ -143,210 +54,202 @@ Awesome F# - list of libraries, links and resources
   <a class="listen-on-icon podcastaddict-icon" target="_blank" rel="noopener noreferrer" href="https://podcastaddict.com/podcast/3143967" aria-label="Podcast Addict"></a>
   <a class="listen-on-icon podchaser-icon" target="_blank" rel="noopener noreferrer" href="https://www.podchaser.com/podcasts/the-unhandled-exception-podcas-1519582" aria-label="Podchaser"></a>
 </div>
-      <div id="bmc-container">
+
+    <div id="bmc-container">
   <link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
   <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/danclarke">
-      <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
-      <span style="margin-left:5px;font-size:19px !important;">Buy me a coffee</span>
+    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
+    <span style="margin-left:5px;font-size:19px !important;">Buy me a coffee</span>
   </a>
 </div>
-      <p>Software Development podcast hosted by Dan Clarke</p>
 
-      <div>
+    <p>Software Development podcast hosted by Dan Clarke</p>
+
+    <div>
   <a target="_blank" rel="noopener noreferrer" href="https://danclarke.beehiiv.com/subscribe?utm_source=UnhandledExceptonPodcastWebsite&utm_medium=website" aria-label="Subscribe to Newsletter">
-      <img src="/images/Newsletter.png" alt="Newsletter" style="width: 100%;">
+    <img src="/images/Newsletter.png" alt="Newsletter" style="width: 100%;">
   </a>
 </div>
-      <div>
+
+    <div>
   <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/dracan" aria-label="Follow on Twitter/X">
-      <img src="/images/Twitter.png" alt="Twitter" style="width: 100%;">
+    <img src="/images/Twitter.png" alt="Twitter" style="width: 100%;">
   </a>
 </div>
-      <div>
+
+    <div>
   <a rel="me noopener noreferrer" target="_blank" href="https://mstdn.social/@danclarke" aria-label="Follow on Mastodon">
-      <img src="/images/Mastodon.png" alt="Mastodon" style="width: 100%;">
+    <img src="/images/Mastodon.png" alt="Mastodon" style="width: 100%;">
   </a>
 </div>
 
-
-      <div>
+    <div>
   <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/RVpnQf2yjH" aria-label="Join Discord Community">
-      <img src="/images/Discord-logo.png" alt="Discord" style="width: 100%;">
+    <img src="/images/Discord-logo.png" alt="Discord" style="width: 100%;">
   </a>
 </div>
 
-      <div class="app-header-social">
-        
-          <a target="_blank" href="https://github.com/dracan/UnhandledExceptionPodcastWebsite" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+
+    <div class="app-header-social">
+      
+        <a target="_blank" href="https://github.com/dracan/UnhandledExceptionPodcastWebsite" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
   <title>github</title>
   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
 </svg></a>
-        
-          <a target="_blank" href="https://x.com/dracan" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+        <a target="_blank" href="https://x.com/dracan" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
   <title>twitter</title>
   <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
 </svg></a>
-        
-      </div>
-      <a href="https://audionautix.com/">Music by Audionautix.com</a>
+    </div>
+    <a href="https://audionautix.com/">Music by Audionautix.com</a>
 
-      <ul class="tags-list-custom">
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    
+<ul class="tags-list-custom">
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (38)
-          Dotnet
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/dotnet/">
+      (38)
+      Dotnet
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (9)
-          Testing
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/testing/">
+      (9)
+      Testing
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
-          (7)
-          Blazor
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/blazor/">
+      (7)
+      Blazor
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (6)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/ai/">
+      (6)
+      AI
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
-          (6)
-          Community
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/community/">
+      (6)
+      Community
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
-          (6)
-          Mediatr
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/mediatr/">
+      (6)
+      Mediatr
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
-          (6)
-          Messaging
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/messaging/">
+      (6)
+      Messaging
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
-          (5)
-          C#
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/c%23/">
+      (5)
+      C#
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
-          (5)
-          DevOps
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/devops/">
+      (5)
+      DevOps
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
-          (5)
-          Event-Driven-Architecture
-        </a>
-    </li>
-  
+    <a class="tags-list-item-title" href="/tags/event-driven-architecture/">
+      (5)
+      Event-driven-architecture
+    </a>
+  </li>
 </ul>
 <a class="app-header-menu-item" href="/tags/">- All Tags -</a>
-    </header>
-    <main class="app-container">
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class ="post-title">Episode 10: F# and Functional Programming</h1>
-      <div class="post-meta">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+
+  </header>
+  <main class="app-container">
+    
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Episode 10: F# and Functional Programming</h1>
+    <div class="post-meta">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          Jan 24, 2021
-        </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+        Jan 24, 2021
+      </div>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/dotnet/">Dotnet</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/fsharp/">Fsharp</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/functional-programming/">Functional-Programming</a>
-        </div>
+        <a class="tag" href="/tags/dotnet/">Dotnet</a>
+        <a class="tag" href="/tags/fsharp/">Fsharp</a>
+        <a class="tag" href="/tags/functional-programming/">Functional-programming</a>
       </div>
-    </header>
-    <div class="post-content">
-      <p>In this group episode I was joined by <a href="https://twitter.com/ScottWlaschin">Scott Wlaschin</a>, <a href="https://twitter.com/isaac_abraham">Isaac Abraham</a>, and <a href="https://twitter.com/ijrussell">Ian Russell</a> - to talk all about F#! This is .NET&rsquo;s functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.</p>
+    </div>
+  </header>
+  <div class="post-content">
+    <p>In this group episode I was joined by <a href="https://twitter.com/ScottWlaschin">Scott Wlaschin</a>, <a href="https://twitter.com/isaac_abraham">Isaac Abraham</a>, and <a href="https://twitter.com/ijrussell">Ian Russell</a> - to talk all about F#! This is .NET's functional programming language, and we discussed functional programming, and the benefits of using a functional programming language like F#, whilst also comparing it to other languages like C#.</p>
 <div id="buzzsprout-player-7454740"></div>
 <script src="https://www.buzzsprout.com/978640/7454740-hello-world.js?container_id=buzzsprout-player-7454740&player=small" type="text/javascript" charset="utf-8"></script>
-
-<h1 id="guests-social-links">Guests&rsquo; social links</h1>
+<h1>Guests' social links</h1>
 <ul>
 <li>Ian Russell: <a href="https://twitter.com/ijrussell">Twitter</a>, <a href="https://www.linkedin.com/in/ian-russell-7b5301ba/">LinkedIn</a></li>
 <li>Isaac Abraham: <a href="https://twitter.com/isaac_abraham">Twitter</a>, <a href="https://www.linkedin.com/in/isaacabraham/">LinkedIn</a></li>
 <li>Scott Wlaschin: <a href="https://twitter.com/ScottWlaschin">Twitter</a>, <a href="https://www.linkedin.com/in/scottwlaschin/">LinkedIn</a></li>
 </ul>
-<h1 id="links-from-the-show">Links from the show</h1>
+<h1>Links from the show</h1>
 <ul>
-<li><a href="https://fsharpforfunandprofit.com/">F# for fun and profit</a> (Scott&rsquo;s website)</li>
-<li><a href="https://www.softwarepark.cc/blog/2020/8/9/introduction-to-functional-programming-in-f-table-of-contents">Ian&rsquo;s &ldquo;Introduction To Functional Programming In F#&rdquo; blog post series</a></li>
-<li><a href="https://www.manning.com/books/get-programming-with-f-sharp">Isaac&rsquo;s book: &ldquo;Get Programming with F#&rdquo;</a></li>
-<li><a href="https://fsharpforfunandprofit.com/books/">Scott&rsquo;s book: &ldquo;Domain Modeling Made Functional&rdquo;</a></li>
-<li><a href="https://www.danclarke.com/2020-more-succinct-csharp">Dan&rsquo;s &ldquo;Writing More Succinct C#&rdquo; blog post</a></li>
+<li><a href="https://fsharpforfunandprofit.com/">F# for fun and profit</a> (Scott's website)</li>
+<li><a href="https://www.softwarepark.cc/blog/2020/8/9/introduction-to-functional-programming-in-f-table-of-contents">Ian's &quot;Introduction To Functional Programming In F#&quot; blog post series</a></li>
+<li><a href="https://www.manning.com/books/get-programming-with-f-sharp">Isaac's book: &quot;Get Programming with F#&quot;</a></li>
+<li><a href="https://fsharpforfunandprofit.com/books/">Scott's book: &quot;Domain Modeling Made Functional&quot;</a></li>
+<li><a href="https://www.danclarke.com/2020-more-succinct-csharp">Dan's &quot;Writing More Succinct C#&quot; blog post</a></li>
 <li><a href="https://twitter.com/dracan/status/1260942493878804481">C# code-snippet Dan referred to when talking about using LINQ on a single object</a></li>
 <li><a href="https://nancyfx.org/">Nancy Framework</a></li>
 <li><a href="https://github.com/CarterCommunity/Carter">Carter</a></li>
@@ -357,37 +260,37 @@ Awesome F# - list of libraries, links and resources
 <li><a href="https://blog.ploeh.dk/2015/01/10/diamond-kata-with-fscheck">Diamond Kata in F#</a></li>
 </ul>
 </li>
-<li><a href="https://www.apress.com/gb/book/9781484239995">Book: &ldquo;Stylish F#&rdquo; by Kit Eason</a> (<a href="https://twitter.com/kitlovesfsharp">@kitlovesfsharp</a>)</li>
-<li><a href="https://fsharpforfunandprofit.com/posts/ten-reasons-not-to-use-a-functional-programming-language/">Blog post: &ldquo;Ten reasons not to use a statically typed functional programming language&rdquo;</a> (<em>&ldquo;Like most programmers, I’m naturally conservative and I dislike learning new things. That&rsquo;s why I picked a career in IT.&rdquo;</em> is from this post)</li>
-<li><a href="https://www.amazon.co.uk/dp/B06Y649387">&ldquo;Why We Sleep&rdquo; book</a> (from one of the dev-tips)</li>
+<li><a href="https://www.apress.com/gb/book/9781484239995">Book: &quot;Stylish F#&quot; by Kit Eason</a> (<a href="https://twitter.com/kitlovesfsharp">@kitlovesfsharp</a>)</li>
+<li><a href="https://fsharpforfunandprofit.com/posts/ten-reasons-not-to-use-a-functional-programming-language/">Blog post: &quot;Ten reasons not to use a statically typed functional programming language&quot;</a> (<em>&quot;Like most programmers, I’m naturally conservative and I dislike learning new things. That's why I picked a career in IT.&quot;</em> is from this post)</li>
+<li><a href="https://www.amazon.co.uk/dp/B06Y649387">&quot;Why We Sleep&quot; book</a> (from one of the dev-tips)</li>
 </ul>
-<h1 id="links-related-to-the-topics-we-discussed">Links related to the topics we discussed</h1>
+<h1>Links related to the topics we discussed</h1>
 <ul>
 <li>Composition:
 <ul>
-<li><a href="https://www.youtube.com/watch?v=oquuPOkz8xo">Video: &ldquo;The Power of Composition&rdquo;</a> - explains piping and other composition techniques</li>
-<li><a href="https://fsharpforfunandprofit.com/rop/">Video and blog: &ldquo;Railway oriented programming&rdquo;</a> - shows some composition techniques for error handling</li>
+<li><a href="https://www.youtube.com/watch?v=oquuPOkz8xo">Video: &quot;The Power of Composition&quot;</a> - explains piping and other composition techniques</li>
+<li><a href="https://fsharpforfunandprofit.com/rop/">Video and blog: &quot;Railway oriented programming&quot;</a> - shows some composition techniques for error handling</li>
 </ul>
 </li>
 <li>Property Based Testing:
 <ul>
 <li><a href="https://fsharpforfunandprofit.com/posts/property-based-testing/">Blog post: An introduction to property-based testing</a></li>
-<li><a href="https://www.youtube.com/watch?v=IYzDFHx6QPY">Video: The lazy programmer&rsquo;s guide to writing thousands of tests</a></li>
+<li><a href="https://www.youtube.com/watch?v=IYzDFHx6QPY">Video: The lazy programmer's guide to writing thousands of tests</a></li>
 </ul>
 </li>
 <li>Functional architecture:
 <ul>
-<li><a href="https://www.youtube.com/watch?v=USSkidmaS6w">Video: &ldquo;Reinventing the Transaction Script&rdquo;</a> - talks about pushing I/O to the edges</li>
-<li><a href="https://www.youtube.com/watch?v=US8QG9I1XW0">Video: &ldquo;Functional architecture - The pits of success - Mark Seemann&rdquo;</a></li>
+<li><a href="https://www.youtube.com/watch?v=USSkidmaS6w">Video: &quot;Reinventing the Transaction Script&quot;</a> - talks about pushing I/O to the edges</li>
+<li><a href="https://www.youtube.com/watch?v=US8QG9I1XW0">Video: &quot;Functional architecture - The pits of success - Mark Seemann&quot;</a></li>
 </ul>
 </li>
-<li><a href="https://fsharpforfunandprofit.com/posts/cyclic-dependencies/">Blog post: &ldquo;Cyclic dependencies are evil&rdquo;</a></li>
-<li><a href="https://www.youtube.com/watch?v=PLFl95c-IiU">Video: &ldquo;Domain Modeling Made Functional&rdquo;</a></li>
-<li><a href="https://www.youtube.com/watch?v=KPa8Yw_Navkd">Video: &ldquo;F# for C# Programmers&rdquo;</a></li>
-<li><a href="https://www.youtube.com/watch?v=MGLxyyTF3OM">Video: &ldquo;F# Code I love&rdquo; by Don Syme</a></li>
-<li><a href="https://www.compositional-it.com/news-blog/tag/fp-on-net-series/">Isaac&rsquo;s &ldquo;FP on .NET&rdquo; blog post series</a></li>
+<li><a href="https://fsharpforfunandprofit.com/posts/cyclic-dependencies/">Blog post: &quot;Cyclic dependencies are evil&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=PLFl95c-IiU">Video: &quot;Domain Modeling Made Functional&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=KPa8Yw_Navkd">Video: &quot;F# for C# Programmers&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=MGLxyyTF3OM">Video: &quot;F# Code I love&quot; by Don Syme</a></li>
+<li><a href="https://www.compositional-it.com/news-blog/tag/fp-on-net-series/">Isaac's &quot;FP on .NET&quot; blog post series</a></li>
 </ul>
-<h1 id="f-community-and-other-links">F# Community and other links</h1>
+<h1>F# Community and other links</h1>
 <ul>
 <li><a href="https://fsharp.org/guides/slack/">Join the F# slack</a></li>
 <li><a href="https://twitter.com/search?q=%23fsharp&amp;f=live">F# hashtag on twitter</a></li>
@@ -395,9 +298,9 @@ Awesome F# - list of libraries, links and resources
 <li><a href="https://github.com/fsprojects/awesome-fsharp">Awesome F# - list of libraries, links and resources</a></li>
 </ul>
 
-    </div>
-    <div class="post-footer">
-      <script src="https://giscus.app/client.js"
+  </div>
+  <div class="post-footer">
+    <script src="https://giscus.app/client.js"
         data-repo="dracan/unhandledexceptionpodcast-comments"
         data-repo-id="R_kgDOQSZ8HA"
         data-category="Comments"
@@ -413,9 +316,9 @@ Awesome F# - list of libraries, links and resources
         async>
 </script>
 
-    </div>
-  </article>
+  </div>
+</article>
 
-    </main>
-  </body>
+  </main>
+</body>
 </html>

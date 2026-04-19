@@ -1,78 +1,50 @@
 <!doctype html>
 <html lang="en-gb">
-  <head>
-    <title>Episode 40: Demystifying Messaging in Azure - with Sean Feldman // The Unhandled Exception Podcast</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://www.buzzsprout.com">
-    <link rel="preconnect" href="https://giscus.app">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <meta name="author" content="Dan Clarke" />
-    <meta name="description" content="" />
-    <link rel="stylesheet" href="https://unhandledexceptionpodcast.com/css/main.min.e4801e56ded6ddc58a4680d1bfea46f5678acc4d8e0057520d8b3bcfaa69ce56.css" />
-    <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
+<head>
+  <title>Episode 40: Demystifying Messaging in Azure - with Sean Feldman // The Unhandled Exception Podcast</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://www.buzzsprout.com">
+  <link rel="preconnect" href="https://giscus.app">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="author" content="Dan Clarke" />
+  <meta name="description" content="Software Development podcast hosted by Dan Clarke" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
-    
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
-      <script>
-        var doNotTrack = false;
-        if ( true ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-RN9Q259LF1');
-        }
-      </script>
-    
-    <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/">
-  <meta property="og:site_name" content="The Unhandled Exception Podcast">
-  <meta property="og:title" content="Episode 40: Demystifying Messaging in Azure - with Sean Feldman">
-  <meta property="og:description" content="In this episode, I was joined by Sean Feldman to chat all about messaging in Azure! Starting off explaining why you’d want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.
-Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined. When he’s away from his computer and back on planet earth, he’s having fun with family and his Malamute.">
-  <meta property="og:locale" content="en_gb">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2022-07-20T00:00:00+00:00">
-    <meta property="article:modified_time" content="2022-07-20T00:00:00+00:00">
-    <meta property="article:tag" content="Azure">
-    <meta property="article:tag" content="Messaging">
-    <meta property="article:tag" content="Event-Driven-Architecture">
-    <meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0040-AzureMessaging/Sean.jpg">
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Episode 40: Demystifying Messaging in Azure - with Sean Feldman // The Unhandled Exception Podcast" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/" />
+  <meta property="og:description" content="Software Development podcast hosted by Dan Clarke" />
+  <meta property="og:site_name" content="The Unhandled Exception Podcast" />
+  <meta property="og:image" content="https://unhandledexceptionpodcast.com/images/0040-AzureMessaging/Sean.jpg" />
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Episode 40: Demystifying Messaging in Azure - with Sean Feldman"/>
-<meta name="twitter:description" content="In this episode, I was joined by Sean Feldman to chat all about messaging in Azure! Starting off explaining why you&rsquo;d want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.
-Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined. When he&rsquo;s away from his computer and back on planet earth, he&rsquo;s having fun with family and his Malamute."/>
-<meta name="twitter:site" content="@dracan"/><meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0040-AzureMessaging/Sean.jpg"/>
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Episode 40: Demystifying Messaging in Azure - with Sean Feldman // The Unhandled Exception Podcast" />
+  <meta name="twitter:description" content="Software Development podcast hosted by Dan Clarke" />
+  <meta name="twitter:site" content="@dracan" />
+  <meta name="twitter:image" content="https://unhandledexceptionpodcast.com/images/0040-AzureMessaging/Sean.jpg" />
 
-  </head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN9Q259LF1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RN9Q259LF1');
+  </script>
+</head>
 
-  <body>
-    <header class="app-header">
-      <a href="https://unhandledexceptionpodcast.com/"><img class="app-header-avatar" src="/images/UepLogoText.png" alt="Dan Clarke" loading="lazy" /></a>
-      
-      <br>
-      <nav class="app-header-menu">
-          <a class="app-header-menu-item" href="/">Home</a>
-             - 
-          
-          <a class="app-header-menu-item" href="/tags/">Tags</a>
-             - 
-          
-          <a class="app-header-menu-item" href="/pages/about/">About</a>
-             - 
-          
-          <a class="app-header-menu-item" href="/pages/guest-faq/">Guest FAQ</a>
-             - 
-          
-          <a class="app-header-menu-item" href="/pages/sponsorship/">Sponsorship</a>
-      </nav>
-      <div id="listen-on">
+<body>
+  <header class="app-header">
+    <a href="https://unhandledexceptionpodcast.com/"><img class="app-header-avatar" src="/images/UepLogoText.png" alt="Dan Clarke" loading="lazy" /></a>
+    <br>
+    <nav class="app-header-menu"><a class="app-header-menu-item" href="/">Home</a> - <a class="app-header-menu-item" href="/tags/">Tags</a> - <a class="app-header-menu-item" href="/pages/about/">About</a> - <a class="app-header-menu-item" href="/pages/guest-faq/">Guest FAQ</a> - <a class="app-header-menu-item" href="/pages/sponsorship/">Sponsorship</a>
+    </nav>
+    <div id="listen-on">
   <a class="listen-on-icon rss-feed-icon" target="_blank" rel="noopener noreferrer" href="https://feeds.buzzsprout.com/978640.rss" aria-label="RSS Feed"></a>
   <a class="listen-on-icon apple-icon" target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/gb/podcast/the-unhandled-exception-podcast/id1536194837" aria-label="Apple Podcasts"></a>
   <a class="listen-on-icon spotify-icon" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/show/2DgUE1Iyl9cZxzzvUUIPBK" aria-label="Spotify"></a>
@@ -82,205 +54,197 @@ Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tink
   <a class="listen-on-icon podcastaddict-icon" target="_blank" rel="noopener noreferrer" href="https://podcastaddict.com/podcast/3143967" aria-label="Podcast Addict"></a>
   <a class="listen-on-icon podchaser-icon" target="_blank" rel="noopener noreferrer" href="https://www.podchaser.com/podcasts/the-unhandled-exception-podcas-1519582" aria-label="Podchaser"></a>
 </div>
-      <div id="bmc-container">
+
+    <div id="bmc-container">
   <link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
   <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/danclarke">
-      <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
-      <span style="margin-left:5px;font-size:19px !important;">Buy me a coffee</span>
+    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
+    <span style="margin-left:5px;font-size:19px !important;">Buy me a coffee</span>
   </a>
 </div>
-      <p>Software Development podcast hosted by Dan Clarke</p>
 
-      <div>
+    <p>Software Development podcast hosted by Dan Clarke</p>
+
+    <div>
   <a target="_blank" rel="noopener noreferrer" href="https://danclarke.beehiiv.com/subscribe?utm_source=UnhandledExceptonPodcastWebsite&utm_medium=website" aria-label="Subscribe to Newsletter">
-      <img src="/images/Newsletter.png" alt="Newsletter" style="width: 100%;">
+    <img src="/images/Newsletter.png" alt="Newsletter" style="width: 100%;">
   </a>
 </div>
-      <div>
+
+    <div>
   <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/dracan" aria-label="Follow on Twitter/X">
-      <img src="/images/Twitter.png" alt="Twitter" style="width: 100%;">
+    <img src="/images/Twitter.png" alt="Twitter" style="width: 100%;">
   </a>
 </div>
-      <div>
+
+    <div>
   <a rel="me noopener noreferrer" target="_blank" href="https://mstdn.social/@danclarke" aria-label="Follow on Mastodon">
-      <img src="/images/Mastodon.png" alt="Mastodon" style="width: 100%;">
+    <img src="/images/Mastodon.png" alt="Mastodon" style="width: 100%;">
   </a>
 </div>
 
-
-      <div>
+    <div>
   <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/RVpnQf2yjH" aria-label="Join Discord Community">
-      <img src="/images/Discord-logo.png" alt="Discord" style="width: 100%;">
+    <img src="/images/Discord-logo.png" alt="Discord" style="width: 100%;">
   </a>
 </div>
 
-      <div class="app-header-social">
-        
-          <a target="_blank" href="https://github.com/dracan/UnhandledExceptionPodcastWebsite" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+
+    <div class="app-header-social">
+      
+        <a target="_blank" href="https://github.com/dracan/UnhandledExceptionPodcastWebsite" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
   <title>github</title>
   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
 </svg></a>
-        
-          <a target="_blank" href="https://x.com/dracan" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+        <a target="_blank" href="https://x.com/dracan" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
   <title>twitter</title>
   <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
 </svg></a>
-        
-      </div>
-      <a href="https://audionautix.com/">Music by Audionautix.com</a>
+    </div>
+    <a href="https://audionautix.com/">Music by Audionautix.com</a>
 
-      <ul class="tags-list-custom">
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    
+<ul class="tags-list-custom">
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/dotnet/">
-          (38)
-          Dotnet
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/dotnet/">
+      (38)
+      Dotnet
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/testing/">
-          (9)
-          Testing
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/testing/">
+      (9)
+      Testing
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/blazor/">
-          (7)
-          Blazor
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/blazor/">
+      (7)
+      Blazor
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/ai/">
-          (6)
-          AI
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/ai/">
+      (6)
+      AI
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/community/">
-          (6)
-          Community
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/community/">
+      (6)
+      Community
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/mediatr/">
-          (6)
-          Mediatr
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/mediatr/">
+      (6)
+      Mediatr
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/messaging/">
-          (6)
-          Messaging
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/messaging/">
+      (6)
+      Messaging
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/c%23/">
-          (5)
-          C#
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/c%23/">
+      (5)
+      C#
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/devops/">
-          (5)
-          DevOps
-        </a>
-    </li>
-  
-    <li class="tags-list-item-custom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+    <a class="tags-list-item-title" href="/tags/devops/">
+      (5)
+      DevOps
+    </a>
+  </li>
+  <li class="tags-list-item-custom">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-        <a class="tags-list-item-title" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">
-          (5)
-          Event-Driven-Architecture
-        </a>
-    </li>
-  
+    <a class="tags-list-item-title" href="/tags/event-driven-architecture/">
+      (5)
+      Event-driven-architecture
+    </a>
+  </li>
 </ul>
 <a class="app-header-menu-item" href="/tags/">- All Tags -</a>
-    </header>
-    <main class="app-container">
-      
-  <article class="post">
-    <header class="post-header">
-      <h1 class ="post-title">Episode 40: Demystifying Messaging in Azure - with Sean Feldman</h1>
-      <div class="post-meta">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+
+  </header>
+  <main class="app-container">
+    
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Episode 40: Demystifying Messaging in Azure - with Sean Feldman</h1>
+    <div class="post-meta">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          Jul 20, 2022
-        </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+        Jul 20, 2022
+      </div>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
 </svg>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/azure/">Azure</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/messaging/">Messaging</a>
-              <a class="tag" href="https://unhandledexceptionpodcast.com/tags/event-driven-architecture/">Event-Driven-Architecture</a>
-        </div>
+        <a class="tag" href="/tags/azure/">Azure</a>
+        <a class="tag" href="/tags/messaging/">Messaging</a>
+        <a class="tag" href="/tags/event-driven-architecture/">Event-driven-architecture</a>
       </div>
-    </header>
-    <div class="post-content">
-      <p>In this episode, I was joined by <a href="https://twitter.com/sfeldman">Sean Feldman</a> to chat all about messaging in Azure! Starting off explaining why you&rsquo;d want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.</p>
-<p>Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined. When he&rsquo;s away from his computer and back on planet earth, he&rsquo;s having fun with family and his Malamute.</p>
+    </div>
+  </header>
+  <div class="post-content">
+    <p>In this episode, I was joined by <a href="https://twitter.com/sfeldman">Sean Feldman</a> to chat all about messaging in Azure! Starting off explaining why you'd want to use messaging in your solutions. Then explaining the difference between different types of messaging - eg. pub/sub, event streaming, etc. Then going through discussing all the different Azure services that relate to messaging.</p>
+<p>Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tinkering with various Azure-related services and is in seventh heaven when cloud and distributed technologies are combined. When he's away from his computer and back on planet earth, he's having fun with family and his Malamute.</p>
 <div id="buzzsprout-player-10988456"></div>
 <script src="https://www.buzzsprout.com/978640/10988456-hello-world.js?container_id=buzzsprout-player-10988456&player=small" type="text/javascript" charset="utf-8"></script>
-
-<h1 id="seans-social-links">Sean&rsquo;s social links</h1>
+<h1>Sean's social links</h1>
 <ul>
 <li><a href="https://twitter.com/sfeldman">Twitter</a></li>
 <li><a href="https://www.linkedin.com/in/feldmansean/">LinkedIn</a></li>
 <li><a href="mailto:feldman.sean@gmail.com">Email</a></li>
 </ul>
-<h1 id="azure-services-discussed-in-the-show">Azure Services Discussed in the show</h1>
+<h1>Azure Services Discussed in the show</h1>
 <ul>
 <li><a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview">Azure Service Bus</a></li>
 <li><a href="https://docs.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction">Queue Storage</a></li>
@@ -292,25 +256,25 @@ Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tink
 <li><a href="https://docs.microsoft.com/en-us/azure/app-service/app-service-hybrid-connections">Azure Hybrid Connections</a></li>
 <li><a href="https://azure.microsoft.com/en-gb/services/notification-hubs/">Azure Notification Hub</a></li>
 </ul>
-<h1 id="other-links-from-the-show">Other links from the show</h1>
+<h1>Other links from the show</h1>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=7n38Tha5JIE">.NET Oxford talk</a></li>
 <li><a href="https://github.com/paolosalvatori/ServiceBusExplorer">ASB Explorer Tool</a></li>
 <li><a href="https://masstransit-project.com/">MassTransit</a></li>
 <li><a href="https://particular.net/nservicebus">NServiceBus</a></li>
 </ul>
-<h1 id="devpick-links">Devpick links</h1>
+<h1>Devpick links</h1>
 <ul>
 <li><a href="https://frame.work/gb/en">Framework laptops</a></li>
 </ul>
-<h2 id="listener-mention">Listener mention</h2>
+<h2>Listener mention</h2>
 <ul>
 <li><a href="https://twitter.com/carlcod_es/status/1536597069988876289">Carl Sargunar</a></li>
 </ul>
 
-    </div>
-    <div class="post-footer">
-      <script src="https://giscus.app/client.js"
+  </div>
+  <div class="post-footer">
+    <script src="https://giscus.app/client.js"
         data-repo="dracan/unhandledexceptionpodcast-comments"
         data-repo-id="R_kgDOQSZ8HA"
         data-category="Comments"
@@ -326,9 +290,9 @@ Sean Feldman is a consulting Solutions Architect and an Azure MVP. He likes tink
         async>
 </script>
 
-    </div>
-  </article>
+  </div>
+</article>
 
-    </main>
-  </body>
+  </main>
+</body>
 </html>

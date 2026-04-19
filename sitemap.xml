@@ -3,921 +3,976 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0085-simplicityfirst/</loc>
-    <lastmod>2026-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/posts/</loc>
-    <lastmod>2026-04-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/</loc>
-    <lastmod>2026-04-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/community/</loc>
-    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
-    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0084-dotnetfoundation/</loc>
-    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-27T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
-    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/ai/</loc>
-    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0083-playwright/</loc>
-    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-27T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/playwright/</loc>
-    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/testing/</loc>
-    <lastmod>2025-12-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0082-jamesworld/</loc>
-    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-17T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/devops/</loc>
-    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0081-jeffreypalermo/</loc>
-    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-21T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/cli/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0080-ohmyposh/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-12T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0079-olorunfemidavis/</loc>
-    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/career/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/development/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0078-guiferreira/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/productivity/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0077-shawnwildermuth/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-01T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/learning/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/aspire/</loc>
-    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0076-dotnetaspire/</loc>
-    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/observability/</loc>
-    <lastmod>2025-05-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0075-theoutboxpattern/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-31T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/messaging/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0074-unoplatformandhotdesign/</loc>
-    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-28T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/uno-platform/</loc>
-    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0073-robwest/</loc>
-    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-18T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/soft-skills/</loc>
-    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/c%23/</loc>
-    <lastmod>2024-10-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0072-exceptions/</loc>
-    <lastmod>2024-10-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-15T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/exceptions/</loc>
-    <lastmod>2024-10-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/ci/cd/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0071-githubactions/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-16T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/github/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0070-namingthingsishard/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-28T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/refactoring/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/cms/</loc>
-    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0069-umbraco/</loc>
-    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-06T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/umbraco/</loc>
-    <lastmod>2024-08-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0068-modularmonolithswithardalis/</loc>
-    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-09T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/mediatr/</loc>
-    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/micro-services/</loc>
-    <lastmod>2024-07-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/conference/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0067-dddpanel/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-13T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/kubernetes/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/mentoring/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0066-jameseastham/</loc>
-    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-13T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/opentelemetry/</loc>
-    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/rust/</loc>
-    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/serverless/</loc>
-    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/blazor/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0065-madst-danr-scotth/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-05T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0064-gitkraken/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-12T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/git/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0063-chocolatey/</loc>
-    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-20T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0062-speedmentoring/</loc>
-    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0061-platformengineering/</loc>
-    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-04T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/iac/</loc>
-    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/pulumi/</loc>
-    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/terraform/</loc>
-    <lastmod>2023-12-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/c%2312/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/csharpdevkit/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/dotnetconf/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0060-dotnetconfwithscotthunter/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-14T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/nativeaot/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/code-quality/</loc>
-    <lastmod>2023-11-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0059-hexagonalarchitecture/</loc>
-    <lastmod>2023-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-07T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0058-dometrain/</loc>
-    <lastmod>2023-10-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-29T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0057-jamietaylor/</loc>
-    <lastmod>2023-10-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-17T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/mental-health/</loc>
-    <lastmod>2023-10-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0056-nservicebus/</loc>
-    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-27T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</loc>
-    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/nservicebus/</loc>
-    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/rabbitmq/</loc>
-    <lastmod>2023-09-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/database-internals/</loc>
-    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0055-oreneini-databaseinternals/</loc>
-    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/performance/</loc>
-    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/ravendb/</loc>
-    <lastmod>2023-08-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/cqrs/</loc>
-    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/cqs/</loc>
-    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0054-ballofmudcqrs/</loc>
-    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-24T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/tdd/</loc>
-    <lastmod>2023-06-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0053-wearedotnet/</loc>
-    <lastmod>2023-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-28T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/elasticsearch/</loc>
-    <lastmod>2023-04-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0052-elasticsearch/</loc>
-    <lastmod>2023-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-16T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0051-brighter/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-22T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/kafka/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0050-hotreload/</loc>
-    <lastmod>2023-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-02T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/cake/</loc>
-    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0049-cake/</loc>
-    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-23T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/aws/</loc>
-    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0048-isaaclevin/</loc>
-    <lastmod>2023-01-06T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-06T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0047-applicationsecurity/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-12T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/security/</loc>
-    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0046-vim/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-27T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/vim/</loc>
-    <lastmod>2022-11-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0045-go/</loc>
-    <lastmod>2022-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-14T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/golang/</loc>
-    <lastmod>2022-11-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0044-grpc/</loc>
-    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-29T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/grpc/</loc>
-    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/docker/</loc>
-    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0043-dockerdemystified/</loc>
-    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-18T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0042-irisclasson/</loc>
-    <lastmod>2022-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-14T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0041-opentelemetry/</loc>
-    <lastmod>2022-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-31T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/open-telemetry/</loc>
-    <lastmod>2022-07-31T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/azure/</loc>
-    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0040-azuremessaging/</loc>
-    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-20T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0039-windowsterminal/</loc>
-    <lastmod>2022-06-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-26T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0038-cliffordagius/</loc>
-    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-08T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/iot/</loc>
-    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/maui/</loc>
-    <lastmod>2022-06-08T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/aks/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/azure-container-apps/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/build/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0037-build/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-25T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/k8s/</loc>
-    <lastmod>2022-05-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/asp.net/</loc>
-    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0036-andrewlock/</loc>
-    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/github-copilot/</loc>
-    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/minimal-api/</loc>
-    <lastmod>2022-05-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0035-minihack/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-25T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/hackathon/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0034-nickchapsas/</loc>
-    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-31T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/open-source/</loc>
-    <lastmod>2022-03-31T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0033-razorpages/</loc>
-    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-19T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0032-jesswhite/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-06T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/leadership/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/azure-service-bus/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0031-masstransit/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-17T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/masstransit/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/service-mesh/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0030-developerproductivity/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-09T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0029-snapshottesting/</loc>
-    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-26T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/snapshot-testing/</loc>
-    <lastmod>2021-11-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0028-uxwithjessicaengstrom/</loc>
-    <lastmod>2021-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-03T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/ux/</loc>
-    <lastmod>2021-11-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0027-kendrahavens/</loc>
-    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-24T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/visual-studio/</loc>
-    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0026-eventsourcing/</loc>
-    <lastmod>2021-10-15T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-15T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/rx/</loc>
-    <lastmod>2021-10-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0025-ndepend/</loc>
-    <lastmod>2021-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-03T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/dependency-injection/</loc>
-    <lastmod>2021-09-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0024-stevecollins/</loc>
-    <lastmod>2021-09-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-18T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0023-git/</loc>
-    <lastmod>2021-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0022-rider/</loc>
-    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-22T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/rider/</loc>
-    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/bicep/</loc>
-    <lastmod>2021-08-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0021-bicep/</loc>
-    <lastmod>2021-08-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-13T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0020-markrendle/</loc>
-    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-22T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/streaming/</loc>
-    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0019-blazor/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-13T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0018-mutationtesting/</loc>
-    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-18T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0017-tddwithiancooper/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-28T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0016-learningwithjamesworld/</loc>
-    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-02T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0015-sourcegeneratorswithjasonbock/</loc>
-    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-09T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/source-generators/</loc>
-    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0014-patriksvensson/</loc>
-    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-24T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0013-devopswithdushyant/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0012-mattnield/</loc>
-    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-27T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/linqpad/</loc>
-    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0011-linqpad/</loc>
-    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-07T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0010-fsharp/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-24T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/fsharp/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/functional-programming/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0009-simonpainter/</loc>
-    <lastmod>2021-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-03T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0008-identitywithchristosmatskas/</loc>
-    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-20T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0006-stuartleeks/</loc>
-    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/wsl/</loc>
-    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0006-ddd/</loc>
-    <lastmod>2020-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-05T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0005-shahidiqbal/</loc>
-    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-29T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0004-petegallagher/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-22T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0003-stevegordon/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-09T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0002-derekcomartin/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-28T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/tags/remote-working/</loc>
-    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0001-helloworld/</loc>
-    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/pages/about/</loc>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/pages/guest-faq-manual-recordings/</loc>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/categories/</loc>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/dotnet/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/pages/guest-faq/</loc>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/testing/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/pages/</loc>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/blazor/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url><url>
-    <loc>https://unhandledexceptionpodcast.com/pages/sponsorship/</loc>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/ai/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/community/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/mediatr/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/messaging/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/c%23/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/devops/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/event-driven-architecture/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/learning/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cli/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/docker/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/k8s/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/asp.net/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/azure/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/code-quality/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/conference/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/functional-programming/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/github-copilot/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/grpc/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/iac/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/kafka/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/mentoring/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/productivity/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/rabbitmq/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/aspire/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/career/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cms/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cqrs/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/development/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/git/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/iot/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/kubernetes/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/leadership/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/linqpad/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/maui/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/minimal-api/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/open-source/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/performance/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/pulumi/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/security/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/soft-skills/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/tdd/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/terraform/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/aks/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/aws/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/azure-container-apps/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/azure-service-bus/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/bicep/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/build/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/c%2312/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cake/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/ci/cd/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cqs/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/csharpdevkit/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/database-internals/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/dependency-injection/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/dotnetconf/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/elasticsearch/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/exceptions/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/fsharp/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/github/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/golang/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/hackathon/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/masstransit/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/mental-health/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/micro-services/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/nativeaot/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/nservicebus/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/observability/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/open-telemetry/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/opentelemetry/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/playwright/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/ravendb/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/refactoring/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/remote-working/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/rider/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/rust/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/rx/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/serverless/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/service-mesh/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/snapshot-testing/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/source-generators/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/streaming/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/umbraco/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/uno-platform/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/ux/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/vim/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/visual-studio/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/wsl/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
