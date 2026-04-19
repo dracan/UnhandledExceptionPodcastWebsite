@@ -1,5 +1,7 @@
 resources/
 public/
+_site/
+node_modules/
 
 .hugo_build.lock
 .claude/settings.local.json

@@ -1,0 +1,22 @@
+{
+  "name": "unhandled-exception-podcast-website",
+  "version": "1.0.0",
+  "description": "The Unhandled Exception Podcast website",
+  "private": true,
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:sass": "sass --watch css/main.scss:_site/css/main.css --style=compressed --no-source-map",
+    "dev:eleventy": "eleventy --serve --quiet",
+    "build": "pnpm run build:sass && pnpm run build:eleventy",
+    "build:sass": "sass css/main.scss:_site/css/main.css --style=compressed --no-source-map",
+    "build:eleventy": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.4"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.77.0"
+  }
+}
