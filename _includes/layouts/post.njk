@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-{% from "partials/icon.njk" import icon %}
+{% from "partials/icon.njk" import icon with context %}
 <article class="post">
   <header class="post-header">
     <h1 class="post-title">{{ title }}</h1>
@@ -14,7 +14,7 @@ layout: layouts/base.njk
       <div>
         {{ icon("tag") }}
         {%- for t in tags %}
-        <a class="tag" href="/tags/{{ t | hugoSlug }}/">{{ t }}</a>
+        <a class="tag" href="{{ t | tagUrl }}">{{ t | humanize }}</a>
         {%- endfor %}
       </div>
       {%- endif %}

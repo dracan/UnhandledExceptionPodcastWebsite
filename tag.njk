@@ -6,7 +6,7 @@ pagination:
   alias: tagPage
 permalink: "/tags/{{ tagPage.slug }}/{% if tagPage.pageNumber > 1 %}page/{{ tagPage.pageNumber }}/{% endif %}index.html"
 eleventyComputed:
-  listTitle: "{{ tagPage.tag }}"
+  listTitle: "{{ tagPage.tag | humanize }}"
 ---
 {% from "partials/postlist.njk" import renderList %}
 {%- set hrefs = [] -%}

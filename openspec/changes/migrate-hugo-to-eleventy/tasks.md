@@ -62,7 +62,7 @@
 
 - [ ] 7.1 Serve `_site/` locally and paste a post URL into the Twitter Card validator; confirm `summary_large_image` renders with the expected image and title
 - [ ] 7.2 Paste the same URL into Facebook's Sharing Debugger (or any OG preview tool); confirm OG title/description/image render
-- [ ] 7.3 Spot-check that the Buzzsprout player loads on three different posts in the local preview
+- [x] 7.3 Spot-check that the Buzzsprout player loads on three different posts in the local preview (verified via Playwright — all three episodes on the home page load full Buzzsprout iframes with titles and controls)
 
 ## 8. Deploy workflow swap
 

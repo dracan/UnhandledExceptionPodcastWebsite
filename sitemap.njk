@@ -34,7 +34,7 @@ eleventyExcludeFromCollections: true
   </url>
 {%- for item in collections.tagStats.items %}
   <url>
-    <loc>{{ base }}/tags/{{ item.tag | hugoSlug }}/</loc>
+    <loc>{{ base }}{{ item.tag | tagUrl }}</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

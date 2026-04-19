@@ -19,7 +19,7 @@
     {% include "partials/discord.njk" %}
 
     <div class="app-header-social">
-      {% from "partials/icon.njk" import icon %}
+      {% from "partials/icon.njk" import icon with context %}
       {%- for s in site.social %}
         <a target="_blank" href="{{ s.url }}" rel="noreferrer noopener">{{ icon(s.name) }}</a>
       {%- endfor %}

@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: "404"
 permalink: "/404.html"
 ---
-{% from "partials/icon.njk" import icon %}
+{% from "partials/icon.njk" import icon with context %}
 <div class="error-404">
   <h1 class="error-404-title">O{{ icon("frown") }}ps... </h1>
   <p>The link you followed may be broken, or the page may have been removed.</p>

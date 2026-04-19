@@ -1,5 +1,12 @@
-{%- set pageTitle = (isHome and site.title) or (title + " // " + site.title) -%}
-{%- set pageDescription = description or (isHome and site.description) or site.description -%}
+{%- set isHome = (page.url == "/") -%}
+{%- if isHome -%}
+  {%- set pageTitle = site.title -%}
+{%- elif title -%}
+  {%- set pageTitle = title + " // " + site.title -%}
+{%- else -%}
+  {%- set pageTitle = site.title -%}
+{%- endif -%}
+{%- set pageDescription = description or site.description -%}
 {%- set canonicalUrl = (site.baseUrl | replace(r/\/$/, "")) + page.url -%}
 {%- set ogImage = (images and images[0]) or "/images/DanTwitterCard.jpg" -%}
 {%- set ogImageAbs = (site.baseUrl | replace(r/\/$/, "")) + (ogImage if ogImage.startsWith("/") else "/" + ogImage) -%}

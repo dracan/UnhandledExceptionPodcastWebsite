@@ -4,14 +4,14 @@ title: "Tags"
 listTitle: "Tags"
 permalink: "/tags/index.html"
 ---
-{% from "partials/icon.njk" import icon %}
+{% from "partials/icon.njk" import icon with context %}
 <ul class="tags-list">
   {%- for item in collections.tagStats.items %}
   <li class="tags-list-item">
     {{ icon("tag") }}
-    <a class="tags-list-item-title" href="/tags/{{ item.tag | hugoSlug }}/">
+    <a class="tags-list-item-title" href="{{ item.tag | tagUrl }}">
       ({{ item.count }})
-      {{ item.tag }}
+      {{ item.tag | humanize }}
     </a>
   </li>
   {%- endfor %}

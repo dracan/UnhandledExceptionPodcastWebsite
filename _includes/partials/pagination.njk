@@ -1,4 +1,4 @@
-{% from "partials/icon.njk" import icon %}
+{% from "partials/icon.njk" import icon with context %}
 {%- if pagination and pagination.pages and pagination.pages.length > 1 %}
 <ul class="pagination">
   {%- if pagination.href.previous %}

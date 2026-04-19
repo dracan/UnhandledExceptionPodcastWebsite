@@ -36,6 +36,22 @@ module.exports = async function (eleventyConfig) {
       .replace(/^-+|-+$/g, "");
   });
 
+  eleventyConfig.addFilter("tagUrl", function (tag) {
+    const slug = String(tag || "")
+      .toLowerCase()
+      .trim()
+      .replace(/\s+/g, "-")
+      .replace(/[^\w.#/-]+/g, "")
+      .replace(/-+/g, "-")
+      .replace(/^-+|-+$/g, "");
+    return "/tags/" + slug.split("/").map((s) => s.replace(/#/g, "%23")).join("/") + "/";
+  });
+
+  eleventyConfig.addFilter("humanize", function (str) {
+    if (!str) return str;
+    return str[0].toUpperCase() + str.slice(1);
+  });
+
   eleventyConfig.addFilter("absoluteUrl", function (url, base) {
     try {
       return new URL(url, base).toString();

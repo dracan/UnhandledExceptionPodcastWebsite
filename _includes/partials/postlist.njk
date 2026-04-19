@@ -1,4 +1,4 @@
-{% from "partials/icon.njk" import icon %}
+{% from "partials/icon.njk" import icon with context %}
 {% macro renderList(posts, paginationHrefs, currentPageNumber) -%}
 <ul class="posts-list">
   {%- for post in posts %}
