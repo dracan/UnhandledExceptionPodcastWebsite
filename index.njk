@@ -1,0 +1,12 @@
+---
+layout: layouts/list.njk
+pagination:
+  data: collections.posts
+  size: 10
+  alias: pagePosts
+permalink: "{% if pagination.pageNumber == 0 %}/index.html{% else %}/page/{{ pagination.pageNumber + 1 }}/index.html{% endif %}"
+---
+{% from "partials/postlist.njk" import renderList %}
+{%- set hrefs = [] -%}
+{%- for h in pagination.hrefs -%}{% set hrefs = (hrefs.push(h), hrefs) %}{%- endfor -%}
+{{ renderList(pagePosts, hrefs, pagination.pageNumber + 1) }}

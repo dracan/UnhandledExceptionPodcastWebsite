@@ -1,0 +1,27 @@
+{% from "partials/icon.njk" import icon %}
+{%- if pagination and pagination.pages and pagination.pages.length > 1 %}
+<ul class="pagination">
+  {%- if pagination.href.previous %}
+  <li class="page-item">
+    <a class="page-link" href="{{ pagination.href.previous }}">
+      {{ icon("arrow-left") }}
+    </a>
+  </li>
+  {%- endif %}
+  {%- for pageEntry in pagination.pages %}
+  {%- set pageNumber = loop.index %}
+  <li class="page-item{% if pagination.pageNumber + 1 === pageNumber %} active{% endif %}">
+    <a class="page-link" href="{{ pagination.hrefs[loop.index0] }}">
+      {{ pageNumber }}
+    </a>
+  </li>
+  {%- endfor %}
+  {%- if pagination.href.next %}
+  <li class="page-item">
+    <a class="page-link" href="{{ pagination.href.next }}">
+      {{ icon("arrow-right") }}
+    </a>
+  </li>
+  {%- endif %}
+</ul>
+{%- endif %}

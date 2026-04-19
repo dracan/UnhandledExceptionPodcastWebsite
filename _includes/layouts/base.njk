@@ -1,0 +1,35 @@
+{% include "head.njk" %}
+<body>
+  <header class="app-header">
+    <a href="{{ site.baseUrl }}"><img class="app-header-avatar" src="{{ site.avatar }}" alt="{{ site.author }}" loading="lazy" /></a>
+    <br>
+    <nav class="app-header-menu">
+      {%- for item in site.menu -%}
+        {%- if not loop.first %}{{ site.menuItemSeparator | safe }}{% endif -%}
+        <a class="app-header-menu-item" href="{{ item.url }}">{{ item.name }}</a>
+      {%- endfor %}
+    </nav>
+    {% include "partials/listenon.njk" %}
+    {% include "partials/bmac.njk" %}
+    <p>{{ site.description }}</p>
+
+    {% include "partials/newsletter.njk" %}
+    {% include "partials/twitter.njk" %}
+    {% include "partials/mastodon.njk" %}
+    {% include "partials/discord.njk" %}
+
+    <div class="app-header-social">
+      {% from "partials/icon.njk" import icon %}
+      {%- for s in site.social %}
+        <a target="_blank" href="{{ s.url }}" rel="noreferrer noopener">{{ icon(s.name) }}</a>
+      {%- endfor %}
+    </div>
+    <a href="https://audionautix.com/">Music by Audionautix.com</a>
+
+    {% include "partials/tagcloud.njk" %}
+  </header>
+  <main class="app-container">
+    {{ content | safe }}
+  </main>
+</body>
+</html>

@@ -1,0 +1,7 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  {%- if listTitle %}<h1>{{ listTitle }}</h1>{%- endif %}
+  {{ content | safe }}
+</article>

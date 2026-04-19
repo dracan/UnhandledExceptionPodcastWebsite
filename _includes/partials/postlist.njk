@@ -1,0 +1,38 @@
+{% from "partials/icon.njk" import icon %}
+{% macro renderList(posts, paginationHrefs, currentPageNumber) -%}
+<ul class="posts-list">
+  {%- for post in posts %}
+  <li class="posts-list-item">
+    <a class="posts-list-item-title" href="{{ post.url }}">{{ post.data.title }}</a>
+    <span class="posts-list-item-description">
+      {{ icon("calendar") }}
+      {{ post.date | dateDisplay }}
+
+      {%- if post.data.episodeId %}
+      <div id="buzzsprout-player-{{ post.data.episodeId }}"></div>
+      <script src="https://www.buzzsprout.com/978640/{{ post.data.episodeId }}-hello-world.js?container_id=buzzsprout-player-{{ post.data.episodeId }}&player=small" type="text/javascript" charset="utf-8"></script>
+      {%- endif %}
+    </span>
+  </li>
+  {%- endfor %}
+</ul>
+{%- if paginationHrefs and paginationHrefs.length > 1 %}
+<ul class="pagination">
+  {%- if currentPageNumber > 1 %}
+  <li class="page-item">
+    <a class="page-link" href="{{ paginationHrefs[currentPageNumber - 2] }}">{{ icon("arrow-left") }}</a>
+  </li>
+  {%- endif %}
+  {%- for href in paginationHrefs %}
+  <li class="page-item{% if loop.index === currentPageNumber %} active{% endif %}">
+    <a class="page-link" href="{{ href }}">{{ loop.index }}</a>
+  </li>
+  {%- endfor %}
+  {%- if currentPageNumber < paginationHrefs.length %}
+  <li class="page-item">
+    <a class="page-link" href="{{ paginationHrefs[currentPageNumber] }}">{{ icon("arrow-right") }}</a>
+  </li>
+  {%- endif %}
+</ul>
+{%- endif %}
+{%- endmacro %}

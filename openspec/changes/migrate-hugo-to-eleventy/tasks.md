@@ -9,37 +9,37 @@
 
 ## 2. Port layouts and partials
 
-- [ ] 2.1 Create `_includes/head.njk` with meta charset/viewport, preconnects (buzzsprout, giscus, fonts), author meta, description meta, stylesheet link, Buzzsprout RSS alternate link, Google Analytics gtag snippet for `G-RN9Q259LF1`, OpenGraph tags, and conditional Twitter Card tags
-- [ ] 2.2 Create `_includes/layouts/base.njk` with header sidebar (avatar, menu, listen-on, bmac, description, newsletter, twitter, mastodon, discord, social icons, audionautix link, tag cloud) and main content slot
-- [ ] 2.3 Create `_includes/layouts/post.njk` extending base; render title, date (icon + formatted), tag chips (icon + linked), content, Giscus block
-- [ ] 2.4 Create `_includes/layouts/page.njk` extending base; render title and content only, no post meta, no Giscus
-- [ ] 2.5 Create `_includes/partials/icon.njk` rendering inline SVGs for `calendar`, `tag`, `github`, `twitter`, and any others referenced by layouts
-- [ ] 2.6 Port `_includes/partials/giscus.njk` with the exact data-* attributes from the comments spec
-- [ ] 2.7 Port `_includes/partials/listenon.njk`, `bmac.njk`, `newsletter.njk`, `twitter.njk`, `mastodon.njk`, `discord.njk`, `patreon.njk` (content lifted from current `layouts/partials/*.html` with Hugo template syntax converted to Nunjucks)
-- [ ] 2.8 Port `_includes/partials/tagcloud.njk` using the `tagStats` collection (first 10 by count, link to `/tags/<slug>/`, plus "All Tags" link)
-- [ ] 2.9 Create `_includes/partials/pagination.njk` matching the Hugo theme pagination component
-- [ ] 2.10 Create `index.njk` paginating the `posts` collection at the same page size Hugo used (confirm from current `public/`); emit list entries with inline Buzzsprout player per Hugo `list.html`
-- [ ] 2.11 Create `tags.njk` listing every tag with counts, permalink `/tags/`
-- [ ] 2.12 Create `tag.njk` paginating posts per tag using `tagList`; permalink pattern `/tags/<slug>/` with `/page/<n>/` for paginated pages
-- [ ] 2.13 Create `404.njk` mimicking Hugo m10c's 404 page, permalink `/404.html`
-- [ ] 2.14 Create `sitemap.njk` producing `/sitemap.xml`
+- [x] 2.1 Create `_includes/head.njk` with meta charset/viewport, preconnects (buzzsprout, giscus, fonts), author meta, description meta, stylesheet link, Buzzsprout RSS alternate link, Google Analytics gtag snippet for `G-RN9Q259LF1`, OpenGraph tags, and conditional Twitter Card tags
+- [x] 2.2 Create `_includes/layouts/base.njk` with header sidebar (avatar, menu, listen-on, bmac, description, newsletter, twitter, mastodon, discord, social icons, audionautix link, tag cloud) and main content slot
+- [x] 2.3 Create `_includes/layouts/post.njk` extending base; render title, date (icon + formatted), tag chips (icon + linked), content, Giscus block
+- [x] 2.4 Create `_includes/layouts/page.njk` extending base; render title and content only, no post meta, no Giscus
+- [x] 2.5 Create `_includes/partials/icon.njk` rendering inline SVGs for `calendar`, `tag`, `github`, `twitter`, and any others referenced by layouts
+- [x] 2.6 Port `_includes/partials/giscus.njk` with the exact data-* attributes from the comments spec
+- [x] 2.7 Port `_includes/partials/listenon.njk`, `bmac.njk`, `newsletter.njk`, `twitter.njk`, `mastodon.njk`, `discord.njk`, `patreon.njk` (content lifted from current `layouts/partials/*.html` with Hugo template syntax converted to Nunjucks)
+- [x] 2.8 Port `_includes/partials/tagcloud.njk` using the `tagStats` collection (first 10 by count, link to `/tags/<slug>/`, plus "All Tags" link)
+- [x] 2.9 Create `_includes/partials/pagination.njk` matching the Hugo theme pagination component
+- [x] 2.10 Create `index.njk` paginating the `posts` collection at the same page size Hugo used (confirm from current `public/`); emit list entries with inline Buzzsprout player per Hugo `list.html`
+- [x] 2.11 Create `tags.njk` listing every tag with counts, permalink `/tags/`
+- [x] 2.12 Create `tag.njk` paginating posts per tag using `tagList`; permalink pattern `/tags/<slug>/` with `/page/<n>/` for paginated pages
+- [x] 2.13 Create `404.njk` mimicking Hugo m10c's 404 page, permalink `/404.html`
+- [x] 2.14 Create `sitemap.njk` producing `/sitemap.xml`
 
 ## 3. Port SCSS
 
-- [ ] 3.1 Copy m10c component SCSS files from `themes/m10c/assets/css/` into `css/components/` (rename with leading underscores as needed): `_base.scss`, `_app.scss`, `_post.scss`, `_posts_list.scss`, `_tag.scss`, `_tags_list.scss`, `_pagination.scss`, `_icon.scss`, `_error_404.scss`
-- [ ] 3.2 Copy the existing `assets/css/_extra.scss` into `css/_extra.scss` unchanged
-- [ ] 3.3 Create `css/main.scss` with hardcoded color variables (`$darkest-color: #242930`, `$dark-color: #353b43`, `$light-color: #afbac4`, `$lightest-color: #ffffff`, `$primary-color: #57cc8a`) followed by `@import` statements for base, components, and `_extra`
-- [ ] 3.4 Wire SCSS compilation into the Eleventy build (either via `sass` CLI in the `build` npm script or an Eleventy plugin); output to `_site/css/main.css` minified
-- [ ] 3.5 Confirm `_site/css/main.css` exists after `npm run build` and contains the `.listen-on-icon`, `.app-header`, `.posts-list`, and `.tags-list-custom` rules
+- [x] 3.1 Copy m10c component SCSS files from `themes/m10c/assets/css/` into `css/components/` (rename with leading underscores as needed): `_base.scss`, `_app.scss`, `_post.scss`, `_posts_list.scss`, `_tag.scss`, `_tags_list.scss`, `_pagination.scss`, `_icon.scss`, `_error_404.scss`
+- [x] 3.2 Copy the existing `assets/css/_extra.scss` into `css/_extra.scss` unchanged
+- [x] 3.3 Create `css/main.scss` with hardcoded color variables (`$darkest-color: #242930`, `$dark-color: #353b43`, `$light-color: #afbac4`, `$lightest-color: #ffffff`, `$primary-color: #57cc8a`) followed by `@import` statements for base, components, and `_extra`
+- [x] 3.4 Wire SCSS compilation into the Eleventy build (either via `sass` CLI in the `build` npm script or an Eleventy plugin); output to `_site/css/main.css` minified
+- [x] 3.5 Confirm `_site/css/main.css` exists after `npm run build` and contains the `.listen-on-icon`, `.app-header`, `.posts-list`, and `.tags-list-custom` rules
 
 ## 4. Add Eleventy filters, shortcodes, and collections
 
-- [ ] 4.1 Register Nunjucks shortcode `buzzsprout(id)` emitting the Buzzsprout embed markup (div + script) matching Hugo's shortcode output
-- [ ] 4.2 Add `dateDisplay` filter formatting dates as "Jan 2, 2006"
-- [ ] 4.3 Add `hugoSlug` filter that preserves `.` and `#`, lowercases, and replaces whitespace with hyphens (must match Hugo's tag slugification for `c#`, `asp.net`, `c#12`, etc.)
-- [ ] 4.4 Register `posts` collection (non-draft only, sorted by date desc)
-- [ ] 4.5 Register `tagList` collection (unique tags, excluding any reserved tag)
-- [ ] 4.6 Register `tagStats` collection (tag, count, weight) sorted by count desc
+- [x] 4.1 Register Nunjucks shortcode `buzzsprout(id)` emitting the Buzzsprout embed markup (div + script) matching Hugo's shortcode output
+- [x] 4.2 Add `dateDisplay` filter formatting dates as "Jan 2, 2006"
+- [x] 4.3 Add `hugoSlug` filter that preserves `.` and `#`, lowercases, and replaces whitespace with hyphens (must match Hugo's tag slugification for `c#`, `asp.net`, `c#12`, etc.)
+- [x] 4.4 Register `posts` collection (non-draft only, sorted by date desc)
+- [x] 4.5 Register `tagList` collection (unique tags, excluding any reserved tag)
+- [x] 4.6 Register `tagStats` collection (tag, count, weight) sorted by count desc
 
 ## 5. Bulk content migration
 

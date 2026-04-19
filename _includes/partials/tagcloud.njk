@@ -1,0 +1,13 @@
+{% from "partials/icon.njk" import icon %}
+<ul class="tags-list-custom">
+  {%- for item in collections.tagStats.items.slice(0, 10) %}
+  <li class="tags-list-item-custom">
+    {{ icon("tag") }}
+    <a class="tags-list-item-title" href="/tags/{{ item.tag | hugoSlug }}/">
+      ({{ item.count }})
+      {{ item.tag }}
+    </a>
+  </li>
+  {%- endfor %}
+</ul>
+<a class="app-header-menu-item" href="/tags/">- All Tags -</a>

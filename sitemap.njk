@@ -1,0 +1,42 @@
+---
+permalink: "/sitemap.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- set base = site.baseUrl | replace(r/\/$/, "") -%}
+{%- for post in collections.posts %}
+  <url>
+    <loc>{{ base }}{{ post.url }}</loc>
+    <lastmod>{{ post.date.toISOString() }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+{%- endfor %}
+{%- for page in collections.all | selectattr("data.layout", "equalto", "layouts/page.njk") %}
+  <url>
+    <loc>{{ base }}{{ page.url }}</loc>
+    <lastmod>{{ page.date.toISOString() }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+{%- endfor %}
+  <url>
+    <loc>{{ base }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>{{ base }}/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+{%- for item in collections.tagStats.items %}
+  <url>
+    <loc>{{ base }}/tags/{{ item.tag | hugoSlug }}/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+{%- endfor %}
+</urlset>

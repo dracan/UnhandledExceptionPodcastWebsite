@@ -1,0 +1,18 @@
+---
+layout: layouts/list.njk
+title: "Tags"
+listTitle: "Tags"
+permalink: "/tags/index.html"
+---
+{% from "partials/icon.njk" import icon %}
+<ul class="tags-list">
+  {%- for item in collections.tagStats.items %}
+  <li class="tags-list-item">
+    {{ icon("tag") }}
+    <a class="tags-list-item-title" href="/tags/{{ item.tag | hugoSlug }}/">
+      ({{ item.count }})
+      {{ item.tag }}
+    </a>
+  </li>
+  {%- endfor %}
+</ul>

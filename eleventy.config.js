@@ -95,7 +95,8 @@ module.exports = async function (eleventyConfig) {
     return { items, min, max };
   });
 
-  eleventyConfig.addCollection("postsByTag", function (collectionApi) {
+  eleventyConfig.addCollection("tagPages", function (collectionApi) {
+    const PAGE_SIZE = 10;
     const byTag = new Map();
     collectionApi
       .getFilteredByGlob("posts/*.md")
@@ -111,10 +112,34 @@ module.exports = async function (eleventyConfig) {
             byTag.get(tag).push(post);
           });
       });
-    byTag.forEach((arr) =>
-      arr.sort((a, b) => new Date(b.data.date) - new Date(a.data.date))
-    );
-    return byTag;
+
+    const hugoSlug = (str) =>
+      String(str)
+        .toLowerCase()
+        .trim()
+        .replace(/\s+/g, "-")
+        .replace(/[^\w.#-]+/g, "")
+        .replace(/-+/g, "-")
+        .replace(/^-+|-+$/g, "");
+
+    const pages = [];
+    Array.from(byTag.entries())
+      .sort(([a], [b]) => a.toLowerCase().localeCompare(b.toLowerCase()))
+      .forEach(([tag, posts]) => {
+        posts.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+        const totalPages = Math.max(1, Math.ceil(posts.length / PAGE_SIZE));
+        for (let pageNumber = 1; pageNumber <= totalPages; pageNumber++) {
+          const start = (pageNumber - 1) * PAGE_SIZE;
+          pages.push({
+            tag,
+            slug: hugoSlug(tag),
+            pageNumber,
+            totalPages,
+            posts: posts.slice(start, start + PAGE_SIZE),
+          });
+        }
+      });
+    return pages;
   });
 
   return {
