@@ -43,20 +43,20 @@
 
 ## 5. Bulk content migration
 
-- [ ] 5.1 `git mv content/posts posts` and `git mv content/pages pages`
-- [ ] 5.2 `git mv static/images images`
-- [ ] 5.3 Move `static/favicon.ico` (if present) to repo root; passthrough-copy handles it
-- [ ] 5.4 Write and run a script that, for each file under `posts/`, injects into the front matter: `permalink: /posts/<lowercased-slug>/` (slug = filename sans `.md`) and `layout: layouts/post.njk`
-- [ ] 5.5 Write and run a script that, for each file under `pages/`, injects into the front matter: `permalink: /pages/<slug>/` and `layout: layouts/page.njk`; remove the now-unused `type: page` field
-- [ ] 5.6 Write and run a script that replaces every `{{< buzzsprout-episode N >}}` with `{% buzzsprout N %}` across all post files
-- [ ] 5.7 Verify that no Hugo shortcode syntax (`{{<`, `{{%`) remains anywhere under `posts/` or `pages/`
+- [x] 5.1 `git mv content/posts posts` and `git mv content/pages pages`
+- [x] 5.2 `git mv static/images images`
+- [x] 5.3 Move `static/favicon.ico` (if present) to repo root; passthrough-copy handles it
+- [x] 5.4 Write and run a script that, for each file under `posts/`, injects into the front matter: `permalink: /posts/<lowercased-slug>/` (slug = filename sans `.md`) and `layout: layouts/post.njk`
+- [x] 5.5 Write and run a script that, for each file under `pages/`, injects into the front matter: `permalink: /pages/<slug>/` and `layout: layouts/page.njk`; remove the now-unused `type: page` field
+- [x] 5.6 Write and run a script that replaces every `{{< buzzsprout-episode N >}}` with `{% buzzsprout N %}` across all post files
+- [x] 5.7 Verify that no Hugo shortcode syntax (`{{<`, `{{%`) remains anywhere under `posts/` or `pages/`
 
 ## 6. URL diff gate
 
-- [ ] 6.1 From a clean checkout with the Hugo toolchain, run `hugo --theme=m10c` and save a sorted list of every file path under `public/` to `/tmp/hugo-paths.txt`
-- [ ] 6.2 Run `npm run build` and save a sorted list of every file path under `_site/` to `/tmp/eleventy-paths.txt`
-- [ ] 6.3 Diff the two lists; iterate fixes (permalinks, tag slugs, pagination size, sitemap format) until the diff is empty or every remaining line is explicitly documented in an accepted-differences note committed to the change
-- [ ] 6.4 Spot-check 5 random posts, 1 page, 1 tag page, `/page/2/`, `/tags/`, and `/404.html` in a local `_site/` preview
+- [x] 6.1 From a clean checkout with the Hugo toolchain, run `hugo --theme=m10c` and save a sorted list of every file path under `public/` to `/tmp/hugo-paths.txt`
+- [x] 6.2 Run `npm run build` and save a sorted list of every file path under `_site/` to `/tmp/eleventy-paths.txt`
+- [x] 6.3 Diff the two lists; iterate fixes (permalinks, tag slugs, pagination size, sitemap format) until the diff is empty or every remaining line is explicitly documented in an accepted-differences note committed to the change
+- [x] 6.4 Spot-check 5 random posts, 1 page, 1 tag page, `/page/2/`, `/tags/`, and `/404.html` in a local `_site/` preview
 
 ## 7. Metadata validation
 
