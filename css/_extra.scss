@@ -193,3 +193,47 @@
 #patreon-container img {
   width: 100%;
 }
+
+/* Guest bios (e.g. panel episodes with a photo next to each bio) */
+
+.guest-bio {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin: 0 0 1.75em 0;
+
+    .guest-bio-photo {
+        flex: 0 0 110px;
+        width: 110px;
+        height: 110px;
+        margin: 0;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .guest-bio-text {
+        flex: 1;
+        min-width: 0;
+
+        p {
+            margin-top: 0;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .guest-bio {
+        gap: 1rem;
+
+        .guest-bio-photo {
+            flex: 0 0 80px;
+            width: 80px;
+            height: 80px;
+        }
+    }
+}
