@@ -77,7 +77,7 @@ Panel members...
 <img class="guest-bio-photo" src="/images/0086-DDDPanel/stuart.jpg" alt="Stuart Caborn" />
 <div class="guest-bio-text">
 
-[Stuart Caborn](https://www.linkedin.com/in/stuartcaborn/) is a Distinguished Engineer at [loveholidays](https://www.loveholidays.com/), where he leads the Boost team helping engineering teams navigate complex technical and organisational decisions. He is fascinated by how company structures, ways of working, system designs, and AI shape each other, and has recently been collaborating with platform tech teams to explore what makes AI work at the team level and how those patterns scale across technology.
+[Stuart Caborn](https://www.linkedin.com/in/stuartcaborn/) is a Distinguished Engineer at [loveholidays](https://tech.loveholidays.com/), where he leads the Boost team helping engineering teams navigate complex technical and organisational decisions. He is fascinated by how company structures, ways of working, system designs, and AI shape each other, and has recently been collaborating with platform tech teams to explore what makes AI work at the team level and how those patterns scale across technology.
 
 </div>
 </div>
