@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0086-dddpanel/</loc>
+    <lastmod>2026-05-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0085-simplicityfirst/</loc>
     <lastmod>2026-04-10T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -532,12 +538,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://unhandledexceptionpodcast.com/tags/blazor/</loc>
+    <loc>https://unhandledexceptionpodcast.com/tags/ai/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://unhandledexceptionpodcast.com/tags/ai/</loc>
+    <loc>https://unhandledexceptionpodcast.com/tags/blazor/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -582,6 +588,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/conference/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/tags/docker/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -603,11 +614,6 @@
   </url>
   <url>
     <loc>https://unhandledexceptionpodcast.com/tags/code-quality/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://unhandledexceptionpodcast.com/tags/conference/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
