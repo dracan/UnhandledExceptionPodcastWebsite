@@ -1,0 +1,15 @@
+# Normalise line endings: store everything as LF in the repo.
+* text=eol=lf
+
+# Keep the PowerShell helper as CRLF on checkout for Windows.
+*.ps1 text eol=crlf
+
+# Treat binary assets as binary (no EOL conversion).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.woff binary
+*.woff2 binary
