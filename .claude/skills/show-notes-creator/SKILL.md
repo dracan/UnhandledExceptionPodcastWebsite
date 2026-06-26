@@ -16,6 +16,7 @@ Your primary responsibility is to create comprehensive, well-formatted show note
    - If the episode topic is not provided in the context, immediately ask the user: "What is the topic or subject matter of this episode?"
    - Gather additional relevant details such as guest names, key discussion points, timestamps, resources mentioned, or any special segments
    - Review the conversation history for any context about the episode content
+   - **Determine the next episode number from the data, not from the filenames.** Don't eyeball the highest-numbered file and assume it's the latest published episode — a higher-numbered post can be a draft, or scheduled with a future date. Instead, read the front matter of the top few `posts/0XXX-*.md` files and check each one's `date` and `draft` fields. A post is published if it has no `draft: true` **and** its `date` is on or before today. The next episode number is one above the highest **existing** file number (drafts included, so you don't reuse a number). State the latest published episode and the chosen next number, and confirm the number with the user before writing the file. (This grounding step exists because guessing "latest" from filename ordering has produced wrong answers.)
 
 2. **Analyze Existing Format**:
    - Start with the base template markdown as described below
@@ -41,8 +42,9 @@ Your primary responsibility is to create comprehensive, well-formatted show note
    - Include all typical elements even if some require placeholder text
 
 4. **Add Guest Profile Image**:
-   - Create the episode image directory: `static/images/<episode-number>-<title>/`
+   - Create the episode image directory: `images/<episode-number>-<Title>/` (e.g. `images/0085-SimplicityFirst/`). Note: it's the top-level `images/` directory — there is no `static/` prefix under Eleventy — and the folder name matches the post filename slug (PascalCase, no `.md`).
    - Download the guest's profile image from one of their socials. Try places like their personal website, Twitter/X, LinkedIn, or GitHub.
+   - Save it with a lowercase, hyphenated filename based on the guest's name (e.g. `chris-woodruff.jpg`), and reference that exact path in the front matter `images` field.
    - If none found, note this as a TODO for the user to add manually
 
 5. **Quality Assurance**:
@@ -63,14 +65,18 @@ Your primary responsibility is to create comprehensive, well-formatted show note
 
 ## Output location
 
-Create a new file in the `Content/Posts` directory. Match the same pattern as previous episodes for the file name.
+Create a new file in the `posts/` directory. Match the same pattern as previous episodes for the file name: `0XXX-NameOfEpisode.md` (zero-padded number, PascalCase name, no spaces — e.g. `0085-SimplicityFirst.md`). The filename (lowercased, `.md` stripped) is the URL slug, so it must match the `permalink` in the front matter.
 
 ## Output format
 
-Use the below example as a guide to the format of new podcast episode show note markdown files.
-Leave `episodeId` as TODO.
-Do NOT include a `draft` field in the front matter - it is not needed.
-Try to infer the tags from the topic and past tags. All existing tags are listed here: https://unhandledexceptionpodcast.com/tags/
+Use the below example as a guide to the format of new podcast episode show note markdown files. This is the **single-guest** layout (the common case); see "Multi-guest / panel episodes" below for the variant.
+
+- Leave `episodeId` as TODO, and leave the `{% buzzsprout TODO %}` shortcode's id as TODO to match.
+- Do NOT include a `draft` field in the front matter — it is not needed.
+- `permalink` is **required** and literal: `/posts/<lowercased-filename-slug>/` (e.g. filename `0087-JaneDoe.md` → `permalink: "/posts/0087-janedoe/"`). It must be all lowercase and match the filename slug, because Giscus comment threads are keyed off the URL.
+- `layout` is **required** and is always `"layouts/post.njk"`.
+- Try to infer the tags from the topic and past tags. All existing tags are listed here: https://unhandledexceptionpodcast.com/tags/
+- The episode player uses the Eleventy shortcode `{% buzzsprout <episodeId> %}` — note this is the `{% %}` Nunjucks form, **not** the old Hugo `{{< buzzsprout-episode >}}` shortcode.
 
 ```
 ---
@@ -79,35 +85,50 @@ date: <current date in format YYYY-MM-DD>
 episodeId: TODO
 tags: ["tag1", "tag2"]
 twitter_cards: true
-images: ["images/<episode-number>-<title>/<guest name>.jpg"]  # This must be the guest's profile photo - do NOT create a separate thumbnail filename
+images: ["images/<episode-number>-<Title>/<guest-name>.jpg"]  # The guest's downloaded profile photo for single-guest episodes
+permalink: "/posts/<lowercased-filename-slug>/"
+layout: "layouts/post.njk"
 ---
 
 <Intro text>
 
-<Guest bio>
-
-{{< buzzsprout-episode TODO >}}
+{% buzzsprout TODO %}
 
 ---
 
-# <Guest name>'s social links
+# <Guest name>
 
-* [GitHub]()
-* [Bluesky]()
-* [LinkedIn]()
+<Guest bio paragraph>
+
+* [Website](<url>)
+* [LinkedIn](<url>)
+* [Bluesky](<url>)
+* ...include whichever socials the guest actually has; don't emit empty links...
 
 # Links from the show
 
-* [<text>](<url>)
-* [<text>](<url>)
+* [<text>](<url>) - <short description of what it is / who mentioned it>
+* [<text>](<url>) - <short description>
 * ...etc...
-
-## Dev Pick Links
-
-* [<text>](<url>)
-(leave this one as a TODO, as you won't be able to infer this)
 
 ---
 
 If you're enjoying the podcast, please remember to subscribe and share this episode with your friends and colleagues!
 ```
+
+### Multi-guest / panel episodes
+
+For episodes with several guests (e.g. a conference panel), each guest gets a `<div class="guest-bio">` block with an embedded photo instead of a single `# <Guest name>` heading, and the OG `images` entry is typically a group thumbnail (e.g. `images/<episode-number>-<Title>/Thumbnail.png`) rather than one guest's headshot. The bio links are woven into the prose rather than listed as bullets. The structure looks like:
+
+```
+<div class="guest-bio">
+<img class="guest-bio-photo" src="/images/<episode-number>-<Title>/<guest-name>.jpg" alt="<Guest name>" />
+<div class="guest-bio-text">
+
+[<Guest name>](<social url>) <bio paragraph with inline links>
+
+</div>
+</div>
+```
+
+When in doubt about which layout an episode should use, look at the two most recent published posts in `posts/` and mirror whichever matches the episode's shape.
