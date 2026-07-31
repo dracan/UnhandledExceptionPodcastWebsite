@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0088-mattpocock/</loc>
+    <lastmod>2026-07-31T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0087-openspec/</loc>
     <lastmod>2026-06-26T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -539,12 +545,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://unhandledexceptionpodcast.com/tags/testing/</loc>
+    <loc>https://unhandledexceptionpodcast.com/tags/ai/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://unhandledexceptionpodcast.com/tags/ai/</loc>
+    <loc>https://unhandledexceptionpodcast.com/tags/testing/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -609,6 +615,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/productivity/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/tags/asp.net/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -650,11 +661,6 @@
   </url>
   <url>
     <loc>https://unhandledexceptionpodcast.com/tags/mentoring/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://unhandledexceptionpodcast.com/tags/productivity/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
