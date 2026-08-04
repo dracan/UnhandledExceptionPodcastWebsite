@@ -8,9 +8,11 @@
   <link rel="preconnect" href="https://giscus.app">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <meta name="author" content="Dan Clarke" />
   <meta name="description" content="Software Development podcast hosted by Dan Clarke" />
   <link rel="stylesheet" href="/css/main.css" />
+  <link rel="icon" href="/images/logo.png" />
   <link rel="alternate" type="application/rss+xml" title="The Unhandled Exception Podcast" href="https://feeds.buzzsprout.com/978640.rss" />
 
   <!-- OpenGraph -->
@@ -39,200 +41,187 @@
 </head>
 
 <body>
-  <header class="app-header">
-    <a href="/"><img class="app-header-avatar" src="/images/UepLogoText.png" alt="Dan Clarke" loading="lazy" /></a>
-    <br>
-    <nav class="app-header-menu"><a class="app-header-menu-item" href="/">Home</a> - <a class="app-header-menu-item" href="/tags/">Tags</a> - <a class="app-header-menu-item" href="/pages/about/">About</a> - <a class="app-header-menu-item" href="/pages/guest-faq/">Guest FAQ</a> - <a class="app-header-menu-item" href="/pages/sponsorship/">Sponsorship</a>
-    </nav>
-    <div class="listen-on">
-  <a class="listen-on-icon rss-feed-icon" target="_blank" rel="noopener noreferrer" href="https://feeds.buzzsprout.com/978640.rss" aria-label="RSS Feed"></a>
-  <a class="listen-on-icon apple-icon" target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/gb/podcast/the-unhandled-exception-podcast/id1536194837" aria-label="Apple Podcasts"></a>
-  <a class="listen-on-icon spotify-icon" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/show/2DgUE1Iyl9cZxzzvUUIPBK" aria-label="Spotify"></a>
-  <a class="listen-on-icon youtube-icon" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@UnhandledExceptionPodcast/podcasts" aria-label="YouTube"></a>
-  <a class="listen-on-icon pocketcasts-icon" target="_blank" rel="noopener noreferrer" href="https://play.pocketcasts.com/podcasts/63c68d60-f59a-0138-e82d-0acc26574db2" aria-label="Pocket Casts"></a>
-  <a class="listen-on-icon podcastaddict-icon" target="_blank" rel="noopener noreferrer" href="https://podcastaddict.com/podcast/3143967" aria-label="Podcast Addict"></a>
-  <a class="listen-on-icon podchaser-icon" target="_blank" rel="noopener noreferrer" href="https://www.podchaser.com/podcasts/the-unhandled-exception-podcas-1519582" aria-label="Podchaser"></a>
-</div>
+  <div class="shell">
+    
+<aside class="sidebar">
+  <div class="side-brand">
+    <a href="/" aria-label="The Unhandled Exception Podcast">
+      <img class="brand-wordmark" src="/images/UepLogoText.png" alt="The Unhandled Exception Podcast" />
+    </a>
+    <a class="side-host" href="https://www.danclarke.com/" target="_blank" rel="noopener noreferrer">
+      <img src="/images/dan-profile.jpg" alt="Dan Clarke" loading="lazy" />
+      <span>
+        <span class="side-host-label">Hosted by</span>
+        <span class="side-host-name">Dan Clarke</span>
+      </span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-arrow-up-right">
+  <title>arrow-up-right</title>
+  <line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline>
+</svg>
+    </a>
+  </div>
 
-    <div id="bmc-container">
-  <link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
-  <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/danclarke">
-    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
-    <span style="margin-left:5px;font-size:19px !important;">Buy me a coffee</span>
+  <nav class="side-nav"><a href="/" class="active" aria-current="page">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-headphones">
+  <title>headphones</title>
+  <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+</svg>
+      Episodes<span class="count">88</span>
+    </a><a href="/tags/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+      Tags<span class="count">91</span>
+    </a><a href="/pages/about/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-info">
+  <title>info</title>
+  <circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="8"></line>
+</svg>
+      About
+    </a><a href="/pages/guest-faq/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-help-circle">
+  <title>help-circle</title>
+  <circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12" y2="17"></line>
+</svg>
+      Guest FAQ
+    </a><a href="/pages/sponsorship/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-heart">
+  <title>heart</title>
+  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+</svg>
+      Sponsorship
+    </a>
+  </nav>
+
+  <div class="side-block">
+    
+<a class="side-discord" href="https://discord.gg/bfsWQDP9Nh" target="_blank" rel="noopener noreferrer">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.3 4.4A18.2 18.2 0 0 0 15.7 3l-.2.4a14.4 14.4 0 0 0-7 0L8.3 3A18.2 18.2 0 0 0 3.7 4.4C1 8.5.3 12.5.7 16.4A18.3 18.3 0 0 0 6.3 19l.9-1.4c-.7-.3-1.4-.6-2-1l.4-.3a12.9 12.9 0 0 0 11 0l.4.3c-.6.4-1.3.7-2 1l.9 1.4a18.3 18.3 0 0 0 5.6-2.6c.4-4.5-.4-8.5-3.2-11.9ZM9 14.4c-1.1 0-2-1-2-2.3s.9-2.3 2-2.3 2 1 2 2.3-.9 2.3-2 2.3Zm6 0c-1.1 0-2-1-2-2.3s.9-2.3 2-2.3 2 1 2 2.3-.9 2.3-2 2.3Z"/></svg>
+  <span>
+    <span class="sd-title">Join the Discord</span>
+    <span class="sd-sub">Chat with listeners &amp; guests</span>
+  </span>
+</a>
+
+  </div>
+
+  <div class="side-block">
+    <p class="side-label">Listen on</p>
+    
+<div class="listen-grid">
+  <a href="https://podcasts.apple.com/gb/podcast/the-unhandled-exception-podcast/id1536194837" target="_blank" rel="noopener noreferrer" title="Apple Podcasts" aria-label="Apple Podcasts" style="color: #a24cc0">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm7 3.8a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4Zm-3.4 8.6c.3-1.2 1.7-2 3.4-2s3.1.8 3.4 2l.5 2.1c.1.4-.2.8-.6.8h-1.1l-.3-1.6a1 1 0 0 0-1-.8h-1.8a1 1 0 0 0-1 .8l-.3 1.6H9.1c-.4 0-.7-.4-.6-.8l.5-2.1Z"/></svg>
+  </a>
+  <a href="https://open.spotify.com/show/2DgUE1Iyl9cZxzzvUUIPBK" target="_blank" rel="noopener noreferrer" title="Spotify" aria-label="Spotify" style="color: #1db954">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm4.6 14.4a.9.9 0 0 1-1.2.3c-3.3-2-7.4-2.4-12.3-1.3a.9.9 0 1 1-.4-1.7c5.3-1.2 9.9-.7 13.6 1.5a.9.9 0 0 1 .3 1.2Zm1.2-3a1.1 1.1 0 0 1-1.5.4c-3.8-2.3-9.5-3-14-1.6a1.1 1.1 0 1 1-.6-2.1c5.1-1.5 11.4-.8 15.7 1.8a1.1 1.1 0 0 1 .4 1.5Zm.1-3.1c-4.5-2.7-12-2.9-16.3-1.6a1.3 1.3 0 1 1-.8-2.5c5-1.5 13.3-1.2 18.5 1.9a1.3 1.3 0 1 1-1.4 2.2Z"/></svg>
+  </a>
+  <a href="https://www.youtube.com/@UnhandledExceptionPodcast/podcasts" target="_blank" rel="noopener noreferrer" title="YouTube" aria-label="YouTube" style="color: #ff0000">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8ZM10 15.1V8.9l5.3 3.1L10 15.1Z"/></svg>
+  </a>
+  <a href="https://play.pocketcasts.com/podcasts/63c68d60-f59a-0138-e82d-0acc26574db2" target="_blank" rel="noopener noreferrer" title="Pocket Casts" aria-label="Pocket Casts" style="color: #f43e37">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 3.5a6.5 6.5 0 0 1 6.5 6.5h-1.8a4.7 4.7 0 1 0-4.7 4.7v1.8A6.5 6.5 0 0 1 12 5.5Zm0 3.3a3.2 3.2 0 0 1 3.2 3.2h-1.4A1.8 1.8 0 1 0 12 13.8v1.4A3.2 3.2 0 0 1 12 8.8Z"/></svg>
+  </a>
+  <a href="https://podcastaddict.com/podcast/3143967" target="_blank" rel="noopener noreferrer" title="Podcast Addict" aria-label="Podcast Addict" style="color: #f4842d">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-10 10v4a3 3 0 0 0 3 3h1a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1H4v-.2A8 8 0 0 1 20 12v.8h-2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h1a3 3 0 0 0 3-3v-4A10 10 0 0 0 12 2Z"/></svg>
+  </a>
+  <a href="https://www.podchaser.com/podcasts/the-unhandled-exception-podcas-1519582" target="_blank" rel="noopener noreferrer" title="Podchaser" aria-label="Podchaser" style="color: #eb6f67">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm-3.5 5.5h7a1 1 0 0 1 1 1v1.5H10v2.3h5.5v2.2H10V17H7.5V8.5a1 1 0 0 1 1-1Z"/></svg>
+  </a>
+  <a href="https://feeds.buzzsprout.com/978640.rss" target="_blank" rel="noopener noreferrer" title="RSS Feed" aria-label="RSS Feed" style="color: #ee802f">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4"/><g fill="var(--surface)"><circle cx="7" cy="17" r="2"/><path d="M5 5a14 14 0 0 1 14 14h-3A11 11 0 0 0 5 8V5Z"/><path d="M5 10a9 9 0 0 1 9 9h-3a6 6 0 0 0-6-6v-3Z"/></g></svg>
   </a>
 </div>
 
-    <p>Software Development podcast hosted by Dan Clarke</p>
+  </div>
 
-    <div>
-  <a target="_blank" rel="noopener noreferrer" href="https://danclarke.beehiiv.com/subscribe?utm_source=UnhandledExceptonPodcastWebsite&utm_medium=website" aria-label="Subscribe to Newsletter">
-    <img src="/images/Newsletter.png" alt="Newsletter" style="width: 100%;">
+  <div class="side-block">
+    
+<a class="side-cta" href="https://www.buymeacoffee.com/danclarke" target="_blank" rel="noopener noreferrer">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-coffee">
+  <title>coffee</title>
+  <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line>
+</svg>
+  Buy me a coffee
+</a>
+
+  </div>
+
+  <div class="side-block">
+    <p class="side-label">Newsletter</p>
+    
+<div class="side-sub">
+  <p>A weekly round-up of the dev news worth knowing about.</p>
+  <a class="side-sub-btn" href="https://danclarke.beehiiv.com/?utm_source=UnhandledExceptionPodcastWebsite&amp;utm_medium=website" target="_blank" rel="noopener noreferrer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail">
+  <title>mail</title>
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+    Subscribe
   </a>
 </div>
 
-    <div>
-  <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/dracan" aria-label="Follow on Twitter/X">
-    <img src="/images/Twitter.png" alt="Twitter" style="width: 100%;">
-  </a>
+  </div>
+
+  <div class="side-block">
+    <p class="side-label">Elsewhere</p>
+    <div class="side-socials">
+      <a class="side-social" href="https://github.com/dracan/UnhandledExceptionPodcastWebsite" target="_blank" rel="noopener noreferrer" title="Github" aria-label="Github">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.4-3.4-1.4-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.7-1.4-2.2-.2-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.2-.5-1.3.1-2.7 0 0 .9-.3 2.8 1a9.5 9.5 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .6 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>
+      </a>
+      <a class="side-social" href="https://x.com/dracan" target="_blank" rel="noopener noreferrer" title="Twitter" aria-label="Twitter">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.2 3h3.3l-7.2 8.2L21.8 21h-6.6l-5.2-6.7L4.1 21H.8l7.7-8.8L.5 3h6.8l4.7 6.2L17.2 3Zm-1.2 16h1.8L7.9 4.8H6L16 19Z"/></svg>
+      </a>
+      <a class="side-social" href="https://mstdn.social/@danclarke" target="_blank" rel="me noopener noreferrer" title="Mastodon" aria-label="Mastodon">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 8.5c0-3.5-2.3-4.5-2.3-4.5A17.4 17.4 0 0 0 12 3.4 17.4 17.4 0 0 0 6.3 4S4 5 4 8.5c0 4.1-.1 9.2 3.9 10.2 1.7.5 3.2.6 4.4.5 2.2-.1 3.4-.7 3.4-.7v-1.8s-1.5.5-3.3.4c-1.7-.1-3.5-.2-3.8-2.3a4.4 4.4 0 0 1 0-.6s1.7.4 3.8.5c1.3.1 2.6 0 3.8-.1 2.5-.3 4.7-1.9 5-3.3.3-2.2.3-2.3.3-2.3Zm-3 4.6h-1.9V8.4c0-1-.4-1.5-1.3-1.5s-1.4.6-1.4 1.7V11h-1.9V8.6c0-1.1-.4-1.7-1.3-1.7S8 7.4 8 8.4v4.7H6.1V8.2c0-1 .3-1.8.8-2.4.5-.5 1.2-.8 2.1-.8 1 0 1.8.4 2.3 1.2l.5.7.5-.7c.5-.8 1.3-1.2 2.3-1.2.9 0 1.6.3 2.1.8.5.6.8 1.4.8 2.4v4.9Z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="side-block">
+    <p class="side-label">Browse tags</p>
+    <div class="side-tags">
+  <a class="side-tag" href="/tags/dotnet/">#dotnet</a>
+  <a class="side-tag" href="/tags/ai/">#AI</a>
+  <a class="side-tag" href="/tags/testing/">#testing</a>
+  <a class="side-tag" href="/tags/blazor/">#Blazor</a>
+  <a class="side-tag" href="/tags/community/">#community</a>
+  <a class="side-tag" href="/tags/mediatr/">#mediatr</a>
+  <a class="side-tag" href="/tags/messaging/">#messaging</a>
+  <a class="side-tag" href="/tags/c%23/">#C#</a>
+  <a class="side-tag" href="/tags/devops/">#DevOps</a>
+  <a class="side-tag" href="/tags/event-driven-architecture/">#event-driven-architecture</a>
+  <a class="side-tag" href="/tags/">all tags &rsaquo;</a>
 </div>
 
-    <div>
-  <a rel="me noopener noreferrer" target="_blank" href="https://mstdn.social/@danclarke" aria-label="Follow on Mastodon">
-    <img src="/images/Mastodon.png" alt="Mastodon" style="width: 100%;">
-  </a>
-</div>
+  </div>
 
-    <div>
-  <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/RVpnQf2yjH" aria-label="Join Discord Community">
-    <img src="/images/Discord-logo.png" alt="Discord" style="width: 100%;">
-  </a>
-</div>
+  <div class="side-colophon">
+    <a href="https://audionautix.com/" target="_blank" rel="noopener noreferrer">Music by Audionautix.com</a><br />
+    &copy; 2020-2026 Dan Clarke
+  </div>
+</aside>
 
-
-    <div class="app-header-social">
+    <main class="main">
       
-        <a target="_blank" href="https://github.com/dracan/UnhandledExceptionPodcastWebsite" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
-  <title>github</title>
-  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-</svg></a>
-        <a target="_blank" href="https://x.com/dracan" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
-  <title>twitter</title>
-  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-</svg></a>
-    </div>
-    <a href="https://audionautix.com/">Music by Audionautix.com</a>
+<article class="main-inner ep-page">
+  <a class="back" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-arrow-left">
+  <title>arrow-left</title>
+  <line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline>
+</svg> Back to all episodes</a>
 
-    
-<ul class="tags-list-custom">
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/dotnet/">
-      (38)
-      Dotnet
-    </a>
-  </li>
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/ai/">
-      (9)
-      AI
-    </a>
-  </li>
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/testing/">
-      (9)
-      Testing
-    </a>
-  </li>
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/blazor/">
-      (7)
-      Blazor
-    </a>
-  </li>
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/community/">
-      (7)
-      Community
-    </a>
-  </li>
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/mediatr/">
-      (6)
-      Mediatr
-    </a>
-  </li>
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/messaging/">
-      (6)
-      Messaging
-    </a>
-  </li>
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/c%23/">
-      (5)
-      C#
-    </a>
-  </li>
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/devops/">
-      (5)
-      DevOps
-    </a>
-  </li>
-  <li class="tags-list-item-custom">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-    <a class="tags-list-item-title" href="/tags/event-driven-architecture/">
-      (5)
-      Event-driven-architecture
-    </a>
-  </li>
-</ul>
-<a class="app-header-menu-item" href="/tags/">- All Tags -</a>
-
-  </header>
-  <main class="app-container">
-    
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">Episode 21: Bicep with Alex Frankel</h1>
-    <div class="post-meta">
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
-  <title>calendar</title>
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
-</svg>
-        Aug 13, 2021
+  <header class="ep-head">
+    <div class="ep-head-text">
+      <div class="ep-meta"><span class="num">EP.021</span><span class="sep">/</span>
+        <span>Aug 13, 2021</span>
       </div>
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
-  <title>tag</title>
-  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
-</svg>
-        <a class="tag" href="/tags/bicep/">Bicep</a>
-        <a class="tag" href="/tags/iac/">IaC</a>
-        <a class="tag" href="/tags/azure/">Azure</a>
+      <h1>Bicep</h1>
+      <div class="ep-tags"><a class="t" href="/tags/bicep/">#bicep</a><a class="t" href="/tags/iac/">#IaC</a><a class="t" href="/tags/azure/">#azure</a>
       </div>
     </div>
   </header>
-  <div class="post-content">
+
+  <div class="prose">
     <p>In this episode, I was joined by <a href="https://twitter.com/adotfrank">Alex Frankel</a> to chat about <a href="https://github.com/Azure/bicep">Azure Bicep</a>! Bicep is a new DSL that transpiles down to native ARM templates. Except that it <em>greatly</em> improved upon the very hard to read and write ARM templates, making <em>Infrastructure as Code</em> in Azure a far nicer user experience. We delved into the Bicep language, the tooling, a bit of the history - and even geeked out a bit on how awesome .NET has become!</p>
 <div id="buzzsprout-player-9020712"></div>
 <script src="https://www.buzzsprout.com/978640/9020712-hello-world.js?container_id=buzzsprout-player-9020712&player=small" type="text/javascript" charset="utf-8"></script>
@@ -262,6 +251,7 @@
 </ul>
 
   </div>
+
   <div class="post-footer">
     <script src="https://giscus.app/client.js"
         data-repo="dracan/unhandledexceptionpodcast-comments"
@@ -282,6 +272,7 @@
   </div>
 </article>
 
-  </main>
+    </main>
+  </div>
 </body>
 </html>
