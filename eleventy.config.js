@@ -5,6 +5,11 @@ module.exports = async function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("js");
+
+  // sass runs alongside Eleventy in dev, so Eleventy wouldn't otherwise notice
+  // a stylesheet edit - and the cache-busting hash in _data/assets.js would go
+  // stale until the next full rebuild.
+  eleventyConfig.addWatchTarget("css/");
   eleventyConfig.addPassthroughCopy({ "favicon.ico": "favicon.ico" });
 
   eleventyConfig.addShortcode("buzzsprout", function (id) {

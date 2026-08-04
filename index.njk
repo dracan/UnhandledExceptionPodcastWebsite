@@ -10,7 +10,7 @@ permalink: "{% if pagination.pageNumber == 0 %}/index.html{% else %}/page/{{ pag
 {% from "partials/episodelist.njk" import episodeList with context %}
 {% from "partials/pagination.njk" import paginate %}
 {%- set episodeCount = collections.posts | length -%}
-<div class="main-inner" id="home" data-episode-count="{{ episodeCount }}">
+<div class="main-inner" id="home" data-episode-count="{{ episodeCount }}" data-episodes-version="{{ assets.episodes }}">
   <div class="toolbar">
     <label class="search" for="ep-search">
       {{ icon("search") }}
@@ -39,4 +39,4 @@ permalink: "{% if pagination.pageNumber == 0 %}/index.html{% else %}/page/{{ pag
     {{ paginate(pagination.hrefs, pagination.pageNumber + 1) }}
   </div>
 </div>
-<script src="/js/site.js" defer></script>
+<script src="/js/site.js?v={{ assets.js }}" defer></script>
