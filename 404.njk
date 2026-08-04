@@ -4,8 +4,10 @@ title: "404"
 permalink: "/404.html"
 ---
 {% from "partials/icon.njk" import icon with context %}
-<div class="error-404">
-  <h1 class="error-404-title">O{{ icon("frown") }}ps... </h1>
-  <p>The link you followed may be broken, or the page may have been removed.</p>
-  <a href="/">Go home {{ icon("arrow-right") }}</a>
+<div class="main-inner">
+  <div class="error-404">
+    <h1 class="error-404-title">O{{ icon("frown") }}ps...</h1>
+    <p>The link you followed may be broken, or the page may have been removed.</p>
+    <a class="btn-ghost" href="/">{{ icon("arrow-left") }} Back to all episodes</a>
+  </div>
 </div>

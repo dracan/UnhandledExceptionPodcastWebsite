@@ -1,5 +1,6 @@
 ---
 title: "Episode 22: Jetbrains Rider, and Code With Me"
+guest: ""
 date: 2021-08-22
 draft: false
 episodeId: 9066826

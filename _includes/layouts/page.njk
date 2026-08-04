@@ -1,11 +1,13 @@
 ---
 layout: layouts/base.njk
 ---
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ title }}</h1>
-  </header>
-  <div class="post-content">
+<article class="main-inner page">
+  <div class="page-head">
+    {%- if eyebrow %}<div class="page-eyebrow">{{ eyebrow }}</div>{% endif %}
+    <h1 class="page-title">{{ title }}</h1>
+    {%- if pageSub %}<p class="page-sub">{{ pageSub }}</p>{% endif %}
+  </div>
+  <div class="prose">
     {{ content | safe }}
   </div>
 </article>

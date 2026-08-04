@@ -1,5 +1,8 @@
-<div>
-  <a target="_blank" rel="noopener noreferrer" href="https://danclarke.beehiiv.com/subscribe?utm_source=UnhandledExceptonPodcastWebsite&utm_medium=website" aria-label="Subscribe to Newsletter">
-    <img src="/images/Newsletter.png" alt="Newsletter" style="width: 100%;">
+{% from "partials/icon.njk" import icon with context %}
+<div class="side-sub">
+  <p>A weekly round-up of the dev news worth knowing about.</p>
+  <a class="side-sub-btn" href="{{ site.newsletterUrl }}" target="_blank" rel="noopener noreferrer">
+    {{ icon("mail") }}
+    Subscribe
   </a>
 </div>

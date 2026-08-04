@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the website repository for "The Unhandled Exception Podcast" - a software development podcast hosted by Dan Clarke. The site is built with [Eleventy](https://www.11ty.dev/) (v3) and the m10c look-and-feel is hand-ported into `css/components/`. The site is deployed to GitHub Pages and is accessible at https://unhandledexceptionpodcast.com/.
+This is the website repository for "The Unhandled Exception Podcast" - a software development podcast hosted by Dan Clarke. The site is built with [Eleventy](https://www.11ty.dev/) (v3). The look-and-feel is a port of the "Unhandled Exception Redesign" Claude Design project, hand-written into `css/components/`. The site is deployed to GitHub Pages and is accessible at https://unhandledexceptionpodcast.com/.
 
 ## Setup
 
@@ -44,22 +44,29 @@ This is the website repository for "The Unhandled Exception Podcast" - a softwar
     - `layout`: `"layouts/post.njk"`
     - `tags`: Array of strings (optional)
     - `twitter_cards`: Boolean — set true with `images` to emit `summary_large_image`
-    - `images`: Array of image paths (first is used for OG/Twitter preview)
+    - `images`: Array of image paths (first is used for OG/Twitter preview **and** as the episode's cover thumbnail in the list; falls back to `/images/logo.png`)
+  - Optional overrides for the derived episode fields (see `posts/posts.11tydata.js`):
+    - `guest`: overrides the guest parsed out of the title. `guest: ""` means "no guest" and also stops the title being split on " with ".
+    - `epNumber`: overrides the episode number parsed from the title
+    - `blurb`: overrides the blurb derived from the first paragraph of the body
 
 - **Pages** (`pages/`): Static pages like About, Guest FAQ, Sponsorship
   - Must include `permalink` (e.g. `/pages/about/`) and `layout: "layouts/page.njk"`
   - Page layout intentionally skips date, tags, and the Giscus comments block
+  - Optional `eyebrow` and `pageSub` front matter render above/below the page title
 
 ### Layouts & Templates
 
 - **Layouts** (`_includes/layouts/`):
-  - `base.njk`: Outer HTML, header sidebar (avatar, menu, listen-on, bmac, social, tag cloud), main content slot
-  - `post.njk`: Extends base; renders post title, date, tag chips, content, Giscus
-  - `page.njk`: Extends base; renders title and content only
-  - `list.njk`: Wrapper for paginated list pages (home, tag pages, `/tags/`)
+  - `base.njk`: Outer HTML plus the `.shell` grid (sticky sidebar + `.main` content column)
+  - `post.njk`: Extends base; renders the episode header (cover, EP number, date, title, tag chips), the markdown body inside `.prose`, and Giscus
+  - `page.njk`: Extends base; renders `.page-head` (eyebrow, title, sub) and the body inside `.prose`
+  - `list.njk`: Wrapper for paginated list pages (tag pages, `/tags/`)
 
-- **Partials** (`_includes/partials/`): Reusable template fragments — giscus, listenon, bmac, tagcloud, icon, newsletter, twitter, mastodon, discord, patreon, postlist (macro), pagination.
-  - `icon.njk` exports a macro that looks up SVGs from `_data/icons.json` (ported from m10c).
+- **Partials** (`_includes/partials/`): Reusable template fragments — sidebar, giscus, listenon, bmac, tagcloud, icon, brandicon, newsletter, discord, patreon, episodelist (macros), pagination (macro).
+  - `icon.njk` exports a macro that looks up stroke SVGs from `_data/icons.json` (Feather).
+  - `brandicon.njk` exports a macro of solid brand glyphs (Apple, Spotify, Discord, ...) ported from the design's `src/icons.jsx`. These can't go through `icon.njk` because that macro hard-codes stroke attributes.
+  - `episodelist.njk` exports `episodeRow(post)` / `episodeList(posts)`. **If you change the row markup, mirror it in `rowHtml()` in `js/site.js`** - the client-side filter renders the same rows.
 
 - **Shortcodes** (registered in `eleventy.config.js`):
   - `{% buzzsprout EPISODE_ID %}` — Embeds the Buzzsprout podcast player for a post
@@ -70,10 +77,18 @@ This is the website repository for "The Unhandled Exception Podcast" - a softwar
 
 - **Collections**: `posts`, `tagList`, `tagStats`, `tagPages` (pre-paginated per-tag entries for URL parity with Hugo).
 
+- **Computed episode data** (`posts/posts.11tydata.js`): derives `ep.number`, `ep.label` (`EP.085`), `ep.title`, `ep.guest`, `ep.blurb` and `ep.cover` from the existing title, body and `images` front matter, so episode rows have everything the design needs without back-filling 88 posts.
+
+### Home page search
+
+- `episodes.njk` builds `/episodes.json`, a compact index of every episode.
+- `js/site.js` (passthrough-copied from `js/`) filters that index in place as the visitor types or clicks a tag chip, hiding the server-rendered pagination while a filter is active and restoring the original markup when it clears. Without JS the chips remain plain links to their tag pages.
+
 ### Theme / Styling
 
-- `css/main.scss` defines the m10c color palette as hardcoded SCSS variables and imports the component partials under `css/components/` (ported from the upstream m10c theme, MIT).
-- `css/_extra.scss` contains the site-specific overrides (listen-on icon sprites, Buy Me a Coffee button, Patreon container, tag cloud classes).
+- `css/main.scss` declares the design tokens as CSS custom properties (colours, fonts, radii, sidebar width) and imports the component partials under `css/components/`.
+  - The design ships a tweak panel; the variant baked in here is amber / sidebar / row cards / cozy / mono display. Swapping `--font-display` to `"Space Grotesk"` gives the design's alternative display face (the font is already loaded).
+- `css/_extra.scss` holds overrides for classes used directly inside markdown content (`about-profile-photo`, `about-stats`, `about-listen-on`, `guest-bio`). They are scoped under `.prose` so they beat the generic prose rules.
 - Styles compile via the `sass` CLI to `_site/css/main.css`.
 
 ### Site Configuration

@@ -1,5 +1,8 @@
-<div>
-  <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/RVpnQf2yjH" aria-label="Join Discord Community">
-    <img src="/images/Discord-logo.png" alt="Discord" style="width: 100%;">
-  </a>
-</div>
+{% from "partials/brandicon.njk" import brandicon %}
+<a class="side-discord" href="{{ site.discordUrl }}" target="_blank" rel="noopener noreferrer">
+  {{ brandicon("discord", 22) }}
+  <span>
+    <span class="sd-title">Join the Discord</span>
+    <span class="sd-sub">Chat with listeners &amp; guests</span>
+  </span>
+</a>

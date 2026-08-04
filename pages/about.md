@@ -3,6 +3,7 @@ title: "About"
 draft: false
 permalink: "/pages/about/"
 layout: "layouts/page.njk"
+eyebrow: "About the show"
 ---
 
 <img class="about-profile-photo" src="/images/dan-profile.jpg" alt="Dan Clarke" />

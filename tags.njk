@@ -2,17 +2,16 @@
 layout: layouts/list.njk
 title: "Tags"
 listTitle: "Tags"
+eyebrow: "Browse by topic"
 permalink: "/tags/index.html"
+eleventyComputed:
+  pageSub: "{{ collections.tagStats.items | length }} topics across {{ collections.posts | length }} episodes. Pick one to filter the episode list."
 ---
-{% from "partials/icon.njk" import icon with context %}
-<ul class="tags-list">
+<div class="tag-index">
   {%- for item in collections.tagStats.items %}
-  <li class="tags-list-item">
-    {{ icon("tag") }}
-    <a class="tags-list-item-title" href="{{ item.tag | tagUrl }}">
-      ({{ item.count }})
-      {{ item.tag | humanize }}
-    </a>
-  </li>
+  <a class="tag-card" href="{{ item.tag | tagUrl }}">
+    <span class="t-name">#{{ item.tag }}</span>
+    <span class="t-count"><strong>{{ item.count }}</strong> {{ "ep" if item.count == 1 else "eps" }}</span>
+  </a>
   {%- endfor %}
-</ul>
+</div>

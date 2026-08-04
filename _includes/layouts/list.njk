@@ -1,7 +1,13 @@
 ---
 layout: layouts/base.njk
 ---
-<article>
-  {%- if listTitle %}<h1>{{ listTitle }}</h1>{%- endif %}
+<div class="main-inner">
+  {%- if listTitle %}
+  <div class="page-head">
+    {%- if eyebrow %}<div class="page-eyebrow">{{ eyebrow }}</div>{% endif %}
+    <h1 class="page-title">{{ listTitle }}</h1>
+    {%- if pageSub %}<p class="page-sub">{{ pageSub }}</p>{% endif %}
+  </div>
+  {%- endif %}
   {{ content | safe }}
-</article>
+</div>

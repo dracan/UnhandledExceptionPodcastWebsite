@@ -3,6 +3,7 @@ title: "Guest FAQ"
 draft: false
 permalink: "/pages/guest-faq/"
 layout: "layouts/page.njk"
+eyebrow: "For guests"
 ---
 
 Ever wondered what's involved when being a guest on a podcast? Below are a few key points that I tend to mention to each guest. I thought I'd consolidate them here for quick reference...

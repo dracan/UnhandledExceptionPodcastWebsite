@@ -1,27 +1,30 @@
-{% from "partials/icon.njk" import icon with context %}
-{%- if pagination and pagination.pages and pagination.pages.length > 1 %}
+{#
+  Windowed pagination: first page, a window around the current page, last page,
+  with gaps collapsed to an ellipsis. `hrefs` is 0-indexed, `current` is 1-based.
+#}
+{% macro paginate(hrefs, current) -%}
+{%- set total = hrefs.length -%}
+{%- if total > 1 -%}
+{%- set windowStart = 2 if current - 1 < 2 else current - 1 -%}
+{%- set windowEnd = (total - 1) if current + 1 > total - 1 else current + 1 -%}
 <ul class="pagination">
-  {%- if pagination.href.previous %}
-  <li class="page-item">
-    <a class="page-link" href="{{ pagination.href.previous }}">
-      {{ icon("arrow-left") }}
-    </a>
-  </li>
+  {%- if current > 1 %}
+  <li class="page-item"><a href="{{ hrefs[current - 2] }}" aria-label="Previous page">&lsaquo;</a></li>
   {%- endif %}
-  {%- for pageEntry in pagination.pages %}
-  {%- set pageNumber = loop.index %}
-  <li class="page-item{% if pagination.pageNumber + 1 === pageNumber %} active{% endif %}">
-    <a class="page-link" href="{{ pagination.hrefs[loop.index0] }}">
-      {{ pageNumber }}
-    </a>
-  </li>
+  <li class="page-item{{ ' active' if current == 1 }}"><a href="{{ hrefs[0] }}">1</a></li>
+  {%- if windowStart > 2 %}
+  <li class="page-gap"><span>...</span></li>
+  {%- endif %}
+  {%- for i in range(windowStart, windowEnd + 1) %}
+  <li class="page-item{{ ' active' if i == current }}"><a href="{{ hrefs[i - 1] }}">{{ i }}</a></li>
   {%- endfor %}
-  {%- if pagination.href.next %}
-  <li class="page-item">
-    <a class="page-link" href="{{ pagination.href.next }}">
-      {{ icon("arrow-right") }}
-    </a>
-  </li>
+  {%- if windowEnd < total - 1 %}
+  <li class="page-gap"><span>...</span></li>
+  {%- endif %}
+  <li class="page-item{{ ' active' if current == total }}"><a href="{{ hrefs[total - 1] }}">{{ total }}</a></li>
+  {%- if current < total %}
+  <li class="page-item"><a href="{{ hrefs[current] }}" aria-label="Next page">&rsaquo;</a></li>
   {%- endif %}
 </ul>
-{%- endif %}
+{%- endif -%}
+{%- endmacro %}

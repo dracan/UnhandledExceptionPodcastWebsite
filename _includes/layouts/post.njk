@@ -2,27 +2,28 @@
 layout: layouts/base.njk
 ---
 {% from "partials/icon.njk" import icon with context %}
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ title }}</h1>
-    <div class="post-meta">
-      <div>
-        {{ icon("calendar") }}
-        {{ page.date | dateDisplay }}
+<article class="main-inner ep-page">
+  <a class="back" href="/">{{ icon("arrow-left") }} Back to all episodes</a>
+
+  <header class="ep-head">
+    <div class="ep-head-text">
+      <div class="ep-meta">
+        {%- if ep.label %}<span class="num">{{ ep.label }}</span><span class="sep">/</span>{% endif %}
+        <span>{{ page.date | dateDisplay }}</span>
       </div>
+      <h1>{{ ep.title }}</h1>
       {%- if tags and tags.length > 0 %}
-      <div>
-        {{ icon("tag") }}
-        {%- for t in tags %}
-        <a class="tag" href="{{ t | tagUrl }}">{{ t | humanize }}</a>
-        {%- endfor %}
+      <div class="ep-tags">
+        {%- for t in tags %}<a class="t" href="{{ t | tagUrl }}">#{{ t }}</a>{% endfor %}
       </div>
       {%- endif %}
     </div>
   </header>
-  <div class="post-content">
+
+  <div class="prose">
     {{ content | safe }}
   </div>
+
   <div class="post-footer">
     {% include "partials/giscus.njk" %}
   </div>

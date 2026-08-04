@@ -2,54 +2,98 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// UI SCALE. Everything below (and in the other component partials) is sized in
+// rem off this one number, so changing it scales the whole interface.
+//
+// The design was drawn in a browser at 125% zoom, which means its px values
+// render 1.25x smaller than intended at 100% zoom. 125% here puts the root at
+// 20px and reproduces what the design actually looked like on screen.
 html {
-  line-height: 1.6;
+  font-size: 125%;
 }
 
 body {
-  margin: 0;
-  font-family: sans-serif;
-  background: $dark-color;
-  color: $light-color;
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--fg-2);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: $lightest-color;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--fg);
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+  font-weight: 600;
 }
 
 a {
-  color: $primary-color;
-  transition: color 0.35s;
+  color: var(--accent);
   text-decoration: none;
+  transition: color 0.2s;
 
   &:hover {
-    color: $lightest-color;
+    color: var(--fg);
   }
 }
 
-// Browsers seem to use a smaller default font-size with monospaced code
-// blocks (like 80% of the size of normal text) and that looks pretty bad with
-// small inline code-blocks in the middle of normal text (mainly because of
-// the very noticeable difference in x-height). This CSS corrects that problem.
-code {
-  font-family: monospace,monospace;
-  font-size: 1em;
-  color: rgba($light-color, .8);
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
 }
 
-pre {
-  // A larger monospaced block of text (that isn't mixed with normal text)
-  // generally looks heavier than normal text with the same font size. For this
-  // reason using a smaller monospaced font size makes sense in this situation.
-  code {
-    font-size: .8em;
-  }
-  overflow: auto;
+img {
+  display: block;
+  max-width: 100%;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--line-soft);
+  margin: 1.375rem 0;
 }
 
 ::selection {
-  background: rgba($light-color, .25);
+  background: var(--accent-soft);
 }
-::-moz-selection {
-  background: rgba($light-color, .25);
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+// Inline SVGs from the icon macro scale with the surrounding font-size.
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  flex: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }

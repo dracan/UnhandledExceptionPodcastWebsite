@@ -3,6 +3,7 @@ title: "Sponsorship"
 draft: false
 permalink: "/pages/sponsorship/"
 layout: "layouts/page.njk"
+eyebrow: "Reach working developers"
 ---
 
 The podcast is open to sponsorship opportunities. If you're interested in sponsoring the podcast, please get in touch with me to discuss. I can be reached any of the social links mentioned on the sidebar (a Discord DM is preferred), or by a message on [LinkedIn](https://www.linkedin.com/in/danclarkeuk/).

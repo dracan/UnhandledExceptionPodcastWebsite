@@ -4,6 +4,7 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy({ "favicon.ico": "favicon.ico" });
 
   eleventyConfig.addShortcode("buzzsprout", function (id) {

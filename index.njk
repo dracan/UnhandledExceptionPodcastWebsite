@@ -1,12 +1,42 @@
 ---
-layout: layouts/list.njk
+layout: layouts/base.njk
 pagination:
   data: collections.posts
   size: 10
   alias: pagePosts
 permalink: "{% if pagination.pageNumber == 0 %}/index.html{% else %}/page/{{ pagination.pageNumber + 1 }}/index.html{% endif %}"
 ---
-{% from "partials/postlist.njk" import renderList %}
-{%- set hrefs = [] -%}
-{%- for h in pagination.hrefs -%}{% set hrefs = (hrefs.push(h), hrefs) %}{%- endfor -%}
-{{ renderList(pagePosts, hrefs, pagination.pageNumber + 1) }}
+{% from "partials/icon.njk" import icon with context %}
+{% from "partials/episodelist.njk" import episodeList with context %}
+{% from "partials/pagination.njk" import paginate %}
+{%- set episodeCount = collections.posts | length -%}
+<div class="main-inner" id="home" data-episode-count="{{ episodeCount }}">
+  <div class="toolbar">
+    <label class="search" for="ep-search">
+      {{ icon("search") }}
+      <input id="ep-search" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Search {{ episodeCount }} episodes, guests, topics..."
+             aria-label="Search episodes" />
+      <span class="kbd" aria-hidden="true">&#8984;K</span>
+    </label>
+  </div>
+
+  <div class="tag-row" id="tag-row">
+    <a class="chip active" href="/" data-tag="">All <span class="n">{{ episodeCount }}</span></a>
+    {%- for item in collections.tagStats.items %}
+    <a class="chip" href="{{ item.tag | tagUrl }}" data-tag="{{ item.tag }}">{{ item.tag | humanize }} <span class="n">{{ item.count }}</span></a>
+    {%- endfor %}
+  </div>
+
+  <div class="list-status">
+    <span id="list-count">{{ episodeCount }} episodes</span>
+    <span>Newest first</span>
+  </div>
+
+  {{ episodeList(pagePosts) }}
+
+  <div id="pagination-wrap">
+    {{ paginate(pagination.hrefs, pagination.pageNumber + 1) }}
+  </div>
+</div>
+<script src="/js/site.js" defer></script>

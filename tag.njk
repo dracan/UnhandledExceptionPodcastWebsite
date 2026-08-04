@@ -6,9 +6,12 @@ pagination:
   alias: tagPage
 permalink: "/tags/{{ tagPage.slug }}/{% if tagPage.pageNumber > 1 %}page/{{ tagPage.pageNumber }}/{% endif %}index.html"
 eleventyComputed:
-  listTitle: "{{ tagPage.tag | humanize }}"
+  title: "{{ tagPage.tag | humanize }}"
+  listTitle: "#{{ tagPage.tag }}"
+  eyebrow: "Tagged"
 ---
-{% from "partials/postlist.njk" import renderList %}
+{% from "partials/episodelist.njk" import episodeList with context %}
+{% from "partials/pagination.njk" import paginate %}
 {%- set hrefs = [] -%}
 {%- for n in range(1, tagPage.totalPages + 1) -%}
   {%- if n === 1 -%}
@@ -17,4 +20,9 @@ eleventyComputed:
     {%- set _ = hrefs.push("/tags/" + tagPage.slug + "/page/" + n + "/") -%}
   {%- endif -%}
 {%- endfor -%}
-{{ renderList(tagPage.posts, hrefs, tagPage.pageNumber) }}
+<div class="list-status">
+  <span>{{ tagPage.posts | length }} {{ "episode" if tagPage.posts.length == 1 else "episodes" }}{% if tagPage.totalPages > 1 %} &middot; page {{ tagPage.pageNumber }} of {{ tagPage.totalPages }}{% endif %}</span>
+  <span>Newest first</span>
+</div>
+{{ episodeList(tagPage.posts) }}
+{{ paginate(hrefs, tagPage.pageNumber) }}

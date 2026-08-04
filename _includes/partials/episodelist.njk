@@ -1,0 +1,35 @@
+{% from "partials/icon.njk" import icon with context %}
+
+{% macro episodeRow(post) -%}
+{%- set ep = post.data.ep -%}
+<a class="ep" href="{{ post.url }}">
+  <div class="cover{{ ' is-fallback' if not ep.hasCover }}">
+    <img src="{{ ep.cover }}" alt="" loading="lazy" />
+    <div class="overlay"><span class="btn">{{ icon("play") }}</span></div>
+  </div>
+  <div class="body">
+    <div class="meta">
+      {%- if ep.label %}<span class="num">{{ ep.label }}</span><span class="dot"></span>{% endif %}
+      <span>{{ post.date | dateDisplay }}</span>
+    </div>
+    <h3 class="title">{{ ep.title }}</h3>
+    {%- if ep.guest %}
+    <div class="guest"><span class="with">with </span>{{ ep.guest }}</div>
+    {%- endif %}
+    {%- if ep.blurb %}
+    <p class="blurb">{{ ep.blurb }}</p>
+    {%- endif %}
+    {%- if post.data.tags and post.data.tags.length %}
+    <div class="taglist">
+      {%- for t in post.data.tags.slice(0, 4) %}<span class="t">#{{ t }}</span>{% endfor %}
+    </div>
+    {%- endif %}
+  </div>
+</a>
+{%- endmacro %}
+
+{% macro episodeList(posts) -%}
+<div class="eps" id="episode-list">
+  {%- for post in posts %}{{ episodeRow(post) }}{% endfor %}
+</div>
+{%- endmacro %}

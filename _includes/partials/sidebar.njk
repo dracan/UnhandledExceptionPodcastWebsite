@@ -1,0 +1,70 @@
+{% from "partials/icon.njk" import icon with context %}
+{% from "partials/brandicon.njk" import brandicon %}
+{%- set episodeCount = collections.posts | length -%}
+{%- set tagCount = collections.tagStats.items | length -%}
+<aside class="sidebar">
+  <div class="side-brand">
+    <a href="/" aria-label="{{ site.title }}">
+      <img class="brand-wordmark" src="{{ site.avatar }}" alt="{{ site.title }}" />
+    </a>
+    <a class="side-host" href="{{ site.hostUrl }}" target="_blank" rel="noopener noreferrer">
+      <img src="/images/dan-profile.jpg" alt="{{ site.author }}" loading="lazy" />
+      <span>
+        <span class="side-host-label">Hosted by</span>
+        <span class="side-host-name">{{ site.author }}</span>
+      </span>
+      {{ icon("arrow-up-right") }}
+    </a>
+  </div>
+
+  <nav class="side-nav">
+    {%- for item in site.menu %}
+    {%- set isActive = (page.url == "/" or page.url.startsWith("/posts/") or page.url.startsWith("/page/")) if item.url == "/" else page.url.startsWith(item.url) -%}
+    <a href="{{ item.url }}"{% if isActive %} class="active" aria-current="page"{% endif %}>
+      {{ icon(item.icon) }}
+      {{ item.name }}
+      {%- if item.count == "episodes" %}<span class="count">{{ episodeCount }}</span>{% endif %}
+      {%- if item.count == "tags" %}<span class="count">{{ tagCount }}</span>{% endif %}
+    </a>
+    {%- endfor %}
+  </nav>
+
+  <div class="side-block">
+    {% include "partials/discord.njk" %}
+  </div>
+
+  <div class="side-block">
+    <p class="side-label">Listen on</p>
+    {% include "partials/listenon.njk" %}
+  </div>
+
+  <div class="side-block">
+    {% include "partials/bmac.njk" %}
+  </div>
+
+  <div class="side-block">
+    <p class="side-label">Newsletter</p>
+    {% include "partials/newsletter.njk" %}
+  </div>
+
+  <div class="side-block">
+    <p class="side-label">Elsewhere</p>
+    <div class="side-socials">
+      {%- for s in site.social %}
+      <a class="side-social" href="{{ s.url }}" target="_blank" rel="{{ 'me noopener noreferrer' if s.name == 'mastodon' else 'noopener noreferrer' }}" title="{{ s.name | humanize }}" aria-label="{{ s.name | humanize }}">
+        {{ brandicon(s.name, 16) }}
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+
+  <div class="side-block">
+    <p class="side-label">Browse tags</p>
+    {% include "partials/tagcloud.njk" %}
+  </div>
+
+  <div class="side-colophon">
+    <a href="https://audionautix.com/" target="_blank" rel="noopener noreferrer">Music by Audionautix.com</a><br />
+    &copy; 2020-{{ site.copyrightYear }} {{ site.author }}
+  </div>
+</aside>

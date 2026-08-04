@@ -1,0 +1,11 @@
+---
+permalink: "/episodes.json"
+eleventyExcludeFromCollections: true
+---
+{#- Search index consumed by /js/site.js for the home page's live filtering. -#}
+[
+{%- for post in collections.posts %}
+{%- set ep = post.data.ep -%}
+{"u":{{ post.url | dump | safe }},"l":{{ (ep.label or "") | dump | safe }},"t":{{ ep.title | dump | safe }},"g":{{ (ep.guest or "") | dump | safe }},"d":{{ (post.date | dateDisplay) | dump | safe }},"b":{{ (ep.blurb or "") | dump | safe }},"c":{{ ep.cover | dump | safe }},"f":{{ "true" if ep.hasCover else "false" }},"tg":{{ (post.data.tags or []) | dump | safe }}}{{ "," if not loop.last }}
+{%- endfor %}
+]
