@@ -117,16 +117,39 @@
     font-size: 100%;
   }
 
+  // The row stays side-by-side all the way down. Stacking it turns a portrait
+  // guest photo into a full-width letterbox band, which crops faces badly and
+  // costs so much height that barely one episode fits on screen.
   .ep {
-    grid-template-columns: 1fr;
+    grid-template-columns: 4.5rem 1fr;
+    gap: 0.75rem;
+    padding: 0.625rem;
 
+    // Square and top-aligned rather than stretched: at this width a wrapped
+    // title would otherwise pull the cover into a tall strip, and the list
+    // loses its rhythm.
     .cover {
-      width: 100%;
-      height: 10rem;
+      width: 4.5rem;
+      height: 4.5rem;
+      min-height: 0;
+      align-self: start;
     }
 
+    .title {
+      font-size: 1rem;
+    }
+
+    .guest {
+      font-size: 0.8125rem;
+    }
+
+    // Too little width left for a blurb to say anything useful.
     .blurb {
-      -webkit-line-clamp: 3;
+      display: none;
+    }
+
+    .taglist {
+      margin-top: 0.375rem;
     }
   }
 }
