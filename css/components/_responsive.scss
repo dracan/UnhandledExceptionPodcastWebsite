@@ -94,16 +94,12 @@
     padding: 1.375rem 1.125rem 3.75rem;
   }
 
+  // Tighter padding only. The cover keeps its full desktop width here: there
+  // is ample room at tablet widths, and narrowing it while it still stretches
+  // to the row height crops a portrait photo down to a vertical strip.
   .ep {
-    grid-template-columns: 5.5rem 1fr;
     gap: 0.875rem;
     padding: 0.75rem;
-
-    .cover {
-      width: 5.5rem;
-      height: auto;
-      min-height: 4.5rem;
-    }
   }
 
   .ep-page h1 {
