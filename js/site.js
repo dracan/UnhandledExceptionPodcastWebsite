@@ -43,7 +43,8 @@
   function load() {
     if (episodes) return Promise.resolve(episodes);
     if (!loading) {
-      loading = fetch("/episodes.json")
+      var version = home.dataset.episodesVersion;
+      loading = fetch("/episodes.json" + (version ? "?v=" + version : ""))
         .then(function (res) {
           return res.json();
         })
