@@ -4,7 +4,7 @@ date: 2025-11-12
 episodeId: 18179084
 tags: ["cli"]
 twitter_cards: true
-images: ["images/0080-JanDeDobbeleer/Jan.jpg"]
+images: ["images/0080-OhMyPosh/Jan.jpg"]
 permalink: "/posts/0080-ohmyposh/"
 layout: "layouts/post.njk"
 ---
