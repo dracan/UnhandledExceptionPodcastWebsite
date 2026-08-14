@@ -1,5 +1,11 @@
 # Content Model
 
+## Purpose
+
+The shape of episode and page content: front matter schema, the collections built from it, and the presentation data derived from existing fields.
+
+## Requirements
+
 ### Requirement: Post front matter schema
 
 Every podcast episode post under `posts/*.md` SHALL include front matter with the following fields:

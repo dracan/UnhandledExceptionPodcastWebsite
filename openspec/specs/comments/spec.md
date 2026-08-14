@@ -1,5 +1,11 @@
 # Comments
 
+## Purpose
+
+Reader commenting on episode pages, backed by GitHub Discussions, with threads that survive site rebuilds and redesigns.
+
+## Requirements
+
 ### Requirement: Giscus rendered on post pages only
 
 Every post page SHALL render the Giscus widget. Pages under `/pages/` SHALL NOT render the Giscus widget.

@@ -1,5 +1,11 @@
 # Theme
 
+## Purpose
+
+The look and feel of the site: layout, design tokens, typography, components and the templates that render them.
+
+## Requirements
+
 ### Requirement: m10c look-and-feel ported as plain SCSS
 
 The site SHALL render with the same visual style as the current m10c-themed Hugo site (colors, typography, header/sidebar layout, post list, tag chips, pagination). Styles SHALL be implemented as plain SCSS files inside the repository, with no Hugo templating and no dependency on the `themes/m10c` submodule.

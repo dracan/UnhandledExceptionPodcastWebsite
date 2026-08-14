@@ -1,5 +1,11 @@
 # Hosting
 
+## Purpose
+
+How the built site reaches unhandledexceptionpodcast.com, and what has to be true of a build before it is published.
+
+## Requirements
+
 ### Requirement: Deploy to GitHub Pages via GitHub Actions
 
 Pushes to `main` SHALL trigger a GitHub Actions workflow that builds the Eleventy site and deploys the contents of `_site/` to the `gh-pages` branch. The workflow SHALL be defined in `.github/workflows/buildanddeploy.yml`.

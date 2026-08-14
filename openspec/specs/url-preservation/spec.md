@@ -1,5 +1,11 @@
 # Url Preservation
 
+## Purpose
+
+Keeping every published URL stable. The show has years of inbound links and comment threads keyed by pathname, so a changed URL is a broken promise.
+
+## Requirements
+
 ### Requirement: Every post URL matches the previous Hugo output
 
 Every published post under the Eleventy build SHALL be emitted at a URL path byte-identical to the path produced by the previous Hugo build for the same source file.

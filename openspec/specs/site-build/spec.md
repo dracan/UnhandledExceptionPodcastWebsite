@@ -1,5 +1,11 @@
 # Site Build
 
+## Purpose
+
+The Eleventy build pipeline that turns the repository into a deployable static site, including asset handling and pre-deploy verification.
+
+## Requirements
+
 ### Requirement: Eleventy build pipeline
 
 The site SHALL be built with Eleventy v3 using Nunjucks as the template engine for HTML, Markdown, and data templates. The build SHALL produce static output at `_site/` suitable for serving by any static web host.

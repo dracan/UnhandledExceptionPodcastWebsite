@@ -50,45 +50,45 @@ change reflects what was actually done. Items 9-16 are the follow-up work agreed
 
 ## 9. Image optimisation
 
-- [ ] 9.1 Add `@11ty/eleventy-img` and a shortcode or filter for episode covers
-- [ ] 9.2 Emit resized covers in the listing and mirror them in `js/site.js`
-- [ ] 9.3 Carry the resized cover URL in `/episodes.json`
-- [ ] 9.4 Add the image cache directory to `.gitignore`
-- [ ] 9.5 Confirm first-page cover weight is under 250 KB
+- [x] 9.1 Add `@11ty/eleventy-img` and a shortcode or filter for episode covers
+- [x] 9.2 Emit resized covers in the listing and mirror them in `js/site.js`
+- [x] 9.3 Carry the resized cover URL in `/episodes.json`
+- [x] 9.4 Add the image cache directory to `.gitignore`
+- [x] 9.5 Confirm first-page cover weight is under 250 KB
 
 ## 10. Home page heading
 
-- [ ] 10.1 Add a visually hidden `<h1>` to the home page and later pagination pages
+- [x] 10.1 Add a visually hidden `<h1>` to the home page and later pagination pages
 
 ## 11. Sitemap
 
-- [ ] 11.1 Add a `pages` collection and use it in `sitemap.njk`
-- [ ] 11.2 Add `unlisted: true` to `pages/guest-faq-manual-recordings.md`
-- [ ] 11.3 Exclude unlisted pages from the sitemap
+- [x] 11.1 Add a `pages` collection and use it in `sitemap.njk`
+- [x] 11.2 Add `unlisted: true` to `pages/guest-faq-manual-recordings.md`
+- [x] 11.3 Exclude unlisted pages from the sitemap
 
 ## 12. Sass modernisation
 
-- [ ] 12.1 Move `:root` tokens into their own partial
-- [ ] 12.2 Convert `@import` to `@use`
-- [ ] 12.3 Verify the compiled CSS is unchanged
+- [x] 12.1 Move `:root` tokens into their own partial
+- [x] 12.2 Convert `@import` to `@use`
+- [x] 12.3 Verify the compiled CSS is unchanged
 
 ## 13. Toolchain
 
-- [ ] 13.1 Bump `actions/checkout`, `actions/setup-node` and `pnpm/action-setup`
+- [x] 13.1 Bump `actions/checkout`, `actions/setup-node` and `pnpm/action-setup`
 
 ## 14. Dead assets
 
-- [ ] 14.1 Delete the orphaned images, the two Photoshop sources and `patreon.njk`
-- [ ] 14.2 Drop the unused Space Grotesk family from the font request
+- [x] 14.1 Delete the orphaned images, the two Photoshop sources and `patreon.njk`
+- [x] 14.2 Drop the unused Space Grotesk family from the font request
 
 ## 15. Accessibility
 
-- [ ] 15.1 Add `aria-live="polite"` to the filtered result count
-- [ ] 15.2 Add a skip link
-- [ ] 15.3 Add `:focus-visible` styles matching the design
+- [x] 15.1 Add `aria-live="polite"` to the filtered result count
+- [x] 15.2 Add a skip link
+- [x] 15.3 Add `:focus-visible` styles matching the design
 
 ## 16. Build verification
 
-- [ ] 16.1 Add `scripts/verify-build.mjs` with the four checks
-- [ ] 16.2 Commit the known-URL snapshot
-- [ ] 16.3 Wire `pnpm run verify` into CI between build and deploy
+- [x] 16.1 Add `scripts/verify-build.mjs` with the four checks
+- [x] 16.2 Commit the known-URL snapshot
+- [x] 16.3 Wire `pnpm run verify` into CI between build and deploy
