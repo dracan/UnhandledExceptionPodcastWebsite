@@ -82,7 +82,9 @@
       '<div class="cover' + (ep.f ? "" : " is-fallback") + '">' +
       '<img src="' + escapeHtml(ep.c) + '"' +
       (ep.ss ? ' srcset="' + escapeHtml(ep.ss) + '" sizes="(max-width: 650px) 72px, (max-width: 1025px) 144px, 160px"' : "") +
-      ' alt="" loading="lazy" width="160" height="160" />' +
+      ' alt="" loading="lazy"' +
+      (ep.w ? ' width="' + ep.w + '" height="' + ep.h + '"' : "") +
+      " />" +
       '<div class="overlay"><span class="btn">' + PLAY_ICON + "</span></div>" +
       "</div>" +
       '<div class="body">' +
