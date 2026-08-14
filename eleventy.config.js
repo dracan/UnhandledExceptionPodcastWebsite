@@ -91,6 +91,17 @@ module.exports = async function (eleventyConfig) {
     }
   });
 
+  // Static pages, excluding any marked `unlisted`. A collection rather than a
+  // `selectattr` in the template: the previous sitemap used
+  // `selectattr("data.layout", ...)`, which silently matched nothing and left
+  // every static page out of the sitemap without failing the build.
+  eleventyConfig.addCollection("pages", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("pages/*.md")
+      .filter((p) => p.data && !p.data.draft && !p.data.unlisted)
+      .sort((a, b) => a.url.localeCompare(b.url));
+  });
+
   eleventyConfig.addCollection("posts", function (collectionApi) {
     return collectionApi
       .getFilteredByGlob("posts/*.md")

@@ -3,6 +3,10 @@ title: "Alternative manual recording method"
 draft: false
 permalink: "/pages/guest-faq-manual-recordings/"
 layout: "layouts/page.njk"
+# Deliberately unlisted: this documented the pre-Riverside recording method and
+# is handed to guests directly rather than linked from the site. Keeping it out
+# of the sitemap stops it being surfaced as current guidance.
+unlisted: true
 ---
 
 If you prefer not to use Discord and the Craig bot for the recording, then we can manually record audio locally. For example, perhaps there's sensitive content that's NDA at the time of recording, which you'd prefer not to be stored on the Craig bot's servers.

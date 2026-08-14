@@ -11,6 +11,16 @@ permalink: "{% if pagination.pageNumber == 0 %}/index.html{% else %}/page/{{ pag
 {% from "partials/pagination.njk" import paginate %}
 {%- set episodeCount = collections.posts | length -%}
 <div class="main-inner" id="home" data-episode-count="{{ episodeCount }}" data-episodes-version="{{ assets.episodes }}">
+  {#- The design has no visible page title here; the search field and chips are
+      the page's identity. A hidden heading gives crawlers and screen readers
+      something to anchor on without changing the layout. -#}
+  <h1 class="visually-hidden">
+    {%- if pagination.pageNumber == 0 -%}
+      {{ site.title }} - all episodes
+    {%- else -%}
+      Episodes, page {{ pagination.pageNumber + 1 }}
+    {%- endif -%}
+  </h1>
   <div class="toolbar">
     <label class="search" for="ep-search">
       {{ icon("search") }}

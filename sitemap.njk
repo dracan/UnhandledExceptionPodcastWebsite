@@ -14,10 +14,10 @@ eleventyExcludeFromCollections: true
     <priority>0.5</priority>
   </url>
 {%- endfor %}
-{%- for page in collections.all | selectattr("data.layout", "equalto", "layouts/page.njk") %}
+{%- for staticPage in collections.pages %}
   <url>
-    <loc>{{ base }}{{ page.url }}</loc>
-    <lastmod>{{ page.date.toISOString() }}</lastmod>
+    <loc>{{ base }}{{ staticPage.url }}</loc>
+    <lastmod>{{ staticPage.date.toISOString() }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
