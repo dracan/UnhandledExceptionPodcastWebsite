@@ -74,10 +74,23 @@ if (!fs.existsSync(SNAPSHOT)) {
 // posts/0080-OhMyPosh.md pointed at images/0080-JanDeDobbeleer/ for years. The
 // only symptom was a broken social preview card, which nobody sees.
 // ---------------------------------------------------------------------------
+const IMG_EXT = /\.(?:png|jpe?g|gif|svg|webp|avif|ico)$/i;
 const missingImages = new Map();
 for (const [file, html] of htmlBySource) {
-  const refs = [...html.matchAll(/(?:src|href|content)="(\/[^"]+\.(?:png|jpe?g|gif|svg|webp|avif|ico))"/g)];
-  for (const [, url] of refs) {
+  const urls = [
+    ...[...html.matchAll(/(?:src|href|content)="(\/[^"]+)"/g)]
+      .map((m) => m[1])
+      .filter((u) => IMG_EXT.test(u)),
+    // srcset is where the resized responsive URLs actually live, so checking
+    // only `src` would miss most of the images on a listing page.
+    ...[...html.matchAll(/srcset="([^"]+)"/g)].flatMap(([, set]) =>
+      set
+        .split(",")
+        .map((candidate) => candidate.trim().split(/\s+/)[0])
+        .filter((u) => u.startsWith("/") && IMG_EXT.test(u))
+    ),
+  ];
+  for (const url of urls) {
     const onDisk = path.join(SITE, decodeURIComponent(url));
     if (!fs.existsSync(onDisk)) {
       if (!missingImages.has(url)) missingImages.set(url, []);

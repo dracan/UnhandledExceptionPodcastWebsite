@@ -4,7 +4,7 @@
 {%- set ep = post.data.ep -%}
 <a class="ep" href="{{ post.url }}">
   <div class="cover{{ ' is-fallback' if not ep.hasCover }}">
-    <img src="{{ ep.coverSrc }}"{% if ep.coverSrcset %} srcset="{{ ep.coverSrcset }}" sizes="(max-width: 650px) 72px, (max-width: 1025px) 144px, 160px"{% endif %} alt="" loading="lazy" width="160" height="160" />
+    <img src="{{ ep.coverSrc }}"{% if ep.coverSrcset %} srcset="{{ ep.coverSrcset }}" sizes="(max-width: 650px) 72px, (max-width: 1025px) 144px, 160px"{% endif %} alt="" loading="lazy"{% if ep.coverWidth %} width="{{ ep.coverWidth }}" height="{{ ep.coverHeight }}"{% endif %} />
     <div class="overlay"><span class="btn">{{ icon("play") }}</span></div>
   </div>
   <div class="body">

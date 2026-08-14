@@ -30,12 +30,14 @@ module.exports = async function (eleventyConfig) {
       });
       const variants = metadata.webp;
       const largest = variants[variants.length - 1];
+      const attr = (v) =>
+        String(v ?? "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
       return (
         `<img src="${largest.url}"` +
         ` srcset="${variants.map((v) => v.srcset).join(", ")}"` +
-        ` sizes="${sizes}"` +
+        ` sizes="${attr(sizes)}"` +
         ` width="${largest.width}" height="${largest.height}"` +
-        ` alt="${alt}" class="${className}" />`
+        ` alt="${attr(alt)}" class="${attr(className)}" />`
       );
     }
   );

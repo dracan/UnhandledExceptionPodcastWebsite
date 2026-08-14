@@ -22,14 +22,20 @@ async function resizeCover(urlPath) {
       urlPath: "/img/",
     });
     const variants = metadata.webp;
+    const largest = variants[variants.length - 1];
     return {
-      src: variants[variants.length - 1].url,
+      src: largest.url,
       srcset: variants.map((v) => v.srcset).join(", "),
+      // Real dimensions, not the nominal square: covers are mostly square but
+      // not all of them (EP.055 is 160x138), and a wrong width/height pair is
+      // a wrong aspect-ratio hint.
+      width: largest.width,
+      height: largest.height,
     };
   } catch {
     // A missing or undecodable source falls back to the original path rather
     // than failing the build; verify-build.mjs is what catches broken paths.
-    return { src: urlPath, srcset: "" };
+    return { src: urlPath, srcset: "", width: null, height: null };
   }
 }
 
@@ -145,6 +151,8 @@ module.exports = {
         cover,
         coverSrc: resized.src,
         coverSrcset: resized.srcset,
+        coverWidth: resized.width,
+        coverHeight: resized.height,
         hasCover: Boolean(Array.isArray(data.images) && data.images[0]),
       };
     },
