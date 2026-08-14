@@ -530,6 +530,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://unhandledexceptionpodcast.com/pages/about/</loc>
+    <lastmod>2026-08-14T06:01:01.312Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/pages/guest-faq/</loc>
+    <lastmod>2026-08-14T06:01:01.312Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://unhandledexceptionpodcast.com/pages/sponsorship/</loc>
+    <lastmod>2026-08-14T06:01:01.312Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
