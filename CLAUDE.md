@@ -29,6 +29,14 @@ This is the website repository for "The Unhandled Exception Podcast" - a softwar
   - Compiles `css/main.scss` to `_site/css/main.css` and runs Eleventy
   - Generates static site to `_site/` directory
   - This is what the CI/CD pipeline runs
+- **Verify build**: `pnpm run verify` (`scripts/verify-build.mjs`)
+  - Runs in CI between build and deploy, so a failure blocks the deploy
+  - Fails on: a URL from `scripts/known-urls.txt` that is no longer built, an HTML reference to a
+    local image that doesn't exist, an unresolved icon name (the `icon-link` fallback), a published
+    page missing from the sitemap, or a working file (`.psd` etc.) in the output
+  - **The URL check guards Giscus threads**, which are keyed by pathname. It is a subset check, so
+    adding an episode passes with a note. Run `node scripts/verify-build.mjs --update-urls` only
+    when you have *deliberately* removed or renamed a URL.
 
 ## Architecture
 
@@ -53,6 +61,9 @@ This is the website repository for "The Unhandled Exception Podcast" - a softwar
 - **Pages** (`pages/`): Static pages like About, Guest FAQ, Sponsorship
   - Must include `permalink` (e.g. `/pages/about/`) and `layout: "layouts/page.njk"`
   - Page layout intentionally skips date, tags, and the Giscus comments block
+  - `unlisted: true` keeps a page out of the sitemap while still building it at its permalink.
+    Used by `guest-faq-manual-recordings`, which documents the pre-Riverside recording method and
+    is handed to guests directly rather than linked from the site.
   - Optional `eyebrow` and `pageSub` front matter render above/below the page title
 
 ### Layouts & Templates
@@ -70,14 +81,23 @@ This is the website repository for "The Unhandled Exception Podcast" - a softwar
 
 - **Shortcodes** (registered in `eleventy.config.js`):
   - `{% buzzsprout EPISODE_ID %}` — Embeds the Buzzsprout podcast player for a post
+  - `{% image src, alt, class, widths, sizes %}` — Resizes a site asset at build time via
+    `@11ty/eleventy-img` and emits an `<img>` with a `srcset`. Used for the sidebar wordmark and
+    host avatar. **Episode covers do not use this** — see computed episode data below.
 
 - **Filters** (registered in `eleventy.config.js`):
   - `dateDisplay` — Formats dates as "Jan 2, 2006"
   - `hugoSlug` — Slugifier compatible with Hugo's urlize (preserves `.`, `#`, `/` so tags like `c#`, `asp.net`, `ci/cd` map to Hugo's directory names)
 
-- **Collections**: `posts`, `tagList`, `tagStats`, `tagPages` (pre-paginated per-tag entries for URL parity with Hugo).
+- **Collections**: `posts`, `pages` (static pages, excluding `unlisted` ones — used by the sitemap), `tagList`, `tagStats`, `tagPages` (pre-paginated per-tag entries for URL parity with Hugo).
 
 - **Computed episode data** (`posts/posts.11tydata.js`): derives `ep.number`, `ep.label` (`EP.085`), `ep.title`, `ep.guest`, `ep.blurb` and `ep.cover` from the existing title, body and `images` front matter, so episode rows have everything the design needs without back-filling 88 posts.
+  - It also resizes the cover here rather than in a template, producing `ep.coverSrc` and
+    `ep.coverSrcset`. That is deliberate: those URLs also have to reach `/episodes.json` so the
+    client-side renderer uses the thumbnails too. Resizing in the template would leave filtered
+    search results quietly loading the full-size originals.
+  - `ep.cover` stays the **original** path — post bodies and social preview metadata reference it
+    directly, and scrapers want the full-size image.
 
 ### Home page search
 

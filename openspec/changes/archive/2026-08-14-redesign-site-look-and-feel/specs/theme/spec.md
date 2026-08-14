@@ -18,7 +18,25 @@ the custom tag-cloud classes by the sidebar tag chips.
 no longer appear in the compiled CSS. `css/_extra.scss` is retained for overrides of classes used
 directly inside markdown content.
 
-## MODIFIED Requirements
+### Requirement: Layouts reproduce Hugo page structure
+
+**Reason**: Renamed and rewritten for the redesign's page structure. Replaced by "Layouts reproduce the redesign page structure".
+
+**Migration**: The base layout is now a `.shell` grid rather than a header sidebar above the content, and a list layout is provided for paginated pages.
+
+### Requirement: Partials ported
+
+**Reason**: Renamed. The Hugo-era partial set no longer matches what the site renders. Replaced by "Partials provided".
+
+**Migration**: `mastodon`, `twitter`, `patreon` and `twitter-cards` are gone; `sidebar`, `brandicon`, `episodelist` and `pagination` are new.
+
+### Requirement: Menu matches current site
+
+**Reason**: Renamed. The menu is no longer a separated inline list. Replaced by "Menu matches the redesign navigation".
+
+**Migration**: "Home" becomes "Episodes", items render as stacked rows with icons and counts, and the `" - "` separator is dropped.
+
+## ADDED Requirements
 
 ### Requirement: Redesign look-and-feel implemented as plain SCSS
 
@@ -104,7 +122,6 @@ used between items.
 - **WHEN** a page under `/posts/`, `/page/` or `/` is rendered
 - **THEN** the Episodes nav item carries the `active` class and `aria-current="page"`
 
-## ADDED Requirements
 
 ### Requirement: Episode listing shows cover, guest and blurb
 

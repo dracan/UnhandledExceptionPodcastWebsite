@@ -25,10 +25,15 @@ The following optional fields SHALL override the values derived from the title a
 - `epNumber` (integer, optional — overrides the parsed episode number)
 - `blurb` (string, optional — overrides the blurb derived from the body)
 
-#### Scenario: Permalink honoured
+#### Scenario: Existing post renders with required fields
 
-- **WHEN** a post declares `permalink: /posts/0070-namingthingsishard/`
+- **WHEN** a post file with all required front-matter fields is built
 - **THEN** Eleventy emits an HTML file at the exact path specified by `permalink`
+
+#### Scenario: Draft posts excluded from production build
+
+- **WHEN** `pnpm run build` runs against a post with `draft: true`
+- **THEN** the post is not emitted to `_site/` and does not appear in any collection
 
 #### Scenario: Guest override suppresses title splitting
 
@@ -47,6 +52,11 @@ Every file under `pages/` SHALL carry front matter with:
 - `eyebrow` (string, optional — small label rendered above the page title)
 - `pageSub` (string, optional — standfirst rendered below the page title)
 - `unlisted` (boolean, optional — when true the page is excluded from the sitemap)
+
+#### Scenario: Page renders without post chrome
+
+- **WHEN** a page at `pages/about.md` is built
+- **THEN** the output `_site/pages/about/index.html` contains no Giscus script tag, no post date, and no tag list
 
 #### Scenario: Unlisted page excluded from sitemap
 

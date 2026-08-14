@@ -6,10 +6,15 @@ The build SHALL copy `images/`, `js/` and `favicon.ico` to the output directory 
 
 Photoshop sources and other working files SHALL NOT be published.
 
-#### Scenario: Images and scripts passthrough
+#### Scenario: Images passthrough
 
 - **WHEN** the site is built
-- **THEN** `_site/images/` and `_site/js/` mirror their source directories
+- **THEN** every image file under `images/` in the source exists at the same relative path under `_site/images/`
+
+#### Scenario: Scripts passthrough
+
+- **WHEN** the site is built
+- **THEN** `_site/js/` mirrors the source `js/` directory
 
 #### Scenario: No working files published
 
@@ -23,6 +28,11 @@ in the source.
 
 Partials SHALL be composed with `@use` rather than the deprecated `@import`, and design tokens
 SHALL live in their own partial so that `@use` rules can precede all other rules.
+
+#### Scenario: SCSS compiles without Hugo templating
+
+- **WHEN** the site is built
+- **THEN** `_site/css/main.css` exists, is minified, and contains the redesign component styles
 
 #### Scenario: No deprecation warnings
 
