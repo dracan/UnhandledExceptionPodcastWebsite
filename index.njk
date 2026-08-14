@@ -39,7 +39,8 @@ permalink: "{% if pagination.pageNumber == 0 %}/index.html{% else %}/page/{{ pag
   </div>
 
   <div class="list-status">
-    <span id="list-count">{{ episodeCount }} episodes</span>
+    {#- aria-live so filtering, which rewrites the list in place, is announced. -#}
+    <span id="list-count" aria-live="polite">{{ episodeCount }} episodes</span>
     <span>Newest first</span>
   </div>
 

@@ -1,8 +1,9 @@
 {% include "head.njk" %}
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="shell">
     {% include "partials/sidebar.njk" %}
-    <main class="main">
+    <main class="main" id="main" tabindex="-1">
       {{ content | safe }}
     </main>
   </div>

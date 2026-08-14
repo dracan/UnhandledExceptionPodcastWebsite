@@ -86,6 +86,40 @@ hr {
   flex: none;
 }
 
+// The sidebar puts ~30 links ahead of the content on every page, so a keyboard
+// user needs a way past it.
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.625rem 1rem;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 0 0 var(--radius-sm) 0;
+  transform: translateY(-110%);
+  transition: transform 0.15s;
+
+  &:focus {
+    transform: translateY(0);
+    color: var(--on-accent);
+  }
+}
+
+// The main region is focusable only as a skip-link target, so it should never
+// show a ring of its own.
+.main:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
 .visually-hidden {
   position: absolute;
   width: 0.0625rem;
