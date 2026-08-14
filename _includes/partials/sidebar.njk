@@ -5,10 +5,10 @@
 <aside class="sidebar">
   <div class="side-brand">
     <a href="/" aria-label="{{ site.title }}">
-      <img class="brand-wordmark" src="{{ site.avatar }}" alt="{{ site.title }}" />
+      {% image site.avatar, site.title, "brand-wordmark", [220, 440], "220px" %}
     </a>
     <a class="side-host" href="{{ site.hostUrl }}" target="_blank" rel="noopener noreferrer">
-      <img src="/images/dan-profile.jpg" alt="{{ site.author }}" loading="lazy" />
+      {% image "/images/dan-profile.jpg", site.author, "", [52, 104], "26px" %}
       <span>
         <span class="side-host-label">Hosted by</span>
         <span class="side-host-name">{{ site.author }}</span>

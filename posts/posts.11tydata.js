@@ -1,5 +1,38 @@
 const fs = require("fs");
 
+// Cover thumbnails render at 160px on desktop, 144px on tablet and 72px on
+// phones, so 160w and 320w (for 2x displays) is all the listing ever needs.
+// The originals are up to 1254x1254 PNGs - one of them alone was 1.2MB.
+const COVER_WIDTHS = [160, 320];
+
+let eleventyImage = null;
+async function loadImage() {
+  // eleventy-img is ESM and this data file is CommonJS.
+  if (!eleventyImage) eleventyImage = import("@11ty/eleventy-img").then((m) => m.default);
+  return eleventyImage;
+}
+
+async function resizeCover(urlPath) {
+  try {
+    const Image = await loadImage();
+    const metadata = await Image("." + urlPath, {
+      widths: COVER_WIDTHS,
+      formats: ["webp"],
+      outputDir: "./_site/img/",
+      urlPath: "/img/",
+    });
+    const variants = metadata.webp;
+    return {
+      src: variants[variants.length - 1].url,
+      srcset: variants.map((v) => v.srcset).join(", "),
+    };
+  } catch {
+    // A missing or undecodable source falls back to the original path rather
+    // than failing the build; verify-build.mjs is what catches broken paths.
+    return { src: urlPath, srcset: "" };
+  }
+}
+
 // The redesign's episode rows need a few fields that aren't in the front matter:
 // the episode number, the guest name, a short blurb and a cover image. Rather
 // than back-fill all 88 posts, derive them from what's already there.
@@ -90,7 +123,7 @@ function coverFor(images) {
 
 module.exports = {
   eleventyComputed: {
-    ep: (data) => {
+    ep: async (data) => {
       const hasGuestOverride = data.guest !== undefined;
       const parsed = parseTitle(data.title, !hasGuestOverride);
       const number = data.epNumber != null ? data.epNumber : parsed.number;
@@ -98,13 +131,20 @@ module.exports = {
       const blurb =
         data.blurb || truncate(toPlainText(firstParagraph(readBody(data.page.inputPath))), 240);
 
+      const cover = coverFor(data.images);
+      const resized = await resizeCover(cover);
+
       return {
         number,
         label: number == null ? null : "EP." + String(number).padStart(3, "0"),
         title: parsed.title || data.title,
         guest,
         blurb,
-        cover: coverFor(data.images),
+        // `cover` stays the original: post bodies and social preview metadata
+        // reference it directly, and scrapers want the full-size image.
+        cover,
+        coverSrc: resized.src,
+        coverSrcset: resized.srcset,
         hasCover: Boolean(Array.isArray(data.images) && data.images[0]),
       };
     },

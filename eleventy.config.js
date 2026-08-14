@@ -12,6 +12,31 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addWatchTarget("css/");
   eleventyConfig.addPassthroughCopy({ "favicon.ico": "favicon.ico" });
 
+  // Resize a site asset at build time. Episode covers go through
+  // posts/posts.11tydata.js instead, because their URLs also have to reach
+  // /episodes.json for the client-side renderer.
+  eleventyConfig.addAsyncShortcode(
+    "image",
+    async function (src, alt, className, widths, sizes) {
+      const Image = (await import("@11ty/eleventy-img")).default;
+      const metadata = await Image("." + src, {
+        widths,
+        formats: ["webp"],
+        outputDir: "./_site/img/",
+        urlPath: "/img/",
+      });
+      const variants = metadata.webp;
+      const largest = variants[variants.length - 1];
+      return (
+        `<img src="${largest.url}"` +
+        ` srcset="${variants.map((v) => v.srcset).join(", ")}"` +
+        ` sizes="${sizes}"` +
+        ` width="${largest.width}" height="${largest.height}"` +
+        ` alt="${alt}" class="${className}" />`
+      );
+    }
+  );
+
   eleventyConfig.addShortcode("buzzsprout", function (id) {
     return (
       `<div id="buzzsprout-player-${id}"></div>\n` +
