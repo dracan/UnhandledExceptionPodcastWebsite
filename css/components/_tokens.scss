@@ -4,8 +4,10 @@
 // its EDITMODE block are the ones resolved here:
 //   theme: amber, layout: sidebar, card: row, density: cozy, type: mono
 //
-// To switch the display face to the design's Space Grotesk alternative, change
-// --font-display below (the font is already loaded in _includes/head.njk).
+// The design offers Space Grotesk as an alternative display face. To use it,
+// change --font-display below AND add the family back to the Google Fonts
+// request in _includes/head.njk - it is no longer loaded, since shipping a
+// font nothing referenced was just dead weight.
 
 :root {
   --bg: #242930;

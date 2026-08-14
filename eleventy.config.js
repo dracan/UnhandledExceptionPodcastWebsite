@@ -3,7 +3,10 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 module.exports = async function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
-  eleventyConfig.addPassthroughCopy("images");
+  // Allowlist rather than copying images/ wholesale: a 3.6MB Photoshop source
+  // was sitting in an episode folder and being published. Working files stay in
+  // the repo, they just don't get deployed.
+  eleventyConfig.addPassthroughCopy("images/**/*.{png,jpg,jpeg,gif,svg,webp,ico,avif}");
   eleventyConfig.addPassthroughCopy("js");
 
   // sass runs alongside Eleventy in dev, so Eleventy wouldn't otherwise notice
