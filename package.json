@@ -8,6 +8,7 @@
     "dev:sass": "sass --watch css/main.scss:_site/css/main.css --style=compressed --no-source-map",
     "dev:eleventy": "eleventy --serve --quiet",
     "build": "pnpm run build:sass && pnpm run build:eleventy",
+    "verify": "node scripts/verify-build.mjs",
     "build:sass": "sass css/main.scss:_site/css/main.css --style=compressed --no-source-map",
     "build:eleventy": "eleventy"
   },

@@ -30,6 +30,12 @@ jobs:
       - name: Build
         run: pnpm run build
 
+      # Fails the build on a disappeared URL, a broken image reference, an
+      # unresolved icon name, a page missing from the sitemap, or a working
+      # file about to be published. Runs before deploy so none of those ship.
+      - name: Verify build
+        run: pnpm run verify
+
       - name: Create CNAME file
         run: echo 'unhandledexceptionpodcast.com' > _site/CNAME
 
