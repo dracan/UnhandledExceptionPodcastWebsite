@@ -4,8 +4,10 @@
 {%- set tagCount = collections.tagStats.items | length -%}
 <aside class="sidebar">
   <div class="side-brand">
-    <a href="/" aria-label="{{ site.title }}">
-      {% image site.avatar, site.title, "brand-wordmark", [220, 440], "220px" %}
+    <a class="brand-link" href="/" aria-label="{{ site.title }}">
+      {#- Widths track .side-brand .brand-wordmark's max-width (13.75rem = 275px
+          at the 20px root), not the design's original 220px. -#}
+      {% image site.avatar, site.title, "brand-wordmark", [275, 550], "275px" %}
     </a>
     <a class="side-host" href="{{ site.hostUrl }}" target="_blank" rel="noopener noreferrer">
       {% image "/images/dan-profile.jpg", site.author, "", [52, 104], "26px" %}
