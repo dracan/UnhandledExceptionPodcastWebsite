@@ -14,7 +14,9 @@ const path = require("path");
 // than the build output) keeps this independent of whether sass has run yet,
 // which matters because `pnpm run dev` runs sass and Eleventy in parallel.
 
-function filesUnder(dir, ext) {
+// `ext` defaults to "", which matches every file - used for images/, where
+// the extensions vary.
+function filesUnder(dir, ext = "") {
   const found = [];
   const walk = (current) => {
     let entries;
@@ -52,5 +54,15 @@ module.exports = {
   // /episodes.json is derived from the posts, so it goes stale whenever an
   // episode is published - which would otherwise leave the home page search
   // unable to find the newest episode for four hours.
-  episodes: fingerprint(filesUnder("posts", ".md")),
+  //
+  // The covers are in the hash too, and so is the module that resizes them:
+  // episodes.json carries eleventy-img's content-hashed thumbnail URLs, so
+  // swapping a cover image or changing COVER_WIDTHS without touching any .md
+  // would otherwise leave a cached copy naming files that are no longer built,
+  // and every thumbnail in filtered search results would 404.
+  episodes: fingerprint([
+    ...filesUnder("posts", ".md"),
+    ...filesUnder("images"),
+    "posts/posts.11tydata.js",
+  ]),
 };
