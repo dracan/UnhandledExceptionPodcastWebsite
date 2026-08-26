@@ -9,6 +9,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    # actions-gh-pages only needs to push to gh-pages. Without this the job's
+    # GITHUB_TOKEN gets the repository default, which may still be read/write
+    # over issues, PRs and packages - handed to every step, including the
+    # `pnpm install` that runs third-party lifecycle scripts.
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v7
