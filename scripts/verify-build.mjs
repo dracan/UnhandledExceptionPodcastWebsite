@@ -111,16 +111,31 @@ if (missingImages.size) {
 // 3. No unresolved icon names.
 //
 // icon.njk renders a generic chain-link glyph when a name isn't in
-// _data/icons.json. That shipped on every episode row after a macro was
-// imported without `with context`, and looked like a black smudge.
+// _data/icons.json, and brandicon.njk renders a question-mark tile when a
+// site.listenOn/site.social name isn't one of its branches. The first shipped
+// on every episode row after a macro was imported without `with context`, and
+// looked like a black smudge.
+//
+// Both fallbacks carry data-icon-fallback="<the name that didn't resolve>".
+// Matching on that rather than on the fallback's class is what keeps a
+// legitimate `{{ icon("link") }}` - `link` is a real key in icons.json - from
+// failing the build.
 // ---------------------------------------------------------------------------
-const iconFallbacks = [...htmlBySource.entries()].filter(([, html]) => html.includes("icon-link"));
-if (iconFallbacks.length) {
+const FALLBACK_ATTR = /data-icon-fallback="([^"]*)"/g;
+const iconFallbacks = new Map();
+for (const [file, html] of htmlBySource) {
+  for (const [, name] of html.matchAll(FALLBACK_ATTR)) {
+    if (!iconFallbacks.has(name)) iconFallbacks.set(name, []);
+    iconFallbacks.get(name).push(path.relative(SITE, file));
+  }
+}
+if (iconFallbacks.size) {
   fail(
     "icons",
-    `fallback icon rendered on ${iconFallbacks.length} page(s), e.g. /` +
-      path.relative(SITE, iconFallbacks[0][0]) +
-      "\n    (an icon name is missing from _data/icons.json, or a macro was imported without `with context`)"
+    [...iconFallbacks.entries()]
+      .map(([name, pages]) => `"${name}" (on ${pages.length} page(s), e.g. /${pages[0]})`)
+      .join("\n    ") +
+      "\n    (a name is missing from _data/icons.json or from brandicon.njk, or a macro was imported without `with context`)"
   );
 }
 
