@@ -1,5 +1,5 @@
 ---
-name: show-notes-creator
+name: podcast-create-show-notes
 description: Use this agent when you need to create show notes for a new podcast episode.
 context: fork
 model: opus
