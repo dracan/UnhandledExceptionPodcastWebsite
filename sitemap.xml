@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unhandledexceptionpodcast.com/posts/0089-guiferreira/</loc>
+    <lastmod>2026-09-18T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/posts/0088-mattpocock/</loc>
     <lastmod>2026-07-31T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -531,19 +537,19 @@
   </url>
   <url>
     <loc>https://unhandledexceptionpodcast.com/pages/about/</loc>
-    <lastmod>2026-08-26T17:11:35.462Z</lastmod>
+    <lastmod>2026-09-18T16:48:42.136Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://unhandledexceptionpodcast.com/pages/guest-faq/</loc>
-    <lastmod>2026-08-26T17:11:35.463Z</lastmod>
+    <lastmod>2026-09-18T16:48:42.136Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://unhandledexceptionpodcast.com/pages/sponsorship/</loc>
-    <lastmod>2026-08-26T17:11:35.463Z</lastmod>
+    <lastmod>2026-09-18T16:48:42.136Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -598,6 +604,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://unhandledexceptionpodcast.com/tags/cli/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://unhandledexceptionpodcast.com/tags/devops/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -613,7 +624,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://unhandledexceptionpodcast.com/tags/cli/</loc>
+    <loc>https://unhandledexceptionpodcast.com/tags/productivity/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -629,11 +640,6 @@
   </url>
   <url>
     <loc>https://unhandledexceptionpodcast.com/tags/k8s/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://unhandledexceptionpodcast.com/tags/productivity/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
