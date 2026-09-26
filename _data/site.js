@@ -32,7 +32,7 @@ module.exports = {
   discordUrl: "https://discord.gg/bfsWQDP9Nh",
   buyMeACoffeeUrl: "https://www.buymeacoffee.com/danclarke",
   newsletterUrl:
-    "https://danclarke.beehiiv.com/?utm_source=UnhandledExceptionPodcastWebsite&utm_medium=website",
+    "https://www.danclarke.com/newsletter/",
   hostUrl: "https://www.danclarke.com/",
   copyrightYear: new Date().getFullYear(),
   listenOn: [
